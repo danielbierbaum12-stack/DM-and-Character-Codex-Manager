@@ -193,6 +193,37 @@ missing_items = [i['n'] for i in items if i['n'] not in dm_items]
 if missing_items:
     log['notes'].append(f'{len(missing_items)} Character Codex items are not in the DM Codex catalogue yet: {", ".join(missing_items[:20])}')
 
+# ------------------------------------------------------------------ item prices, rarity and CR (shared/item-pricing.json)
+PR = io.load_json(os.path.join(io.ROOT, 'shared', 'item-pricing.json'))
+RAR = re.compile(r'\b(very rare|uncommon|common|rare|legendary|artifact)\b', re.I)
+unpriced = []
+items = copy.deepcopy(items)
+for i in items:
+    n, rar, base = i['n'], None, 0
+    plus = re.match(r'^(.*) \+([123])$', n)
+    if n in PR['mundane']:
+        rar = 'mundane'
+    elif n in PR['rarity']:
+        rar = PR['rarity'][n]
+    elif plus and i.get('type') in PR['plusN'] and plus.group(1) in PR['mundane']:
+        rar, base = PR['plusN'][i['type']][plus.group(2)], PR['mundane'][plus.group(1)]
+    else:
+        found = RAR.findall(i.get('notes', ''))
+        rar = found[-1].lower() if found else None
+    if rar == 'mundane':
+        price = PR['mundane'][n]
+    elif rar in PR['rarityPrice']:
+        price = PR['rarityPrice'][rar] * (PR['consumableFactor'] if i.get('type') == 'Consumable' or n in PR['consumables'] else 1) + base
+    else:
+        price = None
+    i['rarity'] = rar or 'unknown'
+    i['price'] = price
+    i['cr'] = PR['rarityCR'].get(rar, None)
+    if price is None:
+        unpriced.append(n)
+if unpriced:
+    log['notes'].append(f'{len(unpriced)} items have no known rarity or price (the DM sets one in the Marketplace): {", ".join(unpriced)}')
+
 # ------------------------------------------------------------------ write
 io.dump_json(spells, os.path.join(MASTER, 'spells.json'))
 io.dump_json(creatures, os.path.join(MASTER, 'creatures.json'))
@@ -288,8 +319,8 @@ try:
     sheet_of('Creatures', ['name', 'size', 'type', 'cr', 'ac', 'hp', 'speed'] + ABL + ['traits', 'actions', 'note'],
              [[c['n'], c.get('size'), c.get('type'), c.get('cr'), c.get('ac'), c.get('hp'), c.get('speed')] + [(c.get('abil') or {}).get(a) for a in ABL]
               + ['; '.join(t['n'] for t in c.get('traits', [])), '; '.join(a['n'] for a in c.get('actions', [])), c.get('desc', '')] for c in creatures])
-    sheet_of('Items', ['name', 'type', 'damage', 'damage_type', 'properties', 'range', 'notes'],
-             [[i['n'], i.get('type'), i.get('dmgDice'), i.get('dmgType'), i.get('properties'), i.get('range'), i.get('notes')] for i in items])
+    sheet_of('Items', ['name', 'type', 'rarity', 'price_gp', 'item_cr', 'damage', 'damage_type', 'properties', 'range', 'notes'],
+             [[i['n'], i.get('type'), i.get('rarity'), i.get('price'), i.get('cr'), i.get('dmgDice'), i.get('dmgType'), i.get('properties'), i.get('range'), i.get('notes')] for i in items])
     sheet_of('Conditions', ['name', 'short (Character Codex)', 'full (DM Codex)'], [[c['n'], c['short'], c['full']] for c in conditions])
     sheet_of('Changes', ['date', 'area', 'name', 'field', 'character_codex', 'dm_codex', 'master', 'why'],
              [[h['date'], h['area'], h['name'], h['field'], h['character_codex'], h['dm_codex'], h['master'], h['why']] for h in history])

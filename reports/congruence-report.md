@@ -18,6 +18,7 @@ Run `python3 tools/apply_master.py` to write the master into both apps (then bui
 - Items: 502
 - Conditions: 20
 
+- 2 items have no known rarity or price (the DM sets one in the Marketplace): Figurine of Wondrous Power, Plate Armor of the Deep
 ## Spells: where the apps disagreed (0)
 
 | Name | Field | Character Codex | DM Codex | Master | Why |
