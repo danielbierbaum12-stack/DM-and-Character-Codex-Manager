@@ -13,6 +13,12 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
 - The DM Codex knows some spells by their SRD names (`spell_aliases.min.json`); the master keeps that as `dmName`.
 - `build_master.py` reads the apps, so after an apply its report shows no disagreements. The history is in `changes-log.json`.
 
+## Display rules that must stay the same in both apps
+- **Spell components:** the master stores components as written (`V, S, M (material)`). Each app hides them by its house rule:
+  material components show only when they have a coin cost (default), all shown, or none. Character Codex: two switches in
+  `STATE.customRules` (`compCostlyOnly`, `compHideAll`), `spellComp()`. DM Codex: `rule('components')` (`costly` / `all` / `none`),
+  `spellComp()` in `24_settings.js`. Change both together.
+
 ## Good next steps
 1. Feats, classes, races and backgrounds exist only in the Character Codex today. If the DM Codex starts using them, add them to the master the same way.
 2. The DM bestiary (300+ SRD monsters) is the DM Codex's own; only creatures both apps carry are in `creatures.json`.
