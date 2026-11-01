@@ -22,7 +22,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 0.1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Dagger",
@@ -47,7 +47,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Greatclub",
@@ -72,7 +72,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 0.2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Handaxe",
@@ -97,7 +97,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Javelin",
@@ -122,7 +122,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 0.5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Light Hammer",
@@ -147,7 +147,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Mace",
@@ -172,7 +172,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Quarterstaff",
@@ -197,7 +197,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 0.2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Sickle",
@@ -222,7 +222,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Spear",
@@ -247,7 +247,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Light Crossbow",
@@ -272,7 +272,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 25,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Dart",
@@ -297,7 +297,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 0.05,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Shortbow",
@@ -322,7 +322,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 25,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Sling",
@@ -347,7 +347,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 0.1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Battleaxe",
@@ -372,7 +372,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Flail",
@@ -397,7 +397,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Glaive",
@@ -422,7 +422,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 20,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Greataxe",
@@ -447,7 +447,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 30,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Greatsword",
@@ -472,7 +472,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 50,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Halberd",
@@ -497,7 +497,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 20,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Lance",
@@ -522,7 +522,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Longsword",
@@ -547,7 +547,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 15,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Maul",
@@ -572,7 +572,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Morningstar",
@@ -597,7 +597,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 15,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Pike",
@@ -622,7 +622,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Rapier",
@@ -647,7 +647,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 25,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Scimitar",
@@ -672,7 +672,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 25,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Shortsword",
@@ -697,7 +697,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Trident",
@@ -722,7 +722,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "War Pick",
@@ -747,7 +747,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Warhammer",
@@ -772,7 +772,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 15,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Whip",
@@ -797,7 +797,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Blowgun",
@@ -822,7 +822,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Hand Crossbow",
@@ -847,7 +847,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 75,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Heavy Crossbow",
@@ -872,7 +872,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 50,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Longbow",
@@ -897,7 +897,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 50,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Musket",
@@ -922,7 +922,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 500,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Pistol",
@@ -947,7 +947,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 250,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Padded Armor",
@@ -972,7 +972,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Leather Armor",
@@ -997,7 +997,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Studded Leather Armor",
@@ -1022,7 +1022,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 45,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Hide Armor",
@@ -1047,7 +1047,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Chain Shirt",
@@ -1072,7 +1072,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 50,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Scale Mail",
@@ -1097,7 +1097,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 50,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Breastplate",
@@ -1122,7 +1122,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 400,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Half Plate",
@@ -1147,7 +1147,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 750,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Ring Mail",
@@ -1172,7 +1172,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 30,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Chain Mail",
@@ -1197,7 +1197,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 75,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Splint Armor",
@@ -1222,7 +1222,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 200,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Plate Armor",
@@ -1247,7 +1247,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 1500,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Shield",
@@ -1269,7 +1269,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Ring of Protection",
@@ -1294,7 +1294,7 @@
   "saveBonus": 1,
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Cloak of Protection",
@@ -1318,7 +1318,7 @@
   "saveBonus": 1,
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Bracers of Defense",
@@ -1342,7 +1342,7 @@
   "acNoArmor": true,
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Amulet of Health",
@@ -1367,7 +1367,7 @@
   },
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Headband of Intellect",
@@ -1392,7 +1392,7 @@
   },
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Gauntlets of Ogre Power",
@@ -1417,7 +1417,7 @@
   },
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Belt of Giant Strength (Hill)",
@@ -1442,7 +1442,7 @@
   },
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Periapt of Wound Closure",
@@ -1465,7 +1465,7 @@
   "abilitySet": {},
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Ioun Stone (Mastery)",
@@ -1489,7 +1489,7 @@
   "pbBonus": 1,
   "rarity": "legendary",
   "price": 200000,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Boots of Speed",
@@ -1513,7 +1513,7 @@
   "abilitySet": {},
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Boots of Striding and Springing",
@@ -1537,7 +1537,7 @@
   "abilitySet": {},
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Winged Boots",
@@ -1560,7 +1560,7 @@
   "abilitySet": {},
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Ring of Regeneration",
@@ -1584,7 +1584,7 @@
   "abilitySet": {},
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "+1 Weapon (generic)",
@@ -1609,7 +1609,7 @@
   "abilitySet": {},
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "+2 Weapon (generic)",
@@ -1634,7 +1634,7 @@
   "abilitySet": {},
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "+1 Armor (generic)",
@@ -1659,7 +1659,7 @@
   "abilitySet": {},
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "+1 Shield (generic)",
@@ -1681,7 +1681,7 @@
   "abilitySet": {},
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Potion of Healing",
@@ -1704,7 +1704,7 @@
   "abilitySet": {},
   "rarity": "common",
   "price": 50.0,
-  "cr": 1
+  "level": 1
  },
  {
   "n": "Potion of Greater Healing",
@@ -1727,7 +1727,7 @@
   "abilitySet": {},
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Potion of Superior Healing",
@@ -1750,7 +1750,7 @@
   "abilitySet": {},
   "rarity": "rare",
   "price": 2000.0,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Potion of Supreme Healing",
@@ -1773,7 +1773,7 @@
   "abilitySet": {},
   "rarity": "very rare",
   "price": 20000.0,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Potion of Fire Breath",
@@ -1796,7 +1796,7 @@
   "abilitySet": {},
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Alchemist's Fire (flask)",
@@ -1819,7 +1819,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 50,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Acid (vial)",
@@ -1842,7 +1842,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 25,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Antitoxin (vial)",
@@ -1865,7 +1865,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 50,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Scroll of Magic Missile",
@@ -1888,7 +1888,7 @@
   "abilitySet": {},
   "rarity": "common",
   "price": 50.0,
-  "cr": 1
+  "level": 1
  },
  {
   "n": "Alchemy Jug",
@@ -1911,7 +1911,7 @@
   "abilitySet": {},
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Caltrops (bag)",
@@ -1934,7 +1934,7 @@
   "abilitySet": {},
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Abacus",
@@ -1956,7 +1956,7 @@
   "notes": "A counting tool for arithmetic.",
   "rarity": "mundane",
   "price": 2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Arrows (20)",
@@ -1978,7 +1978,7 @@
   "notes": "Ammunition for a shortbow or longbow.",
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Backpack",
@@ -2000,7 +2000,7 @@
   "notes": "Holds 1 cubic foot / 30 lbs of gear.",
   "rarity": "mundane",
   "price": 2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Ball Bearings (bag of 1,000)",
@@ -2022,7 +2022,7 @@
   "notes": "Can be scattered to cover a 10-ft square; creatures moving through must save or fall prone.",
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Barrel",
@@ -2044,7 +2044,7 @@
   "notes": "Holds about 40 gallons of liquid or 4 cubic feet of solids.",
   "rarity": "mundane",
   "price": 2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Basket",
@@ -2066,7 +2066,7 @@
   "notes": "A woven container for carrying goods.",
   "rarity": "mundane",
   "price": 0.4,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Bedroll",
@@ -2088,7 +2088,7 @@
   "notes": "A sleeping roll for outdoor rest.",
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Bell",
@@ -2110,7 +2110,7 @@
   "notes": "A small bell that rings when shaken.",
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Blanket",
@@ -2132,7 +2132,7 @@
   "notes": "A simple woven blanket.",
   "rarity": "mundane",
   "price": 0.5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Block and Tackle",
@@ -2154,7 +2154,7 @@
   "notes": "Grants mechanical advantage for lifting heavy objects.",
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Blowgun Needles (50)",
@@ -2176,7 +2176,7 @@
   "notes": "Ammunition for a blowgun.",
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Book",
@@ -2198,7 +2198,7 @@
   "notes": "A written work of fiction, history, or reference.",
   "rarity": "mundane",
   "price": 25,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Bottle, Glass",
@@ -2220,7 +2220,7 @@
   "notes": "A small glass bottle.",
   "rarity": "mundane",
   "price": 2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Bucket",
@@ -2242,7 +2242,7 @@
   "notes": "A simple wooden or metal bucket.",
   "rarity": "mundane",
   "price": 0.05,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Burglar's Pack",
@@ -2264,7 +2264,7 @@
   "notes": "Includes a backpack, bag of 1,000 ball bearings, string, bell, candles, crowbar, hammer, pitons, hooded lantern, oil, tinderbox, waterskin, rope.",
   "rarity": "mundane",
   "price": 16,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Candle",
@@ -2286,7 +2286,7 @@
   "notes": "Burns for 1 hour, providing bright light in a 5-ft radius.",
   "rarity": "mundane",
   "price": 0.01,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Case, Crossbow Bolt",
@@ -2308,7 +2308,7 @@
   "notes": "Holds up to 20 bolts.",
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Case, Map or Scroll",
@@ -2330,7 +2330,7 @@
   "notes": "A cylindrical leather case for maps and scrolls.",
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Chain (10 feet)",
@@ -2352,7 +2352,7 @@
   "notes": "A sturdy metal chain; can be burst with a DC 20 Strength check.",
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Chalk (1 piece)",
@@ -2374,7 +2374,7 @@
   "notes": "A piece of chalk for marking.",
   "rarity": "mundane",
   "price": 0.01,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Chest",
@@ -2396,7 +2396,7 @@
   "notes": "A lockable wooden storage chest.",
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Climber's Kit",
@@ -2418,7 +2418,7 @@
   "notes": "Special pitons, boot tips, gloves, and harness that let you climb more safely.",
   "rarity": "mundane",
   "price": 25,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Clothes, Fine",
@@ -2440,7 +2440,7 @@
   "notes": "Fine garments suitable for court or high society.",
   "rarity": "mundane",
   "price": 15,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Clothes, Traveler's",
@@ -2462,7 +2462,7 @@
   "notes": "Sturdy clothing for travel.",
   "rarity": "mundane",
   "price": 2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Clothes, Costume",
@@ -2484,7 +2484,7 @@
   "notes": "Garments for disguises or theatrical performance.",
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Component Pouch",
@@ -2506,7 +2506,7 @@
   "notes": "A small watertight pouch holding spell components.",
   "rarity": "mundane",
   "price": 25,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Crowbar",
@@ -2528,7 +2528,7 @@
   "notes": "Grants advantage on Strength checks where leverage helps.",
   "rarity": "mundane",
   "price": 2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Crystal (arcane focus)",
@@ -2550,7 +2550,7 @@
   "notes": "A focus for somatic and material spell components.",
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Diplomat's Pack",
@@ -2572,7 +2572,7 @@
   "notes": "Includes a chest, case for maps/scrolls, fine clothes, ink, pen, lamp, oil, paper, perfume, sealing wax, soap.",
   "rarity": "mundane",
   "price": 39,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Disguise Kit",
@@ -2594,7 +2594,7 @@
   "notes": "Cosmetics, hair dye, and small props for altering appearance; grants tool proficiency use for disguises.",
   "rarity": "mundane",
   "price": 25,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Dungeoneer's Pack",
@@ -2616,7 +2616,7 @@
   "notes": "Includes a backpack, crowbar, hammer, pitons, torches, tinderbox, rations, waterskin, rope.",
   "rarity": "mundane",
   "price": 12,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Emblem (holy symbol)",
@@ -2638,7 +2638,7 @@
   "notes": "A holy symbol worn or carried, used as a divine spellcasting focus.",
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Entertainer's Pack",
@@ -2660,7 +2660,7 @@
   "notes": "Includes a backpack, bedroll, costumes, candles, rations, waterskin, disguise kit.",
   "rarity": "mundane",
   "price": 40,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Explorer's Pack",
@@ -2682,7 +2682,7 @@
   "notes": "Includes a backpack, bedroll, mess kit, tinderbox, torches, rations, waterskin, rope.",
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Fishing Tackle",
@@ -2704,7 +2704,7 @@
   "notes": "Includes a rod, line, hooks, and bait for fishing.",
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Flask or Tankard",
@@ -2726,7 +2726,7 @@
   "notes": "A simple metal or ceramic drinking vessel.",
   "rarity": "mundane",
   "price": 0.02,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Grappling Hook",
@@ -2748,7 +2748,7 @@
   "notes": "A metal hook attached to rope, used for climbing.",
   "rarity": "mundane",
   "price": 2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Hammer",
@@ -2770,7 +2770,7 @@
   "notes": "A simple one-handed hammer for construction.",
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Hammer, Sledge",
@@ -2792,7 +2792,7 @@
   "notes": "A heavy two-handed hammer.",
   "rarity": "mundane",
   "price": 2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Healer's Kit",
@@ -2814,7 +2814,7 @@
   "notes": "Has 10 uses. As an action, you can expend one use to stabilize a creature at 0 hit points without a check.",
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Holy Symbol, Amulet",
@@ -2836,7 +2836,7 @@
   "notes": "A symbol worn on a chain, used as a divine spellcasting focus.",
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Holy Water (flask)",
@@ -2858,7 +2858,7 @@
   "notes": "As an action, you can splash a fiend or undead within 5 ft, dealing 2d6 radiant damage.",
   "rarity": "mundane",
   "price": 25,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Hourglass",
@@ -2880,7 +2880,7 @@
   "notes": "A timekeeping device using falling sand.",
   "rarity": "mundane",
   "price": 25,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Hunting Trap",
@@ -2902,7 +2902,7 @@
   "notes": "A mechanical trap that deals 1d4 piercing damage and restrains a creature that steps on it.",
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Ink (1 ounce bottle)",
@@ -2924,7 +2924,7 @@
   "notes": "Black or colored ink for writing.",
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Ink Pen",
@@ -2946,7 +2946,7 @@
   "notes": "A quill or metal-nibbed pen for writing.",
   "rarity": "mundane",
   "price": 0.02,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Jug or Pitcher",
@@ -2968,7 +2968,7 @@
   "notes": "Holds about 1 gallon of liquid.",
   "rarity": "mundane",
   "price": 0.02,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Ladder (10-foot)",
@@ -2990,7 +2990,7 @@
   "notes": "A simple wooden ladder.",
   "rarity": "mundane",
   "price": 0.1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Lamp",
@@ -3012,7 +3012,7 @@
   "notes": "Burns oil for 6 hours, providing bright light in a 15-ft radius.",
   "rarity": "mundane",
   "price": 0.5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Lantern, Bullseye",
@@ -3034,7 +3034,7 @@
   "notes": "Casts bright light in a 60-ft cone, burns oil for 6 hours.",
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Lantern, Hooded",
@@ -3056,7 +3056,7 @@
   "notes": "Casts bright light in a 30-ft radius, burns oil for 6 hours; can be shuttered to reduce light.",
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Lock",
@@ -3078,7 +3078,7 @@
   "notes": "A key-operated lock; a creature can attempt a DC 15 Dexterity check with thieves' tools to pick it.",
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Magnifying Glass",
@@ -3100,7 +3100,7 @@
   "notes": "Grants advantage on checks to appraise or inspect tiny details; can focus sunlight to start fires.",
   "rarity": "mundane",
   "price": 100,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Manacles",
@@ -3122,7 +3122,7 @@
   "notes": "Confines a Medium or smaller creature; DC 20 Strength check or thieves' tools (DC 15) to escape.",
   "rarity": "mundane",
   "price": 2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Mess Kit",
@@ -3144,7 +3144,7 @@
   "notes": "A tin box with a cup and simple cutlery.",
   "rarity": "mundane",
   "price": 0.2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Mirror, Steel",
@@ -3166,7 +3166,7 @@
   "notes": "A small polished steel mirror.",
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Oil (flask)",
@@ -3188,7 +3188,7 @@
   "notes": "Can be used as fuel for a lamp (6 hours) or thrown/poured and ignited for 5 fire damage.",
   "rarity": "mundane",
   "price": 0.1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Orb (arcane focus)",
@@ -3210,7 +3210,7 @@
   "notes": "A focus for somatic and material spell components.",
   "rarity": "mundane",
   "price": 20,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Paper (one sheet)",
@@ -3232,7 +3232,7 @@
   "notes": "A single sheet of writing paper.",
   "rarity": "mundane",
   "price": 0.2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Parchment (one sheet)",
@@ -3254,7 +3254,7 @@
   "notes": "A single sheet of parchment.",
   "rarity": "mundane",
   "price": 0.1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Perfume (vial)",
@@ -3276,7 +3276,7 @@
   "notes": "A small vial of pleasant scent.",
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Pick, Miner's",
@@ -3298,7 +3298,7 @@
   "notes": "A tool for digging through rock and earth.",
   "rarity": "mundane",
   "price": 2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Piton",
@@ -3320,7 +3320,7 @@
   "notes": "A metal spike hammered into a surface to anchor a rope.",
   "rarity": "mundane",
   "price": 0.05,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Poison, Basic (vial)",
@@ -3342,7 +3342,7 @@
   "notes": "A vial of poison that can coat one weapon or up to three pieces of ammunition; on a hit the target must save or take 1d4 poison damage.",
   "rarity": "mundane",
   "price": 100,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Pole (10-foot)",
@@ -3364,7 +3364,7 @@
   "notes": "A simple wooden pole.",
   "rarity": "mundane",
   "price": 0.05,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Pot, Iron",
@@ -3386,7 +3386,7 @@
   "notes": "A cooking pot.",
   "rarity": "mundane",
   "price": 2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Pouch",
@@ -3408,7 +3408,7 @@
   "notes": "A small belt pouch holding about 1/5 cubic foot of material.",
   "rarity": "mundane",
   "price": 0.5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Priest's Pack",
@@ -3430,7 +3430,7 @@
   "notes": "Includes a backpack, blanket, candles, tinderbox, alms box, incense, censer, vestments, rations, waterskin.",
   "rarity": "mundane",
   "price": 19,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Quiver",
@@ -3452,7 +3452,7 @@
   "notes": "Holds up to 20 arrows.",
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Ram, Portable",
@@ -3474,7 +3474,7 @@
   "notes": "Grants a bonus to Strength checks to break down doors.",
   "rarity": "mundane",
   "price": 4,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Rations (1 day)",
@@ -3496,7 +3496,7 @@
   "notes": "Dried food sufficient to sustain a person for one day.",
   "rarity": "mundane",
   "price": 0.5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Robes",
@@ -3518,7 +3518,7 @@
   "notes": "Simple flowing garments.",
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Rod (arcane focus)",
@@ -3540,7 +3540,7 @@
   "notes": "A focus for somatic and material spell components.",
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Rope, Hempen (50 feet)",
@@ -3562,7 +3562,7 @@
   "notes": "Has 2 hit points and can be burst with a DC 17 Strength check.",
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Rope, Silk (50 feet)",
@@ -3584,7 +3584,7 @@
   "notes": "Has 2 hit points and can be burst with a DC 17 Strength check; lighter and stronger than hemp.",
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Sack",
@@ -3606,7 +3606,7 @@
   "notes": "A simple cloth sack, holds about 1 cubic foot.",
   "rarity": "mundane",
   "price": 0.01,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Scale, Merchant's",
@@ -3628,7 +3628,7 @@
   "notes": "A balance scale for weighing small quantities.",
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Sealing Wax",
@@ -3650,7 +3650,7 @@
   "notes": "Wax used to seal letters and scrolls.",
   "rarity": "mundane",
   "price": 0.5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Shovel",
@@ -3672,7 +3672,7 @@
   "notes": "A digging tool.",
   "rarity": "mundane",
   "price": 2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Signal Whistle",
@@ -3694,7 +3694,7 @@
   "notes": "A small whistle used to send an audible signal.",
   "rarity": "mundane",
   "price": 0.05,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Signet Ring",
@@ -3716,7 +3716,7 @@
   "notes": "A ring bearing a personal or house seal, used to stamp wax seals.",
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Sling Bullets (20)",
@@ -3738,7 +3738,7 @@
   "notes": "Ammunition for a sling.",
   "rarity": "mundane",
   "price": 0.04,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Soap",
@@ -3760,7 +3760,7 @@
   "notes": "A bar of soap.",
   "rarity": "mundane",
   "price": 0.02,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Spellbook",
@@ -3782,7 +3782,7 @@
   "notes": "A leather-bound book with 100 blank vellum pages, used by wizards to record spells.",
   "rarity": "mundane",
   "price": 50,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Spike, Iron",
@@ -3804,7 +3804,7 @@
   "notes": "A sturdy iron spike.",
   "rarity": "mundane",
   "price": 0.1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Spyglass",
@@ -3826,7 +3826,7 @@
   "notes": "Objects viewed through a spyglass are magnified to twice their size.",
   "rarity": "mundane",
   "price": 1000,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Staff (arcane focus)",
@@ -3848,7 +3848,7 @@
   "notes": "A focus for somatic and material spell components.",
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Tent, Two-Person",
@@ -3870,7 +3870,7 @@
   "notes": "A simple canvas tent sheltering two Medium creatures.",
   "rarity": "mundane",
   "price": 2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Tinderbox",
@@ -3892,7 +3892,7 @@
   "notes": "Flint, fire steel, and tinder used to kindle a fire; takes an action to light a torch or fire.",
   "rarity": "mundane",
   "price": 0.5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Torch",
@@ -3914,7 +3914,7 @@
   "notes": "Burns for 1 hour, shedding bright light in a 20-ft radius; can be used as a improvised weapon.",
   "rarity": "mundane",
   "price": 0.01,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Totem (holy symbol)",
@@ -3936,7 +3936,7 @@
   "notes": "A totem used as a divine spellcasting focus.",
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Vial",
@@ -3958,7 +3958,7 @@
   "notes": "A small glass container holding about 4 ounces of liquid.",
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Wand (arcane focus)",
@@ -3980,7 +3980,7 @@
   "notes": "A focus for somatic and material spell components.",
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Waterskin",
@@ -4002,7 +4002,7 @@
   "notes": "Holds 4 pints of liquid.",
   "rarity": "mundane",
   "price": 0.2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Whetstone",
@@ -4024,7 +4024,7 @@
   "notes": "A stone used to sharpen blades.",
   "rarity": "mundane",
   "price": 0.01,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Alchemist's Supplies",
@@ -4046,7 +4046,7 @@
   "notes": "Tools for creating alchemical substances and identifying potions.",
   "rarity": "mundane",
   "price": 50,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Brewer's Supplies",
@@ -4068,7 +4068,7 @@
   "notes": "Tools for brewing ale, beer, and mead.",
   "rarity": "mundane",
   "price": 20,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Calligrapher's Supplies",
@@ -4090,7 +4090,7 @@
   "notes": "Tools for fine handwriting and illumination.",
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Carpenter's Tools",
@@ -4112,7 +4112,7 @@
   "notes": "Tools for building and repairing wooden structures.",
   "rarity": "mundane",
   "price": 8,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Cartographer's Tools",
@@ -4134,7 +4134,7 @@
   "notes": "Tools for drawing and reading maps.",
   "rarity": "mundane",
   "price": 15,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Cobbler's Tools",
@@ -4156,7 +4156,7 @@
   "notes": "Tools for making and repairing shoes.",
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Cook's Utensils",
@@ -4178,7 +4178,7 @@
   "notes": "Tools for preparing meals.",
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Glassblower's Tools",
@@ -4200,7 +4200,7 @@
   "notes": "Tools for shaping molten glass.",
   "rarity": "mundane",
   "price": 30,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Jeweler's Tools",
@@ -4222,7 +4222,7 @@
   "notes": "Tools for cutting and setting gems.",
   "rarity": "mundane",
   "price": 25,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Leatherworker's Tools",
@@ -4244,7 +4244,7 @@
   "notes": "Tools for working leather.",
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Mason's Tools",
@@ -4266,7 +4266,7 @@
   "notes": "Tools for working stone.",
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Painter's Supplies",
@@ -4288,7 +4288,7 @@
   "notes": "Tools for painting.",
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Potter's Tools",
@@ -4310,7 +4310,7 @@
   "notes": "Tools for shaping clay.",
   "rarity": "mundane",
   "price": 10,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Smith's Tools",
@@ -4332,7 +4332,7 @@
   "notes": "Tools for forging metal.",
   "rarity": "mundane",
   "price": 20,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Tinker's Tools",
@@ -4354,7 +4354,7 @@
   "notes": "Small tools for building and repairing simple mechanisms.",
   "rarity": "mundane",
   "price": 50,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Weaver's Tools",
@@ -4376,7 +4376,7 @@
   "notes": "Tools for weaving cloth.",
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Woodcarver's Tools",
@@ -4398,7 +4398,7 @@
   "notes": "Tools for carving wood.",
   "rarity": "mundane",
   "price": 1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Forgery Kit",
@@ -4420,7 +4420,7 @@
   "notes": "Tools for creating convincing forged documents and seals.",
   "rarity": "mundane",
   "price": 15,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Herbalism Kit",
@@ -4442,7 +4442,7 @@
   "notes": "Tools and ingredients for creating potions and identifying plants; needed to craft potions of healing.",
   "rarity": "mundane",
   "price": 5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Navigator's Tools",
@@ -4464,7 +4464,7 @@
   "notes": "Tools for plotting a ship's course.",
   "rarity": "mundane",
   "price": 25,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Poisoner's Kit",
@@ -4486,7 +4486,7 @@
   "notes": "Tools for handling and applying poison safely.",
   "rarity": "mundane",
   "price": 50,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Thieves' Tools",
@@ -4508,7 +4508,7 @@
   "notes": "Small tools including a file, lockpicks, mirror, pliers, and scissors — needed to pick locks and disarm traps.",
   "rarity": "mundane",
   "price": 25,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Dice Set",
@@ -4530,7 +4530,7 @@
   "notes": "A set of gaming dice.",
   "rarity": "mundane",
   "price": 0.1,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Playing Card Set",
@@ -4552,7 +4552,7 @@
   "notes": "A deck of cards for games of chance.",
   "rarity": "mundane",
   "price": 0.5,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Bagpipes",
@@ -4574,7 +4574,7 @@
   "notes": "A musical instrument.",
   "rarity": "mundane",
   "price": 30,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Drum",
@@ -4596,7 +4596,7 @@
   "notes": "A musical instrument.",
   "rarity": "mundane",
   "price": 6,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Dulcimer",
@@ -4618,7 +4618,7 @@
   "notes": "A musical instrument.",
   "rarity": "mundane",
   "price": 25,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Flute",
@@ -4640,7 +4640,7 @@
   "notes": "A musical instrument.",
   "rarity": "mundane",
   "price": 2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Lute",
@@ -4662,7 +4662,7 @@
   "notes": "A musical instrument.",
   "rarity": "mundane",
   "price": 35,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Lyre",
@@ -4684,7 +4684,7 @@
   "notes": "A musical instrument.",
   "rarity": "mundane",
   "price": 30,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Horn",
@@ -4706,7 +4706,7 @@
   "notes": "A musical instrument.",
   "rarity": "mundane",
   "price": 3,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Pan Flute",
@@ -4728,7 +4728,7 @@
   "notes": "A musical instrument.",
   "rarity": "mundane",
   "price": 12,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Shawm",
@@ -4750,7 +4750,7 @@
   "notes": "A musical instrument.",
   "rarity": "mundane",
   "price": 2,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Viol",
@@ -4772,7 +4772,7 @@
   "notes": "A musical instrument.",
   "rarity": "mundane",
   "price": 30,
-  "cr": 0
+  "level": 0
  },
  {
   "n": "Potion of Climbing",
@@ -4795,7 +4795,7 @@
   "uses": 1,
   "rarity": "common",
   "price": 50.0,
-  "cr": 1
+  "level": 1
  },
  {
   "n": "Potion of Growth",
@@ -4818,7 +4818,7 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Potion of Diminution",
@@ -4841,7 +4841,7 @@
   "uses": 1,
   "rarity": "rare",
   "price": 2000.0,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Potion of Water Breathing",
@@ -4864,7 +4864,7 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Potion of Invisibility",
@@ -4887,7 +4887,7 @@
   "uses": 1,
   "rarity": "very rare",
   "price": 20000.0,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Potion of Poison",
@@ -4910,7 +4910,7 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Potion of Resistance",
@@ -4933,7 +4933,7 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Potion of Speed",
@@ -4956,7 +4956,7 @@
   "uses": 1,
   "rarity": "very rare",
   "price": 20000.0,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Potion of Gaseous Form",
@@ -4979,7 +4979,7 @@
   "uses": 1,
   "rarity": "rare",
   "price": 2000.0,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Potion of Heroism",
@@ -5002,7 +5002,7 @@
   "uses": 1,
   "rarity": "rare",
   "price": 2000.0,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Potion of Mind Reading",
@@ -5025,7 +5025,7 @@
   "uses": 1,
   "rarity": "rare",
   "price": 2000.0,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Potion of Animal Friendship",
@@ -5048,7 +5048,7 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Potion of Clairvoyance",
@@ -5071,7 +5071,7 @@
   "uses": 1,
   "rarity": "rare",
   "price": 2000.0,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Oil of Etherealness",
@@ -5094,7 +5094,7 @@
   "uses": 1,
   "rarity": "rare",
   "price": 2000.0,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Oil of Sharpness",
@@ -5117,7 +5117,7 @@
   "uses": 1,
   "rarity": "very rare",
   "price": 20000.0,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Oil of Slipperiness",
@@ -5140,7 +5140,7 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Spell Scroll (Cantrip)",
@@ -5163,7 +5163,7 @@
   "uses": 1,
   "rarity": "common",
   "price": 50.0,
-  "cr": 1
+  "level": 1
  },
  {
   "n": "Spell Scroll (1st Level)",
@@ -5186,7 +5186,7 @@
   "uses": 1,
   "rarity": "common",
   "price": 50.0,
-  "cr": 1
+  "level": 1
  },
  {
   "n": "Spell Scroll (2nd Level)",
@@ -5209,7 +5209,7 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Spell Scroll (3rd Level)",
@@ -5232,7 +5232,7 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Spell Scroll (4th Level)",
@@ -5255,7 +5255,7 @@
   "uses": 1,
   "rarity": "rare",
   "price": 2000.0,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Spell Scroll (5th Level)",
@@ -5278,7 +5278,7 @@
   "uses": 1,
   "rarity": "rare",
   "price": 2000.0,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Scroll of Protection",
@@ -5301,7 +5301,7 @@
   "uses": 1,
   "rarity": "rare",
   "price": 2000.0,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Wand of Magic Missiles",
@@ -5325,7 +5325,7 @@
   "notes": "7 charges (regains 1d6+1 at dawn). Action: 1 or more charges to cast magic missile; 1 charge casts it at 1st level, each extra charge raises the level by 1. (Uncommon)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Wand of the War Mage +1",
@@ -5350,7 +5350,7 @@
   "spellHit": 1,
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Wand of the War Mage +2",
@@ -5375,7 +5375,7 @@
   "spellHit": 2,
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Wand of Web",
@@ -5399,7 +5399,7 @@
   "notes": "7 charges (regains 1d6+1 at dawn). Action, 1 charge: cast web (save DC 15). (Uncommon, requires attunement by a spellcaster)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Wand of Secrets",
@@ -5423,7 +5423,7 @@
   "notes": "3 charges (regains 1d3 at dawn). Action, 1 charge: if a secret door or trap is within 30 ft, the wand pulses and points at the nearest one. (Uncommon)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Wand of Magic Detection",
@@ -5447,7 +5447,7 @@
   "notes": "3 charges (regains 1d3 at dawn). Action, 1 charge: cast detect magic. (Uncommon)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Wand of Fireballs",
@@ -5472,7 +5472,7 @@
   "dmgType": "fire",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Wand of Paralysis",
@@ -5496,7 +5496,7 @@
   "notes": "7 charges (regains 1d6+1 at dawn). Action, 1 charge: a ray at a creature within 60 ft; DC 15 Constitution save or paralyzed for 1 minute (repeat the save at the end of each of its turns). (Rare, requires attunement by a spellcaster)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Wand of Polymorph",
@@ -5520,7 +5520,7 @@
   "notes": "7 charges (regains 1d6+1 at dawn). Action, 1 charge: cast polymorph (save DC 15). (Very rare, requires attunement by a spellcaster)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Wand of Wonder",
@@ -5544,7 +5544,7 @@
   "notes": "As an action, expend 1 charge and target a point within 120 feet to trigger a random magical effect.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Ring of Warmth",
@@ -5568,7 +5568,7 @@
   "notes": "You have resistance to cold damage while wearing this ring, and stay comfortable in temperatures as low as -50°F.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Ring of Water Walking",
@@ -5592,7 +5592,7 @@
   "notes": "You can stand on and move across any liquid surface as if it were solid ground.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Ring of Swimming",
@@ -5616,7 +5616,7 @@
   "notes": "You have a swimming speed of 40 feet while wearing this ring.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Ring of Jumping",
@@ -5640,7 +5640,7 @@
   "notes": "Bonus action: cast jump on yourself at will. (Uncommon, requires attunement)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Ring of Mind Shielding",
@@ -5664,7 +5664,7 @@
   "notes": "You're immune to magic that allows other creatures to read your thoughts or determine your alignment.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Ring of X-ray Vision",
@@ -5688,7 +5688,7 @@
   "notes": "As an action, you can see through solid objects to a range of 30 feet, but exposure carries a risk of exhaustion.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Ring of Spell Storing",
@@ -5712,7 +5712,7 @@
   "notes": "This ring stores up to 5 levels of spells cast into it, which the wearer can cast later.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Ring of Free Action",
@@ -5736,7 +5736,7 @@
   "notes": "Difficult terrain doesn't cost you extra movement, and magic can't reduce your speed or cause you to be paralyzed or restrained. (Rare, requires attunement)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Ring of Resistance",
@@ -5760,7 +5760,7 @@
   "notes": "You have resistance to one damage type (fire, cold, acid, lightning, poison, etc.) while wearing this ring.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Ring of Invisibility",
@@ -5784,7 +5784,7 @@
   "notes": "Action: turn invisible until you attack, cast a spell, use a bonus action or action to become visible, or remove the ring. (Legendary, requires attunement)",
   "rarity": "legendary",
   "price": 200000,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Ring of Telekinesis",
@@ -5808,7 +5808,7 @@
   "notes": "While wearing this ring, you can cast telekinesis at will, without a spell slot or components.",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Ring of Three Wishes",
@@ -5832,7 +5832,7 @@
   "notes": "While wearing this ring, you can expend 1 charge (of 3) to cast the wish spell.",
   "rarity": "legendary",
   "price": 200000,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Ring of Feather Falling",
@@ -5856,7 +5856,7 @@
   "notes": "When you fall, you descend 60 ft per round and take no falling damage. (Rare, requires attunement)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Ring of Animal Influence",
@@ -5880,7 +5880,7 @@
   "notes": "This ring has three charges granting effects to charm, fear, or communicate with animals.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Ring of Elemental Command",
@@ -5904,7 +5904,7 @@
   "notes": "Grants significant control and resistance related to a chosen elemental type (air, earth, fire, or water).",
   "rarity": "legendary",
   "price": 200000,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Ring of Evasion",
@@ -5928,7 +5928,7 @@
   "notes": "3 charges (regains 1d3 at dawn). When you fail a Dexterity saving throw, you can use your reaction and 1 charge to succeed instead. (Rare, requires attunement)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Rod of the Pact Keeper +1",
@@ -5955,7 +5955,7 @@
   "spellClass": "Warlock",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Immovable Rod",
@@ -5979,7 +5979,7 @@
   "notes": "As an action, press a button to fix the rod in place; it and anything attached to it can't be moved.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Rod of Absorption",
@@ -6003,7 +6003,7 @@
   "notes": "As a reaction, absorb a spell targeting you or within range, storing its levels to later cast spells of your own.",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Rod of Alertness",
@@ -6027,7 +6027,7 @@
   "notes": "Advantage on initiative rolls while you hold it. Action: cast detect evil and good, detect magic, detect poison and disease, or see invisibility. Action, once per dawn: plant it in the ground for 10 minutes; you and allies within 60 ft get +1 AC and can't be surprised (and more). (Very rare, requires attunement)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Rod of Rulership",
@@ -6051,7 +6051,7 @@
   "notes": "As an action, expend the rod's charge to charm a number of creatures within 120 feet, who regard you as their trusted ruler.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Rod of Security",
@@ -6075,7 +6075,7 @@
   "notes": "As an action, activate to transport up to 199 willing creatures to a peaceful demiplane sanctuary for a period of time.",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Rod of Lordly Might",
@@ -6099,7 +6099,7 @@
   "notes": "A multi-function magic weapon rod with six different functions including a flame blade, a climbing spike, and a resurrection function.",
   "rarity": "legendary",
   "price": 200000,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Staff of the Woodlands",
@@ -6124,7 +6124,7 @@
   "spellHit": 2,
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Staff of Charming",
@@ -6148,7 +6148,7 @@
   "notes": "10 charges (regains 1d8+2 at dawn). Action, 1 charge: charm person, command or comprehend languages (save DC is yours). Reaction once per dawn when you succeed on a save against an enchantment that targets only you: turn the spell back on its caster. (Rare, requires attunement by a bard, cleric, druid, sorcerer, warlock or wizard)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Staff of Fire",
@@ -6173,7 +6173,7 @@
   "dmgType": "fire",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Staff of Frost",
@@ -6197,7 +6197,7 @@
   "notes": "Resistance to cold damage while you hold it. 10 charges (regains 1d6+4 at dawn): cone of cold (5), fog cloud (1), ice storm (4), wall of ice (4), using your spell save DC. (Very rare, requires attunement by a druid, sorcerer, warlock or wizard)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Staff of Healing",
@@ -6221,7 +6221,7 @@
   "notes": "This staff has 10 charges to cast cure wounds, lesser restoration, or mass cure wounds.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Staff of Power",
@@ -6247,7 +6247,7 @@
   "spellHit": 2,
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Staff of Swarming Insects",
@@ -6271,7 +6271,7 @@
   "notes": "10 charges (regains 1d6+4 at dawn). Action, 1 charge: a swarm of insects fills a 30-ft radius around you for 10 minutes (heavily obscured for others). Spells: giant insect (4 charges), insect plague (5 charges). (Rare, requires attunement by a bard, cleric, druid, sorcerer, warlock or wizard)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Staff of Thunder and Lightning",
@@ -6296,7 +6296,7 @@
   "dmgType": "bludgeoning",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Staff of Withering",
@@ -6321,7 +6321,7 @@
   "dmgType": "necrotic",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Bag of Holding",
@@ -6342,7 +6342,7 @@
   "notes": "This bag has an interior space larger than its exterior, holding up to 500 pounds within a 64 cubic foot space.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Bag of Tricks",
@@ -6363,7 +6363,7 @@
   "notes": "Action: pull out a fuzzy object and throw it up to 20 ft; it becomes a random creature (roll d8 on the bag's table) that is friendly to you and vanishes at the next dawn. Usable three times, then not again until the next dawn. (Uncommon)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Boots of Elvenkind",
@@ -6386,7 +6386,7 @@
   "notes": "Your steps make no sound while you wear these boots, and you have advantage on Dexterity (Stealth) checks that rely on moving silently.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Boots of Levitation",
@@ -6409,7 +6409,7 @@
   "notes": "While wearing these boots, you can cast levitate on yourself at will.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Boots of the Winterlands",
@@ -6432,7 +6432,7 @@
   "notes": "You have resistance to cold damage while wearing these boots, and you ignore difficult terrain caused by ice or snow.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Bracers of Archery",
@@ -6455,7 +6455,7 @@
   "notes": "You gain a +2 bonus to damage rolls on ranged attacks made with a longbow or shortbow, and proficiency with them.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Brooch of Shielding",
@@ -6478,7 +6478,7 @@
   "notes": "You have resistance to force damage and immunity to damage from magic missile while wearing this brooch.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Broom of Flying",
@@ -6499,7 +6499,7 @@
   "notes": "Speaking its command word makes it hover; you can ride it with a flying speed of 50 ft. It carries up to 400 lb, but its speed drops to 30 ft if it carries more than 200 lb. (Uncommon)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Candle of Invocation",
@@ -6520,7 +6520,7 @@
   "notes": "While lit, this candle creates an aura that bolsters spellcasters aligned with its magic.",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Cape of the Mountebank",
@@ -6543,7 +6543,7 @@
   "notes": "Action, once per dawn: cast dimension door; you disappear and reappear in a cloud of smoke. (Rare)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Carpet of Flying",
@@ -6564,7 +6564,7 @@
   "notes": "Flies at a speed and capacity set by its size: 3x5 ft (200 lb, 80 ft), 4x6 ft (400 lb, 60 ft), 5x7 ft (600 lb, 40 ft), 6x9 ft (800 lb, 30 ft); speed halves above that capacity. (Very rare)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Cloak of Displacement",
@@ -6587,7 +6587,7 @@
   "notes": "While worn, this cloak projects an illusion that makes you appear to be standing in a place near your actual location, giving attacks against you disadvantage.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Cloak of Elvenkind",
@@ -6610,7 +6610,7 @@
   "notes": "While wearing this cloak with its hood up, Wisdom (Perception) checks to see you have disadvantage, and you have advantage on Dexterity (Stealth) checks to hide.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Cloak of the Bat",
@@ -6633,7 +6633,7 @@
   "notes": "Advantage on Dexterity (Stealth) checks. In dim light or darkness: hold the edges to fly at 40 ft; once per dawn, polymorph into a bat. (Rare, requires attunement)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Crystal Ball",
@@ -6654,7 +6654,7 @@
   "notes": "This crystal ball lets you cast scrying at will, focusing on a location or creature.",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Deck of Illusions",
@@ -6675,7 +6675,7 @@
   "notes": "This box of cards contains illusory duplicates of creatures that can be conjured to distract or deceive enemies.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Decanter of Endless Water",
@@ -6696,7 +6696,7 @@
   "notes": "This jug can produce fresh or salt water on command, from a gentle stream to a raging wave.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Dimensional Shackles",
@@ -6717,7 +6717,7 @@
   "notes": "These shackles can bind a creature, preventing extradimensional travel; DC 30 Strength check or a wish spell is needed to break them.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Dust of Disappearance",
@@ -6738,7 +6738,7 @@
   "notes": "A pinch of this dust, thrown into the air, makes creatures and objects in the area invisible for several minutes.",
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Dust of Dryness",
@@ -6759,7 +6759,7 @@
   "notes": "Each pinch of this dust can absorb up to 100 gallons of liquid into a pellet that releases the water when broken.",
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Eversmoking Bottle",
@@ -6780,7 +6780,7 @@
   "notes": "Uncorked, this bottle produces a cloud of thick smoke that heavily obscures the area.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Eyes of Charming",
@@ -6803,7 +6803,7 @@
   "notes": "3 charges (regain all at dawn). Action, 1 charge: cast charm person (save DC 13) on a humanoid within 30 ft that can see you. (Uncommon, requires attunement)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Eyes of the Eagle",
@@ -6826,7 +6826,7 @@
   "notes": "While wearing these lenses, you have advantage on Wisdom (Perception) checks that rely on sight.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Figurine of Wondrous Power",
@@ -6847,7 +6847,7 @@
   "notes": "A small statuette that can be animated into a real, obedient creature for a time.",
   "rarity": "unknown",
   "price": null,
-  "cr": null
+  "level": null
  },
  {
   "n": "Gem of Brightness",
@@ -6868,7 +6868,7 @@
   "notes": "This gem has 50 charges to create bright light or a blinding flash of light in a cone.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Gloves of Missile Snaring",
@@ -6891,7 +6891,7 @@
   "notes": "You can use your reaction to catch a weapon or projectile aimed at you, reducing its damage.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Gloves of Swimming and Climbing",
@@ -6914,7 +6914,7 @@
   "notes": "Climbing and swimming don't cost you extra movement, and you gain +5 to Strength (Athletics) checks to climb or swim. (Uncommon, requires attunement)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Gloves of Thievery",
@@ -6937,7 +6937,7 @@
   "notes": "Invisible while worn. +5 to Dexterity (Sleight of Hand) checks and to Dexterity checks to pick locks. (Uncommon)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Goggles of Night",
@@ -6960,7 +6960,7 @@
   "notes": "You have darkvision out to 60 feet while wearing these goggles; if you already have darkvision, its range extends by 60 feet.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Hat of Disguise",
@@ -6983,7 +6983,7 @@
   "notes": "You can cast disguise self at will by donning this hat, changing your appearance until you take it off or use an action to change it again.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Helm of Telepathy",
@@ -7006,7 +7006,7 @@
   "notes": "Action: cast detect thoughts (save DC 13) at will; while focused, you can speak telepathically to the creature. Once per dawn: cast suggestion (save DC 13) on that creature. (Uncommon, requires attunement)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Horn of Blasting",
@@ -7028,7 +7028,7 @@
   "dmgType": "thunder",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Horseshoes of Speed",
@@ -7051,7 +7051,7 @@
   "notes": "These four horseshoes increase a mount's speed by 30 feet when all four are set.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Ioun Stone (Awareness)",
@@ -7074,7 +7074,7 @@
   "notes": "While it orbits your head, you can't be surprised. (Rare, requires attunement)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Ioun Stone (Protection)",
@@ -7097,7 +7097,7 @@
   "notes": "This stone orbits your head, granting a +1 bonus to AC while it orbits.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Ioun Stone (Reserve)",
@@ -7120,7 +7120,7 @@
   "notes": "Stores up to 3 levels of spells cast into it; while it orbits your head you can cast a stored spell using its original slot level and your spell save DC. (Rare, requires attunement)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Ioun Stone (Sustenance)",
@@ -7143,7 +7143,7 @@
   "notes": "This stone orbits your head and removes your need to eat or drink.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Lantern of Revealing",
@@ -7164,7 +7164,7 @@
   "notes": "This bullseye lantern's light also causes invisible creatures and objects in its area to become visible.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Mantle of Spell Resistance",
@@ -7187,7 +7187,7 @@
   "notes": "Advantage on saving throws against spells. (Rare, requires attunement)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Manual of Bodily Health",
@@ -7210,7 +7210,7 @@
   "notes": "Study it for 48 hours within 6 days: your Constitution score increases by 2, as does your maximum for that score. Then it loses its magic for a century. Add it under Permanent Buffs once read. (Very rare)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Manual of Gainful Exercise",
@@ -7233,7 +7233,7 @@
   "notes": "Study it for 48 hours within 6 days: your Strength score increases by 2, as does your maximum for that score. Then it loses its magic for a century. Add it under Permanent Buffs once read. (Very rare)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Manual of Quickness of Action",
@@ -7256,7 +7256,7 @@
   "notes": "Study it for 48 hours within 6 days: your Dexterity score increases by 2, as does your maximum for that score. Then it loses its magic for a century. Add it under Permanent Buffs once read. (Very rare)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Tome of Clear Thought",
@@ -7279,7 +7279,7 @@
   "notes": "Study it for 48 hours within 6 days: your Intelligence score increases by 2, as does your maximum for that score. Then it loses its magic for a century. Add it under Permanent Buffs once read. (Very rare)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Tome of Leadership and Influence",
@@ -7302,7 +7302,7 @@
   "notes": "Study it for 48 hours within 6 days: your Charisma score increases by 2, as does your maximum for that score. Then it loses its magic for a century. Add it under Permanent Buffs once read. (Very rare)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Tome of Understanding",
@@ -7325,7 +7325,7 @@
   "notes": "Study it for 48 hours within 6 days: your Wisdom score increases by 2, as does your maximum for that score. Then it loses its magic for a century. Add it under Permanent Buffs once read. (Very rare)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Mirror of Life Trapping",
@@ -7346,7 +7346,7 @@
   "notes": "This mirror can trap a creature that views its reflection within an extradimensional space.",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Necklace of Fireballs",
@@ -7370,7 +7370,7 @@
   "dmgType": "fire",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Necklace of Prayer Beads",
@@ -7393,7 +7393,7 @@
   "notes": "This necklace has beads granting various blessings such as healing, protection, or removing curses.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Pearl of Power",
@@ -7414,7 +7414,7 @@
   "notes": "Action, once per dawn: speak its command word to regain one expended spell slot of up to 3rd level. (Uncommon, requires attunement by a spellcaster)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Periapt of Health",
@@ -7437,7 +7437,7 @@
   "notes": "You are immune to contracting any disease while wearing this precious stone.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Periapt of Proof against Poison",
@@ -7460,7 +7460,7 @@
   "notes": "This precious stone grants immunity to poison damage and the poisoned condition while worn.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Pipes of Haunting",
@@ -7481,7 +7481,7 @@
   "notes": "3 charges (regains 1d3 at dawn). Action, 1 charge: creatures of your choice within 30 ft make a DC 15 Wisdom save or are frightened of you for 1 minute. (Uncommon)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Pipes of the Sewers",
@@ -7502,7 +7502,7 @@
   "notes": "As an action, you can play these pipes to summon giant rats or attract normal rats to your location.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Portable Hole",
@@ -7523,7 +7523,7 @@
   "notes": "This circle of black cloth unfolds into a 6-foot-diameter hole leading to an extradimensional space 10 feet deep.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Quiver of Ehlonna",
@@ -7544,7 +7544,7 @@
   "notes": "Same item as the Efficient Quiver (its 2024 name): three compartments hold 60 arrows or bolts, 18 javelins, and 6 long objects such as bows or staves; it always weighs 2 lb. (Uncommon)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Robe of Eyes",
@@ -7567,7 +7567,7 @@
   "notes": "This robe is covered in eyes, granting 360-degree vision, darkvision, and the ability to see invisible/ethereal creatures.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Robe of Scintillating Colors",
@@ -7590,7 +7590,7 @@
   "notes": "As an action, you can activate this robe to create a dazzling display of color, blinding and fascinating onlookers.",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Robe of Stars",
@@ -7614,7 +7614,7 @@
   "saveBonus": 1,
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Rope of Climbing",
@@ -7635,7 +7635,7 @@
   "notes": "This 60-foot rope can animate on command to snake up, down, or across a surface at your direction.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Rope of Entanglement",
@@ -7656,7 +7656,7 @@
   "notes": "This rope animates on command to entangle a creature or area, restraining those caught within.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Saddle of the Cavalier",
@@ -7677,7 +7677,7 @@
   "notes": "While in this saddle, you can't be dismounted against your will, and you have advantage on checks/saves to stay mounted.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Scarab of Protection",
@@ -7700,7 +7700,7 @@
   "notes": "Advantage on saving throws against spells. 12 charges: when you fail a save against a necromancy spell or a harmful effect from an undead, use your reaction and 1 charge to succeed instead; it crumbles when the last charge is used. (Legendary, requires attunement)",
   "rarity": "legendary",
   "price": 200000,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Sending Stones",
@@ -7721,7 +7721,7 @@
   "notes": "A pair of stones that let their bearers communicate telepathically once per day, as if by the sending spell.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Sentinel Shield",
@@ -7744,7 +7744,7 @@
   "notes": "Shield (+2 AC). Advantage on initiative rolls and Wisdom (Perception) checks. (Uncommon)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Slippers of Spider Climbing",
@@ -7767,7 +7767,7 @@
   "notes": "While wearing these slippers, you can move up, down, and across vertical surfaces and upside down along ceilings while leaving your hands free.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Sovereign Glue",
@@ -7788,7 +7788,7 @@
   "notes": "This viscous liquid bonds any two surfaces permanently within 1 minute of application.",
   "rarity": "legendary",
   "price": 100000.0,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Stone of Good Luck (Luckstone)",
@@ -7812,7 +7812,7 @@
   "saveBonus": 1,
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Universal Solvent",
@@ -7833,7 +7833,7 @@
   "notes": "This liquid, when applied, dissolves any adhesive, including sovereign glue.",
   "rarity": "legendary",
   "price": 100000.0,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Wind Fan",
@@ -7854,7 +7854,7 @@
   "notes": "As an action, you can use this fan to create a 15-foot cone of strong wind, extinguishing flames and dispersing gas or fog.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Wings of Flying",
@@ -7877,7 +7877,7 @@
   "notes": "As an action, you can transform this cloak into a pair of wings on your back, granting a flying speed of 60 feet for 1 hour.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Efficient Quiver",
@@ -7898,7 +7898,7 @@
   "notes": "This quiver's three compartments can hold ammunition, weapons, and other objects with reduced effective weight.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Elixir of Health",
@@ -7919,7 +7919,7 @@
   "notes": "This potion cures any disease, blindness, deafness, and poison affecting you when you drink it.",
   "rarity": "rare",
   "price": 2000.0,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Folding Boat",
@@ -7940,7 +7940,7 @@
   "notes": "This box unfolds into a boat up to 24 feet long, capable of carrying 15 Medium creatures.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Instant Fortress",
@@ -7961,7 +7961,7 @@
   "notes": "This iron cube, thrown to the ground and spoken to, unfolds into a small stone fortress.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Iron Bands of Binding",
@@ -7982,7 +7982,7 @@
   "notes": "As an action, throw this cube to spring into iron bands that bind a Huge or smaller creature.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Nolzur's Marvelous Pigments",
@@ -8003,7 +8003,7 @@
   "notes": "These pigments let you paint three-dimensional objects or terrain features into real existence.",
   "rarity": "very rare",
   "price": 20000.0,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Well of Many Worlds",
@@ -8024,7 +8024,7 @@
   "notes": "This black cloth square, unfolded and stepped upon, transports creatures to a randomly determined plane of existence.",
   "rarity": "legendary",
   "price": 200000,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Dagger of Venom",
@@ -8049,7 +8049,7 @@
   "notes": "+1 to attack and damage. Action, once per dawn: coat the blade in poison for 1 minute or until it hits. On that hit the target makes a DC 15 Constitution save: 2d10 poison damage and poisoned for 1 minute on a failure. (Rare)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Flame Tongue",
@@ -8074,7 +8074,7 @@
   "notes": "Bonus action: speak the command word to ignite the blade (bright light 40 ft, dim 40 ft more). While ablaze it deals an extra 2d6 fire damage on a hit. (Rare, requires attunement; any sword)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Frost Brand",
@@ -8099,7 +8099,7 @@
   "notes": "Extra 1d6 cold damage on a hit; resistance to fire while you hold it. In freezing temperatures it sheds bright light 10 ft. Once per hour, draw it to extinguish nonmagical flames within 30 ft. (Very rare, requires attunement; any sword)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Holy Avenger",
@@ -8124,7 +8124,7 @@
   "notes": "+3 to attack and damage. Extra 2d10 radiant damage against fiends and undead. While drawn, it creates a 10-ft aura (30 ft at paladin level 17+): you and friendly creatures in it have advantage on saving throws against spells and other magical effects. (Legendary, requires attunement by a paladin)",
   "rarity": "legendary",
   "price": 200000,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Sun Blade",
@@ -8149,7 +8149,7 @@
   "notes": "+2 to attack and damage; deals radiant damage. Extra 1d8 radiant against undead. Bonus action: blade of radiance appears or vanishes; sheds bright light 15 ft (adjustable 10-30 ft). Proficiency with shortswords or longswords applies. (Rare, requires attunement; longsword)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Sword of Sharpness",
@@ -8174,7 +8174,7 @@
   "notes": "Maximizes damage against objects. On a natural 20 against a creature, it takes an extra 4d6 slashing damage; then roll another d20: on a 20 you lop off one of its limbs. Command word: bright light 10 ft. (Very rare, requires attunement; any slashing sword)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Sword of Wounding",
@@ -8199,7 +8199,7 @@
   "notes": "Hit points lost to this weapon can be regained only by a short or long rest. Once per turn on a hit, you can wound the target: at the start of each of its turns it takes 1d4 necrotic damage per wound, until it succeeds on a DC 15 Constitution save at the end of its turn (ends all wounds) or someone uses an action on a DC 15 Wisdom (Medicine) check. (Rare, requires attunement; any sword)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Trident of Fish Command",
@@ -8224,7 +8224,7 @@
   "notes": "3 charges (regains 1d3 at dawn). Action, 1 charge: cast dominate beast (save DC 15) on a beast with an innate swimming speed. (Uncommon, requires attunement)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Vorpal Sword",
@@ -8249,7 +8249,7 @@
   "notes": "+3 to attack and damage; ignores resistance to slashing damage. On a natural 20 against a creature with at least one head, you cut off one of its heads (it dies unless it can survive without it); if it is immune to slashing, lacks a head or is too big, it instead takes an extra 6d8 slashing. (Legendary, requires attunement; slashing sword)",
   "rarity": "legendary",
   "price": 200000,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Hammer of Thunderbolts",
@@ -8274,7 +8274,7 @@
   "notes": "+1 to attack and damage (maul). Giant's Bane, when attuned while wearing a belt of giant strength and gauntlets of ogre power: your Strength increases by 4 (max 30); on a natural 20 against a giant it must succeed on a DC 17 Constitution save or die. 5 charges: thrown, it can release a thunderclap (DC 17 Constitution or stunned until your next turn). (Legendary)",
   "rarity": "legendary",
   "price": 200000,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Javelin of Lightning",
@@ -8299,7 +8299,7 @@
   "notes": "Action, once per dawn: throw it and speak the command word. It becomes a 5-ft-wide line of lightning to a target within 120 ft; creatures in the line (not you or the target) make a DC 13 Dexterity save, 4d6 lightning on a failure, half on a success. Then make a ranged attack: on a hit, the target takes the javelin's damage plus 4d6 lightning. (Uncommon)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Mace of Disruption",
@@ -8324,7 +8324,7 @@
   "notes": "Extra 2d6 radiant damage against fiends and undead. If such a target has 25 hit points or fewer after the damage, it must succeed on a DC 15 Wisdom save or be destroyed; on a success it is frightened of you until the end of your next turn. Sheds bright light 20 ft. (Rare, requires attunement)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Mace of Smiting",
@@ -8349,7 +8349,7 @@
   "notes": "+1 to attack and damage (+3 against constructs). On a natural 20 it deals an extra 2d6 bludgeoning damage (4d6 against constructs); a construct with 25 hit points or fewer after the damage is destroyed. (Rare)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Mace of Terror",
@@ -8374,7 +8374,7 @@
   "notes": "3 charges (regains 1d3 at dawn). Action, 1 charge: each creature of your choice within 30 ft makes a DC 15 Wisdom save or is frightened of you for 1 minute (it must use its action to move away from you). (Rare, requires attunement)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Nine Lives Stealer",
@@ -8399,7 +8399,7 @@
   "notes": "+2 to attack and damage. 1d8+1 charges. On a natural 20 against a creature with fewer than 100 hit points (not a construct or undead), it must succeed on a DC 15 Constitution save or be slain, using one charge. (Very rare, requires attunement; any sword)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Oathbow",
@@ -8424,7 +8424,7 @@
   "notes": "Bonus action, once per dawn: swear an oath against a creature you can see. Against your sworn enemy: advantage on attacks, an extra 3d6 piercing damage, no disadvantage at long range, and it can't benefit from cover other than total. (Very rare, requires attunement by an elf or half-elf; longbow)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Sword of Life Stealing",
@@ -8449,7 +8449,7 @@
   "notes": "On a natural 20 against a creature that isn't a construct or undead, it takes an extra 3d6 necrotic damage and you gain temporary hit points equal to that damage. (Rare, requires attunement; any sword)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Weapon of Warning",
@@ -8474,7 +8474,7 @@
   "notes": "Advantage on initiative rolls. You and companions within 30 ft can't be surprised (unless incapacitated by something other than nonmagical sleep), and the weapon wakes you when combat begins. (Uncommon, requires attunement; any weapon)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "+3 Weapon (generic)",
@@ -8499,7 +8499,7 @@
   "notes": "+3 to attack and damage rolls made with this magic weapon. Set its damage dice to match the weapon. (Very rare)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Adamantine Armor",
@@ -8524,7 +8524,7 @@
   "notes": "Any medium or heavy armor except hide (set its AC to match). Any critical hit against you becomes a normal hit. (Uncommon)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Mithral Armor",
@@ -8549,7 +8549,7 @@
   "notes": "Any medium or heavy armor except hide (set its AC to match). No Strength requirement and no disadvantage on Stealth. (Uncommon)",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Elven Chain",
@@ -8574,7 +8574,7 @@
   "notes": "Chain shirt with +1 AC. You are proficient with it even without medium armor proficiency. (Rare)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Dwarven Plate",
@@ -8599,7 +8599,7 @@
   "notes": "Plate armor with +2 AC. Reaction when an effect would push you or knock you prone: reduce the distance moved by up to 10 ft. (Very rare)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Glamoured Studded Leather",
@@ -8624,7 +8624,7 @@
   "notes": "+1 AC. Bonus action: it takes the appearance of normal clothing or another armor (no change to weight or bulk). (Rare)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Demon Armor",
@@ -8649,7 +8649,7 @@
   "notes": "Plate armor with +1 AC; you can understand and speak Abyssal. Its clawed gauntlets make your unarmed strikes deal 1d8 slashing with +1 to attack and damage. Curse: you can't remove it without remove curse, and you have disadvantage on attacks against demons and on saves against their spells and abilities. (Very rare, requires attunement)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Armor of Resistance",
@@ -8674,7 +8674,7 @@
   "notes": "You have resistance to one damage type while wearing this armor.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Armor of Invulnerability",
@@ -8699,7 +8699,7 @@
   "notes": "Plate armor. Resistance to nonmagical damage. Action, once per dawn: immunity to nonmagical damage for 10 minutes or until you are no longer wearing it. (Legendary, requires attunement)",
   "rarity": "legendary",
   "price": 200000,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Plate Armor of Etherealness",
@@ -8724,7 +8724,7 @@
   "notes": "Plate armor. Action, once per dawn: cast etherealness on yourself; lasts 10 minutes or until you remove the armor or use an action to end it. (Legendary, requires attunement)",
   "rarity": "legendary",
   "price": 200000,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Plate Armor of the Deep",
@@ -8749,7 +8749,7 @@
   "notes": "Grants a swimming speed and water breathing while worn.",
   "rarity": "unknown",
   "price": null,
-  "cr": null
+  "level": null
  },
  {
   "n": "Animated Shield",
@@ -8771,7 +8771,7 @@
   "notes": "Bonus action: it animates for 1 minute, floats in your space and protects you as if you held it, leaving your hands free. (Very rare, requires attunement)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Spellguard Shield",
@@ -8793,7 +8793,7 @@
   "notes": "Advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against you. (Very rare, requires attunement)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Shield of Missile Attraction",
@@ -8815,7 +8815,7 @@
   "notes": "Resistance to damage from ranged weapon attacks. Curse: whenever a ranged weapon attack is made against a target within 10 ft of you, you become the target instead. (Rare, requires attunement)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "+2 Shield (generic)",
@@ -8837,7 +8837,7 @@
   "notes": "+2 bonus to AC (2 base + 2 magic).",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Circlet of Blasting",
@@ -8860,7 +8860,7 @@
   "notes": "You can cast scorching ray (as a 2nd-level spell) once per day using this circlet, requiring no material components. Spell save DC 15.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Eyes of Minute Seeing",
@@ -8883,7 +8883,7 @@
   "notes": "While wearing these lenses, you can see much better than normal in the extreme close-up range.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Helm of Brilliance",
@@ -8906,7 +8906,7 @@
   "notes": "Set with dozens of gems, this helm can cast light, daylight, fireball, and prismatic spray using its remaining gems.",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Helm of Comprehending Languages",
@@ -8929,7 +8929,7 @@
   "notes": "While wearing this helm, you can cast comprehend languages at will, with no components required.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Helm of Teleportation",
@@ -8952,7 +8952,7 @@
   "notes": "This helm has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the teleport spell.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Crown of Stars",
@@ -8976,7 +8976,7 @@
   "dmgType": "radiant",
   "rarity": "legendary",
   "price": 200000,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Ioun Stone (Insight)",
@@ -9004,7 +9004,7 @@
   },
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Ioun Stone (Intellect)",
@@ -9032,7 +9032,7 @@
   },
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Ioun Stone (Strength)",
@@ -9060,7 +9060,7 @@
   },
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Ioun Stone (Agility)",
@@ -9088,7 +9088,7 @@
   },
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Ioun Stone (Fortitude)",
@@ -9116,7 +9116,7 @@
   },
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Ioun Stone (Leadership)",
@@ -9144,7 +9144,7 @@
   },
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Ioun Stone (Absorption)",
@@ -9167,7 +9167,7 @@
   "notes": "This iridescent spindle orbits your head, absorbing spell energy that would otherwise damage you, reducing incoming spell damage.",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Amulet of Proof against Detection and Location",
@@ -9190,7 +9190,7 @@
   "notes": "While wearing this amulet, you are hidden from divination magic; you can't be targeted by such magic or perceive through magical scrying sensors.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Medallion of Thoughts",
@@ -9213,7 +9213,7 @@
   "notes": "This medallion has 3 charges. While wearing it, you can expend 1 charge to cast detect thoughts (save DC 13).",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Necklace of Adaptation",
@@ -9236,7 +9236,7 @@
   "notes": "While wearing this necklace, you can breathe normally in any environment, and gain advantage on saves against harmful gases and vapors.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Talisman of the Sphere",
@@ -9259,7 +9259,7 @@
   "notes": "When you make an Intelligence (Arcana) check to control a sphere of annihilation while holding it, you double your proficiency bonus, and you can move the sphere further each turn. (Legendary, requires attunement)",
   "rarity": "legendary",
   "price": 200000,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Cloak of the Manta Ray",
@@ -9282,7 +9282,7 @@
   "notes": "While wearing this cloak, you can breathe underwater and gain a swimming speed of 60 feet.",
   "rarity": "uncommon",
   "price": 400,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Cloak of Arachnida",
@@ -9305,7 +9305,7 @@
   "notes": "This cloak grants a climbing speed equal to your walking speed, resistance to poison damage, and lets you cast web (recharging daily).",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Cloak of Billowing",
@@ -9328,7 +9328,7 @@
   "notes": "As a bonus action, you can make this cloak billow dramatically.",
   "rarity": "common",
   "price": 100,
-  "cr": 1
+  "level": 1
  },
  {
   "n": "Cloak of Invisibility",
@@ -9351,7 +9351,7 @@
   "notes": "While wearing this cloak with its hood up, you can pull the hood down over your face to become invisible.",
   "rarity": "legendary",
   "price": 200000,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Ring of Resistance (Fire)",
@@ -9375,7 +9375,7 @@
   "notes": "You have resistance to fire damage while wearing this ring.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Ring of Resistance (Cold)",
@@ -9399,7 +9399,7 @@
   "notes": "You have resistance to cold damage while wearing this ring.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Ring of Resistance (Acid)",
@@ -9423,7 +9423,7 @@
   "notes": "You have resistance to acid damage while wearing this ring.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Ring of Resistance (Lightning)",
@@ -9447,7 +9447,7 @@
   "notes": "You have resistance to lightning damage while wearing this ring.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Ring of Resistance (Poison)",
@@ -9471,7 +9471,7 @@
   "notes": "You have resistance to poison damage while wearing this ring.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Ring of Resistance (Thunder)",
@@ -9495,7 +9495,7 @@
   "notes": "You have resistance to thunder damage while wearing this ring.",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Ring of Spell Turning",
@@ -9519,7 +9519,7 @@
   "notes": "This ring can reflect certain spells cast directly at you back at the caster.",
   "rarity": "legendary",
   "price": 200000,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Ring of Shooting Stars",
@@ -9543,7 +9543,7 @@
   "notes": "In dim light or darkness: dancing lights and light at will; faerie fire (2 charges, DC 15); ball lightning (2 charges); shooting stars (1-3 charges, 4d12 fire each, DC 15 Dex). 6 charges, regains 1d6 at dawn. (Very rare, requires attunement outdoors at night)",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Ring of the Ram",
@@ -9569,7 +9569,7 @@
   "range_": "60 feet",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Belt of Dwarvenkind",
@@ -9597,7 +9597,7 @@
   },
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Belt of Giant Strength (Stone)",
@@ -9622,7 +9622,7 @@
   "notes": "Your Strength score becomes 23 while wearing this belt.",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Belt of Giant Strength (Frost)",
@@ -9647,7 +9647,7 @@
   "notes": "Your Strength score becomes 23 while wearing this belt.",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Belt of Giant Strength (Fire)",
@@ -9672,7 +9672,7 @@
   "notes": "Your Strength score becomes 25 while wearing this belt.",
   "rarity": "very rare",
   "price": 40000,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Belt of Giant Strength (Cloud)",
@@ -9697,7 +9697,7 @@
   "notes": "Your Strength score becomes 27 while wearing this belt.",
   "rarity": "legendary",
   "price": 200000,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Belt of Giant Strength (Storm)",
@@ -9722,7 +9722,7 @@
   "notes": "Your Strength score becomes 29 while wearing this belt.",
   "rarity": "legendary",
   "price": 200000,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Wand of Lightning Bolts",
@@ -9747,7 +9747,7 @@
   "notes": "7 charges (regains 1d6+1 at dawn). Action, 1-3 charges: cast lightning bolt (save DC 15) at 3rd level, +1 level per extra charge. (Rare, requires attunement by a spellcaster)",
   "rarity": "rare",
   "price": 4000,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Longsword +1",
@@ -9772,7 +9772,7 @@
   "notes": "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "uncommon",
   "price": 415,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Longsword +2",
@@ -9797,7 +9797,7 @@
   "notes": "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "rare",
   "price": 4015,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Longsword +3",
@@ -9822,7 +9822,7 @@
   "notes": "You have a +3 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "very rare",
   "price": 40015,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Shortsword +1",
@@ -9847,7 +9847,7 @@
   "notes": "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "uncommon",
   "price": 410,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Shortsword +2",
@@ -9872,7 +9872,7 @@
   "notes": "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "rare",
   "price": 4010,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Shortsword +3",
@@ -9897,7 +9897,7 @@
   "notes": "You have a +3 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "very rare",
   "price": 40010,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Rapier +1",
@@ -9922,7 +9922,7 @@
   "notes": "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "uncommon",
   "price": 425,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Rapier +2",
@@ -9947,7 +9947,7 @@
   "notes": "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "rare",
   "price": 4025,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Rapier +3",
@@ -9972,7 +9972,7 @@
   "notes": "You have a +3 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "very rare",
   "price": 40025,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Dagger +1",
@@ -9997,7 +9997,7 @@
   "notes": "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "uncommon",
   "price": 402,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Dagger +2",
@@ -10022,7 +10022,7 @@
   "notes": "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "rare",
   "price": 4002,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Dagger +3",
@@ -10047,7 +10047,7 @@
   "notes": "You have a +3 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "very rare",
   "price": 40002,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Greatsword +1",
@@ -10072,7 +10072,7 @@
   "notes": "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "uncommon",
   "price": 450,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Greatsword +2",
@@ -10097,7 +10097,7 @@
   "notes": "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "rare",
   "price": 4050,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Greatsword +3",
@@ -10122,7 +10122,7 @@
   "notes": "You have a +3 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "very rare",
   "price": 40050,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Battleaxe +1",
@@ -10147,7 +10147,7 @@
   "notes": "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "uncommon",
   "price": 410,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Battleaxe +2",
@@ -10172,7 +10172,7 @@
   "notes": "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "rare",
   "price": 4010,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Battleaxe +3",
@@ -10197,7 +10197,7 @@
   "notes": "You have a +3 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "very rare",
   "price": 40010,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Warhammer +1",
@@ -10222,7 +10222,7 @@
   "notes": "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "uncommon",
   "price": 415,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Warhammer +2",
@@ -10247,7 +10247,7 @@
   "notes": "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "rare",
   "price": 4015,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Warhammer +3",
@@ -10272,7 +10272,7 @@
   "notes": "You have a +3 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "very rare",
   "price": 40015,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Scimitar +1",
@@ -10297,7 +10297,7 @@
   "notes": "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "uncommon",
   "price": 425,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Scimitar +2",
@@ -10322,7 +10322,7 @@
   "notes": "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "rare",
   "price": 4025,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Scimitar +3",
@@ -10347,7 +10347,7 @@
   "notes": "You have a +3 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "very rare",
   "price": 40025,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Shortbow +1",
@@ -10372,7 +10372,7 @@
   "notes": "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "uncommon",
   "price": 425,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Shortbow +2",
@@ -10397,7 +10397,7 @@
   "notes": "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "rare",
   "price": 4025,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Shortbow +3",
@@ -10422,7 +10422,7 @@
   "notes": "You have a +3 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "very rare",
   "price": 40025,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Longbow +1",
@@ -10447,7 +10447,7 @@
   "notes": "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "uncommon",
   "price": 450,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Longbow +2",
@@ -10472,7 +10472,7 @@
   "notes": "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "rare",
   "price": 4050,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Longbow +3",
@@ -10497,7 +10497,7 @@
   "notes": "You have a +3 bonus to attack and damage rolls made with this magic weapon.",
   "rarity": "very rare",
   "price": 40050,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Padded Armor +1",
@@ -10522,7 +10522,7 @@
   "notes": "+1 magic armor (base AC already includes the bonus).",
   "rarity": "rare",
   "price": 4005,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Padded Armor +2",
@@ -10547,7 +10547,7 @@
   "notes": "+2 magic armor (base AC already includes the bonus).",
   "rarity": "very rare",
   "price": 40005,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Padded Armor +3",
@@ -10572,7 +10572,7 @@
   "notes": "+3 magic armor (base AC already includes the bonus).",
   "rarity": "legendary",
   "price": 200005,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Leather Armor +1",
@@ -10597,7 +10597,7 @@
   "notes": "+1 magic armor (base AC already includes the bonus).",
   "rarity": "rare",
   "price": 4010,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Leather Armor +2",
@@ -10622,7 +10622,7 @@
   "notes": "+2 magic armor (base AC already includes the bonus).",
   "rarity": "very rare",
   "price": 40010,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Leather Armor +3",
@@ -10647,7 +10647,7 @@
   "notes": "+3 magic armor (base AC already includes the bonus).",
   "rarity": "legendary",
   "price": 200010,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Studded Leather Armor +1",
@@ -10672,7 +10672,7 @@
   "notes": "+1 magic armor (base AC already includes the bonus).",
   "rarity": "rare",
   "price": 4045,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Studded Leather Armor +2",
@@ -10697,7 +10697,7 @@
   "notes": "+2 magic armor (base AC already includes the bonus).",
   "rarity": "very rare",
   "price": 40045,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Studded Leather Armor +3",
@@ -10722,7 +10722,7 @@
   "notes": "+3 magic armor (base AC already includes the bonus).",
   "rarity": "legendary",
   "price": 200045,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Hide Armor +1",
@@ -10747,7 +10747,7 @@
   "notes": "+1 magic armor (base AC already includes the bonus).",
   "rarity": "rare",
   "price": 4010,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Hide Armor +2",
@@ -10772,7 +10772,7 @@
   "notes": "+2 magic armor (base AC already includes the bonus).",
   "rarity": "very rare",
   "price": 40010,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Hide Armor +3",
@@ -10797,7 +10797,7 @@
   "notes": "+3 magic armor (base AC already includes the bonus).",
   "rarity": "legendary",
   "price": 200010,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Chain Shirt +1",
@@ -10822,7 +10822,7 @@
   "notes": "+1 magic armor (base AC already includes the bonus).",
   "rarity": "rare",
   "price": 4050,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Chain Shirt +2",
@@ -10847,7 +10847,7 @@
   "notes": "+2 magic armor (base AC already includes the bonus).",
   "rarity": "very rare",
   "price": 40050,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Chain Shirt +3",
@@ -10872,7 +10872,7 @@
   "notes": "+3 magic armor (base AC already includes the bonus).",
   "rarity": "legendary",
   "price": 200050,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Scale Mail +1",
@@ -10897,7 +10897,7 @@
   "notes": "+1 magic armor (base AC already includes the bonus).",
   "rarity": "rare",
   "price": 4050,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Scale Mail +2",
@@ -10922,7 +10922,7 @@
   "notes": "+2 magic armor (base AC already includes the bonus).",
   "rarity": "very rare",
   "price": 40050,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Scale Mail +3",
@@ -10947,7 +10947,7 @@
   "notes": "+3 magic armor (base AC already includes the bonus).",
   "rarity": "legendary",
   "price": 200050,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Breastplate +1",
@@ -10972,7 +10972,7 @@
   "notes": "+1 magic armor (base AC already includes the bonus).",
   "rarity": "rare",
   "price": 4400,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Breastplate +2",
@@ -10997,7 +10997,7 @@
   "notes": "+2 magic armor (base AC already includes the bonus).",
   "rarity": "very rare",
   "price": 40400,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Breastplate +3",
@@ -11022,7 +11022,7 @@
   "notes": "+3 magic armor (base AC already includes the bonus).",
   "rarity": "legendary",
   "price": 200400,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Half Plate +1",
@@ -11047,7 +11047,7 @@
   "notes": "+1 magic armor (base AC already includes the bonus).",
   "rarity": "rare",
   "price": 4750,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Half Plate +2",
@@ -11072,7 +11072,7 @@
   "notes": "+2 magic armor (base AC already includes the bonus).",
   "rarity": "very rare",
   "price": 40750,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Half Plate +3",
@@ -11097,7 +11097,7 @@
   "notes": "+3 magic armor (base AC already includes the bonus).",
   "rarity": "legendary",
   "price": 200750,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Ring Mail +1",
@@ -11122,7 +11122,7 @@
   "notes": "+1 magic armor (base AC already includes the bonus).",
   "rarity": "rare",
   "price": 4030,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Ring Mail +2",
@@ -11147,7 +11147,7 @@
   "notes": "+2 magic armor (base AC already includes the bonus).",
   "rarity": "very rare",
   "price": 40030,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Ring Mail +3",
@@ -11172,7 +11172,7 @@
   "notes": "+3 magic armor (base AC already includes the bonus).",
   "rarity": "legendary",
   "price": 200030,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Chain Mail +1",
@@ -11197,7 +11197,7 @@
   "notes": "+1 magic armor (base AC already includes the bonus).",
   "rarity": "rare",
   "price": 4075,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Chain Mail +2",
@@ -11222,7 +11222,7 @@
   "notes": "+2 magic armor (base AC already includes the bonus).",
   "rarity": "very rare",
   "price": 40075,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Chain Mail +3",
@@ -11247,7 +11247,7 @@
   "notes": "+3 magic armor (base AC already includes the bonus).",
   "rarity": "legendary",
   "price": 200075,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Splint Armor +1",
@@ -11272,7 +11272,7 @@
   "notes": "+1 magic armor (base AC already includes the bonus).",
   "rarity": "rare",
   "price": 4200,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Splint Armor +2",
@@ -11297,7 +11297,7 @@
   "notes": "+2 magic armor (base AC already includes the bonus).",
   "rarity": "very rare",
   "price": 40200,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Splint Armor +3",
@@ -11322,7 +11322,7 @@
   "notes": "+3 magic armor (base AC already includes the bonus).",
   "rarity": "legendary",
   "price": 200200,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Plate Armor +1",
@@ -11347,7 +11347,7 @@
   "notes": "+1 magic armor (base AC already includes the bonus).",
   "rarity": "rare",
   "price": 5500,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Plate Armor +2",
@@ -11372,7 +11372,7 @@
   "notes": "+2 magic armor (base AC already includes the bonus).",
   "rarity": "very rare",
   "price": 41500,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Plate Armor +3",
@@ -11397,7 +11397,7 @@
   "notes": "+3 magic armor (base AC already includes the bonus).",
   "rarity": "legendary",
   "price": 201500,
-  "cr": 17
+  "level": 17
  },
  {
   "n": "Shield +1",
@@ -11419,7 +11419,7 @@
   "notes": "+1 magic shield (2 base + 1).",
   "rarity": "uncommon",
   "price": 410,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Shield +2",
@@ -11441,7 +11441,7 @@
   "notes": "+2 magic shield (2 base + 2).",
   "rarity": "rare",
   "price": 4010,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Shield +3",
@@ -11463,7 +11463,7 @@
   "notes": "+3 magic shield (2 base + 3).",
   "rarity": "very rare",
   "price": 40010,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Potion of Fire Resistance",
@@ -11486,7 +11486,7 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Potion of Cold Resistance",
@@ -11509,7 +11509,7 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Potion of Acid Resistance",
@@ -11532,7 +11532,7 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Potion of Lightning Resistance",
@@ -11555,7 +11555,7 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Potion of Poison Resistance",
@@ -11578,7 +11578,7 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Potion of Flying",
@@ -11601,7 +11601,7 @@
   "uses": 1,
   "rarity": "very rare",
   "price": 20000.0,
-  "cr": 11
+  "level": 11
  },
  {
   "n": "Elemental Gem",
@@ -11624,7 +11624,7 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Bead of Force",
@@ -11647,7 +11647,7 @@
   "uses": 1,
   "rarity": "rare",
   "price": 2000.0,
-  "cr": 5
+  "level": 5
  },
  {
   "n": "Philter of Love",
@@ -11670,7 +11670,7 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Scroll of Protection from Energy",
@@ -11693,7 +11693,7 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Scroll of Fireball",
@@ -11716,7 +11716,7 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Scroll of Lightning Bolt",
@@ -11739,7 +11739,7 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  },
  {
   "n": "Scroll of Revivify",
@@ -11762,6 +11762,6 @@
   "uses": 1,
   "rarity": "uncommon",
   "price": 200.0,
-  "cr": 2
+  "level": 1
  }
 ]

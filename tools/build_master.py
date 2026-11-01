@@ -218,7 +218,7 @@ for i in items:
         price = None
     i['rarity'] = rar or 'unknown'
     i['price'] = price
-    i['cr'] = PR['rarityCR'].get(rar, None)
+    i['level'] = PR['rarityLevel'].get(rar, None)
     if price is None:
         unpriced.append(n)
 if unpriced:
@@ -319,8 +319,8 @@ try:
     sheet_of('Creatures', ['name', 'size', 'type', 'cr', 'ac', 'hp', 'speed'] + ABL + ['traits', 'actions', 'note'],
              [[c['n'], c.get('size'), c.get('type'), c.get('cr'), c.get('ac'), c.get('hp'), c.get('speed')] + [(c.get('abil') or {}).get(a) for a in ABL]
               + ['; '.join(t['n'] for t in c.get('traits', [])), '; '.join(a['n'] for a in c.get('actions', [])), c.get('desc', '')] for c in creatures])
-    sheet_of('Items', ['name', 'type', 'rarity', 'price_gp', 'item_cr', 'damage', 'damage_type', 'properties', 'range', 'notes'],
-             [[i['n'], i.get('type'), i.get('rarity'), i.get('price'), i.get('cr'), i.get('dmgDice'), i.get('dmgType'), i.get('properties'), i.get('range'), i.get('notes')] for i in items])
+    sheet_of('Items', ['name', 'type', 'rarity', 'price_gp', 'min_level', 'damage', 'damage_type', 'properties', 'range', 'notes'],
+             [[i['n'], i.get('type'), i.get('rarity'), i.get('price'), i.get('level'), i.get('dmgDice'), i.get('dmgType'), i.get('properties'), i.get('range'), i.get('notes')] for i in items])
     sheet_of('Conditions', ['name', 'short (Character Codex)', 'full (DM Codex)'], [[c['n'], c['short'], c['full']] for c in conditions])
     sheet_of('Changes', ['date', 'area', 'name', 'field', 'character_codex', 'dm_codex', 'master', 'why'],
              [[h['date'], h['area'], h['name'], h['field'], h['character_codex'], h['dm_codex'], h['master'], h['why']] for h in history])

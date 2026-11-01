@@ -69,9 +69,9 @@ for name, fix in CORR['creatures'].items():
             fixed += 1
 io.save_dm('monsters', dm['monsters'])
 
-# marketplace prices: Source/market.min.json, {item name: [price in gp or null, rarity, item CR or null]}
+# marketplace prices: Source/market.min.json, {item name: [price in gp or null, rarity, minimum level (0 = mundane) or null]}
 items = io.load_json(os.path.join(MASTER, 'items.json'))
-market = {i['n']: [i.get('price'), i.get('rarity'), i.get('cr')] for i in items}
+market = {i['n']: [i.get('price'), i.get('rarity'), i.get('level')] for i in items}
 io.dump_json(market, os.path.join(io.DM_SRC, 'market.min.json'), pretty=False)
 print(f'DM Codex: market prices for {sum(1 for v in market.values() if v[0] is not None)} of {len(market)} items')
 print(f'DM Codex: {changed} spells updated, {fixed} bestiary fields corrected')

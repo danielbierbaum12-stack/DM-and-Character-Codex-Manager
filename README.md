@@ -13,8 +13,8 @@ Each app still ships as its own single HTML file. This repo holds the **master d
 |---|---|
 | `shared/master/spells.json` | All 505 spells, with every field either app uses: level, school, casting time, range, components, duration, concentration, ritual, classes, subclasses, description, rules data (`mechanics`, `upcast`), and `dmName` when the DM Codex uses the SRD name (`Acid Arrow` for `Melf's Acid Arrow`) |
 | `shared/master/creatures.json` | The Character Codex's 73 companions, summons and Wild Shape forms, checked against the DM Codex bestiary |
-| `shared/master/items.json` | The 502-item catalogue (both apps use the same list), with each item's rarity, default price (gp) and item CR |
-| `shared/item-pricing.json` | Where those prices come from: Player's Handbook prices for mundane gear, DMG rarities, the 2024 DMG price per rarity, and the rarity → item CR table. Edit this to change a default price |
+| `shared/master/items.json` | The 502-item catalogue (both apps use the same list), with each item's rarity, default price (gp) and minimum character level |
+| `shared/item-pricing.json` | Where those prices come from: Player's Handbook prices for mundane gear, DMG rarities, the 2024 DMG price per rarity, and the rarity → minimum level table. Edit this to change a default price |
 | `shared/master/conditions.json` | Each condition's one-line summary (player sheet) and full SRD text (DM screen) |
 | `shared/Codex Master Data.xlsx` | The same master data as a spreadsheet: Spells, Creatures, Items, Conditions, and a Changes sheet |
 | `shared/corrections.json` | Rulings that override both apps, each with its reason |
@@ -32,7 +32,7 @@ Each app still ships as its own single HTML file. This repo holds the **master d
 | Components | `Dnd Spreadsheet.xlsx` → Spell Data | The only source that covers every spell |
 | Casting time, duration, range | Character Codex, with the wording made the same in both apps | `1 bonus action`, `8 hours`, `Up to 1 minute` |
 | Creature stats (size, AC, HP, speed, ability scores, CR, attacks, traits) | DM Codex bestiary (SRD 5.1) | The Character Codex had wrong numbers on 18 beasts |
-| Item price, rarity, item CR | `shared/item-pricing.json` (mundane: PHB; magic: the item's own rarity text, else the DMG; price: 2024 DMG by rarity, consumables half, plus the base item for +N weapons and armor) | The DM Codex Marketplace uses them (`Source/market.min.json`) |
+| Item price, rarity, minimum level | `shared/item-pricing.json` (mundane: PHB; magic: the item's own rarity text, else the DMG; price: 2024 DMG by rarity, consumables half, plus the base item for +N weapons and armor) | The DM Codex Marketplace uses them (`Source/market.min.json`) |
 | Anything in `shared/corrections.json` | That file | Both apps were wrong, or one was missing it |
 
 ## Updating the data
