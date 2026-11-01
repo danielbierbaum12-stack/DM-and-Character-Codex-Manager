@@ -1,0 +1,2133 @@
+[
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Thaumaturgy",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "40% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Bane",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Bless",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Burning Hands",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Burning Hands",
+  "field": "range",
+  "character_codex": "15 feet",
+  "dm_codex": "Self",
+  "master": "Self (15-foot cone)",
+  "why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Charm Person",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Charm Person",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "17% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Color Spray",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Color Spray",
+  "field": "range",
+  "character_codex": "15 feet",
+  "dm_codex": "Self",
+  "master": "Self (15-foot cone)",
+  "why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Command",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Create or Destroy Water",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Cure Wounds",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Cure Wounds",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "70% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "False Life",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "False Life",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "61% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Fog Cloud",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Guiding Bolt",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Healing Word",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Healing Word",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "73% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Hellish Rebuke",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Hunter's Mark",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Inflict Wounds",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Inflict Wounds",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "63% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Longstrider",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Longstrider",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "55% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Magic Missile",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Sleep",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Thunderwave",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Thunderwave",
+  "field": "range",
+  "character_codex": "15 feet",
+  "dm_codex": "Self",
+  "master": "Self (15-foot cube)",
+  "why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Aid",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Aid",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "72% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Animal Messenger",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Blindness/Deafness",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Branding Smite",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Enhance Ability",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Flame Blade",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Flaming Sphere",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Gust of Wind",
+  "field": "range",
+  "character_codex": "60 feet",
+  "dm_codex": "Self",
+  "master": "Self (60-foot line)",
+  "why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Heat Metal",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Hold Person",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Hold Person",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "54% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Invisibility",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Magic Mouth",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "34% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Magic Weapon",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Magic Weapon",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "61% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Melf's Acid Arrow",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Moonbeam",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Prayer of Healing",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Prayer of Healing",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "75% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Scorching Ray",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Shatter",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Spiritual Weapon",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Animate Dead",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Bestow Curse",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Call Lightning",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Clairvoyance",
+  "field": "range",
+  "character_codex": "1 miles",
+  "dm_codex": "1 mile",
+  "master": "1 mile",
+  "why": "Character Codex (rules-reviewed) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Conjure Animals",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Counterspell",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Dispel Magic",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Dispel Magic",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "75% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Fear",
+  "field": "range",
+  "character_codex": "30 feet",
+  "dm_codex": "Self",
+  "master": "Self (30-foot cone)",
+  "why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Fireball",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Fly",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Fly",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "72% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Glyph of Warding",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Glyph of Warding",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "39% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Leomund's Tiny Hut",
+  "field": "range",
+  "character_codex": "10 feet",
+  "dm_codex": "Self",
+  "master": "Self (10-foot-radius hemisphere)",
+  "why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Lightning Bolt",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Lightning Bolt",
+  "field": "range",
+  "character_codex": "100 feet",
+  "dm_codex": "Self",
+  "master": "Self (100-foot line)",
+  "why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Magic Circle",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Major Image",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Mass Healing Word",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Revivify",
+  "field": "school",
+  "character_codex": "Necromancy",
+  "dm_codex": "Conjuration",
+  "master": "Necromancy",
+  "why": "Character Codex (rules-reviewed) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Speak with Plants",
+  "field": "range",
+  "character_codex": "30 feet",
+  "dm_codex": "Self",
+  "master": "Self (30-foot radius)",
+  "why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Spirit Guardians",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Spirit Guardians",
+  "field": "range",
+  "character_codex": "15 feet",
+  "dm_codex": "Self",
+  "master": "Self (15-foot radius)",
+  "why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Vampiric Touch",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Water Breathing",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "7% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Banishment",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Blight",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Confusion",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Conjure Minor Elementals",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Conjure Woodland Beings",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Dominate Beast",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Fire Shield",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "53% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Ice Storm",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Leomund's Secret Chest",
+  "field": "cls",
+  "character_codex": [
+   "Artificer",
+   "Wizard"
+  ],
+  "dm_codex": [
+   "Wizard"
+  ],
+  "master": [
+   "Artificer",
+   "Wizard"
+  ],
+  "why": "Character Codex (rules-reviewed) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Mordenkainen's Faithful Hound",
+  "field": "cls",
+  "character_codex": [
+   "Artificer",
+   "Wizard"
+  ],
+  "dm_codex": [
+   "Wizard"
+  ],
+  "master": [
+   "Artificer",
+   "Wizard"
+  ],
+  "why": "Character Codex (rules-reviewed) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Mordenkainen's Private Sanctum",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Mordenkainen's Private Sanctum",
+  "field": "cls",
+  "character_codex": [
+   "Artificer",
+   "Wizard"
+  ],
+  "dm_codex": [
+   "Wizard"
+  ],
+  "master": [
+   "Artificer",
+   "Wizard"
+  ],
+  "why": "Character Codex (rules-reviewed) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Otiluke's Resilient Sphere",
+  "field": "cls",
+  "character_codex": [
+   "Artificer",
+   "Wizard"
+  ],
+  "dm_codex": [
+   "Wizard"
+  ],
+  "master": [
+   "Artificer",
+   "Wizard"
+  ],
+  "why": "Character Codex (rules-reviewed) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Phantasmal Killer",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Wall of Fire",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Animate Objects",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Antilife Shell",
+  "field": "range",
+  "character_codex": "10 feet",
+  "dm_codex": "Self",
+  "master": "Self (10-foot radius)",
+  "why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Bigby's Hand",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Bigby's Hand",
+  "field": "cls",
+  "character_codex": [
+   "Artificer",
+   "Wizard"
+  ],
+  "dm_codex": [
+   "Wizard"
+  ],
+  "master": [
+   "Artificer",
+   "Wizard"
+  ],
+  "why": "Character Codex (rules-reviewed) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Cloudkill",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Cone of Cold",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Cone of Cold",
+  "field": "range",
+  "character_codex": "60 feet",
+  "dm_codex": "Self",
+  "master": "Self (60-foot cone)",
+  "why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Conjure Elemental",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Contagion",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "43% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Creation",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Dominate Person",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Flame Strike",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Geas",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Hold Monster",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Hold Monster",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "38% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Insect Plague",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Mass Cure Wounds",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Mass Cure Wounds",
+  "field": "school",
+  "character_codex": "Evocation",
+  "dm_codex": "Conjuration",
+  "master": "Evocation",
+  "why": "Character Codex (rules-reviewed) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Modify Memory",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Planar Binding",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Scrying",
+  "field": "desc",
+  "character_codex": "book wording",
+  "dm_codex": "72% similar (loose SRD translation)",
+  "master": "Character Codex wording",
+  "why": "Character Codex wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Chain Lightning",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Circle of Death",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Conjure Fey",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Create Undead",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Disintegrate",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Globe of Invulnerability",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Globe of Invulnerability",
+  "field": "range",
+  "character_codex": "10 feet",
+  "dm_codex": "Self",
+  "master": "Self (10-foot radius)",
+  "why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Heal",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Mass Suggestion",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Otiluke's Freezing Sphere",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Sunbeam",
+  "field": "range",
+  "character_codex": "60 feet",
+  "dm_codex": "Self",
+  "master": "Self (60-foot line)",
+  "why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Wall of Ice",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Wall of Thorns",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Conjure Celestial",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Delayed Blast Fireball",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Etherealness",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Prismatic Spray",
+  "field": "range",
+  "character_codex": "60 feet",
+  "dm_codex": "Self",
+  "master": "Self (60-foot cone)",
+  "why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Antimagic Field",
+  "field": "range",
+  "character_codex": "10 feet",
+  "dm_codex": "Self",
+  "master": "Self (10-foot-radius sphere)",
+  "why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Control Weather",
+  "field": "range",
+  "character_codex": "5 miles",
+  "dm_codex": "Self",
+  "master": "Self (5-mile radius)",
+  "why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Dominate Monster",
+  "field": "desc",
+  "character_codex": "(no higher-level text)",
+  "dm_codex": "(has it)",
+  "master": "added the SRD At Higher Levels text",
+  "why": "from DM"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Mass Heal",
+  "field": "school",
+  "character_codex": "Evocation",
+  "dm_codex": "Conjuration",
+  "master": "Evocation",
+  "why": "Character Codex (rules-reviewed) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "spells",
+  "name": "Meteor Swarm",
+  "field": "range",
+  "character_codex": "1 miles",
+  "dm_codex": "1 mile",
+  "master": "1 mile",
+  "why": "Character Codex (rules-reviewed) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Crab",
+  "field": "abil",
+  "character_codex": {
+   "STR": 2,
+   "DEX": 11,
+   "CON": 8,
+   "INT": 1,
+   "WIS": 8,
+   "CHA": 2
+  },
+  "dm_codex": {
+   "STR": 2,
+   "DEX": 11,
+   "CON": 10,
+   "INT": 1,
+   "WIS": 8,
+   "CHA": 2
+  },
+  "master": {
+   "STR": 2,
+   "DEX": 11,
+   "CON": 10,
+   "INT": 1,
+   "WIS": 8,
+   "CHA": 2
+  },
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Crab",
+  "field": "hp",
+  "character_codex": "1 (1d4-1)",
+  "dm_codex": "2 (1d4)",
+  "master": "2 (1d4)",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Frog",
+  "field": "abil",
+  "character_codex": {
+   "STR": 1,
+   "DEX": 13,
+   "CON": 8,
+   "INT": 1,
+   "WIS": 10,
+   "CHA": 3
+  },
+  "dm_codex": {
+   "STR": 1,
+   "DEX": 13,
+   "CON": 8,
+   "INT": 1,
+   "WIS": 8,
+   "CHA": 3
+  },
+  "master": {
+   "STR": 1,
+   "DEX": 13,
+   "CON": 8,
+   "INT": 1,
+   "WIS": 8,
+   "CHA": 3
+  },
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Frog",
+  "field": "trait",
+  "character_codex": "(missing)",
+  "dm_codex": "Standing Leap",
+  "master": "Standing Leap",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Lizard",
+  "field": "abil",
+  "character_codex": {
+   "STR": 2,
+   "DEX": 11,
+   "CON": 8,
+   "INT": 1,
+   "WIS": 8,
+   "CHA": 3
+  },
+  "dm_codex": {
+   "STR": 2,
+   "DEX": 11,
+   "CON": 10,
+   "INT": 1,
+   "WIS": 8,
+   "CHA": 3
+  },
+  "master": {
+   "STR": 2,
+   "DEX": 11,
+   "CON": 10,
+   "INT": 1,
+   "WIS": 8,
+   "CHA": 3
+  },
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Lizard",
+  "field": "hp",
+  "character_codex": "1 (1d4-1)",
+  "dm_codex": "2 (1d4)",
+  "master": "2 (1d4)",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Lizard",
+  "field": "ac",
+  "character_codex": 12,
+  "dm_codex": 10,
+  "master": 10,
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Octopus",
+  "field": "abil",
+  "character_codex": {
+   "STR": 4,
+   "DEX": 15,
+   "CON": 9,
+   "INT": 3,
+   "WIS": 10,
+   "CHA": 3
+  },
+  "dm_codex": {
+   "STR": 4,
+   "DEX": 15,
+   "CON": 11,
+   "INT": 3,
+   "WIS": 10,
+   "CHA": 4
+  },
+  "master": {
+   "STR": 4,
+   "DEX": 15,
+   "CON": 11,
+   "INT": 3,
+   "WIS": 10,
+   "CHA": 4
+  },
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Quipper",
+  "field": "trait",
+  "character_codex": "(missing)",
+  "dm_codex": "Blood Frenzy",
+  "master": "Blood Frenzy",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Spider",
+  "field": "abil",
+  "character_codex": {
+   "STR": 2,
+   "DEX": 14,
+   "CON": 8,
+   "INT": 1,
+   "WIS": 10,
+   "CHA": 4
+  },
+  "dm_codex": {
+   "STR": 2,
+   "DEX": 14,
+   "CON": 8,
+   "INT": 1,
+   "WIS": 10,
+   "CHA": 2
+  },
+  "master": {
+   "STR": 2,
+   "DEX": 14,
+   "CON": 8,
+   "INT": 1,
+   "WIS": 10,
+   "CHA": 2
+  },
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Spider",
+  "field": "trait",
+  "character_codex": "(missing)",
+  "dm_codex": "Web Walker",
+  "master": "Web Walker",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Spider",
+  "field": "action Bite",
+  "character_codex": "+4 to hit",
+  "dm_codex": "+4 to hit, DC 9, 2 (1d4)",
+  "master": "SRD text",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Camel",
+  "field": "abil",
+  "character_codex": {
+   "STR": 18,
+   "DEX": 8,
+   "CON": 14,
+   "INT": 2,
+   "WIS": 8,
+   "CHA": 5
+  },
+  "dm_codex": {
+   "STR": 16,
+   "DEX": 8,
+   "CON": 14,
+   "INT": 2,
+   "WIS": 8,
+   "CHA": 5
+  },
+  "master": {
+   "STR": 16,
+   "DEX": 8,
+   "CON": 14,
+   "INT": 2,
+   "WIS": 8,
+   "CHA": 5
+  },
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Wolf",
+  "field": "action Bite",
+  "character_codex": "+4 to hit, 6 (2d4+2), DC 11",
+  "dm_codex": "+4 to hit, 7 (2d4+2), DC 11",
+  "master": "SRD text",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Boar",
+  "field": "trait",
+  "character_codex": "(missing)",
+  "dm_codex": "Charge",
+  "master": "Charge",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Badger",
+  "field": "action Bite",
+  "character_codex": "+3 to hit, 3 (1d4+1)",
+  "dm_codex": "+3 to hit, 4 (1d6+1)",
+  "master": "SRD text",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Constrictor Snake",
+  "field": "size",
+  "character_codex": "Medium",
+  "dm_codex": "Large",
+  "master": "Large",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Crocodile",
+  "field": "speed",
+  "character_codex": "20 ft., swim 30 ft.",
+  "dm_codex": "20 ft., swim 20 ft.",
+  "master": "20 ft., swim 30 ft.",
+  "why": "SRD 5.1 / MM: swim 30 ft. The DM Codex bestiary had swim 20 ft.; the Character Codex was right."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Spider",
+  "field": "action Web",
+  "character_codex": "DC 12",
+  "dm_codex": "+5 to hit, DC 12",
+  "master": "SRD text",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Eagle",
+  "field": "trait",
+  "character_codex": "(missing)",
+  "dm_codex": "Keen Sight",
+  "master": "Keen Sight",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Eagle",
+  "field": "action Beak",
+  "character_codex": "+6 to hit, 6 (1d6+3)",
+  "dm_codex": "+5 to hit, 6 (1d6+3)",
+  "master": "SRD text",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Eagle",
+  "field": "action Talons",
+  "character_codex": "+6 to hit, 10 (2d6+3)",
+  "dm_codex": "+5 to hit, 10 (2d6+3)",
+  "master": "SRD text",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Baboon",
+  "field": "size",
+  "character_codex": "Medium",
+  "dm_codex": "Small",
+  "master": "Small",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Baboon",
+  "field": "abil",
+  "character_codex": {
+   "STR": 8,
+   "DEX": 14,
+   "CON": 12,
+   "INT": 4,
+   "WIS": 12,
+   "CHA": 6
+  },
+  "dm_codex": {
+   "STR": 8,
+   "DEX": 14,
+   "CON": 11,
+   "INT": 4,
+   "WIS": 12,
+   "CHA": 6
+  },
+  "master": {
+   "STR": 8,
+   "DEX": 14,
+   "CON": 11,
+   "INT": 4,
+   "WIS": 12,
+   "CHA": 6
+  },
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Baboon",
+  "field": "hp",
+  "character_codex": "3 (1d4+1)",
+  "dm_codex": "3 (1d6)",
+  "master": "3 (1d6)",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Baboon",
+  "field": "action Bite",
+  "character_codex": "+2 to hit, 4 (1d4+2)",
+  "dm_codex": "+1 to hit, 1 (1d4-1)",
+  "master": "SRD text",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Flying Snake",
+  "field": "trait",
+  "character_codex": "(missing)",
+  "dm_codex": "Flyby",
+  "master": "Flyby",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Flying Snake",
+  "field": "action Bite",
+  "character_codex": "+6 to hit, DC 10, 7 (3d4)",
+  "dm_codex": "+6 to hit, 7 (3d4)",
+  "master": "SRD text",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Flying Snake",
+  "field": "actions",
+  "character_codex": "(see app)",
+  "dm_codex": "—",
+  "master": "(corrected)",
+  "why": "SRD 5.1: the poison damage has no saving throw. The old note called it a level 2 Wild Shape, but flying forms need level 8."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Flying Snake",
+  "field": "desc",
+  "character_codex": "The only wild shape option with a fast fly speed at level 2 — great for aerial scouting.",
+  "dm_codex": "—",
+  "master": "A fast, tiny flyer. As a Wild Shape it needs Druid level 8 (no flying speed before then); it's also a Find Familiar option.",
+  "why": "SRD 5.1: the poison damage has no saving throw. The old note called it a level 2 Wild Shape, but flying forms need level 8."
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Owl",
+  "field": "hp",
+  "character_codex": "19 (3d8+6)",
+  "dm_codex": "19 (3d10+3)",
+  "master": "19 (3d10+3)",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Rat",
+  "field": "action Bite",
+  "character_codex": "+4 to hit, 4 (1d3+2)",
+  "dm_codex": "+4 to hit, 4 (1d4+2)",
+  "master": "SRD text",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Weasel",
+  "field": "hp",
+  "character_codex": "9 (2d6+2)",
+  "dm_codex": "9 (2d8)",
+  "master": "9 (2d8)",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Weasel",
+  "field": "action Bite",
+  "character_codex": "+4 to hit, 5 (1d4+3)",
+  "dm_codex": "+5 to hit, 5 (1d4+3)",
+  "master": "SRD text",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Goat",
+  "field": "trait",
+  "character_codex": "(missing)",
+  "dm_codex": "Sure-Footed",
+  "master": "Sure-Footed",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Jackal",
+  "field": "trait",
+  "character_codex": "(missing)",
+  "dm_codex": "Keen Hearing and Smell",
+  "master": "Keen Hearing and Smell",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Jackal",
+  "field": "action Bite",
+  "character_codex": "+1 to hit",
+  "dm_codex": "+1 to hit, 1 (1d4-1)",
+  "master": "SRD text",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Vulture",
+  "field": "abil",
+  "character_codex": {
+   "STR": 7,
+   "DEX": 10,
+   "CON": 13,
+   "INT": 6,
+   "WIS": 12,
+   "CHA": 4
+  },
+  "dm_codex": {
+   "STR": 7,
+   "DEX": 10,
+   "CON": 13,
+   "INT": 2,
+   "WIS": 12,
+   "CHA": 4
+  },
+  "master": {
+   "STR": 7,
+   "DEX": 10,
+   "CON": 13,
+   "INT": 2,
+   "WIS": 12,
+   "CHA": 4
+  },
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Vulture",
+  "field": "trait",
+  "character_codex": "(missing)",
+  "dm_codex": "Pack Tactics",
+  "master": "Pack Tactics",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Toad",
+  "field": "cr",
+  "character_codex": "1/4",
+  "dm_codex": "1",
+  "master": "1",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Toad",
+  "field": "speed",
+  "character_codex": "20 ft., swim 30 ft.",
+  "dm_codex": "20 ft., swim 40 ft.",
+  "master": "20 ft., swim 40 ft.",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Toad",
+  "field": "action Bite",
+  "character_codex": "+4 to hit, 7 (1d10+2), 3 (1d6), DC 13",
+  "dm_codex": "+4 to hit, 7 (1d10+2), 5 (1d10), DC 13",
+  "master": "SRD text",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Wasp",
+  "field": "abil",
+  "character_codex": {
+   "STR": 10,
+   "DEX": 14,
+   "CON": 12,
+   "INT": 1,
+   "WIS": 10,
+   "CHA": 3
+  },
+  "dm_codex": {
+   "STR": 10,
+   "DEX": 14,
+   "CON": 10,
+   "INT": 1,
+   "WIS": 10,
+   "CHA": 3
+  },
+  "master": {
+   "STR": 10,
+   "DEX": 14,
+   "CON": 10,
+   "INT": 1,
+   "WIS": 10,
+   "CHA": 3
+  },
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Wasp",
+  "field": "speed",
+  "character_codex": "10 ft., fly 50 ft.",
+  "dm_codex": "10 ft., fly 50 ft., swim 50 ft.",
+  "master": "10 ft., fly 50 ft., swim 50 ft.",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Boar",
+  "field": "abil",
+  "character_codex": {
+   "STR": 17,
+   "DEX": 8,
+   "CON": 17,
+   "INT": 2,
+   "WIS": 7,
+   "CHA": 5
+  },
+  "dm_codex": {
+   "STR": 17,
+   "DEX": 10,
+   "CON": 16,
+   "INT": 2,
+   "WIS": 7,
+   "CHA": 5
+  },
+  "master": {
+   "STR": 17,
+   "DEX": 10,
+   "CON": 16,
+   "INT": 2,
+   "WIS": 7,
+   "CHA": 5
+  },
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Boar",
+  "field": "action Tusk",
+  "character_codex": "+6 to hit, 10 (2d6+3)",
+  "dm_codex": "+5 to hit, 10 (2d6+3)",
+  "master": "SRD text",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Elk",
+  "field": "abil",
+  "character_codex": {
+   "STR": 19,
+   "DEX": 16,
+   "CON": 14,
+   "INT": 7,
+   "WIS": 14,
+   "CHA": 14
+  },
+  "dm_codex": {
+   "STR": 19,
+   "DEX": 16,
+   "CON": 14,
+   "INT": 7,
+   "WIS": 14,
+   "CHA": 10
+  },
+  "master": {
+   "STR": 19,
+   "DEX": 16,
+   "CON": 14,
+   "INT": 7,
+   "WIS": 14,
+   "CHA": 10
+  },
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Scorpion",
+  "field": "hp",
+  "character_codex": "52 (8d10+8)",
+  "dm_codex": "52 (7d10+14)",
+  "master": "52 (7d10+14)",
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Killer Whale",
+  "field": "ac",
+  "character_codex": 13,
+  "dm_codex": 12,
+  "master": 12,
+  "why": "SRD bestiary (DM Codex) wins"
+ },
+ {
+  "date": "2026-11-01",
+  "area": "creatures",
+  "name": "Giant Crocodile",
+  "field": "action Tail",
+  "character_codex": "+8 to hit, 14 (2d8+5)",
+  "dm_codex": "+8 to hit, 14 (2d8+5), DC 16",
+  "master": "SRD text",
+  "why": "SRD bestiary (DM Codex) wins"
+ }
+]

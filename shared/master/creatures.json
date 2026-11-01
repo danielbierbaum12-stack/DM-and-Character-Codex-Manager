@@ -1,0 +1,2780 @@
+[
+ {
+  "n": "Bat",
+  "size": "Tiny",
+  "type": "beast",
+  "ac": 12,
+  "hp": "1 (1d4-1)",
+  "speed": "5 ft., fly 30 ft.",
+  "abil": {
+   "STR": 2,
+   "DEX": 15,
+   "CON": 8,
+   "INT": 2,
+   "WIS": 12,
+   "CHA": 4
+  },
+  "senses": "blindsight 60 ft., passive Perception 11",
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Echolocation",
+    "d": "Can't use its blindsight while deafened."
+   },
+   {
+    "n": "Keen Hearing",
+    "d": "Advantage on Wisdom (Perception) checks that rely on hearing."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1 piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A tiny flying scout, good for exploring cramped or dark spaces.",
+  "spells": [
+   "Find Familiar"
+  ]
+ },
+ {
+  "n": "Cat",
+  "size": "Tiny",
+  "type": "beast",
+  "ac": 12,
+  "hp": "2 (1d4)",
+  "speed": "40 ft., climb 30 ft.",
+  "abil": {
+   "STR": 3,
+   "DEX": 15,
+   "CON": 10,
+   "INT": 3,
+   "WIS": 12,
+   "CHA": 7
+  },
+  "senses": "darkvision 60 ft.",
+  "skills": "Perception +3, Stealth +4",
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Keen Smell",
+    "d": "Advantage on Wisdom (Perception) checks that rely on smell."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Claws",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +0 to hit, reach 5 ft. Hit: 1 slashing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "Small, quiet, and easy to sneak around as.",
+  "spells": [
+   "Find Familiar"
+  ]
+ },
+ {
+  "n": "Crab",
+  "size": "Tiny",
+  "type": "beast",
+  "ac": 11,
+  "hp": "2 (1d4)",
+  "speed": "20 ft., swim 20 ft.",
+  "abil": {
+   "STR": 2,
+   "DEX": 11,
+   "CON": 10,
+   "INT": 1,
+   "WIS": 8,
+   "CHA": 2
+  },
+  "senses": "blindsight 30 ft.",
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Amphibious",
+    "d": "Can breathe air and water."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Claw",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +0 to hit, reach 5 ft. Hit: 1 bludgeoning damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A small aquatic scout that moves easily along the seafloor.",
+  "spells": [
+   "Find Familiar"
+  ]
+ },
+ {
+  "n": "Frog",
+  "size": "Tiny",
+  "type": "beast",
+  "ac": 11,
+  "hp": "1 (1d4-1)",
+  "speed": "20 ft., swim 20 ft.",
+  "abil": {
+   "STR": 1,
+   "DEX": 13,
+   "CON": 8,
+   "INT": 1,
+   "WIS": 8,
+   "CHA": 3
+  },
+  "senses": "darkvision 30 ft.",
+  "skills": "Perception +2, Stealth +3",
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Amphibious",
+    "d": "Can breathe air and water."
+   },
+   {
+    "n": "Standing Leap",
+    "d": "The frog's long jump is up to 10 ft. and its high jump is up to 5 ft., with or without a running start."
+   }
+  ],
+  "actions": [],
+  "limited": [],
+  "desc": "Amphibious and easy to overlook, but fragile.",
+  "spells": [
+   "Find Familiar"
+  ]
+ },
+ {
+  "n": "Hawk",
+  "size": "Tiny",
+  "type": "beast",
+  "ac": 13,
+  "hp": "1 (1d4-1)",
+  "speed": "10 ft., fly 60 ft.",
+  "abil": {
+   "STR": 5,
+   "DEX": 16,
+   "CON": 8,
+   "INT": 2,
+   "WIS": 14,
+   "CHA": 6
+  },
+  "skills": "Perception +4",
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Keen Sight",
+    "d": "Advantage on Wisdom (Perception) checks that rely on sight."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Talons",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 slashing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "Very fragile but a fast, sharp-eyed flying scout.",
+  "senses": "passive Perception 14",
+  "spells": [
+   "Find Familiar"
+  ]
+ },
+ {
+  "n": "Lizard",
+  "size": "Tiny",
+  "type": "beast",
+  "ac": 10,
+  "hp": "2 (1d4)",
+  "speed": "20 ft., climb 20 ft.",
+  "abil": {
+   "STR": 2,
+   "DEX": 11,
+   "CON": 10,
+   "INT": 1,
+   "WIS": 8,
+   "CHA": 3
+  },
+  "senses": "darkvision 30 ft.",
+  "cr": "0",
+  "traits": [],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +0 to hit, reach 5 ft. Hit: 1 piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A small climber, handy for scaling walls and ceilings.",
+  "spells": [
+   "Find Familiar"
+  ]
+ },
+ {
+  "n": "Octopus",
+  "size": "Small",
+  "type": "beast",
+  "ac": 12,
+  "hp": "3 (1d6)",
+  "speed": "5 ft., swim 30 ft.",
+  "abil": {
+   "STR": 4,
+   "DEX": 15,
+   "CON": 11,
+   "INT": 3,
+   "WIS": 10,
+   "CHA": 4
+  },
+  "senses": "darkvision 30 ft.",
+  "skills": "Perception +2, Stealth +4",
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Hold Breath",
+    "d": "Can hold its breath for 30 minutes."
+   },
+   {
+    "n": "Underwater Camouflage",
+    "d": "Advantage on Stealth checks while underwater."
+   },
+   {
+    "n": "Water Breathing",
+    "d": "Can breathe only underwater."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Tentacles",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +4 to hit, reach 5 ft. Hit: 1 bludgeoning damage, and the target is grappled (escape DC 10)."
+   }
+  ],
+  "limited": [],
+  "desc": "A purely aquatic form good for grappling in the water.",
+  "spells": [
+   "Find Familiar"
+  ]
+ },
+ {
+  "n": "Owl",
+  "size": "Tiny",
+  "type": "beast",
+  "ac": 11,
+  "hp": "1 (1d4-1)",
+  "speed": "5 ft., fly 60 ft.",
+  "abil": {
+   "STR": 3,
+   "DEX": 13,
+   "CON": 8,
+   "INT": 2,
+   "WIS": 12,
+   "CHA": 7
+  },
+  "senses": "darkvision 120 ft.",
+  "skills": "Perception +3, Stealth +3",
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Flyby",
+    "d": "Doesn't provoke opportunity attacks when it flies out of a hostile creature's reach."
+   },
+   {
+    "n": "Keen Hearing and Sight",
+    "d": "Advantage on Wisdom (Perception) checks that rely on hearing or sight."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Talons",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 slashing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "Silent and good-eyed, ideal for night scouting.",
+  "spells": [
+   "Find Familiar"
+  ]
+ },
+ {
+  "n": "Poisonous Snake",
+  "size": "Tiny",
+  "type": "beast",
+  "ac": 13,
+  "hp": "2 (1d4)",
+  "speed": "30 ft., swim 30 ft.",
+  "abil": {
+   "STR": 2,
+   "DEX": 16,
+   "CON": 11,
+   "INT": 1,
+   "WIS": 10,
+   "CHA": 3
+  },
+  "senses": "blindsight 10 ft.",
+  "cr": "1/8",
+  "traits": [],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft. Hit: 1 piercing damage, and the target must make a DC 10 Constitution save, taking 5 (2d4) poison damage on a failure."
+   }
+  ],
+  "limited": [],
+  "desc": "A quick, venomous form with a nasty single-target bite.",
+  "spells": [
+   "Find Familiar"
+  ]
+ },
+ {
+  "n": "Quipper",
+  "size": "Tiny",
+  "type": "beast",
+  "ac": 13,
+  "hp": "1 (1d4-1)",
+  "speed": "0 ft., swim 40 ft.",
+  "abil": {
+   "STR": 2,
+   "DEX": 16,
+   "CON": 9,
+   "INT": 1,
+   "WIS": 7,
+   "CHA": 2
+  },
+  "senses": "passive Perception 8",
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Water Breathing",
+    "d": "Can breathe only underwater."
+   },
+   {
+    "n": "Blood Frenzy",
+    "d": "The quipper has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft. Hit: 1 piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A darting fish familiar, purely aquatic.",
+  "spells": [
+   "Find Familiar"
+  ]
+ },
+ {
+  "n": "Rat",
+  "size": "Tiny",
+  "type": "beast",
+  "ac": 10,
+  "hp": "1 (1d4-1)",
+  "speed": "20 ft.",
+  "abil": {
+   "STR": 2,
+   "DEX": 11,
+   "CON": 9,
+   "INT": 2,
+   "WIS": 10,
+   "CHA": 4
+  },
+  "senses": "darkvision 60 ft.",
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Keen Smell",
+    "d": "Advantage on Wisdom (Perception) checks that rely on smell."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "Small, unassuming, and easy to hide as.",
+  "spells": [
+   "Find Familiar"
+  ]
+ },
+ {
+  "n": "Raven",
+  "size": "Tiny",
+  "type": "beast",
+  "ac": 12,
+  "hp": "1 (1d4-1)",
+  "speed": "10 ft., fly 50 ft.",
+  "abil": {
+   "STR": 2,
+   "DEX": 14,
+   "CON": 8,
+   "INT": 2,
+   "WIS": 12,
+   "CHA": 6
+  },
+  "skills": "Perception +3",
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Mimicry",
+    "d": "Can mimic simple sounds and voices it has heard."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Beak",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +4 to hit, reach 5 ft. Hit: 1 piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A talkative little flier, handy for eavesdropping.",
+  "senses": "passive Perception 13",
+  "spells": [
+   "Find Familiar"
+  ]
+ },
+ {
+  "n": "Sea Horse",
+  "size": "Tiny",
+  "type": "beast",
+  "ac": 11,
+  "hp": "1 (1d4-1)",
+  "speed": "0 ft., swim 20 ft.",
+  "abil": {
+   "STR": 1,
+   "DEX": 12,
+   "CON": 8,
+   "INT": 1,
+   "WIS": 10,
+   "CHA": 2
+  },
+  "senses": "passive Perception 10",
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Water Breathing",
+    "d": "Can breathe only underwater."
+   }
+  ],
+  "actions": [],
+  "limited": [],
+  "desc": "A gentle aquatic familiar, purely a scout.",
+  "spells": [
+   "Find Familiar"
+  ]
+ },
+ {
+  "n": "Spider",
+  "size": "Tiny",
+  "type": "beast",
+  "ac": 12,
+  "hp": "1 (1d4-1)",
+  "speed": "20 ft., climb 20 ft.",
+  "abil": {
+   "STR": 2,
+   "DEX": 14,
+   "CON": 8,
+   "INT": 1,
+   "WIS": 10,
+   "CHA": 2
+  },
+  "senses": "darkvision 30 ft.",
+  "skills": "Stealth +4",
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Spider Climb",
+    "d": "Can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+   },
+   {
+    "n": "Web Sense",
+    "d": "While in contact with a web, knows the exact location of any other creature in contact with the same web."
+   },
+   {
+    "n": "Web Walker",
+    "d": "The spider ignores movement restrictions caused by webbing."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 (1d4) poison damage."
+   }
+  ],
+  "limited": [],
+  "desc": "Small, stealthy, and a strong climber.",
+  "spells": [
+   "Find Familiar"
+  ]
+ },
+ {
+  "n": "Weasel",
+  "size": "Tiny",
+  "type": "beast",
+  "ac": 13,
+  "hp": "1 (1d4-1)",
+  "speed": "30 ft.",
+  "abil": {
+   "STR": 3,
+   "DEX": 16,
+   "CON": 8,
+   "INT": 2,
+   "WIS": 12,
+   "CHA": 3
+  },
+  "senses": "darkvision 60 ft.",
+  "skills": "Perception +3, Stealth +5",
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Keen Hearing and Smell",
+    "d": "Advantage on Wisdom (Perception) checks that rely on hearing or smell."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "Small, fast, and very hard to spot.",
+  "spells": [
+   "Find Familiar"
+  ]
+ },
+ {
+  "n": "Warhorse",
+  "purchasable": true,
+  "price": "400 gp",
+  "size": "Large",
+  "type": "beast",
+  "ac": 11,
+  "hp": "19 (3d10+3)",
+  "speed": "60 ft.",
+  "abil": {
+   "STR": 18,
+   "DEX": 12,
+   "CON": 13,
+   "INT": 2,
+   "WIS": 12,
+   "CHA": 7
+  },
+  "cr": "1/2",
+  "traits": [
+   {
+    "n": "Trampling Charge",
+    "d": "If it moves 20+ ft. straight toward a target and hits with a hooves attack, the target must succeed on a DC 14 Strength save or be knocked prone."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Hooves",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +6 to hit, reach 5 ft. Hit: 11 (2d6+4) bludgeoning damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A costly, battle-trained mount, unfazed by combat.",
+  "spells": [
+   "Find Steed"
+  ]
+ },
+ {
+  "n": "Pony",
+  "purchasable": true,
+  "price": "30 gp",
+  "size": "Medium",
+  "type": "beast",
+  "ac": 10,
+  "hp": "11 (2d8+2)",
+  "speed": "40 ft.",
+  "abil": {
+   "STR": 15,
+   "DEX": 10,
+   "CON": 13,
+   "INT": 2,
+   "WIS": 11,
+   "CHA": 7
+  },
+  "cr": "1/8",
+  "traits": [],
+  "actions": [
+   {
+    "n": "Hooves",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +4 to hit, reach 5 ft. Hit: 7 (2d4+2) bludgeoning damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A smaller mount, well suited to smaller riders.",
+  "spells": [
+   "Find Steed"
+  ]
+ },
+ {
+  "n": "Camel",
+  "purchasable": true,
+  "price": "50 gp",
+  "size": "Large",
+  "type": "beast",
+  "ac": 9,
+  "hp": "15 (2d10+4)",
+  "speed": "50 ft.",
+  "abil": {
+   "STR": 16,
+   "DEX": 8,
+   "CON": 14,
+   "INT": 2,
+   "WIS": 8,
+   "CHA": 5
+  },
+  "cr": "1/8",
+  "traits": [],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage."
+   }
+  ],
+  "limited": [],
+  "desc": "Built for long journeys across sand and harsh terrain.",
+  "spells": [
+   "Find Steed"
+  ]
+ },
+ {
+  "n": "Elk",
+  "size": "Large",
+  "type": "beast",
+  "ac": 10,
+  "hp": "13 (2d10+2)",
+  "speed": "50 ft.",
+  "abil": {
+   "STR": 16,
+   "DEX": 10,
+   "CON": 12,
+   "INT": 2,
+   "WIS": 10,
+   "CHA": 6
+  },
+  "cr": "1/4",
+  "traits": [
+   {
+    "n": "Charge",
+    "d": "If it moves 10+ ft. straight toward a target and hits with a ram attack, the target takes an extra 7 (2d6) damage."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Ram",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft. Hit: 6 (1d6+3) bludgeoning damage."
+   },
+   {
+    "n": "Hooves",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one prone target. Hit: 8 (2d4+3) bludgeoning damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A fast, strong early-level option with a solid HP pool.",
+  "spells": [
+   "Find Steed"
+  ]
+ },
+ {
+  "n": "Mastiff",
+  "purchasable": true,
+  "price": "25 gp",
+  "size": "Medium",
+  "type": "beast",
+  "ac": 12,
+  "hp": "5 (1d8+1)",
+  "speed": "40 ft.",
+  "abil": {
+   "STR": 13,
+   "DEX": 14,
+   "CON": 12,
+   "INT": 3,
+   "WIS": 12,
+   "CHA": 7
+  },
+  "senses": "passive Perception 13",
+  "cr": "1/8",
+  "traits": [
+   {
+    "n": "Keen Hearing and Smell",
+    "d": "Advantage on Wisdom (Perception) checks that rely on hearing or smell."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +3 to hit, reach 5 ft. Hit: 4 (1d6+1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength save or be knocked prone."
+   }
+  ],
+  "limited": [],
+  "desc": "A trained guard dog, loyal and alert.",
+  "spells": [
+   "Find Steed"
+  ]
+ },
+ {
+  "n": "Griffon",
+  "size": "Large",
+  "type": "monstrosity",
+  "ac": 12,
+  "hp": "59 (7d10+21)",
+  "speed": "30 ft., fly 80 ft.",
+  "abil": {
+   "STR": 18,
+   "DEX": 15,
+   "CON": 16,
+   "INT": 2,
+   "WIS": 13,
+   "CHA": 8
+  },
+  "senses": "darkvision 60 ft.",
+  "skills": "Perception +5",
+  "cr": "2",
+  "traits": [
+   {
+    "n": "Keen Sight",
+    "d": "Advantage on Wisdom (Perception) checks that rely on sight."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Multiattack",
+    "type": "Action",
+    "d": "Makes two attacks: one with its beak and one with its claws."
+   },
+   {
+    "n": "Beak",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +6 to hit, reach 5 ft. Hit: 8 (1d8+4) piercing damage."
+   },
+   {
+    "n": "Claws",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +6 to hit, reach 5 ft. Hit: 11 (2d6+4) slashing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A powerful flying mount, part eagle and part lion.",
+  "spells": [
+   "Find Greater Steed"
+  ]
+ },
+ {
+  "n": "Pegasus",
+  "size": "Large",
+  "type": "celestial",
+  "ac": 12,
+  "hp": "59 (7d10+21)",
+  "speed": "60 ft., fly 90 ft.",
+  "abil": {
+   "STR": 18,
+   "DEX": 15,
+   "CON": 16,
+   "INT": 10,
+   "WIS": 15,
+   "CHA": 13
+  },
+  "senses": "passive Perception 14",
+  "skills": "Perception +4",
+  "languages": "understands Celestial, Elvish, and Sylvan but can't speak",
+  "cr": "2",
+  "traits": [],
+  "actions": [
+   {
+    "n": "Hooves",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +6 to hit, reach 5 ft. Hit: 11 (2d6+4) bludgeoning damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A noble winged horse, unusually intelligent for a steed.",
+  "spells": [
+   "Find Greater Steed"
+  ]
+ },
+ {
+  "n": "Peryton",
+  "size": "Large",
+  "type": "monstrosity",
+  "ac": 13,
+  "hp": "33 (6d8+6)",
+  "speed": "20 ft., fly 60 ft.",
+  "abil": {
+   "STR": 16,
+   "DEX": 12,
+   "CON": 13,
+   "INT": 9,
+   "WIS": 12,
+   "CHA": 10
+  },
+  "senses": "darkvision 60 ft.",
+  "cr": "2",
+  "traits": [
+   {
+    "n": "Dive Attack",
+    "d": "If it is flying and dives at least 30 ft straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 9 (2d8) damage."
+   },
+   {
+    "n": "Flyby",
+    "d": "It doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+   },
+   {
+    "n": "Keen Sight and Smell",
+    "d": "Advantage on Wisdom (Perception) checks that rely on sight or smell."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Multiattack",
+    "type": "Action",
+    "d": "Makes two attacks: one with its gore and one with its talons."
+   },
+   {
+    "n": "Gore",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) piercing damage."
+   },
+   {
+    "n": "Talons",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4+3) piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A stag-eagle hybrid mount with a fearsome swooping charge.",
+  "spells": [
+   "Find Greater Steed"
+  ]
+ },
+ {
+  "n": "Dire Wolf",
+  "size": "Large",
+  "type": "beast",
+  "ac": 14,
+  "hp": "37 (5d10+10)",
+  "speed": "50 ft.",
+  "abil": {
+   "STR": 17,
+   "DEX": 15,
+   "CON": 15,
+   "INT": 3,
+   "WIS": 12,
+   "CHA": 7
+  },
+  "senses": "passive Perception 13",
+  "skills": "Perception +3, Stealth +4",
+  "cr": "1",
+  "traits": [
+   {
+    "n": "Keen Hearing and Smell",
+    "d": "Advantage on Wisdom (Perception) checks that rely on hearing or smell."
+   },
+   {
+    "n": "Pack Tactics",
+    "d": "Advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of the creature and not incapacitated."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft. Hit: 10 (2d6+3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength save or be knocked prone."
+   }
+  ],
+  "limited": [],
+  "desc": "A fast, hard-hitting pack hunter — a strong late-game combat form.",
+  "spells": [
+   "Find Greater Steed"
+  ]
+ },
+ {
+  "n": "Rhinoceros",
+  "size": "Large",
+  "type": "beast",
+  "ac": 11,
+  "hp": "45 (6d10+12)",
+  "speed": "40 ft.",
+  "abil": {
+   "STR": 21,
+   "DEX": 8,
+   "CON": 15,
+   "INT": 2,
+   "WIS": 12,
+   "CHA": 6
+  },
+  "cr": "2",
+  "traits": [
+   {
+    "n": "Charge",
+    "d": "If it moves 20+ ft. straight toward a target and hits with a gore attack, the target takes an extra 18 (5d6) damage."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Gore",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +7 to hit, reach 5 ft. Hit: 14 (2d8+5) piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "An immensely strong mount that flattens anything in its path.",
+  "spells": [
+   "Find Greater Steed"
+  ]
+ },
+ {
+  "n": "Saber-Toothed Tiger",
+  "size": "Large",
+  "type": "beast",
+  "ac": 12,
+  "hp": "52 (7d10+14)",
+  "speed": "40 ft.",
+  "abil": {
+   "STR": 18,
+   "DEX": 14,
+   "CON": 15,
+   "INT": 3,
+   "WIS": 12,
+   "CHA": 8
+  },
+  "senses": "passive Perception 13",
+  "skills": "Perception +3, Stealth +6",
+  "cr": "2",
+  "traits": [
+   {
+    "n": "Keen Smell",
+    "d": "Advantage on Wisdom (Perception) checks that rely on smell."
+   },
+   {
+    "n": "Pounce",
+    "d": "If it moves 20+ ft. straight toward a target and hits with a claw attack, the target must succeed on a DC 14 Strength save or be knocked prone; if prone, the tiger can make one bite attack against it as a bonus action."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +6 to hit, reach 5 ft. Hit: 10 (1d10+5) piercing damage."
+   },
+   {
+    "n": "Claw",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +6 to hit, reach 5 ft. Hit: 12 (2d6+5) slashing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A fearsome big-cat mount favored for its pouncing charge.",
+  "spells": [
+   "Find Greater Steed"
+  ]
+ },
+ {
+  "n": "Bestial Spirit",
+  "scaling": {
+   "baseLevel": 2,
+   "baseHP": 30,
+   "hpPerLevel": 5,
+   "baseAC": 13,
+   "acPerLevel": 1
+  },
+  "size": "Small or Medium",
+  "type": "spirit (beast)",
+  "ac": "13 + slot level above 2nd",
+  "hp": "30 + 5 per slot level above 2nd",
+  "speed": "40 ft. (Land); or swim 40 ft. (Water); or fly 40 ft., hover (Air)",
+  "abil": {
+   "STR": 15,
+   "DEX": 14,
+   "CON": 14,
+   "INT": 4,
+   "WIS": 12,
+   "CHA": 6
+  },
+  "cr": "—",
+  "traits": [
+   {
+    "n": "Environment Trait",
+    "d": "Gains an extra trait based on the chosen environment (Air, Land, or Water) — see the spell."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Rend / Environment Attack",
+    "type": "Action",
+    "d": "Melee weapon attack; deals 1d6 + spellcasting ability modifier damage of a type based on environment, increasing by 1d6 per slot level above 2nd."
+   }
+  ],
+  "limited": [],
+  "desc": "Manifests when Summon Beast is cast. Full scaling table is on the spell itself.",
+  "spells": [
+   "Summon Beast"
+  ]
+ },
+ {
+  "n": "Fey Spirit",
+  "scaling": {
+   "baseLevel": 3,
+   "baseHP": 30,
+   "hpPerLevel": 5,
+   "baseAC": 13,
+   "acPerLevel": 1
+  },
+  "size": "Small or Medium",
+  "type": "spirit (fey)",
+  "ac": "13 + slot level above 3rd",
+  "hp": "30 + 5 per slot level above 3rd",
+  "speed": "30 ft., fly 30 ft.",
+  "abil": {
+   "STR": 8,
+   "DEX": 16,
+   "CON": 14,
+   "INT": 11,
+   "WIS": 13,
+   "CHA": 16
+  },
+  "cr": "—",
+  "traits": [
+   {
+    "n": "Mood Trait",
+    "d": "Gains an extra trait based on the chosen mood — Fuming, Mirthful, or Tricksy — see the spell."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Fey Charm Touch",
+    "type": "Action",
+    "d": "Melee spell attack; deals 2d6 damage of a type based on mood, increasing by 1d6 per slot level above 3rd."
+   }
+  ],
+  "limited": [],
+  "desc": "A mercurial fey ally whose personality shifts with the chosen mood.",
+  "spells": [
+   "Summon Fey"
+  ]
+ },
+ {
+  "n": "Undead Spirit",
+  "scaling": {
+   "baseLevel": 2,
+   "baseHP": 30,
+   "hpPerLevel": 5,
+   "baseAC": 11,
+   "acPerLevel": 1
+  },
+  "size": "Small or Medium",
+  "type": "spirit (undead)",
+  "ac": "11 + slot level above 2nd",
+  "hp": "30 + 5 per slot level above 2nd",
+  "speed": "30 ft.",
+  "abil": {
+   "STR": 14,
+   "DEX": 8,
+   "CON": 16,
+   "INT": 13,
+   "WIS": 10,
+   "CHA": 9
+  },
+  "cr": "—",
+  "traits": [
+   {
+    "n": "Form Trait",
+    "d": "Gains an extra trait based on the chosen form — Ghostly, Putrid, or Skeletal — see the spell."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Withering Touch",
+    "type": "Action",
+    "d": "Melee spell attack; deals necrotic damage based on form, increasing with slot level."
+   }
+  ],
+  "limited": [],
+  "desc": "A grim, obedient undead servant conjured for the duration of the spell.",
+  "spells": [
+   "Summon Undead"
+  ]
+ },
+ {
+  "n": "Construct Spirit",
+  "scaling": {
+   "baseLevel": 4,
+   "baseHP": 40,
+   "hpPerLevel": 5,
+   "baseAC": 13,
+   "acPerLevel": 1
+  },
+  "size": "Medium or Large",
+  "type": "spirit (construct)",
+  "ac": "13 + slot level above 4th",
+  "hp": "40 + 5 per slot level above 4th",
+  "speed": "30 ft.",
+  "abil": {
+   "STR": 17,
+   "DEX": 10,
+   "CON": 16,
+   "INT": 10,
+   "WIS": 10,
+   "CHA": 6
+  },
+  "cr": "—",
+  "traits": [
+   {
+    "n": "Material Trait",
+    "d": "Gains an extra trait based on the chosen material — Clay, Metal, or Stone — see the spell."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Slam",
+    "type": "Action",
+    "d": "Melee weapon attack; deals bludgeoning damage that increases with slot level."
+   }
+  ],
+  "limited": [],
+  "desc": "A sturdy construct ally shaped like a golem or modron.",
+  "spells": [
+   "Summon Construct"
+  ]
+ },
+ {
+  "n": "Elemental Spirit",
+  "scaling": {
+   "baseLevel": 4,
+   "baseHP": 40,
+   "hpPerLevel": 5,
+   "baseAC": 12,
+   "acPerLevel": 1
+  },
+  "size": "Medium or Large",
+  "type": "spirit (elemental)",
+  "ac": "12 + slot level above 4th",
+  "hp": "40 + 5 per slot level above 4th",
+  "speed": "30 ft. (varies by element chosen)",
+  "abil": {
+   "STR": 16,
+   "DEX": 14,
+   "CON": 16,
+   "INT": 6,
+   "WIS": 10,
+   "CHA": 10
+  },
+  "cr": "—",
+  "traits": [
+   {
+    "n": "Element Trait",
+    "d": "Gains an extra trait based on the chosen element — Air, Earth, Fire, or Water — see the spell."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Elemental Strike",
+    "type": "Action",
+    "d": "Melee weapon attack; deals damage of a type based on the chosen element, increasing with slot level."
+   }
+  ],
+  "limited": [],
+  "desc": "A bipedal elemental servant wreathed in its chosen element.",
+  "spells": [
+   "Summon Elemental"
+  ]
+ },
+ {
+  "n": "Aberrant Spirit",
+  "scaling": {
+   "baseLevel": 4,
+   "baseHP": 30,
+   "hpPerLevel": 5,
+   "baseAC": 13,
+   "acPerLevel": 1
+  },
+  "size": "Small or Medium",
+  "type": "spirit (aberration)",
+  "ac": "13 + slot level above 4th",
+  "hp": "30 + 5 per slot level above 4th",
+  "speed": "30 ft.",
+  "abil": {
+   "STR": 16,
+   "DEX": 14,
+   "CON": 16,
+   "INT": 11,
+   "WIS": 13,
+   "CHA": 9
+  },
+  "cr": "—",
+  "traits": [
+   {
+    "n": "Form Trait",
+    "d": "Gains an extra trait based on the chosen form — Beholderkin, Slaad, or Star Spawn — see the spell."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Psychic Lash",
+    "type": "Action",
+    "d": "Melee or ranged spell attack; deals psychic damage that increases with slot level."
+   }
+  ],
+  "limited": [],
+  "desc": "An unsettling aberrant ally with a form drawn from beyond.",
+  "spells": [
+   "Summon Aberration"
+  ]
+ },
+ {
+  "n": "Shadow Spirit",
+  "scaling": {
+   "baseLevel": 3,
+   "baseHP": 30,
+   "hpPerLevel": 5,
+   "baseAC": 12,
+   "acPerLevel": 1
+  },
+  "size": "Small or Medium",
+  "type": "spirit (undead-like shadow)",
+  "ac": "12 + slot level above 3rd",
+  "hp": "30 + 5 per slot level above 3rd",
+  "speed": "30 ft.",
+  "abil": {
+   "STR": 9,
+   "DEX": 16,
+   "CON": 14,
+   "INT": 10,
+   "WIS": 13,
+   "CHA": 11
+  },
+  "cr": "—",
+  "traits": [
+   {
+    "n": "Emotion Trait",
+    "d": "Gains an extra trait based on the chosen emotion — Fury, Despair, or Fear — see the spell."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Withering Touch",
+    "type": "Action",
+    "d": "Melee spell attack; deals necrotic damage that increases with slot level."
+   }
+  ],
+  "limited": [],
+  "desc": "A misshapen shadow-touched ally marked by the chosen emotion.",
+  "spells": [
+   "Summon Shadowspawn"
+  ]
+ },
+ {
+  "n": "Wolf",
+  "size": "Medium",
+  "type": "beast",
+  "ac": 13,
+  "hp": "11 (2d8+2)",
+  "speed": "40 ft.",
+  "abil": {
+   "STR": 12,
+   "DEX": 15,
+   "CON": 12,
+   "INT": 3,
+   "WIS": 12,
+   "CHA": 6
+  },
+  "skills": "Perception +3, Stealth +4",
+  "cr": "1/4",
+  "traits": [
+   {
+    "n": "Keen Hearing and Smell",
+    "d": "Advantage on Wisdom (Perception) checks that rely on hearing or smell."
+   },
+   {
+    "n": "Pack Tactics",
+    "d": "Advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of the creature and not incapacitated."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
+   }
+  ],
+  "limited": [],
+  "desc": "A common, fast forest predator — good all-around option at low level."
+ },
+ {
+  "n": "Boar",
+  "size": "Medium",
+  "type": "beast",
+  "ac": 11,
+  "hp": "11 (2d8+2)",
+  "speed": "40 ft.",
+  "abil": {
+   "STR": 13,
+   "DEX": 11,
+   "CON": 12,
+   "INT": 2,
+   "WIS": 9,
+   "CHA": 5
+  },
+  "cr": "1/4",
+  "traits": [
+   {
+    "n": "Relentless",
+    "d": "If reduced to 0 hit points by damage that does not also kill it outright, drops to 1 hit point instead — usable once."
+   },
+   {
+    "n": "Charge",
+    "d": "If the boar moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 3 (1d6) slashing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Tusk",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +3 to hit, reach 5 ft. Hit: 4 (1d6+1) slashing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "Sturdy and hard to put down thanks to its Relentless trait."
+ },
+ {
+  "n": "Giant Badger",
+  "size": "Medium",
+  "type": "beast",
+  "ac": 10,
+  "hp": "13 (2d8+4)",
+  "speed": "30 ft., burrow 10 ft.",
+  "abil": {
+   "STR": 13,
+   "DEX": 10,
+   "CON": 15,
+   "INT": 2,
+   "WIS": 12,
+   "CHA": 5
+  },
+  "senses": "darkvision 30 ft.",
+  "cr": "1/4",
+  "traits": [
+   {
+    "n": "Keen Smell",
+    "d": "Advantage on Wisdom (Perception) checks that rely on smell."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Multiattack",
+    "type": "Action",
+    "d": "Makes two attacks: one with its claws and one with its bite."
+   },
+   {
+    "n": "Claws",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4+1) slashing damage."
+   },
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A tough digger, handy for tunneling and multiattacks at low level."
+ },
+ {
+  "n": "Panther",
+  "size": "Medium",
+  "type": "beast",
+  "ac": 12,
+  "hp": "13 (3d8)",
+  "speed": "50 ft., climb 40 ft.",
+  "abil": {
+   "STR": 14,
+   "DEX": 15,
+   "CON": 10,
+   "INT": 3,
+   "WIS": 14,
+   "CHA": 7
+  },
+  "skills": "Perception +4, Stealth +6",
+  "cr": "1/4",
+  "traits": [
+   {
+    "n": "Keen Smell",
+    "d": "Advantage on Wisdom (Perception) checks that rely on smell."
+   },
+   {
+    "n": "Pounce",
+    "d": "If it moves 20+ ft. straight toward a target and hits with a bite attack, the target must succeed on a DC 12 Strength save or be knocked prone."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage."
+   },
+   {
+    "n": "Claw",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) slashing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "Fast and stealthy with a solid climb speed — a strong scouting form."
+ },
+ {
+  "n": "Constrictor Snake",
+  "size": "Large",
+  "type": "beast",
+  "ac": 12,
+  "hp": "13 (2d10+2)",
+  "speed": "30 ft., swim 30 ft.",
+  "abil": {
+   "STR": 15,
+   "DEX": 14,
+   "CON": 12,
+   "INT": 1,
+   "WIS": 10,
+   "CHA": 3
+  },
+  "cr": "1/4",
+  "traits": [],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +4 to hit, reach 5 ft. Hit: 5 (1d6+2) piercing damage."
+   },
+   {
+    "n": "Constrict",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +4 to hit, reach 5 ft. Hit: 6 (1d8+2) bludgeoning damage, and the target is grappled (escape DC 14)."
+   }
+  ],
+  "limited": [],
+  "desc": "Amphibious with a strong grapple — good for pinning down a single foe."
+ },
+ {
+  "n": "Crocodile",
+  "size": "Large",
+  "type": "beast",
+  "ac": 12,
+  "hp": "19 (3d10+3)",
+  "speed": "20 ft., swim 30 ft.",
+  "abil": {
+   "STR": 15,
+   "DEX": 10,
+   "CON": 13,
+   "INT": 2,
+   "WIS": 10,
+   "CHA": 5
+  },
+  "skills": "Stealth +2",
+  "cr": "1/2",
+  "traits": [
+   {
+    "n": "Hold Breath",
+    "d": "Can hold its breath for 30 minutes."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +4 to hit, reach 5 ft. Hit: 7 (1d10+2) piercing damage, and the target is grappled (escape DC 12)."
+   }
+  ],
+  "limited": [],
+  "desc": "A strong aquatic ambusher, useful once you can wild shape underwater forms."
+ },
+ {
+  "n": "Ape",
+  "size": "Medium",
+  "type": "beast",
+  "ac": 12,
+  "hp": "19 (3d8+6)",
+  "speed": "30 ft., climb 30 ft.",
+  "abil": {
+   "STR": 16,
+   "DEX": 14,
+   "CON": 14,
+   "INT": 6,
+   "WIS": 12,
+   "CHA": 7
+  },
+  "skills": "Athletics +5, Perception +3",
+  "cr": "1/2",
+  "traits": [],
+  "actions": [
+   {
+    "n": "Multiattack",
+    "type": "Action",
+    "d": "Makes two fist attacks."
+   },
+   {
+    "n": "Fist",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft. Hit: 6 (1d6+3) bludgeoning damage."
+   },
+   {
+    "n": "Rock",
+    "type": "Action",
+    "d": "Ranged Weapon Attack: +5 to hit, range 25/50 ft. Hit: 6 (1d6+3) bludgeoning damage."
+   }
+  ],
+  "limited": [],
+  "desc": "Strong melee attacker with a rare ranged option among beast forms."
+ },
+ {
+  "n": "Giant Spider",
+  "size": "Large",
+  "type": "beast",
+  "ac": 14,
+  "hp": "26 (4d10+4)",
+  "speed": "30 ft., climb 30 ft.",
+  "abil": {
+   "STR": 14,
+   "DEX": 16,
+   "CON": 12,
+   "INT": 2,
+   "WIS": 11,
+   "CHA": 4
+  },
+  "senses": "darkvision 60 ft., blindsight 10 ft.",
+  "skills": "Stealth +7",
+  "cr": "1",
+  "traits": [
+   {
+    "n": "Spider Climb",
+    "d": "Can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+   },
+   {
+    "n": "Web Sense",
+    "d": "While in contact with a web, knows the exact location of any other creature in contact with the same web."
+   },
+   {
+    "n": "Web Walker",
+    "d": "Ignores movement restrictions caused by webbing."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft. Hit: 7 (1d8+3) piercing damage, and the target must make a DC 11 Constitution save, taking 9 (2d8) poison damage on a failure."
+   },
+   {
+    "n": "Web",
+    "type": "Action",
+    "d": "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+   }
+  ],
+  "limited": [],
+  "desc": "A powerful climber with a poisonous bite and web attack."
+ },
+ {
+  "n": "Brown Bear",
+  "size": "Large",
+  "type": "beast",
+  "ac": 11,
+  "hp": "34 (4d10+12)",
+  "speed": "40 ft., climb 30 ft.",
+  "abil": {
+   "STR": 19,
+   "DEX": 10,
+   "CON": 16,
+   "INT": 2,
+   "WIS": 13,
+   "CHA": 7
+  },
+  "skills": "Perception +3",
+  "cr": "1",
+  "traits": [
+   {
+    "n": "Keen Smell",
+    "d": "Advantage on Wisdom (Perception) checks that rely on smell."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Multiattack",
+    "type": "Action",
+    "d": "Makes two attacks: one with its bite and one with its claws."
+   },
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft. Hit: 8 (1d8+4) piercing damage."
+   },
+   {
+    "n": "Claws",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft. Hit: 11 (2d6+4) slashing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A heavy hitter with a solid hit point pool — a strong melee tank form."
+ },
+ {
+  "n": "Giant Eagle",
+  "size": "Large",
+  "type": "beast",
+  "ac": 13,
+  "hp": "26 (4d10+4)",
+  "speed": "10 ft., fly 80 ft.",
+  "abil": {
+   "STR": 16,
+   "DEX": 17,
+   "CON": 13,
+   "INT": 8,
+   "WIS": 14,
+   "CHA": 10
+  },
+  "skills": "Perception +4",
+  "languages": "understands Common and Auran but can't speak",
+  "cr": "1",
+  "traits": [
+   {
+    "n": "Keen Sight",
+    "d": "The eagle has advantage on Wisdom (Perception) checks that rely on sight."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Multiattack",
+    "type": "Action",
+    "d": "Makes two attacks: one with its beak and one with its talons."
+   },
+   {
+    "n": "Beak",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage."
+   },
+   {
+    "n": "Talons",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) slashing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A strong flying form with a fast air speed, ideal for aerial scouting or combat."
+ },
+ {
+  "n": "Baboon",
+  "size": "Small",
+  "type": "beast",
+  "ac": 12,
+  "hp": "3 (1d6)",
+  "speed": "30 ft., climb 30 ft.",
+  "abil": {
+   "STR": 8,
+   "DEX": 14,
+   "CON": 11,
+   "INT": 4,
+   "WIS": 12,
+   "CHA": 6
+  },
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Pack Tactics",
+    "d": "Advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of the creature and not incapacitated."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4-1) piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A cheap, low-level option with Pack Tactics if you have allies nearby."
+ },
+ {
+  "n": "Badger",
+  "size": "Tiny",
+  "type": "beast",
+  "ac": 10,
+  "hp": "3 (1d4+1)",
+  "speed": "20 ft., burrow 5 ft.",
+  "abil": {
+   "STR": 4,
+   "DEX": 11,
+   "CON": 12,
+   "INT": 2,
+   "WIS": 12,
+   "CHA": 5
+  },
+  "senses": "darkvision 30 ft.",
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Keen Smell",
+    "d": "Advantage on Wisdom (Perception) checks that rely on smell."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +2 to hit, reach 5 ft. Hit: 1 piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A tiny burrower with little combat value but easy to conceal."
+ },
+ {
+  "n": "Flying Snake",
+  "size": "Tiny",
+  "type": "beast",
+  "ac": 14,
+  "hp": "5 (2d4)",
+  "speed": "30 ft., fly 60 ft., swim 30 ft.",
+  "abil": {
+   "STR": 4,
+   "DEX": 18,
+   "CON": 11,
+   "INT": 2,
+   "WIS": 12,
+   "CHA": 5
+  },
+  "cr": "1/8",
+  "traits": [
+   {
+    "n": "Flyby",
+    "d": "The snake doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 7 (3d4) poison damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A fast, tiny flyer. As a Wild Shape it needs Druid level 8 (no flying speed before then); it's also a Find Familiar option."
+ },
+ {
+  "n": "Giant Frog",
+  "size": "Medium",
+  "type": "beast",
+  "ac": 11,
+  "hp": "18 (4d8)",
+  "speed": "30 ft., swim 30 ft.",
+  "abil": {
+   "STR": 12,
+   "DEX": 13,
+   "CON": 11,
+   "INT": 2,
+   "WIS": 10,
+   "CHA": 3
+  },
+  "skills": "Perception +2, Stealth +3",
+  "cr": "1/4",
+  "traits": [
+   {
+    "n": "Amphibious",
+    "d": "Can breathe air and water."
+   },
+   {
+    "n": "Standing Leap",
+    "d": "Its long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +3 to hit, reach 5 ft. Hit: 4 (1d6+1) piercing damage, and the target is grappled (escape DC 11); the giant frog can't bite another target while grappling."
+   }
+  ],
+  "limited": [],
+  "desc": "A solid amphibious form with a nasty grapple bite."
+ },
+ {
+  "n": "Giant Lizard",
+  "size": "Large",
+  "type": "beast",
+  "ac": 12,
+  "hp": "19 (3d10+3)",
+  "speed": "30 ft., climb 30 ft.",
+  "abil": {
+   "STR": 15,
+   "DEX": 12,
+   "CON": 13,
+   "INT": 2,
+   "WIS": 10,
+   "CHA": 5
+  },
+  "cr": "1/4",
+  "traits": [],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +4 to hit, reach 5 ft. Hit: 6 (1d8+2) piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A hardy climbing form with more hit points than most CR 1/4 options."
+ },
+ {
+  "n": "Giant Owl",
+  "size": "Large",
+  "type": "beast",
+  "ac": 12,
+  "hp": "19 (3d10+3)",
+  "speed": "5 ft., fly 60 ft.",
+  "abil": {
+   "STR": 13,
+   "DEX": 15,
+   "CON": 12,
+   "INT": 8,
+   "WIS": 13,
+   "CHA": 10
+  },
+  "senses": "darkvision 120 ft.",
+  "skills": "Perception +5, Stealth +4",
+  "languages": "understands Common, Elvish, and Sylvan but can't speak",
+  "cr": "1/4",
+  "traits": [
+   {
+    "n": "Flyby",
+    "d": "Doesn't provoke opportunity attacks when it flies out of a hostile creature's reach."
+   },
+   {
+    "n": "Keen Hearing and Sight",
+    "d": "Advantage on Wisdom (Perception) checks that rely on hearing or sight."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Talons",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +3 to hit, reach 5 ft. Hit: 8 (2d6+1) slashing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A strong early flying option with excellent Perception."
+ },
+ {
+  "n": "Giant Rat",
+  "size": "Small",
+  "type": "beast",
+  "ac": 12,
+  "hp": "7 (2d6)",
+  "speed": "30 ft.",
+  "abil": {
+   "STR": 7,
+   "DEX": 15,
+   "CON": 11,
+   "INT": 2,
+   "WIS": 10,
+   "CHA": 4
+  },
+  "cr": "1/8",
+  "traits": [
+   {
+    "n": "Keen Smell",
+    "d": "Advantage on Wisdom (Perception) checks that rely on smell."
+   },
+   {
+    "n": "Pack Tactics",
+    "d": "Advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of the creature and not incapacitated."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "Cheap and disposable, decent with allies nearby."
+ },
+ {
+  "n": "Giant Weasel",
+  "size": "Medium",
+  "type": "beast",
+  "ac": 13,
+  "hp": "9 (2d8)",
+  "speed": "40 ft.",
+  "abil": {
+   "STR": 11,
+   "DEX": 16,
+   "CON": 10,
+   "INT": 4,
+   "WIS": 12,
+   "CHA": 5
+  },
+  "senses": "darkvision 60 ft.",
+  "cr": "1/8",
+  "traits": [
+   {
+    "n": "Keen Hearing and Smell",
+    "d": "Advantage on Wisdom (Perception) checks that rely on hearing or smell."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "Fast and sneaky with a respectable bite for its CR."
+ },
+ {
+  "n": "Goat",
+  "size": "Medium",
+  "type": "beast",
+  "ac": 10,
+  "hp": "4 (1d8)",
+  "speed": "40 ft.",
+  "abil": {
+   "STR": 12,
+   "DEX": 10,
+   "CON": 11,
+   "INT": 2,
+   "WIS": 10,
+   "CHA": 5
+  },
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Charge",
+    "d": "If it moves 10+ ft. straight toward a target and hits with a ram attack, the target takes an extra 2 (1d4) damage."
+   },
+   {
+    "n": "Sure-Footed",
+    "d": "The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Ram",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) bludgeoning damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A humble utility form, good for hauling and little else."
+ },
+ {
+  "n": "Hyena",
+  "size": "Medium",
+  "type": "beast",
+  "ac": 11,
+  "hp": "5 (1d8+1)",
+  "speed": "50 ft.",
+  "abil": {
+   "STR": 11,
+   "DEX": 13,
+   "CON": 12,
+   "INT": 2,
+   "WIS": 12,
+   "CHA": 5
+  },
+  "skills": "Perception +3",
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Pack Tactics",
+    "d": "Advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of the creature and not incapacitated."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "Fast with good Perception, best used alongside allies."
+ },
+ {
+  "n": "Jackal",
+  "size": "Small",
+  "type": "beast",
+  "ac": 12,
+  "hp": "3 (1d6)",
+  "speed": "40 ft.",
+  "abil": {
+   "STR": 8,
+   "DEX": 15,
+   "CON": 11,
+   "INT": 3,
+   "WIS": 12,
+   "CHA": 6
+  },
+  "skills": "Perception +3",
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Pack Tactics",
+    "d": "Advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of the creature and not incapacitated."
+   },
+   {
+    "n": "Keen Hearing and Smell",
+    "d": "The jackal has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4-1) piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "Very fast but fragile, best as a scout."
+ },
+ {
+  "n": "Scorpion",
+  "size": "Tiny",
+  "type": "beast",
+  "ac": 11,
+  "hp": "1 (1d4-1)",
+  "speed": "10 ft.",
+  "abil": {
+   "STR": 2,
+   "DEX": 11,
+   "CON": 8,
+   "INT": 1,
+   "WIS": 8,
+   "CHA": 2
+  },
+  "senses": "blindsight 10 ft.",
+  "cr": "0",
+  "traits": [],
+  "actions": [
+   {
+    "n": "Sting",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +2 to hit, reach 5 ft. Hit: 1 piercing damage, and the target must succeed on a DC 9 Constitution save or take 4 (1d8) poison damage."
+   }
+  ],
+  "limited": [],
+  "desc": "Slow but venomous, best used defensively."
+ },
+ {
+  "n": "Vulture",
+  "size": "Medium",
+  "type": "beast",
+  "ac": 10,
+  "hp": "5 (1d8+1)",
+  "speed": "10 ft., fly 50 ft.",
+  "abil": {
+   "STR": 7,
+   "DEX": 10,
+   "CON": 13,
+   "INT": 2,
+   "WIS": 12,
+   "CHA": 4
+  },
+  "senses": "darkvision 60 ft.",
+  "skills": "Perception +3",
+  "cr": "0",
+  "traits": [
+   {
+    "n": "Keen Sight and Smell",
+    "d": "Advantage on Wisdom (Perception) checks that rely on sight or smell."
+   },
+   {
+    "n": "Pack Tactics",
+    "d": "The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Beak",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +2 to hit, reach 5 ft. Hit: 2 (1d4) piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A cheap flier with keen senses, though a poor combatant."
+ },
+ {
+  "n": "Giant Toad",
+  "size": "Large",
+  "type": "beast",
+  "ac": 11,
+  "hp": "39 (6d10+6)",
+  "speed": "20 ft., swim 40 ft.",
+  "abil": {
+   "STR": 15,
+   "DEX": 13,
+   "CON": 13,
+   "INT": 2,
+   "WIS": 10,
+   "CHA": 3
+  },
+  "cr": "1",
+  "traits": [
+   {
+    "n": "Amphibious",
+    "d": "Can breathe air and water."
+   },
+   {
+    "n": "Standing Leap",
+    "d": "Its long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10+2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can't bite another target."
+   }
+  ],
+  "limited": [],
+  "desc": "A tanky, high-HP amphibious form for its CR."
+ },
+ {
+  "n": "Giant Wasp",
+  "size": "Medium",
+  "type": "beast",
+  "ac": 12,
+  "hp": "13 (3d8)",
+  "speed": "10 ft., fly 50 ft., swim 50 ft.",
+  "abil": {
+   "STR": 10,
+   "DEX": 14,
+   "CON": 10,
+   "INT": 1,
+   "WIS": 10,
+   "CHA": 3
+  },
+  "cr": "1/2",
+  "traits": [],
+  "actions": [
+   {
+    "n": "Sting",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +4 to hit, reach 5 ft. Hit: 5 (1d6+2) piercing damage, and the target must make a DC 11 Constitution save, taking 10 (3d6) poison damage on a failure."
+   }
+  ],
+  "limited": [],
+  "desc": "A fast, venomous flier once you reach level 4."
+ },
+ {
+  "n": "Reef Shark",
+  "size": "Medium",
+  "type": "beast",
+  "ac": 12,
+  "hp": "22 (4d8+4)",
+  "speed": "0 ft., swim 40 ft.",
+  "abil": {
+   "STR": 14,
+   "DEX": 13,
+   "CON": 13,
+   "INT": 1,
+   "WIS": 10,
+   "CHA": 4
+  },
+  "senses": "blindsight 30 ft.",
+  "skills": "Perception +2",
+  "cr": "1/2",
+  "traits": [
+   {
+    "n": "Pack Tactics",
+    "d": "Advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of the creature and not incapacitated."
+   },
+   {
+    "n": "Water Breathing",
+    "d": "Can breathe only underwater."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +4 to hit, reach 5 ft. Hit: 6 (1d8+2) piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A strong purely-aquatic combat form for underwater encounters."
+ },
+ {
+  "n": "Riding Horse",
+  "size": "Large",
+  "type": "beast",
+  "ac": 10,
+  "hp": "13 (2d10+2)",
+  "speed": "60 ft.",
+  "abil": {
+   "STR": 16,
+   "DEX": 10,
+   "CON": 12,
+   "INT": 2,
+   "WIS": 11,
+   "CHA": 7
+  },
+  "cr": "1/4",
+  "traits": [],
+  "actions": [
+   {
+    "n": "Hooves",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft. Hit: 8 (2d4+3) bludgeoning damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A fast overland form, though poor in a straight fight.",
+  "price": "75 gp",
+  "purchasable": true
+ },
+ {
+  "n": "Giant Boar",
+  "size": "Large",
+  "type": "beast",
+  "ac": 12,
+  "hp": "42 (5d10+15)",
+  "speed": "40 ft.",
+  "abil": {
+   "STR": 17,
+   "DEX": 10,
+   "CON": 16,
+   "INT": 2,
+   "WIS": 7,
+   "CHA": 5
+  },
+  "cr": "2",
+  "traits": [
+   {
+    "n": "Charge",
+    "d": "If it moves 10+ ft. straight toward a target and hits with a tusk attack, the target takes an extra 7 (2d6) slashing damage."
+   },
+   {
+    "n": "Relentless",
+    "d": "If reduced to 0 hit points by damage that does not also kill it outright, drops to 1 hit point instead — usable once."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Tusk",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) slashing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A Circle of the Moon-only heavy hitter with a strong charge."
+ },
+ {
+  "n": "Giant Elk",
+  "size": "Huge",
+  "type": "beast",
+  "ac": 14,
+  "hp": "42 (5d12+10)",
+  "speed": "60 ft.",
+  "abil": {
+   "STR": 19,
+   "DEX": 16,
+   "CON": 14,
+   "INT": 7,
+   "WIS": 14,
+   "CHA": 10
+  },
+  "skills": "Perception +4",
+  "languages": "understands Elvish and Sylvan but can't speak",
+  "cr": "2",
+  "traits": [
+   {
+    "n": "Charge",
+    "d": "If it moves 20+ ft. straight toward a target and hits with a ram attack, the target takes an extra 18 (4d8) damage."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Ram",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6+4) bludgeoning damage."
+   },
+   {
+    "n": "Hooves",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one prone creature. Hit: 22 (4d8+4) bludgeoning damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A massive, fast Moon Circle option with a devastating charge."
+ },
+ {
+  "n": "Polar Bear",
+  "size": "Large",
+  "type": "beast",
+  "ac": 12,
+  "hp": "42 (5d10+15)",
+  "speed": "40 ft., swim 30 ft.",
+  "abil": {
+   "STR": 20,
+   "DEX": 10,
+   "CON": 16,
+   "INT": 2,
+   "WIS": 13,
+   "CHA": 7
+  },
+  "skills": "Perception +3",
+  "cr": "2",
+  "traits": [
+   {
+    "n": "Keen Smell",
+    "d": "Advantage on Wisdom (Perception) checks that rely on smell."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Multiattack",
+    "type": "Action",
+    "d": "Makes two attacks: one with its bite and one with its claws."
+   },
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +7 to hit, reach 5 ft. Hit: 9 (1d8+5) piercing damage."
+   },
+   {
+    "n": "Claws",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +7 to hit, reach 5 ft. Hit: 12 (2d6+5) slashing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A Moon Circle brawler form with high Strength and swim speed."
+ },
+ {
+  "n": "Giant Scorpion",
+  "size": "Large",
+  "type": "beast",
+  "ac": 15,
+  "hp": "52 (7d10+14)",
+  "speed": "40 ft.",
+  "abil": {
+   "STR": 15,
+   "DEX": 13,
+   "CON": 15,
+   "INT": 1,
+   "WIS": 9,
+   "CHA": 3
+  },
+  "senses": "blindsight 60 ft. (blind beyond this radius)",
+  "cr": "3",
+  "traits": [],
+  "actions": [
+   {
+    "n": "Multiattack",
+    "type": "Action",
+    "d": "Makes three attacks: two with its claws and one with its sting."
+   },
+   {
+    "n": "Claw",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) bludgeoning damage, and the target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple only one target."
+   },
+   {
+    "n": "Sting",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +4 to hit, reach 5 ft. Hit: 7 (1d10+2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one."
+   }
+  ],
+  "limited": [],
+  "desc": "A hulking, venomous arachnid — one of the first CR 3 forms available to a Circle of the Moon Druid."
+ },
+ {
+  "n": "Killer Whale",
+  "size": "Huge",
+  "type": "beast",
+  "ac": 12,
+  "hp": "90 (12d12+12)",
+  "speed": "swim 60 ft.",
+  "abil": {
+   "STR": 19,
+   "DEX": 10,
+   "CON": 13,
+   "INT": 3,
+   "WIS": 12,
+   "CHA": 7
+  },
+  "senses": "passive Perception 11",
+  "skills": "Perception +3",
+  "cr": "3",
+  "traits": [
+   {
+    "n": "Hold Breath",
+    "d": "Can hold its breath for 30 minutes."
+   },
+   {
+    "n": "Echolocation",
+    "d": "Can't use its blindsight while deafened."
+   },
+   {
+    "n": "Keen Hearing",
+    "d": "Advantage on Wisdom (Perception) checks that rely on hearing."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +6 to hit, reach 5 ft. Hit: 21 (5d6+4) piercing damage."
+   }
+  ],
+  "limited": [],
+  "desc": "An enormous, highly intelligent ocean predator — strong pick for aquatic encounters at CR 3."
+ },
+ {
+  "n": "Elephant",
+  "size": "Huge",
+  "type": "beast",
+  "ac": 12,
+  "hp": "76 (8d12+24)",
+  "speed": "40 ft.",
+  "abil": {
+   "STR": 22,
+   "DEX": 9,
+   "CON": 17,
+   "INT": 3,
+   "WIS": 11,
+   "CHA": 6
+  },
+  "cr": "4",
+  "traits": [
+   {
+    "n": "Trampling Charge",
+    "d": "If it moves 20+ ft. straight toward a target and hits with a stomp attack, the target must succeed on a DC 12 Strength save or be knocked prone; the elephant can then make one stomp attack against it as a bonus action."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Gore",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +8 to hit, reach 5 ft. Hit: 19 (3d8+6) piercing damage."
+   },
+   {
+    "n": "Stomp",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +8 to hit, reach 5 ft., one prone creature. Hit: 22 (3d10+6) bludgeoning damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A colossal, thick-skinned beast — the CR 4 form that opens up at 12th level for a Moon Druid.",
+  "price": "200 gp",
+  "purchasable": true
+ },
+ {
+  "n": "Giant Crocodile",
+  "size": "Huge",
+  "type": "beast",
+  "ac": 14,
+  "hp": "85 (9d12+27)",
+  "speed": "30 ft., swim 50 ft.",
+  "abil": {
+   "STR": 21,
+   "DEX": 9,
+   "CON": 17,
+   "INT": 2,
+   "WIS": 10,
+   "CHA": 7
+  },
+  "senses": "passive Perception 10",
+  "skills": "Stealth +5",
+  "cr": "5",
+  "traits": [
+   {
+    "n": "Hold Breath",
+    "d": "Can hold its breath for 30 minutes."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Multiattack",
+    "type": "Action",
+    "d": "Makes two attacks: one with its bite and one with its tail."
+   },
+   {
+    "n": "Bite",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +8 to hit, reach 5 ft. Hit: 21 (3d10+5) piercing damage, and the target is grappled (escape DC 16) if it is a Large or smaller creature and the crocodile doesn't have another creature grappled."
+   },
+   {
+    "n": "Tail",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target not grappled by the crocodile. Hit: 14 (2d8+5) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone."
+   }
+  ],
+  "limited": [],
+  "desc": "A massive ambush predator lurking in rivers and swamps — the CR 5 form available at 15th level."
+ },
+ {
+  "n": "Mammoth",
+  "size": "Huge",
+  "type": "beast",
+  "ac": 13,
+  "hp": "126 (11d12+55)",
+  "speed": "40 ft.",
+  "abil": {
+   "STR": 24,
+   "DEX": 9,
+   "CON": 21,
+   "INT": 3,
+   "WIS": 11,
+   "CHA": 6
+  },
+  "senses": "passive Perception 10",
+  "cr": "6",
+  "traits": [
+   {
+    "n": "Trampling Charge",
+    "d": "If it moves 20+ ft. straight toward a target and hits with a gore attack, the target must succeed on a DC 18 Strength save or be knocked prone; the mammoth can then make one stomp attack against it as a bonus action."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Gore",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 25 (4d8+7) piercing damage."
+   },
+   {
+    "n": "Stomp",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +10 to hit, reach 5 ft., one prone creature. Hit: 29 (4d10+7) bludgeoning damage."
+   }
+  ],
+  "limited": [],
+  "desc": "The largest wild shape a Moon Druid can achieve — a towering, tusked colossus available starting at 18th level, the top of the CR 6 range."
+ },
+ {
+  "n": "Steel Defender",
+  "hpFormula": {
+   "class": "Artificer",
+   "hpMultiplier": 5,
+   "hpMin": 1,
+   "addAbilityMod": "CON"
+  },
+  "acFormula": {
+   "base": 13
+  },
+  "size": "Medium",
+  "type": "construct",
+  "ac": "13 + your proficiency bonus",
+  "hp": "5 × your Artificer level + your Constitution modifier",
+  "speed": "40 ft.",
+  "abil": {
+   "STR": 14,
+   "DEX": 12,
+   "CON": 14,
+   "INT": 4,
+   "WIS": 10,
+   "CHA": 6
+  },
+  "cr": "—",
+  "traits": [
+   {
+    "n": "Deflect Attack",
+    "d": "Can use its reaction to impose disadvantage on an attack against a creature within 5 ft., taking the resulting damage itself."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Force-Empowered Rend",
+    "type": "Action",
+    "d": "Melee weapon attack; on a hit deals 1d8 + your Intelligence modifier force damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A loyal construct companion built and commanded (as a bonus action) by a Battle Smith artificer.",
+  "feature": {
+   "class": "Artificer",
+   "subclass": "Battle Smith",
+   "minLevel": 3,
+   "label": "Battle Smith's Steel Defender"
+  }
+ },
+ {
+  "n": "Ranger's Companion",
+  "hpFormula": {
+   "class": "Ranger",
+   "hpMultiplier": 4,
+   "hpMin": 1
+  },
+  "acFormula": {
+   "base": 13
+  },
+  "size": "Small or Medium",
+  "type": "beast (chosen from Air, Land, or Sea)",
+  "ac": "13 + proficiency bonus",
+  "hp": "4 × your Ranger level (min 1)",
+  "speed": "varies with the beast chosen",
+  "abil": {
+   "STR": 14,
+   "DEX": 14,
+   "CON": 14,
+   "INT": 4,
+   "WIS": 12,
+   "CHA": 6
+  },
+  "cr": "—",
+  "traits": [
+   {
+    "n": "Environment Trait",
+    "d": "Gains a trait based on the chosen environment (Air, Land, or Sea)."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Attack",
+    "type": "Action",
+    "d": "Deals 1d4 + your proficiency bonus damage (or the beast's normal damage die if higher), scaling with Ranger level."
+   }
+  ],
+  "limited": [],
+  "desc": "A bonded beast companion that fights alongside a Ranger, its exact form chosen by the player.",
+  "feature": {
+   "class": "Ranger",
+   "minLevel": 3,
+   "label": "Beast Master subclass or Primal Companion (Tasha's optional feature)"
+  }
+ },
+ {
+  "n": "Homunculus Servant",
+  "hpFormula": {
+   "class": "Artificer",
+   "hpMultiplier": 2,
+   "hpMin": 1
+  },
+  "acFormula": {
+   "base": 12
+  },
+  "size": "Tiny",
+  "type": "construct",
+  "ac": "12 + your proficiency bonus",
+  "hp": "2 × your Artificer level",
+  "speed": "20 ft., fly 30 ft. (hover)",
+  "abil": {
+   "STR": 4,
+   "DEX": 15,
+   "CON": 12,
+   "INT": 10,
+   "WIS": 10,
+   "CHA": 7
+  },
+  "senses": "darkvision 60 ft.",
+  "cr": "—",
+  "traits": [
+   {
+    "n": "Deliver Treats",
+    "d": "As a bonus action, can be commanded to release a healing vapor that lets you spend and roll one of your Hit Dice to heal a creature within 5 ft. of it."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Force-Empowered Bite",
+    "type": "Action",
+    "d": "Melee weapon attack; on a hit deals 1d4 + your Intelligence modifier force damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A tiny flying construct companion gained at 3rd level as an Alchemist artificer, useful for delivering healing at range.",
+  "feature": {
+   "class": "Artificer",
+   "subclass": "Alchemist",
+   "minLevel": 3,
+   "label": "Alchemist's Homunculus Servant"
+  }
+ },
+ {
+  "n": "Donkey / Mule",
+  "purchasable": true,
+  "price": "8 gp",
+  "size": "Medium",
+  "type": "beast",
+  "ac": 10,
+  "hp": "11 (2d8+2)",
+  "speed": "40 ft.",
+  "abil": {
+   "STR": 14,
+   "DEX": 10,
+   "CON": 13,
+   "INT": 2,
+   "WIS": 10,
+   "CHA": 5
+  },
+  "cr": "1/8",
+  "traits": [
+   {
+    "n": "Beast of Burden",
+    "d": "Considered Large for carrying-capacity purposes."
+   },
+   {
+    "n": "Sure-Footed",
+    "d": "Advantage on Strength and Dexterity saves against being knocked prone."
+   }
+  ],
+  "actions": [
+   {
+    "n": "Hooves",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) bludgeoning damage."
+   }
+  ],
+  "limited": [],
+  "desc": "A patient, hardy pack animal, cheap and easy to find."
+ },
+ {
+  "n": "Draft Horse",
+  "purchasable": true,
+  "price": "50 gp",
+  "size": "Large",
+  "type": "beast",
+  "ac": 10,
+  "hp": "19 (3d10+3)",
+  "speed": "40 ft.",
+  "abil": {
+   "STR": 18,
+   "DEX": 10,
+   "CON": 12,
+   "INT": 2,
+   "WIS": 11,
+   "CHA": 7
+  },
+  "cr": "1/4",
+  "traits": [],
+  "actions": [
+   {
+    "n": "Hooves",
+    "type": "Action",
+    "d": "Melee Weapon Attack: +6 to hit, reach 5 ft. Hit: 9 (2d4+4) bludgeoning damage."
+   }
+  ],
+  "limited": [],
+  "desc": "Bred for hauling and heavy labor rather than speed."
+ }
+]

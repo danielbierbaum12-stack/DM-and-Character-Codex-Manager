@@ -1,0 +1,126 @@
+{
+ "_about": "Reviewed rulings that override both apps. build_master.py applies these on top of the automatic field rules (see README). Each entry says why. Baseline: the 2014 books / SRD 5.1.",
+ "spells": {
+  "Burning Hands": {
+   "range": "Self (15-foot cone)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Color Spray": {
+   "range": "Self (15-foot cone)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Frost Fingers": {
+   "range": "Self (15-foot cone)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Thunderwave": {
+   "range": "Self (15-foot cube)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Gust of Wind": {
+   "range": "Self (60-foot line)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Sunbeam": {
+   "range": "Self (60-foot line)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Fear": {
+   "range": "Self (30-foot cone)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Leomund's Tiny Hut": {
+   "range": "Self (10-foot-radius hemisphere)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Lightning Bolt": {
+   "range": "Self (100-foot line)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Speak with Plants": {
+   "range": "Self (30-foot radius)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Aura of Vitality": {
+   "range": "Self (30-foot radius)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Crusader's Mantle": {
+   "range": "Self (30-foot radius)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Aura of Life": {
+   "range": "Self (30-foot radius)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Aura of Purity": {
+   "range": "Self (30-foot radius)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Destructive Wave": {
+   "range": "Self (30-foot radius)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Circle of Power": {
+   "range": "Self (30-foot radius)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Spirit Guardians": {
+   "range": "Self (15-foot radius)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Antilife Shell": {
+   "range": "Self (10-foot radius)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Globe of Invulnerability": {
+   "range": "Self (10-foot radius)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Arms of Hadar": {
+   "range": "Self (10-foot radius)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Cone of Cold": {
+   "range": "Self (60-foot cone)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Prismatic Spray": {
+   "range": "Self (60-foot cone)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Antimagic Field": {
+   "range": "Self (10-foot-radius sphere)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Control Weather": {
+   "range": "Self (5-mile radius)",
+   "_why": "The book range is Self with an area; the source spreadsheet kept only the area size."
+  },
+  "Encode Thoughts": {
+   "comp": "S",
+   "_why": "Guildmasters' Guide to Ravnica: somatic only. Missing from the spreadsheet."
+  },
+  "Silvery Barbs": {
+   "comp": "V",
+   "_why": "Strixhaven: verbal only. Missing from the spreadsheet."
+  }
+ },
+ "creatures": {
+  "Crocodile": {
+   "speed": "20 ft., swim 30 ft.",
+   "_why": "SRD 5.1 / MM: swim 30 ft. The DM Codex bestiary had swim 20 ft.; the Character Codex was right."
+  },
+  "Flying Snake": {
+   "actions": [
+    {
+     "n": "Bite",
+     "type": "Action",
+     "d": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 7 (3d4) poison damage."
+    }
+   ],
+   "desc": "A fast, tiny flyer. As a Wild Shape it needs Druid level 8 (no flying speed before then); it's also a Find Familiar option.",
+   "_why": "SRD 5.1: the poison damage has no saving throw. The old note called it a level 2 Wild Shape, but flying forms need level 8."
+  }
+ }
+}
