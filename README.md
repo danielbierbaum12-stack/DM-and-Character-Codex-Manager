@@ -41,7 +41,7 @@ The two app repos need to be checked out next to this one (`../DND-Player-Tool`,
 2. `python3 tools/build_master.py` rebuilds the master, the spreadsheet and the report, and says how many spells and creatures each app still needs.
 3. `python3 tools/apply_master.py` writes the master into both apps.
 4. **Character Codex:** regenerate `Docs/character-codex-game-data.json` (command palette → Export game data, or `buildGameDataExport()`), `cp Character_Codex.html cloudflare-deploy/index.html`, and run the tests (`tests/master_data.js` covers this data).
-5. **DM Codex:** in `Source/`, `python3 merge_cc_data.py ../../DND-Player-Tool/Docs/character-codex-game-data.json` (adds anything new), then `bash build.sh && bash build.sh preview && bash build.sh cloudflare`, `cp dm-codex.html "../DM Codex.html"`, and `node tests/run_all.js` plus `node tests/run_all.js cloudflare` (`tests/test42.js` covers this data).
+5. **DM Codex:** in `Source/`, `python3 merge_cc_data.py ../../DND-Player-Tool/Docs/character-codex-game-data.json` (adds anything new), then `bash build.sh && bash build.sh preview && bash build.sh cloudflare`, `cp dm-codex.html "../DM Codex.html"`, and `node tests/run_all.js` plus `node tests/run_all.js cloudflare` (`tests/test43.js` covers this data).
 6. Run `build_master.py` again: the report should say 0 and 0.
 
 Needs Python 3 with `openpyxl` (for the spreadsheet) and the apps' own Playwright setup for their tests.
