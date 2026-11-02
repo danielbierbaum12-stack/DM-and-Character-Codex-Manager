@@ -15,6 +15,7 @@ Each app still ships as its own single HTML file. This repo holds the **master d
 | `shared/master/creatures.json` | The Character Codex's 73 companions, summons and Wild Shape forms, checked against the DM Codex bestiary |
 | `shared/master/items.json` | The 502-item catalogue (both apps use the same list), with each item's rarity, default price (gp) and minimum character level |
 | `shared/item-pricing.json` | Where those prices come from: Player's Handbook prices for mundane gear, DMG rarities, the 2024 DMG price per rarity, and the rarity → minimum level table. Edit this to change a default price |
+| `shared/magic-item-tables.json` | The DMG Magic Item Tables A–I (2014) and the 2024 DMG tables by category and rarity, as `[low, high, item]` rows. The DM Codex copy is `Source/magic_tables.min.json` (its Marketplace sellers and bastion Treasure roll them) |
 | `shared/master/conditions.json` | Each condition's one-line summary (player sheet) and full SRD text (DM screen) |
 | `shared/Codex Master Data.xlsx` | The same master data as a spreadsheet: Spells, Creatures, Items, Conditions, and a Changes sheet |
 | `shared/corrections.json` | Rulings that override both apps, each with its reason |
