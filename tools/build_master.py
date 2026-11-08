@@ -298,6 +298,16 @@ R += ['## Spell fields that are only formatting\n',
       '## Conditions\n',
       'Same conditions in both apps. The Character Codex shows a one-line summary per condition (and splits Exhaustion into levels 1 to 6); '
       'the DM Codex shows the full SRD text. Both are kept in `shared/master/conditions.json` as `short` and `full`; neither app needs changes.\n']
+# DM-only reference data kept here as copies: say when a copy and the DM Codex's own file drift apart
+SHARED_COPIES = [('magic-item-tables.json', 'magic_tables.min.json', 'DMG magic item tables'), ('monster-environments.json', 'monster_env.min.json', 'creature environments')]
+R += ['## Shared copies of DM Codex data\n', '| File here | DM Codex file | Same? |', '|---|---|---|']
+copies_ok = True
+for mine, theirs, what in SHARED_COPIES:
+    a_path, b_path = os.path.join(io.ROOT, 'shared', mine), os.path.join(io.DM_SRC, theirs)
+    same = os.path.exists(a_path) and os.path.exists(b_path) and json.load(open(a_path, encoding='utf-8')) == json.load(open(b_path, encoding='utf-8'))
+    copies_ok &= same
+    R.append(f'| `shared/{mine}` ({what}) | `Source/{theirs}` | {"yes" if same else "**no**: copy the DM Codex file here"} |')
+R.append('')
 open(os.path.join(io.ROOT, 'reports', 'congruence-report.md'), 'w', encoding='utf-8').write('\n'.join(R) + '\n')
 
 # spreadsheet copy of the master
@@ -331,3 +341,4 @@ except ImportError:
 print(f'master: {len(spells)} spells, {len(creatures)} creatures, {len(items)} items, {len(conditions)} conditions')
 print(f'disagreements logged: {len(log["spells"])} spell fields, {len(log["creatures"])} creature fields')
 print(f'to apply: Character Codex {cs} spells / {cc_cr} creatures; DM Codex {ds} spells / {dm_cr} creatures')
+print('shared copies of DM Codex data: ' + ('in sync' if copies_ok else 'OUT OF DATE, see the report'))

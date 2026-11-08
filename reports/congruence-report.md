@@ -1,6 +1,6 @@
 # Congruence report
 
-Built 2026-11-01 by `tools/build_master.py` from the Character Codex and the DM Codex.
+Built 2026-11-08 by `tools/build_master.py` from the Character Codex and the DM Codex.
 
 ## Still to apply
 
@@ -36,4 +36,11 @@ Not listed above, and normalised in the master for both apps: casting times like
 ## Conditions
 
 Same conditions in both apps. The Character Codex shows a one-line summary per condition (and splits Exhaustion into levels 1 to 6); the DM Codex shows the full SRD text. Both are kept in `shared/master/conditions.json` as `short` and `full`; neither app needs changes.
+
+## Shared copies of DM Codex data
+
+| File here | DM Codex file | Same? |
+|---|---|---|
+| `shared/magic-item-tables.json` (DMG magic item tables) | `Source/magic_tables.min.json` | yes |
+| `shared/monster-environments.json` (creature environments) | `Source/monster_env.min.json` | yes |
 
