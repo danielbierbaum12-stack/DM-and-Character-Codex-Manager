@@ -22,6 +22,8 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
 - **Views:** both apps have the same five levels in a menu at the top: Ultra simplified, Simplified, Normal, Extra, All the fixings.
   Each is a preset over that app's own switches. Character Codex: `VIEW_LEVELS` / `VIEW_PARTS` / `setViewLevel`. DM Codex: `41_views.js`.
   The compact layout is `body.cui` in both (phones, and Ultra at any width). Keep the names, order and meaning the same.
+  Owner's rule: a box is only bigger when it holds more. The plain views share one spacing (`body.tight`); Ultra differs by what it
+  takes off the screen (`body.view-ultra`), never by padding alone.
 
 ## Good next steps
 1. Feats, classes, races and backgrounds exist only in the Character Codex today. If the DM Codex starts using them, add them to the master the same way.
