@@ -19,6 +19,10 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
   `STATE.customRules` (`compCostlyOnly`, `compHideAll`), `spellComp()`. DM Codex: `rule('components')` (`costly` / `all` / `none`),
   `spellComp()` in `24_settings.js`. Change both together.
 
+- **Views:** both apps have the same five levels in a menu at the top: Ultra simplified, Simplified, Normal, Extra, All the fixings.
+  Each is a preset over that app's own switches. Character Codex: `VIEW_LEVELS` / `VIEW_PARTS` / `setViewLevel`. DM Codex: `41_views.js`.
+  The compact layout is `body.cui` in both (phones, and Ultra at any width). Keep the names, order and meaning the same.
+
 ## Good next steps
 1. Feats, classes, races and backgrounds exist only in the Character Codex today. If the DM Codex starts using them, add them to the master the same way.
 2. The DM bestiary (300+ SRD monsters) is the DM Codex's own; only creatures both apps carry are in `creatures.json`.
