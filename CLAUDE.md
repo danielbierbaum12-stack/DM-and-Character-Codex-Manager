@@ -27,6 +27,8 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
   Ultra's method: the most information in the least space, the most useful things right there, the rest one tap away through
   two kinds of expansion (`ULTRA_FOLDS` / `ultraSweep` in both apps: "⋯" for less-used actions, "▸ Label" for detail).
   Nothing is removed for good; each step up adds something.
+  The ladder (same in both): Simplified adds everything shown at once; Normal adds helpers; Extra adds feedback (sounds, dice
+  rolling on screen); All the fixings adds atmosphere. Every view uses the same spacing (`body.tight` is always on).
 
 ## Good next steps
 1. Feats, classes, races and backgrounds exist only in the Character Codex today. If the DM Codex starts using them, add them to the master the same way.
