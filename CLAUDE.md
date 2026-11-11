@@ -24,6 +24,9 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
   The compact layout is `body.cui` in both (phones, and Ultra at any width). Keep the names, order and meaning the same.
   Owner's rule: a box is only bigger when it holds more. The plain views share one spacing (`body.tight`); Ultra differs by what it
   takes off the screen (`body.view-ultra`), never by padding alone.
+  Ultra's method: the most information in the least space, the most useful things right there, the rest one tap away through
+  two kinds of expansion (`ULTRA_FOLDS` / `ultraSweep` in both apps: "⋯" for less-used actions, "▸ Label" for detail).
+  Nothing is removed for good; each step up adds something.
 
 ## Good next steps
 1. Feats, classes, races and backgrounds exist only in the Character Codex today. If the DM Codex starts using them, add them to the master the same way.
