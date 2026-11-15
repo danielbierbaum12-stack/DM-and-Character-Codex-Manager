@@ -1,0 +1,3421 @@
+{
+ "v": 1,
+ "cats": [
+  {
+   "id": "core",
+   "name": "Core rules"
+  },
+  {
+   "id": "abilities",
+   "name": "Abilities and skills"
+  },
+  {
+   "id": "combat-flow",
+   "name": "Combat: how a fight runs"
+  },
+  {
+   "id": "actions",
+   "name": "Actions in combat"
+  },
+  {
+   "id": "movement",
+   "name": "Movement and position"
+  },
+  {
+   "id": "attacks",
+   "name": "Attacks, damage and dying"
+  },
+  {
+   "id": "conditions",
+   "name": "Conditions"
+  },
+  {
+   "id": "spellcasting",
+   "name": "Spellcasting"
+  },
+  {
+   "id": "resting",
+   "name": "Resting"
+  },
+  {
+   "id": "adventuring",
+   "name": "Exploring and the environment"
+  },
+  {
+   "id": "equipment",
+   "name": "Equipment and magic items"
+  },
+  {
+   "id": "character",
+   "name": "Building and advancing a character"
+  },
+  {
+   "id": "dm",
+   "name": "Running the game"
+  },
+  {
+   "id": "faq",
+   "name": "Common questions"
+  },
+  {
+   "id": "edge",
+   "name": "Edge cases and rule clashes"
+  }
+ ],
+ "rules": [
+  {
+   "id": "d20-test",
+   "t": "The d20 roll: checks, attacks and saves",
+   "kind": "rule",
+   "src": "PHB ch.7",
+   "c": "core",
+   "k": "d20 roll check attack save total dc beat meet tie equal",
+   "s": "Roll a d20, add the modifier, compare to the number to beat. Equal counts as a success.",
+   "b": [
+    "Ability check: d20 + ability modifier (+ proficiency bonus if proficient) against a DC.",
+    "Attack roll: d20 + ability modifier + proficiency bonus (if proficient with the weapon or spell) against AC.",
+    "Saving throw: d20 + ability modifier (+ proficiency if proficient in that save) against a DC.",
+    "Meeting the DC or AC succeeds. Ties in a contest leave things as they were."
+   ],
+   "p": "Your sheet adds everything for you: tap the modifier to roll it.",
+   "d": "Only ask for a roll when failing is possible and matters. Otherwise it just happens.",
+   "r": [
+    "advantage",
+    "proficiency-bonus",
+    "dc-table",
+    "contests"
+   ]
+  },
+  {
+   "id": "advantage",
+   "t": "Advantage and disadvantage",
+   "kind": "rule",
+   "src": "PHB ch.7",
+   "c": "core",
+   "k": "adv dis disadvantage two dice higher lower cancel stack double",
+   "s": "Roll two d20s and take the higher (advantage) or lower (disadvantage). They never stack, and one of each cancels to a normal roll.",
+   "b": [
+    "Several sources of advantage still mean only two dice.",
+    "If you have at least one of each, you roll one die, no matter how many of each there are.",
+    "A reroll feature (Lucky, halfling Lucky) rerolls one die only; you still take the higher or lower as normal."
+   ],
+   "p": "Three reasons for advantage and one for disadvantage is still a plain roll.",
+   "d": "Advantage is the quick reward for a good idea. It is worth roughly +5 near the middle of the die, and +3 to +4 on average.",
+   "r": [
+    "lucky-disadvantage",
+    "passive-checks"
+   ]
+  },
+  {
+   "id": "proficiency-bonus",
+   "t": "Proficiency bonus",
+   "kind": "rule",
+   "src": "PHB ch.1",
+   "c": "core",
+   "k": "prof bonus pb level table expertise double half jack of all trades",
+   "s": "+2 at levels 1 to 4, +3 at 5 to 8, +4 at 9 to 12, +5 at 13 to 16, +6 at 17 to 20. It follows total character level.",
+   "b": [
+    "Add it to attacks, checks and saves you are proficient in, and to your spell save DC and spell attack.",
+    "It is never added more than once to the same roll. It can be doubled (Expertise) or halved (Jack of All Trades), but only once each way.",
+    "Multiclass characters use total level, not class level."
+   ],
+   "r": [
+    "multiclass-basics",
+    "spell-dc"
+   ]
+  },
+  {
+   "id": "rounding",
+   "t": "Rounding",
+   "kind": "rule",
+   "src": "PHB intro",
+   "c": "core",
+   "k": "round down half fraction divide",
+   "s": "Always round down, unless a rule says otherwise.",
+   "b": [
+    "Half of 7 damage is 3. Half of level 5 is 2."
+   ],
+   "r": [
+    "resistance-order"
+   ]
+  },
+  {
+   "id": "specific-beats-general",
+   "t": "Specific beats general",
+   "kind": "rule",
+   "src": "PHB intro",
+   "c": "core",
+   "k": "exception conflict rule override feature says",
+   "s": "When a specific rule (a feature, spell, item or monster trait) contradicts a general rule, the specific rule wins.",
+   "b": [
+    "Example: you normally cannot cast two leveled spells in a turn with a bonus-action spell; a feature that says you can, wins."
+   ],
+   "d": "Most rules arguments end here. Read the feature's exact words; it does what it says and no more."
+  },
+  {
+   "id": "stacking",
+   "t": "Stacking effects",
+   "kind": "rule",
+   "src": "PHB ch.10, DMG ch.8",
+   "c": "core",
+   "k": "stack same spell twice bless twice combine bonuses overlap name",
+   "s": "Different effects add together. The same effect from the same named spell or feature does not: only the strongest applies.",
+   "b": [
+    "Two Bless spells give one d4, not two. Bless plus Guidance both apply (different names).",
+    "Two different features that give the same kind of bonus both apply unless one says otherwise.",
+    "The same magic item bonus counts once per item, but two different items add."
+   ],
+   "d": "The DMG extends the same-name rule to all game features, not only spells.",
+   "r": [
+    "ac-calculations",
+    "temp-hp"
+   ]
+  },
+  {
+   "id": "dc-table",
+   "t": "DC: typical difficulty classes",
+   "kind": "rule",
+   "src": "PHB ch.7, DMG ch.8",
+   "c": "core",
+   "k": "dc difficulty easy medium hard table how hard set",
+   "s": "Very easy 5, Easy 10, Medium 15, Hard 20, Very hard 25, Nearly impossible 30.",
+   "b": [
+    "Most checks at the table should be 10, 15 or 20."
+   ],
+   "p": "A DC 15 is a coin flip for someone with +4.",
+   "d": "Pick the number before the roll, and say the stakes. If you are unsure, use 15.",
+   "r": [
+    "d20-test",
+    "improvised-damage"
+   ]
+  },
+  {
+   "id": "contests",
+   "t": "Contests",
+   "kind": "rule",
+   "src": "PHB ch.7",
+   "c": "core",
+   "k": "contest opposed check versus tie grapple shove",
+   "s": "Both sides roll a check; the higher total wins. On a tie nothing changes.",
+   "b": [
+    "Grappling and shoving are contests: Athletics against the target's Athletics or Acrobatics.",
+    "In a tie, a door stays shut and a grapple does not start (or does not end)."
+   ],
+   "r": [
+    "grapple",
+    "shove",
+    "hide"
+   ]
+  },
+  {
+   "id": "passive-checks",
+   "t": "Passive checks",
+   "kind": "rule",
+   "src": "PHB ch.7",
+   "c": "core",
+   "k": "passive perception investigation insight 10 plus floor notice",
+   "s": "10 + all modifiers that normally apply. Advantage adds 5, disadvantage subtracts 5.",
+   "b": [
+    "Used when no one is actively rolling: noticing hidden creatures, repeated tasks, secret checks.",
+    "Passive Perception is what a hider's Stealth roll has to beat."
+   ],
+   "p": "Passive Perception is on your sheet. Observant adds +5.",
+   "d": "Use passive scores to avoid tipping players off by asking for a roll. Whether passive is a floor for active rolls is a table choice; the designers have said it effectively is while you are alert.",
+   "r": [
+    "hide",
+    "perception-vs-investigation"
+   ]
+  },
+  {
+   "id": "group-checks",
+   "t": "Group checks",
+   "kind": "rule",
+   "src": "PHB ch.7",
+   "c": "core",
+   "k": "group everyone rolls party stealth half succeed",
+   "s": "Everyone rolls; if at least half succeed, the whole group succeeds.",
+   "b": [
+    "Use it when the group succeeds or fails together (sneaking past a camp, crossing a swamp)."
+   ],
+   "d": "This stops the one heavy-armor character from sinking every stealth plan."
+  },
+  {
+   "id": "working-together",
+   "t": "Working together (helping on a check)",
+   "kind": "rule",
+   "src": "PHB ch.7",
+   "c": "core",
+   "k": "help assist aid another advantage check together",
+   "s": "A character who could attempt the task alone can help, giving the roller advantage.",
+   "b": [
+    "You can only help if your help could make a difference, and for tools or skills that need proficiency, only if you are proficient.",
+    "In combat this takes the Help action."
+   ],
+   "r": [
+    "help-action",
+    "advantage"
+   ]
+  },
+  {
+   "id": "inspiration",
+   "t": "Inspiration",
+   "kind": "rule",
+   "src": "PHB ch.4",
+   "c": "core",
+   "k": "inspiration heroic reward advantage give away",
+   "s": "You either have it or you do not. Spend it to gain advantage on one attack, save or check.",
+   "b": [
+    "You decide before the roll. You can give yours to another player.",
+    "You cannot have more than one."
+   ],
+   "d": "Hand it out often and visibly, for roleplay, clever plans or making the table laugh."
+  },
+  {
+   "id": "ability-scores",
+   "t": "Ability scores and modifiers",
+   "kind": "rule",
+   "src": "PHB ch.7",
+   "c": "abilities",
+   "k": "ability score modifier str dex con int wis cha table",
+   "s": "Modifier = (score − 10) ÷ 2, rounded down. 10 to 11 is +0, 12 to 13 is +1, 20 is +5.",
+   "b": [
+    "Strength: athletics, melee, carrying. Dexterity: AC, initiative, ranged, finesse, stealth.",
+    "Constitution: hit points, concentration. Intelligence: recall and reasoning.",
+    "Wisdom: perception, insight, willpower. Charisma: social force.",
+    "A player character's score cannot go above 20 unless a feature says so; nothing goes above 30."
+   ]
+  },
+  {
+   "id": "skills-list",
+   "t": "Skills and their abilities",
+   "kind": "rule",
+   "src": "PHB ch.7",
+   "c": "abilities",
+   "k": "skill list athletics acrobatics stealth arcana history perception which ability",
+   "s": "Each skill is tied to one ability, but the DM can pair a skill with a different ability when it fits.",
+   "b": [
+    "Strength: Athletics. Dexterity: Acrobatics, Sleight of Hand, Stealth.",
+    "Intelligence: Arcana, History, Investigation, Nature, Religion.",
+    "Wisdom: Animal Handling, Insight, Medicine, Perception, Survival.",
+    "Charisma: Deception, Intimidation, Performance, Persuasion.",
+    "Variant: Strength (Intimidation) for a show of force, Constitution (Athletics) for a long swim."
+   ],
+   "r": [
+    "perception-vs-investigation",
+    "athletics-vs-acrobatics",
+    "tools"
+   ]
+  },
+  {
+   "id": "perception-vs-investigation",
+   "t": "Perception or Investigation?",
+   "kind": "faq",
+   "src": "PHB ch.7",
+   "c": "abilities",
+   "k": "perception investigation search find trap secret door difference",
+   "s": "Perception notices that something is there. Investigation works out what it means or how it works.",
+   "b": [
+    "Perception: hear the footsteps, spot the tripwire, smell the gas.",
+    "Investigation: find the hidden catch by reasoning, work out what the mechanism does, spot the forged seal."
+   ],
+   "d": "If either could apply, let the player choose and describe how they look.",
+   "r": [
+    "passive-checks",
+    "traps"
+   ]
+  },
+  {
+   "id": "athletics-vs-acrobatics",
+   "t": "Athletics or Acrobatics?",
+   "kind": "faq",
+   "src": "PHB ch.7",
+   "c": "abilities",
+   "k": "athletics acrobatics climb jump balance tumble escape grapple",
+   "s": "Athletics is climbing, jumping, swimming and wrestling. Acrobatics is balance, tumbling and staying on your feet.",
+   "b": [
+    "Acrobatics does not replace Athletics for jumping or climbing.",
+    "To escape a grapple you may use either."
+   ],
+   "r": [
+    "jumping",
+    "grapple"
+   ]
+  },
+  {
+   "id": "tools",
+   "t": "Tool proficiency",
+   "kind": "rule",
+   "src": "PHB ch.5, XGE ch.2",
+   "c": "abilities",
+   "k": "tools thieves kit proficiency ability which",
+   "s": "A tool check is an ability check using whichever ability fits, plus proficiency if you are proficient with the tool.",
+   "b": [
+    "Thieves' tools on a lock is usually Dexterity. Recalling a poison's origin with a poisoner's kit could be Intelligence.",
+    "Xanathar's: if a skill and a tool both apply and you are proficient in both, you gain advantage."
+   ],
+   "d": "Without proficiency a character can still try most tools, just without the bonus. Locks and traps generally need the tools."
+  },
+  {
+   "id": "saving-throws",
+   "t": "Saving throws",
+   "kind": "rule",
+   "src": "PHB ch.7",
+   "c": "abilities",
+   "k": "save saving throw proficient which ability dex con wis half damage",
+   "s": "Rolled to resist something. Each class is proficient in two; success often means half damage or no effect.",
+   "b": [
+    "Dexterity, Constitution and Wisdom saves are the common ones. Strength, Intelligence and Charisma are rarer.",
+    "You can choose to fail only if the effect lets you (\"willing creature\").",
+    "A natural 20 or 1 has no special meaning on a save (death saves are the exception)."
+   ],
+   "r": [
+    "natural-20",
+    "death-saves",
+    "spell-dc"
+   ]
+  },
+  {
+   "id": "natural-20",
+   "t": "Natural 20 and natural 1",
+   "kind": "faq",
+   "src": "PHB ch.7, ch.9",
+   "c": "abilities",
+   "k": "nat 20 nat 1 critical auto success fail skill check crit fumble",
+   "s": "Only attack rolls: a 20 always hits and is a critical hit; a 1 always misses. Checks and saves have no automatic success or failure.",
+   "b": [
+    "A natural 20 on a skill check is just a 20 plus your modifier. It can still fail a DC 30.",
+    "Death saving throws are the exception: 20 means you regain 1 hit point, 1 counts as two failures.",
+    "There are no fumble rules in the books."
+   ],
+   "d": "Auto-success on a 20 for skills is a very common house rule. If you use it, do not ask for rolls on impossible tasks.",
+   "r": [
+    "critical-hits",
+    "death-saves"
+   ]
+  },
+  {
+   "id": "combat-steps",
+   "t": "The order of combat",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "combat-flow",
+   "k": "start combat steps begin fight sequence round turn",
+   "s": "1 Decide who is surprised. 2 Place everyone. 3 Roll initiative. 4 Take turns. 5 Repeat rounds until it ends.",
+   "b": [
+    "A round is about 6 seconds. Everyone gets one turn per round.",
+    "Initiative order stays the same every round."
+   ],
+   "r": [
+    "surprise",
+    "initiative",
+    "your-turn"
+   ]
+  },
+  {
+   "id": "initiative",
+   "t": "Initiative",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "combat-flow",
+   "k": "initiative order roll dexterity tie who goes first",
+   "s": "Everyone rolls a Dexterity check. Highest goes first.",
+   "b": [
+    "Initiative is an ability check, so anything that helps Dexterity checks or ability checks helps it (Jack of All Trades, Guidance).",
+    "Ties: the DM decides between monsters, players decide among themselves, the DM decides between a player and a monster (or roll off).",
+    "The DM usually rolls once for a group of identical monsters."
+   ],
+   "d": "Variants in the DMG: initiative score (passive), side initiative, speed factor."
+  },
+  {
+   "id": "surprise",
+   "t": "Surprise",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "combat-flow",
+   "k": "surprise round ambush surprised sneak attack first turn assassinate",
+   "s": "There is no \"surprise round\". A surprised creature cannot move or act on its first turn, and cannot take reactions until that turn ends.",
+   "b": [
+    "The DM compares the Stealth of anyone hiding with the passive Perception of each creature on the other side.",
+    "Surprise is per creature: some of a group can be surprised while others are not.",
+    "Everyone still rolls initiative. A surprised creature that rolled high simply loses its turn, then can use reactions.",
+    "If no one is trying to be stealthy, no one is surprised."
+   ],
+   "p": "Assassinate needs the target to be surprised, which ends after its first turn passes.",
+   "d": "Being attacked by a visible enemy who simply swings first is not surprise: roll initiative.",
+   "r": [
+    "hide",
+    "initiative",
+    "passive-checks"
+   ]
+  },
+  {
+   "id": "your-turn",
+   "t": "What you can do on your turn",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "combat-flow",
+   "k": "turn action bonus action move reaction free object interaction what can i do",
+   "s": "Move up to your speed, take one action, one bonus action if something gives you one, and one free object interaction.",
+   "b": [
+    "You can split your movement around your action and between attacks.",
+    "One reaction per round, on anyone's turn; you get it back at the start of your turn.",
+    "You can talk briefly and make small gestures for free.",
+    "You can skip any part of it."
+   ],
+   "p": "Action, bonus action and reaction are separate pools. You cannot trade one for another.",
+   "r": [
+    "bonus-action",
+    "reaction",
+    "object-interaction",
+    "movement-basics"
+   ]
+  },
+  {
+   "id": "bonus-action",
+   "t": "Bonus actions",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "combat-flow",
+   "k": "bonus action ba only one swap convert timing",
+   "s": "You only have a bonus action if a feature, spell or item gives you one, and only one per turn.",
+   "b": [
+    "You choose when in your turn to take it, unless its timing is specified.",
+    "You cannot use your action to do a bonus-action thing, or the reverse.",
+    "Anything that stops you taking actions also stops bonus actions."
+   ],
+   "r": [
+    "bonus-action-spell",
+    "two-weapon-fighting",
+    "your-turn"
+   ]
+  },
+  {
+   "id": "reaction",
+   "t": "Reactions",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "combat-flow",
+   "k": "reaction opportunity attack shield counterspell once per round regain own turn",
+   "s": "One per round, triggered by something specific. You regain it at the start of your turn.",
+   "b": [
+    "You can react on your own turn (for example Counterspell against a Counterspell).",
+    "If a reaction interrupts another creature's turn, that creature continues afterward.",
+    "A surprised creature cannot react until its first turn ends."
+   ],
+   "r": [
+    "opportunity-attack",
+    "ready-action",
+    "counterspell"
+   ]
+  },
+  {
+   "id": "object-interaction",
+   "t": "Free object interaction",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "combat-flow",
+   "k": "draw sheathe weapon door free interact object item hand pick up drop",
+   "s": "One simple interaction for free per turn: draw or sheathe one weapon, open a door, pick up an item. A second one costs your action (Use an Object).",
+   "b": [
+    "Drawing a weapon as part of the attack counts as the free one.",
+    "Dropping something costs nothing.",
+    "Sheathing one weapon and drawing another is two interactions.",
+    "Donning or doffing a shield takes an action."
+   ],
+   "p": "Swapping weapons mid-fight: drop the old one (free) and draw the new one (free), then pick it up later.",
+   "r": [
+    "use-an-object",
+    "drinking-potions",
+    "two-weapon-fighting"
+   ]
+  },
+  {
+   "id": "ending-effects-timing",
+   "t": "\"Until the start/end of your next turn\"",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "combat-flow",
+   "k": "duration until start end next turn round timing lasts",
+   "s": "Effects end exactly when they say. \"1 round\" means until the same point in initiative next round.",
+   "b": [
+    "\"Until the end of your next turn\" covers the rest of this turn and all of your next.",
+    "\"Until the start of your next turn\" ends before you act again (Dodge, Shield).",
+    "A 1-minute effect is 10 rounds."
+   ]
+  },
+  {
+   "id": "attack-action",
+   "t": "Attack",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "actions",
+   "k": "attack action extra attack swing shoot weapon multiple",
+   "s": "Make one melee or ranged attack. Extra Attack gives more attacks within this one action.",
+   "b": [
+    "You can move between attacks.",
+    "One of the attacks can be replaced by a grapple or a shove.",
+    "\"Attack action\" is not the same as any attack: an opportunity attack or a spell attack is not the Attack action."
+   ],
+   "r": [
+    "extra-attack",
+    "grapple",
+    "shove",
+    "two-weapon-fighting"
+   ]
+  },
+  {
+   "id": "cast-a-spell-action",
+   "t": "Cast a Spell",
+   "kind": "rule",
+   "src": "PHB ch.9, ch.10",
+   "c": "actions",
+   "k": "cast spell action casting time",
+   "s": "Cast a spell with a casting time of 1 action. Other casting times use what they say (bonus action, reaction, minutes).",
+   "b": [],
+   "r": [
+    "bonus-action-spell",
+    "casting-time",
+    "components"
+   ]
+  },
+  {
+   "id": "dash",
+   "t": "Dash",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "actions",
+   "k": "dash run double move extra movement speed",
+   "s": "Gain extra movement equal to your speed (after modifiers) for this turn.",
+   "b": [
+    "With speed 30 you can move 60 this turn. A bonus-action Dash on top makes 90.",
+    "It adds movement; it does not double anything already spent."
+   ],
+   "r": [
+    "movement-basics",
+    "chases"
+   ]
+  },
+  {
+   "id": "disengage",
+   "t": "Disengage",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "actions",
+   "k": "disengage retreat opportunity attack withdraw move away safely",
+   "s": "Your movement does not provoke opportunity attacks for the rest of the turn.",
+   "b": [
+    "It does not stop other reactions, and Sentinel ignores it."
+   ],
+   "r": [
+    "opportunity-attack",
+    "sentinel-disengage"
+   ]
+  },
+  {
+   "id": "dodge",
+   "t": "Dodge",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "actions",
+   "k": "dodge defend disadvantage attack dex save advantage",
+   "s": "Until your next turn, attacks against you have disadvantage if you can see the attacker, and you have advantage on Dexterity saves.",
+   "b": [
+    "You lose it if you are incapacitated or your speed drops to 0."
+   ]
+  },
+  {
+   "id": "help-action",
+   "t": "Help",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "actions",
+   "k": "help aid assist advantage ally attack distract familiar",
+   "s": "Give an ally advantage on their next ability check, or on their next attack against a creature within 5 feet of you.",
+   "b": [
+    "For attacks: you must be within 5 feet of the target; the ally can be anywhere. The advantage is on the first attack roll before your next turn.",
+    "A familiar can take the Help action."
+   ],
+   "r": [
+    "working-together",
+    "familiar-help"
+   ]
+  },
+  {
+   "id": "hide",
+   "t": "Hide",
+   "kind": "rule",
+   "src": "PHB ch.7, ch.9",
+   "c": "actions",
+   "k": "hide stealth sneak hidden unseen heavily obscured cover invisible find",
+   "s": "Take the Hide action and roll Stealth. You must be unseen first: you cannot hide from someone who can see you clearly.",
+   "b": [
+    "Your roll is the DC for others to find you, against their passive Perception or an active Search.",
+    "You stop being hidden when you make noise, attack, or come out where you can be seen.",
+    "While hidden you are unseen and unheard: attacks against you have disadvantage and you have advantage on your attack. Attacking gives your position away, hit or miss.",
+    "Being invisible does not make you hidden. Others still know where you are unless you Hide."
+   ],
+   "p": "Rogues hide as a bonus action (Cunning Action). Lightfoot halflings can hide behind a larger creature; wood elves in light rain or foliage.",
+   "d": "You decide when circumstances allow hiding. In open ground with nothing to hide behind, the answer is no.",
+   "r": [
+    "unseen-attackers",
+    "invisible-condition",
+    "surprise",
+    "passive-checks",
+    "vision-light"
+   ]
+  },
+  {
+   "id": "ready-action",
+   "t": "Ready",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "actions",
+   "k": "ready hold action trigger wait prepare reaction readied spell",
+   "s": "Choose a trigger you can perceive and an action (or movement). When it happens you can use your reaction to do it.",
+   "b": [
+    "You act right after the trigger finishes, or ignore it.",
+    "A readied spell is cast on your turn (slot spent), held with concentration, and released with your reaction. If concentration breaks or the trigger never comes, the slot is lost. Only 1-action spells can be readied.",
+    "A readied Attack is one attack: Extra Attack only works on your own turn."
+   ],
+   "p": "Readying drops any spell you were already concentrating on if you ready a spell.",
+   "r": [
+    "reaction",
+    "concentration",
+    "extra-attack"
+   ]
+  },
+  {
+   "id": "search-action",
+   "t": "Search",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "actions",
+   "k": "search look find perception investigation action",
+   "s": "Spend your action looking for something: a Perception or Investigation check, as the DM decides.",
+   "b": [],
+   "r": [
+    "perception-vs-investigation",
+    "hide"
+   ]
+  },
+  {
+   "id": "use-an-object",
+   "t": "Use an Object",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "actions",
+   "k": "use object action item second interaction potion",
+   "s": "Used when an object needs your action, or for a second object interaction in a turn.",
+   "b": [
+    "Drinking a potion or feeding one to someone is an action.",
+    "Activating a magic item is its own action (not Use an Object), so Fast Hands does not speed it up."
+   ],
+   "r": [
+    "object-interaction",
+    "drinking-potions",
+    "magic-item-activation"
+   ]
+  },
+  {
+   "id": "improvised-action",
+   "t": "Doing something not on the list",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "actions",
+   "k": "improvise anything stunt creative swing chandelier other action",
+   "s": "You can try anything. The DM says whether it is possible and what roll, if any, decides it.",
+   "b": [],
+   "d": "Default: an ability check against DC 10, 15 or 20, or a contest. Say yes when you can; it costs the action.",
+   "r": [
+    "dc-table",
+    "improvised-damage"
+   ]
+  },
+  {
+   "id": "grapple",
+   "t": "Grapple",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "actions",
+   "k": "grapple grab wrestle hold restrain escape drag pin",
+   "s": "Replaces one attack of your Attack action. Athletics against the target's Athletics or Acrobatics (its choice). Success: the target's speed is 0.",
+   "b": [
+    "You need a free hand, and the target can be at most one size larger than you.",
+    "The grappled creature is not restrained: it attacks and casts normally.",
+    "Escape: the target uses its action for Athletics or Acrobatics against your Athletics.",
+    "You can drag or carry it at half speed (full speed if it is two or more sizes smaller).",
+    "It ends if you are incapacitated or an effect moves the target out of your reach."
+   ],
+   "p": "Grapple, then shove prone: the target cannot stand because its speed is 0.",
+   "r": [
+    "shove",
+    "grappled-condition",
+    "contests",
+    "attack-action"
+   ]
+  },
+  {
+   "id": "shove",
+   "t": "Shove",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "actions",
+   "k": "shove push knock prone knockdown trip",
+   "s": "Replaces one attack of your Attack action. Athletics against the target's Athletics or Acrobatics. Success: knock it prone or push it 5 feet.",
+   "b": [
+    "The target can be at most one size larger than you."
+   ],
+   "r": [
+    "grapple",
+    "prone-condition",
+    "shield-master-timing"
+   ]
+  },
+  {
+   "id": "two-weapon-fighting",
+   "t": "Two-weapon fighting",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "actions",
+   "k": "dual wield two weapon offhand off hand bonus action light",
+   "s": "When you take the Attack action with a light melee weapon in one hand, you can use a bonus action to attack with a different light melee weapon in the other. No ability modifier to that damage unless it is negative.",
+   "b": [
+    "Both weapons must be light (Dual Wielder feat removes that).",
+    "The Two-Weapon Fighting style adds the modifier back.",
+    "It is always one bonus attack, no matter how many attacks Extra Attack gives.",
+    "If either weapon has the thrown property you can throw it instead.",
+    "Drawing: you can only draw one weapon for free per turn unless you have Dual Wielder."
+   ],
+   "r": [
+    "bonus-action",
+    "attack-action",
+    "object-interaction"
+   ]
+  },
+  {
+   "id": "opportunity-attack",
+   "t": "Opportunity attacks",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "actions",
+   "k": "opportunity attack aoo attack of opportunity leave reach provoke teleport forced",
+   "s": "When a creature you can see moves out of your reach, you can use your reaction for one melee attack against it.",
+   "b": [
+    "It happens just before the creature leaves your reach.",
+    "Not provoked by: Disengage, teleporting, or being moved without using your own movement, action or reaction (pushed, pulled, falling, carried).",
+    "Moving around inside someone's reach does not provoke.",
+    "It is one attack, not the Attack action: no Extra Attack."
+   ],
+   "p": "Reach weapons threaten at 10 feet, so the attack comes when the target leaves 10 feet.",
+   "d": "Monsters without a melee attack cannot make one. Most monsters should take them when offered.",
+   "r": [
+    "disengage",
+    "reaction",
+    "forced-movement",
+    "war-caster-oa"
+   ]
+  },
+  {
+   "id": "mounted-combat",
+   "t": "Mounted combat",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "actions",
+   "k": "mount horse ride mounted controlled independent dismount lance",
+   "s": "Mounting or dismounting costs half your speed, once per turn. A controlled mount acts on your turn and can only Dash, Disengage or Dodge.",
+   "b": [
+    "The mount must be willing, at least one size larger than you, and suitable.",
+    "Controlled mount: its initiative changes to yours; it moves as you direct.",
+    "Independent mount (intelligent creatures): keeps its own initiative and does what it wants.",
+    "If the mount is knocked prone you can use your reaction to land on your feet; otherwise you are dismounted and prone.",
+    "If the mount provokes an opportunity attack, the attacker can target you or the mount."
+   ],
+   "r": [
+    "opportunity-attack",
+    "forced-movement"
+   ]
+  },
+  {
+   "id": "movement-basics",
+   "t": "Movement and speed",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "movement",
+   "k": "move speed feet squares split movement walk",
+   "s": "Move up to your speed each turn, in any pieces you like. On a grid a square is 5 feet.",
+   "b": [
+    "You can break up movement before, between and after attacks and actions.",
+    "With several speeds (walk, fly, swim) you can switch; subtract what you have already moved from the new speed.",
+    "Diagonals cost 5 feet each by default. Optional (DMG): every second diagonal costs 10."
+   ],
+   "r": [
+    "difficult-terrain",
+    "dash",
+    "climb-swim-crawl"
+   ]
+  },
+  {
+   "id": "difficult-terrain",
+   "t": "Difficult terrain",
+   "kind": "rule",
+   "src": "PHB ch.8, ch.9",
+   "c": "movement",
+   "k": "difficult terrain rubble mud snow half speed extra foot",
+   "s": "Every foot costs 1 extra foot. It does not stack with itself.",
+   "b": [
+    "Another creature's space (friend or foe) is difficult terrain.",
+    "Difficult terrain plus crawling or climbing costs 3 feet per foot."
+   ]
+  },
+  {
+   "id": "climb-swim-crawl",
+   "t": "Climbing, swimming and crawling",
+   "kind": "rule",
+   "src": "PHB ch.8, ch.9",
+   "c": "movement",
+   "k": "climb swim crawl speed extra foot athletics",
+   "s": "Each foot costs 1 extra foot (2 extra in difficult terrain), unless you have a climbing or swimming speed.",
+   "b": [
+    "A hard climb or rough water may need a Strength (Athletics) check."
+   ],
+   "r": [
+    "difficult-terrain",
+    "underwater-combat"
+   ]
+  },
+  {
+   "id": "jumping",
+   "t": "Jumping",
+   "kind": "rule",
+   "src": "PHB ch.8",
+   "c": "movement",
+   "k": "jump long high leap running standing how far",
+   "s": "Long jump: feet equal to your Strength score with a 10-foot run-up, half without. High jump: 3 + Strength modifier feet with a run-up, half without.",
+   "b": [
+    "Each foot jumped costs a foot of movement.",
+    "You can reach up half your height above the top of a high jump.",
+    "The DM can allow a Strength (Athletics) check to jump farther."
+   ],
+   "r": [
+    "athletics-vs-acrobatics",
+    "jump-distance-speed"
+   ]
+  },
+  {
+   "id": "prone-standing",
+   "t": "Dropping prone and standing up",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "movement",
+   "k": "prone stand up drop crawl half movement",
+   "s": "Dropping prone is free. Standing up costs half your speed. You cannot stand if your speed is 0.",
+   "b": [
+    "While prone you can only crawl, unless you stand."
+   ],
+   "r": [
+    "prone-condition",
+    "grapple"
+   ]
+  },
+  {
+   "id": "moving-through-creatures",
+   "t": "Moving through other creatures",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "movement",
+   "k": "move through ally enemy space squeeze past occupy end turn",
+   "s": "You can pass through an ally's space (difficult terrain), and through an enemy's only if it is two or more sizes larger or smaller. You cannot willingly end your move in another creature's space.",
+   "b": [
+    "Optional (DMG): Overrun and Tumble let you contest your way through."
+   ],
+   "r": [
+    "difficult-terrain",
+    "size-space"
+   ]
+  },
+  {
+   "id": "size-space",
+   "t": "Size and space",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "movement",
+   "k": "size tiny small medium large huge gargantuan space squares squeeze",
+   "s": "Tiny 2½ ft, Small and Medium 5 ft, Large 10 ft, Huge 15 ft, Gargantuan 20 ft or more.",
+   "b": [
+    "Squeezing: a creature can fit through a space one size smaller. Each foot costs 1 extra, and it has disadvantage on attacks and Dexterity saves while attacks against it have advantage."
+   ],
+   "r": [
+    "moving-through-creatures",
+    "grapple"
+   ]
+  },
+  {
+   "id": "flying",
+   "t": "Flying",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "movement",
+   "k": "fly flying fall knocked prone hover speed zero",
+   "s": "A flying creature falls if it is knocked prone, its speed becomes 0, or it otherwise cannot move, unless it can hover or is held up by magic such as the Fly spell.",
+   "b": [],
+   "r": [
+    "falling",
+    "prone-condition"
+   ]
+  },
+  {
+   "id": "forced-movement",
+   "t": "Forced movement",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "movement",
+   "k": "push pull shove forced moved thunderwave repelling opportunity attack hazard",
+   "s": "Being pushed, pulled or carried is not your movement: it provokes no opportunity attacks and does not cost your speed.",
+   "b": [
+    "It does not trigger effects that say \"moves willingly\" (Booming Blade).",
+    "It does trigger effects that care about \"entering\" an area (Spirit Guardians, Wall of Fire), but only once per turn for most of them."
+   ],
+   "r": [
+    "opportunity-attack",
+    "entering-area-effects",
+    "booming-blade-forced"
+   ]
+  },
+  {
+   "id": "falling",
+   "t": "Falling",
+   "kind": "rule",
+   "src": "PHB ch.8, XGE ch.2",
+   "c": "movement",
+   "k": "fall falling damage d6 10 feet prone height max",
+   "s": "1d6 bludgeoning per 10 feet, to a maximum of 20d6. You land prone unless you take no damage.",
+   "b": [
+    "Xanathar's (optional): you fall 500 feet instantly, then 500 feet at the end of each of your turns.",
+    "Xanathar's (optional): a flying creature knocked prone falls, and subtracts its fly speed from the distance if it can still fly.",
+    "The core rules have no special rule for falling into water: the DM decides."
+   ],
+   "r": [
+    "flying",
+    "feather-fall-timing"
+   ]
+  },
+  {
+   "id": "attack-rolls",
+   "t": "Making an attack",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "attacks",
+   "k": "attack roll hit ac modifier melee ranged finesse",
+   "s": "d20 + ability modifier + proficiency (if proficient). Meet or beat the target's AC to hit.",
+   "b": [
+    "Melee uses Strength; ranged uses Dexterity. Finesse weapons use either; thrown weapons use the same ability as in melee.",
+    "Spell attacks use your spellcasting ability.",
+    "If something counts as an attack at all: it makes an attack roll."
+   ],
+   "r": [
+    "natural-20",
+    "cover",
+    "unseen-attackers",
+    "ranged-in-melee"
+   ]
+  },
+  {
+   "id": "unseen-attackers",
+   "t": "Unseen attackers and targets",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "attacks",
+   "k": "unseen invisible hidden blind darkness cant see advantage disadvantage guess location",
+   "s": "Attacking a target you cannot see: disadvantage. Attacking when the target cannot see you: advantage. Both at once cancel out.",
+   "b": [
+    "If you guess the wrong square, you miss automatically; the DM just says \"miss\".",
+    "Attacking reveals your position, hit or miss.",
+    "Two creatures fighting in darkness with no darkvision attack each other normally (advantage and disadvantage cancel)."
+   ],
+   "r": [
+    "hide",
+    "vision-light",
+    "invisible-condition",
+    "darkness-both-blind"
+   ]
+  },
+  {
+   "id": "ranged-in-melee",
+   "t": "Ranged attacks",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "attacks",
+   "k": "ranged attack range long disadvantage melee 5 feet close bow thrown",
+   "s": "Disadvantage beyond normal range (up to long range), and disadvantage when a hostile creature that can see you and is not incapacitated is within 5 feet.",
+   "b": [
+    "This covers ranged spell attacks too.",
+    "Crossbow Expert removes the within-5-feet penalty.",
+    "You cannot attack beyond long range."
+   ],
+   "r": [
+    "cover",
+    "weapon-properties"
+   ]
+  },
+  {
+   "id": "cover",
+   "t": "Cover",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "attacks",
+   "k": "cover half three quarters total wall creature behind ac bonus dex save",
+   "s": "Half cover: +2 AC and Dexterity saves. Three-quarters: +5. Total cover: cannot be targeted directly.",
+   "b": [
+    "Half: a low wall, furniture, another creature (friend or foe). Three-quarters: an arrow slit, a thick tree trunk.",
+    "Only the best cover counts.",
+    "Total cover does not stop an area that spreads around corners (Fireball does spread).",
+    "Optional (DMG): if an attack misses by the cover bonus, it hits the cover."
+   ],
+   "p": "Shooting past an ally gives the enemy +2 AC. Sharpshooter and Spell Sniper ignore half and three-quarters cover.",
+   "r": [
+    "line-of-effect",
+    "unseen-attackers"
+   ]
+  },
+  {
+   "id": "critical-hits",
+   "t": "Critical hits",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "attacks",
+   "k": "crit critical hit double dice natural 20 smite sneak attack extra damage",
+   "s": "Roll all of the attack's damage dice twice, then add modifiers once.",
+   "b": [
+    "Every die that is part of the attack's damage doubles: Sneak Attack, Divine Smite, Hunter's Mark, a flame tongue's fire.",
+    "Flat bonuses do not double.",
+    "Damage that comes from a separate saving throw does not double."
+   ],
+   "p": "Paladins can decide to smite after seeing the crit.",
+   "d": "Monsters crit too. \"Maximum dice plus a roll\" is a popular house rule, not the book rule.",
+   "r": [
+    "natural-20",
+    "smite-after-crit"
+   ]
+  },
+  {
+   "id": "damage-rolls",
+   "t": "Damage and damage types",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "attacks",
+   "k": "damage roll modifier types slashing fire radiant necrotic psychic list",
+   "s": "Roll the damage dice and add the same ability modifier you attacked with (weapons). Spells say what to add, usually nothing.",
+   "b": [
+    "Types: acid, bludgeoning, cold, fire, force, lightning, necrotic, piercing, poison, psychic, radiant, slashing, thunder.",
+    "A spell or effect that damages several targets at once rolls damage once for all of them.",
+    "Off-hand attacks add no modifier (unless negative)."
+   ],
+   "r": [
+    "resistance-order",
+    "critical-hits",
+    "two-weapon-fighting"
+   ]
+  },
+  {
+   "id": "resistance-order",
+   "t": "Resistance, vulnerability and immunity",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "attacks",
+   "k": "resistance vulnerability immunity half double order stack twice",
+   "s": "Resistance halves, vulnerability doubles, immunity is zero. Apply bonuses and reductions first, then resistance, then vulnerability.",
+   "b": [
+    "Several resistances to the same damage count once.",
+    "Resistance and vulnerability to the same type: halve, then double.",
+    "Example: 25 fire, −5 from an aura, resistant: (25 − 5) ÷ 2 = 10.",
+    "A successful save for half comes before resistance; the order of two halvings does not matter except for rounding."
+   ],
+   "r": [
+    "rounding",
+    "damage-rolls",
+    "heavy-armor-master-order"
+   ]
+  },
+  {
+   "id": "temp-hp",
+   "t": "Temporary hit points",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "attacks",
+   "k": "temp hp temporary hit points stack false life healing add",
+   "s": "A buffer lost first. They do not stack: keep the higher amount. Healing does not restore them.",
+   "b": [
+    "They last until used up or you finish a long rest, unless the source says otherwise.",
+    "They are not hit points: you are not healed, and at 0 hit points they do not wake you or stop death saves.",
+    "If the source spell needs concentration or has a duration (Armor of Agathys), other effects end when its temp hit points are gone.",
+    "Damage that would break concentration still forces the save even if temp hit points absorb all of it."
+   ],
+   "r": [
+    "stacking",
+    "concentration",
+    "dropping-to-zero"
+   ]
+  },
+  {
+   "id": "healing",
+   "t": "Healing",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "attacks",
+   "k": "heal healing hit points maximum regain revive potion",
+   "s": "You cannot go above your hit point maximum. Any healing at 0 hit points wakes you.",
+   "b": [
+    "A dead creature cannot be healed until it is raised."
+   ],
+   "r": [
+    "dropping-to-zero",
+    "drinking-potions",
+    "resting-short"
+   ]
+  },
+  {
+   "id": "dropping-to-zero",
+   "t": "Dropping to 0 hit points",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "attacks",
+   "k": "zero hp unconscious dying down knocked out massive damage instant death",
+   "s": "You fall unconscious and start making death saves. If the leftover damage equals or exceeds your hit point maximum, you die instantly.",
+   "b": [
+    "Example: 6 hit points left, maximum 12, take 18: the 12 left over equals your maximum. Dead.",
+    "Monsters usually just die at 0; the DM may have important ones make death saves."
+   ],
+   "r": [
+    "death-saves",
+    "unconscious-condition",
+    "knocking-out",
+    "healing"
+   ]
+  },
+  {
+   "id": "death-saves",
+   "t": "Death saving throws",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "attacks",
+   "k": "death save dying three successes failures stable nat 20 nat 1 damage at zero",
+   "s": "At the start of each of your turns at 0 hit points, roll a d20 with no modifiers: 10 or higher succeeds. Three successes: stable. Three failures: dead.",
+   "b": [
+    "Natural 20: you regain 1 hit point. Natural 1: two failures.",
+    "Taking damage at 0: one failure. A critical hit: two. Any hit from within 5 feet on an unconscious creature is a critical hit.",
+    "Damage equal to your maximum while at 0 kills outright.",
+    "The counts reset when you regain any hit points or become stable.",
+    "A death save is a saving throw, so Bless and a paladin's aura help."
+   ],
+   "p": "A downed ally hit by a melee attack takes two failures. Get them up or get the enemy off them.",
+   "r": [
+    "dropping-to-zero",
+    "stabilizing",
+    "unconscious-condition",
+    "natural-20"
+   ]
+  },
+  {
+   "id": "stabilizing",
+   "t": "Stabilizing a creature",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "attacks",
+   "k": "stabilize medicine healers kit spare the dying stable wake",
+   "s": "Action: Wisdom (Medicine) DC 10, or use a healer's kit (no roll). A stable creature is unconscious at 0 and no longer rolls death saves.",
+   "b": [
+    "It regains 1 hit point after 1d4 hours.",
+    "If it takes damage again, it starts dying again."
+   ],
+   "r": [
+    "death-saves",
+    "healing"
+   ]
+  },
+  {
+   "id": "knocking-out",
+   "t": "Knocking a creature out",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "attacks",
+   "k": "knock out nonlethal subdue unconscious capture alive melee",
+   "s": "When you reduce a creature to 0 with a melee attack, you can choose to knock it out: unconscious and stable.",
+   "b": [
+    "Melee attacks only, including melee spell attacks. Not ranged attacks or area spells.",
+    "You decide when the damage is dealt."
+   ]
+  },
+  {
+   "id": "underwater-combat",
+   "t": "Underwater combat",
+   "kind": "rule",
+   "src": "PHB ch.9",
+   "c": "attacks",
+   "k": "underwater swim water fight ranged fire resistance",
+   "s": "Without a swim speed, melee attacks have disadvantage unless using a dagger, javelin, shortsword, spear or trident. Ranged weapon attacks miss beyond normal range and have disadvantage within it, except crossbows, nets and thrown javelin-like weapons.",
+   "b": [
+    "Fully immersed creatures have resistance to fire damage."
+   ],
+   "r": [
+    "climb-swim-crawl",
+    "suffocating"
+   ]
+  },
+  {
+   "id": "blinded-condition",
+   "t": "Blinded",
+   "kind": "rule",
+   "src": "PHB app.A",
+   "c": "conditions",
+   "k": "blind blinded cant see",
+   "s": "Cannot see. Fails any check that needs sight. Its attacks have disadvantage; attacks against it have advantage.",
+   "b": [],
+   "r": [
+    "unseen-attackers"
+   ]
+  },
+  {
+   "id": "charmed-condition",
+   "t": "Charmed",
+   "kind": "rule",
+   "src": "PHB app.A",
+   "c": "conditions",
+   "k": "charm charmed friend cant attack social advantage",
+   "s": "Cannot attack the charmer or target them with harmful abilities or magic. The charmer has advantage on social checks with it.",
+   "b": [
+    "It is not mind control: the creature is friendly, not a puppet, unless the spell says more."
+   ],
+   "r": [
+    "charm-not-control"
+   ]
+  },
+  {
+   "id": "deafened-condition",
+   "t": "Deafened",
+   "kind": "rule",
+   "src": "PHB app.A",
+   "c": "conditions",
+   "k": "deaf deafened hear",
+   "s": "Cannot hear. Fails any check that needs hearing.",
+   "b": [
+    "A deafened caster can still cast spells with verbal components."
+   ]
+  },
+  {
+   "id": "frightened-condition",
+   "t": "Frightened",
+   "kind": "rule",
+   "src": "PHB app.A",
+   "c": "conditions",
+   "k": "fear frightened afraid scared disadvantage move closer",
+   "s": "Disadvantage on checks and attacks while the source of fear is in sight. Cannot willingly move closer to it.",
+   "b": []
+  },
+  {
+   "id": "grappled-condition",
+   "t": "Grappled",
+   "kind": "rule",
+   "src": "PHB app.A",
+   "c": "conditions",
+   "k": "grappled held speed zero",
+   "s": "Speed 0, and no bonuses to speed. Nothing else: it can still attack and cast.",
+   "b": [
+    "Ends if the grappler is incapacitated or the two are moved apart."
+   ],
+   "r": [
+    "grapple"
+   ]
+  },
+  {
+   "id": "incapacitated-condition",
+   "t": "Incapacitated",
+   "kind": "rule",
+   "src": "PHB app.A",
+   "c": "conditions",
+   "k": "incapacitated cant act actions reactions concentration",
+   "s": "Cannot take actions or reactions (so no bonus actions either). It can still move unless something else stops it.",
+   "b": [
+    "Being incapacitated ends concentration."
+   ],
+   "r": [
+    "concentration"
+   ]
+  },
+  {
+   "id": "invisible-condition",
+   "t": "Invisible",
+   "kind": "rule",
+   "src": "PHB app.A",
+   "c": "conditions",
+   "k": "invisible invisibility unseen see invisibility truesight advantage hidden location",
+   "s": "Cannot be seen without magic or a special sense. Its attacks have advantage; attacks against it have disadvantage.",
+   "b": [
+    "It is heavily obscured for hiding, but it still makes noise and leaves tracks: its location is known unless it also hides.",
+    "Anything it wears or carries is invisible too."
+   ],
+   "r": [
+    "hide",
+    "unseen-attackers",
+    "see-invisibility-advantage"
+   ]
+  },
+  {
+   "id": "paralyzed-condition",
+   "t": "Paralyzed",
+   "kind": "rule",
+   "src": "PHB app.A",
+   "c": "conditions",
+   "k": "paralyzed hold person frozen auto crit",
+   "s": "Incapacitated, cannot move or speak. Automatically fails Strength and Dexterity saves. Attacks have advantage, and any hit from within 5 feet is a critical hit.",
+   "b": [],
+   "r": [
+    "critical-hits"
+   ]
+  },
+  {
+   "id": "petrified-condition",
+   "t": "Petrified",
+   "kind": "rule",
+   "src": "PHB app.A",
+   "c": "conditions",
+   "k": "petrified stone statue medusa",
+   "s": "Turned to stone: incapacitated, unaware, weight ×10, does not age. Attacks have advantage; fails Strength and Dexterity saves; resistance to all damage; immune to poison and disease (existing ones are suspended).",
+   "b": []
+  },
+  {
+   "id": "poisoned-condition",
+   "t": "Poisoned",
+   "kind": "rule",
+   "src": "PHB app.A",
+   "c": "conditions",
+   "k": "poison poisoned disadvantage",
+   "s": "Disadvantage on attack rolls and ability checks. Not on saving throws.",
+   "b": []
+  },
+  {
+   "id": "prone-condition",
+   "t": "Prone",
+   "kind": "rule",
+   "src": "PHB app.A",
+   "c": "conditions",
+   "k": "prone knocked down lying crawl advantage ranged disadvantage",
+   "s": "Can only crawl. Its attacks have disadvantage. Attacks from within 5 feet have advantage; from farther away, disadvantage.",
+   "b": [
+    "Standing up costs half your speed."
+   ],
+   "p": "Do not knock a target prone if your archers are about to shoot it.",
+   "r": [
+    "prone-standing",
+    "shove"
+   ]
+  },
+  {
+   "id": "restrained-condition",
+   "t": "Restrained",
+   "kind": "rule",
+   "src": "PHB app.A",
+   "c": "conditions",
+   "k": "restrained web entangle net held",
+   "s": "Speed 0. Its attacks have disadvantage; attacks against it have advantage. Disadvantage on Dexterity saves.",
+   "b": []
+  },
+  {
+   "id": "stunned-condition",
+   "t": "Stunned",
+   "kind": "rule",
+   "src": "PHB app.A",
+   "c": "conditions",
+   "k": "stun stunned stunning strike",
+   "s": "Incapacitated, cannot move, can barely speak. Fails Strength and Dexterity saves. Attacks against it have advantage.",
+   "b": [
+    "Unlike paralyzed, hits are not automatic critical hits."
+   ]
+  },
+  {
+   "id": "unconscious-condition",
+   "t": "Unconscious",
+   "kind": "rule",
+   "src": "PHB app.A",
+   "c": "conditions",
+   "k": "unconscious asleep knocked out sleep drop prone",
+   "s": "Incapacitated, cannot move or speak, unaware. Drops what it holds and falls prone. Fails Strength and Dexterity saves. Attacks have advantage, and any hit from within 5 feet is a critical hit.",
+   "b": [],
+   "r": [
+    "dropping-to-zero",
+    "death-saves"
+   ]
+  },
+  {
+   "id": "exhaustion",
+   "t": "Exhaustion",
+   "kind": "rule",
+   "src": "PHB app.A",
+   "c": "conditions",
+   "k": "exhaustion levels tired forced march starvation six death",
+   "s": "Six levels, each adding to the last: 1 disadvantage on ability checks; 2 speed halved; 3 disadvantage on attacks and saves; 4 hit point maximum halved; 5 speed 0; 6 death.",
+   "b": [
+    "A long rest with food and water removes one level.",
+    "Sources: forced marches, starvation, extreme heat or cold, Frenzy, missing sleep (Xanathar's)."
+   ],
+   "r": [
+    "resting-long",
+    "travel-pace",
+    "food-water"
+   ]
+  },
+  {
+   "id": "condition-basics",
+   "t": "How conditions work",
+   "kind": "rule",
+   "src": "PHB app.A",
+   "c": "conditions",
+   "k": "condition stack duration same twice end",
+   "s": "A condition lasts until it is countered or its duration ends. The same condition from several sources does not get worse; each source has its own duration.",
+   "b": [
+    "\"Incapacitated\" is part of paralyzed, petrified, stunned and unconscious."
+   ],
+   "r": [
+    "stacking"
+   ]
+  },
+  {
+   "id": "spell-slots",
+   "t": "Spell slots and spell levels",
+   "kind": "rule",
+   "src": "PHB ch.10",
+   "c": "spellcasting",
+   "k": "slot level upcast higher level cast expend cantrip at will",
+   "s": "A leveled spell uses a slot of its level or higher. Cantrips use no slot.",
+   "b": [
+    "Casting with a higher slot makes the spell that level; many spells get stronger (\"At Higher Levels\").",
+    "Slots come back on a long rest (warlock pact slots on a short rest).",
+    "Character level, not slot level, scales cantrip damage (5th, 11th, 17th)."
+   ],
+   "r": [
+    "known-vs-prepared",
+    "multiclass-slots",
+    "pact-magic"
+   ]
+  },
+  {
+   "id": "known-vs-prepared",
+   "t": "Known and prepared spells",
+   "kind": "rule",
+   "src": "PHB ch.3, ch.10",
+   "c": "spellcasting",
+   "k": "prepare prepared known spells change swap long rest spellbook",
+   "s": "Clerics, druids, paladins, wizards and artificers prepare a list after a long rest. Bards, sorcerers, rangers and warlocks know a fixed list and swap one on level-up.",
+   "b": [
+    "Prepared count: casting modifier + class level (half level, rounded down, for paladins and artificers), minimum 1.",
+    "Wizards prepare from their spellbook; clerics, druids and paladins from the whole class list.",
+    "Domain, oath and similar bonus spells are always prepared and do not count.",
+    "Casting does not un-prepare a spell."
+   ],
+   "r": [
+    "ritual-casting",
+    "spell-slots"
+   ]
+  },
+  {
+   "id": "casting-time",
+   "t": "Casting time",
+   "kind": "rule",
+   "src": "PHB ch.10",
+   "c": "spellcasting",
+   "k": "casting time action bonus reaction minute long",
+   "s": "Most spells take 1 action. Bonus-action and reaction spells say so. Longer spells need your action every turn and concentration until done.",
+   "b": [
+    "If concentration breaks during a long casting, the spell fails but the slot is not spent."
+   ],
+   "r": [
+    "bonus-action-spell",
+    "ritual-casting",
+    "concentration"
+   ]
+  },
+  {
+   "id": "bonus-action-spell",
+   "t": "Bonus-action spells and a second spell",
+   "kind": "faq",
+   "src": "PHB ch.10, Sage Advice",
+   "c": "spellcasting",
+   "k": "bonus action spell two spells one turn cantrip healing word quickened action surge misty step",
+   "s": "If you cast any spell as a bonus action, the only other spell you can cast that turn is a cantrip with a casting time of 1 action.",
+   "b": [
+    "Healing Word + Fire Bolt: yes. Healing Word + Cure Wounds: no. Misty Step + Fireball: no.",
+    "It covers the whole turn, so no reaction spell (Counterspell, Shield) on that same turn either.",
+    "Quickened Spell makes a spell a bonus-action spell, so the same limit applies.",
+    "Without a bonus-action spell there is no limit: Action Surge lets a fighter cast two leveled 1-action spells.",
+    "On other creatures' turns you can still use reaction spells."
+   ],
+   "p": "The order does not matter. If either spell this turn used your bonus action, the other one must be a 1-action cantrip, even if the bonus-action spell was itself a quickened cantrip.",
+   "d": "The simple test: \"Did you cast a spell with your bonus action this turn? Then everything else is a 1-action cantrip.\"",
+   "r": [
+    "casting-time",
+    "counterspell",
+    "reaction"
+   ]
+  },
+  {
+   "id": "components",
+   "t": "Components: verbal, somatic, material",
+   "kind": "rule",
+   "src": "PHB ch.10",
+   "c": "spellcasting",
+   "k": "components v s m verbal somatic material focus pouch free hand cost consumed gag",
+   "s": "Verbal needs speech, somatic needs a free hand, material needs the item or a focus or component pouch. Costly or consumed materials must be the real thing.",
+   "b": [
+    "The hand holding the focus or materials can also do the somatic part.",
+    "A focus or pouch replaces only materials with no listed cost that are not consumed.",
+    "If a spell is S without M, you need a truly free hand: a hand holding a focus does not count.",
+    "You cannot cast V spells while gagged or in Silence, or S spells with both hands bound."
+   ],
+   "p": "Sword and shield casters: a cleric or paladin can put a holy symbol on the shield. Otherwise War Caster solves it.",
+   "d": "Both apps hide materials with no cost by default; the house rule switch shows all or none.",
+   "r": [
+    "two-handed-casting",
+    "subtle-counterspell",
+    "perceiving-casting"
+   ]
+  },
+  {
+   "id": "concentration",
+   "t": "Concentration",
+   "kind": "rule",
+   "src": "PHB ch.10",
+   "c": "spellcasting",
+   "k": "concentration break save constitution damage dc 10 half one spell at a time",
+   "s": "One concentration spell at a time. When you take damage, make a Constitution save: DC 10 or half the damage, whichever is higher.",
+   "b": [
+    "Each separate source of damage is its own save.",
+    "Ends if you cast another concentration spell, are incapacitated or die. You can end it any time, no action.",
+    "Normal activity (moving, attacking, casting non-concentration spells) does not break it.",
+    "The DM can call for a DC 10 save for things like a ship's deck in a storm."
+   ],
+   "p": "War Caster gives advantage; Resilient (Constitution) adds proficiency. Both sheets show concentration at the top.",
+   "d": "Track it for monsters too. One save per hit, not per turn.",
+   "r": [
+    "magic-missile-concentration",
+    "ready-action",
+    "temp-hp",
+    "incapacitated-condition"
+   ]
+  },
+  {
+   "id": "ritual-casting",
+   "t": "Rituals",
+   "kind": "rule",
+   "src": "PHB ch.10",
+   "c": "spellcasting",
+   "k": "ritual cast without slot 10 minutes tag prepared book",
+   "s": "A spell with the ritual tag can be cast without a slot by taking 10 minutes longer. It cannot be upcast that way.",
+   "b": [
+    "You need a feature that allows rituals (bard, cleric, druid, wizard, artificer, Ritual Caster, Book of Ancient Secrets).",
+    "Clerics, druids, bards and artificers must have the spell prepared or known. Wizards only need it in the spellbook."
+   ],
+   "r": [
+    "known-vs-prepared",
+    "casting-time"
+   ]
+  },
+  {
+   "id": "spell-dc",
+   "t": "Spell save DC and spell attack",
+   "kind": "rule",
+   "src": "PHB ch.10",
+   "c": "spellcasting",
+   "k": "spell save dc attack bonus 8 plus proficiency modifier",
+   "s": "Save DC = 8 + proficiency bonus + spellcasting modifier. Spell attack = proficiency bonus + spellcasting modifier.",
+   "b": [
+    "Multiclass casters use the ability of the class the spell came from."
+   ],
+   "r": [
+    "proficiency-bonus",
+    "multiclass-slots"
+   ]
+  },
+  {
+   "id": "targeting",
+   "t": "Targets, range and line of effect",
+   "kind": "rule",
+   "src": "PHB ch.10",
+   "c": "spellcasting",
+   "k": "target range clear path line of sight see behind glass wall cover touch self",
+   "s": "You need a clear path to the target: it cannot be behind total cover. Many spells also say \"that you can see\".",
+   "b": [
+    "A window blocks a spell even though you can see through it.",
+    "If the target is invalid or behind total cover, the spell still uses the slot; the point of origin lands on the near side of the obstruction.",
+    "\"Self\" spells affect only you, or start from you (Self, 15-foot cone).",
+    "You can target yourself with spells that target \"a creature\".",
+    "If a spell does not say you must see the target, you can aim it at an unseen creature whose location you know."
+   ],
+   "r": [
+    "line-of-effect",
+    "cover",
+    "areas-of-effect",
+    "invalid-target"
+   ]
+  },
+  {
+   "id": "line-of-effect",
+   "t": "Line of effect and total cover",
+   "kind": "faq",
+   "src": "PHB ch.10",
+   "c": "spellcasting",
+   "k": "line of effect glass window wall of force total cover teleport misty step see through",
+   "s": "A spell needs an unblocked straight line from you to the target or point. Seeing it is not enough.",
+   "b": [
+    "Glass, a Wall of Force, or a closed door all block it.",
+    "Misty Step has a range of Self and only needs you to see the space, so it does work through a window (designer comment, not an official ruling). Dimension Door needs no sight at all.",
+    "Sacred Flame ignores cover for its save bonus, but still cannot target through total cover."
+   ],
+   "d": "The test: is the spell aimed at a target or point out there (needs a clear path), or does it only affect the caster (does not)?",
+   "r": [
+    "targeting",
+    "cover"
+   ]
+  },
+  {
+   "id": "areas-of-effect",
+   "t": "Areas of effect",
+   "kind": "rule",
+   "src": "PHB ch.10, XGE ch.2",
+   "c": "spellcasting",
+   "k": "area cone cube sphere line cylinder radius origin fireball grid template around corners",
+   "s": "Cone, cube, cylinder, line and sphere each start from a point of origin. A spot is affected if an unblocked line runs to it from the origin.",
+   "b": [
+    "Cone: as wide as its distance from you. Sphere: radius from a point. Cube: you choose which face the origin is on. Line: straight, its listed width. Cylinder: radius and height from a point on the ground or top.",
+    "The caster chooses whether a cone or line's origin point is included; a sphere includes its origin.",
+    "Fireball and similar \"spreads around corners\" spells ignore the straight-line rule.",
+    "On a grid (DMG): a square is affected if at least half of it is covered. Xanathar's offers template and token methods."
+   ],
+   "d": "Quick count when no grid: cone = size ÷ 10 targets, cube or square = size ÷ 5, sphere = radius ÷ 5, line = length ÷ 30 (round up).",
+   "r": [
+    "targeting",
+    "cover",
+    "entering-area-effects"
+   ]
+  },
+  {
+   "id": "combining-spells",
+   "t": "Overlapping spells",
+   "kind": "rule",
+   "src": "PHB ch.10",
+   "c": "spellcasting",
+   "k": "same spell twice overlap combine strongest bless two casters",
+   "s": "Different spells add together. Two castings of the same spell on one target do not: the most potent one applies while they overlap.",
+   "b": [],
+   "r": [
+    "stacking"
+   ]
+  },
+  {
+   "id": "counterspell",
+   "t": "Counterspell",
+   "kind": "rule",
+   "src": "PHB ch.11, XGE ch.2",
+   "c": "spellcasting",
+   "k": "counterspell counter identify what spell reaction see casting own turn subtle",
+   "s": "Reaction when you see a creature within 60 feet casting. It stops a spell of 3rd level or lower outright; higher needs a check: DC 10 + the spell's level, using your spellcasting ability.",
+   "b": [
+    "Upcast it to the spell's level or higher to stop it automatically.",
+    "You must see the casting. A spell cast with Subtle Spell and no material component cannot be countered.",
+    "You do not know which spell it is. Xanathar's: identifying a spell as it is cast takes a reaction and an Intelligence (Arcana) check, DC 15 + level, so you cannot both identify and counter.",
+    "You can counter a Counterspell, including on your own turn, as long as you did not cast a bonus-action spell that turn.",
+    "It is an ability check: Jack of All Trades, Guidance and Glibness help."
+   ],
+   "d": "Say \"the lich begins casting a spell\" and wait. Do not name the spell first unless your table agreed to.",
+   "r": [
+    "reaction",
+    "bonus-action-spell",
+    "perceiving-casting",
+    "dispel-magic"
+   ]
+  },
+  {
+   "id": "dispel-magic",
+   "t": "Dispel Magic",
+   "kind": "rule",
+   "src": "PHB ch.11, Sage Advice",
+   "c": "spellcasting",
+   "k": "dispel magic end spell ongoing check dc level magical effect",
+   "s": "Ends spells on one creature, object or magical effect. Level 3 or lower end automatically; each higher one needs a check: DC 10 + its level.",
+   "b": [
+    "It only ends spells. It does not undo damage already done, and does not suppress magic items or non-spell magical abilities (a dragon's breath, a vampire's charm).",
+    "Targeting a creature ends every spell on it that the roll beats, not only one.",
+    "To end an area spell (Wall of Fire), target the effect itself."
+   ],
+   "r": [
+    "counterspell",
+    "antimagic"
+   ]
+  },
+  {
+   "id": "identify-spells",
+   "t": "Identifying magic",
+   "kind": "rule",
+   "src": "DMG ch.7, PHB ch.11",
+   "c": "spellcasting",
+   "k": "identify detect magic item properties short rest attune curse",
+   "s": "Identify reveals a magic item's properties. Without it, handling the item over a short rest does the same. Neither reveals a curse.",
+   "b": [
+    "Potions: a small taste tells you what it does.",
+    "Detect Magic shows that magic is present and its school, not what it does."
+   ],
+   "r": [
+    "attunement",
+    "cursed-items"
+   ]
+  },
+  {
+   "id": "perceiving-casting",
+   "t": "Is casting obvious?",
+   "kind": "faq",
+   "src": "XGE ch.2",
+   "c": "spellcasting",
+   "k": "notice casting hidden subtle obvious see spell being cast social stealth",
+   "s": "A spell is noticeable if it has any verbal, somatic or material component. With none (Subtle Spell, some psionics) it is imperceptible.",
+   "b": [
+    "The spell's effect may still give it away.",
+    "Whether a target knows it was charmed or targeted depends on the spell's text; many say so (Charm Person, Friends)."
+   ],
+   "d": "No rule lets a caster hide components with Stealth or Sleight of Hand. Allowing a check is a house rule; decide it up front.",
+   "r": [
+    "components",
+    "counterspell"
+   ]
+  },
+  {
+   "id": "spell-scrolls",
+   "t": "Spell scrolls",
+   "kind": "rule",
+   "src": "DMG ch.7, Sage Advice",
+   "c": "spellcasting",
+   "k": "scroll use read class list check dc copy wizard",
+   "s": "You can read a scroll only if the spell is on your class's list. If its level is higher than you can cast, make a casting ability check: DC 10 + spell level. Failure wastes the scroll.",
+   "b": [
+    "It uses the scroll's DC and attack bonus, not yours: 13/+5 for cantrips to 2nd level, 15/+7 for 3rd and 4th, 17/+9 for 5th and 6th, 18/+10 for 7th and 8th, 19/+11 for 9th.",
+    "It takes the spell's normal casting time and needs no components.",
+    "A wizard can copy it into a spellbook with an Intelligence (Arcana) check, DC 10 + level; the scroll is destroyed either way.",
+    "A thief's Use Magic Device ignores the class requirement."
+   ],
+   "r": [
+    "magic-item-activation",
+    "spellbook-copying"
+   ]
+  },
+  {
+   "id": "spellbook-copying",
+   "t": "Wizard spellbooks",
+   "kind": "rule",
+   "src": "PHB ch.3",
+   "c": "spellcasting",
+   "k": "spellbook copy cost gold hours wizard scribe replace",
+   "s": "Copying a spell costs 2 hours and 50 gp per spell level. Replacing your own prepared spells into a new book: 1 hour and 10 gp per level.",
+   "b": [
+    "You must be able to cast spells of that level, and it must be a wizard spell.",
+    "School specialists halve time and cost for their school."
+   ]
+  },
+  {
+   "id": "multiclass-slots",
+   "t": "Multiclass spell slots",
+   "kind": "rule",
+   "src": "PHB ch.6",
+   "c": "spellcasting",
+   "k": "multiclass slots caster level half third warlock table combined",
+   "s": "Add full-caster levels, half of paladin and ranger levels (rounded down), a third of Eldritch Knight and Arcane Trickster levels (rounded down), and half of artificer levels (rounded up). Look the total up on the multiclass table.",
+   "b": [
+    "Spells known and prepared are worked out per class, as if single-classed. You may have slots higher than any spell you know: use them to upcast.",
+    "Pact Magic is separate, but its slots and your other slots can cast either class's spells."
+   ],
+   "r": [
+    "pact-magic",
+    "multiclass-basics",
+    "spell-slots"
+   ]
+  },
+  {
+   "id": "pact-magic",
+   "t": "Warlock Pact Magic",
+   "kind": "rule",
+   "src": "PHB ch.3",
+   "c": "spellcasting",
+   "k": "warlock pact slots short rest always max level mystic arcanum",
+   "s": "Few slots, all of the same level (up to 5th), and they return on a short rest. Every warlock spell is cast at that level.",
+   "b": [
+    "Mystic Arcanum (6th to 9th): one casting of each per long rest, no slot, cannot be upcast.",
+    "Invocation spells cast \"using a warlock spell slot\" still use one."
+   ],
+   "r": [
+    "multiclass-slots",
+    "resting-short"
+   ]
+  },
+  {
+   "id": "casting-in-armor",
+   "t": "Casting in armor",
+   "kind": "rule",
+   "src": "PHB ch.10",
+   "c": "spellcasting",
+   "k": "armor casting proficiency cant cast heavy",
+   "s": "You cannot cast spells while wearing armor you are not proficient with.",
+   "b": [
+    "Proficiency from any source counts; arcane casters have no extra penalty."
+   ],
+   "r": [
+    "armor-rules"
+   ]
+  },
+  {
+   "id": "antimagic",
+   "t": "Antimagic Field and dead magic",
+   "kind": "rule",
+   "src": "PHB ch.11",
+   "c": "spellcasting",
+   "k": "antimagic field suppress magic items spells summoned",
+   "s": "Inside it, spells and magic items are suppressed, not ended: they resume outside, and time spent suppressed still counts against their duration.",
+   "b": [
+    "Artifacts and deity-level magic are unaffected.",
+    "Summoned or magically created creatures wink out while inside.",
+    "A dragon's breath and other non-magical abilities work normally. If a stat block does not call a trait magical, it is not (Sage Advice test)."
+   ],
+   "r": [
+    "dispel-magic",
+    "is-it-magical"
+   ]
+  },
+  {
+   "id": "resting-short",
+   "t": "Short rest",
+   "kind": "rule",
+   "src": "PHB ch.8",
+   "c": "resting",
+   "k": "short rest hour hit dice spend heal recover",
+   "s": "At least 1 hour of light activity. Spend Hit Dice to heal: roll each and add your Constitution modifier.",
+   "b": [
+    "Short-rest features come back (warlock slots, Second Wind, Channel Divinity, ki).",
+    "You regain spent Hit Dice only on a long rest.",
+    "The books set no limit on short rests per day; time and danger do."
+   ],
+   "d": "Two short rests per adventuring day is the balance the classes assume.",
+   "r": [
+    "resting-long",
+    "hit-dice"
+   ]
+  },
+  {
+   "id": "resting-long",
+   "t": "Long rest",
+   "kind": "rule",
+   "src": "PHB ch.8",
+   "c": "resting",
+   "k": "long rest 8 hours sleep interrupt watch once per day recover half hit dice",
+   "s": "At least 8 hours: 6 asleep and up to 2 of light activity (watch, reading). Regain all hit points and half your total Hit Dice (minimum 1).",
+   "b": [
+    "Only one long rest per 24 hours, and you need at least 1 hit point to start.",
+    "Interrupted by \"at least 1 hour of walking, fighting, casting spells, or similar\" activity; then it must be started again. Tables read this two ways (any fight, or an hour of it): decide once.",
+    "Removes one level of exhaustion if you had food and water.",
+    "Elves: with Trance an elf finishes a long rest in 4 hours (Sage Advice, after the 2018 errata)."
+   ],
+   "d": "Variants (DMG): Gritty Realism (short rest 8 hours, long rest 7 days) and Epic Heroism (5 minutes, 1 hour).",
+   "r": [
+    "resting-short",
+    "exhaustion",
+    "sleeping-in-armor"
+   ]
+  },
+  {
+   "id": "hit-dice",
+   "t": "Hit Dice",
+   "kind": "rule",
+   "src": "PHB ch.1, ch.8",
+   "c": "resting",
+   "k": "hit dice hd d8 d10 level up hit points average roll",
+   "s": "One per level, sized by class (d6 wizard and sorcerer, d8 most, d10 fighter, paladin, ranger, d12 barbarian).",
+   "b": [
+    "Level 1: maximum die + Constitution modifier. Later levels: roll or take the average rounded up (d8 → 5), plus Constitution modifier, minimum 1.",
+    "Raising Constitution raises hit points for every level already gained."
+   ],
+   "r": [
+    "resting-short",
+    "leveling-up"
+   ]
+  },
+  {
+   "id": "sleeping-in-armor",
+   "t": "Sleeping in armor, going without sleep",
+   "kind": "rule",
+   "src": "XGE ch.2",
+   "c": "resting",
+   "k": "sleep armor medium heavy exhaustion no sleep stay awake",
+   "s": "Optional (Xanathar's): sleeping in medium or heavy armor regains only a quarter of Hit Dice and removes no exhaustion. After 24 hours awake, Constitution save DC 10 (+5 per extra day) or gain a level of exhaustion.",
+   "b": [],
+   "r": [
+    "resting-long",
+    "exhaustion"
+   ]
+  },
+  {
+   "id": "travel-pace",
+   "t": "Travel pace",
+   "kind": "rule",
+   "src": "PHB ch.8",
+   "c": "adventuring",
+   "k": "travel pace fast normal slow miles per day hour forced march stealth",
+   "s": "Fast 4 miles an hour, 30 a day (−5 passive Perception). Normal 3 an hour, 24 a day. Slow 2 an hour, 18 a day (can move stealthily).",
+   "b": [
+    "A travel day is 8 hours. Beyond that, each extra hour: Constitution save DC 10 + 1 per hour, or one level of exhaustion.",
+    "Difficult terrain halves distance. Mounts can gallop for an hour at double pace."
+   ],
+   "r": [
+    "exhaustion",
+    "marching-activities"
+   ]
+  },
+  {
+   "id": "marching-activities",
+   "t": "Activities while travelling",
+   "kind": "rule",
+   "src": "PHB ch.8",
+   "c": "adventuring",
+   "k": "navigate map forage track watch marching order notice threats",
+   "s": "Characters who navigate, draw a map, track or forage do not add their passive Perception to noticing threats.",
+   "b": [
+    "Navigate: Wisdom (Survival) against the terrain's DC to avoid getting lost (DMG).",
+    "Forage: Wisdom (Survival); success finds 1d6 + Wisdom modifier pounds of food and the same of water."
+   ],
+   "r": [
+    "travel-pace",
+    "food-water",
+    "passive-checks"
+   ]
+  },
+  {
+   "id": "vision-light",
+   "t": "Vision, light and darkvision",
+   "kind": "rule",
+   "src": "PHB ch.8",
+   "c": "adventuring",
+   "k": "light bright dim darkness obscured lightly heavily torch darkvision blindsight truesight",
+   "s": "Lightly obscured (dim light, patchy fog): disadvantage on Perception checks that rely on sight. Heavily obscured (darkness, thick fog): effectively blinded there.",
+   "b": [
+    "Darkvision: darkness counts as dim light (so still disadvantage on Perception) and dim as bright, in shades of gray, to its range.",
+    "Blindsight perceives without sight within range. Truesight sees in darkness, sees invisible things, illusions and true forms.",
+    "Torch: 20 ft bright + 20 dim for 1 hour. Lantern: 30 + 30. Light cantrip: 20 + 20. Candle: 5 + 5."
+   ],
+   "p": "Darkvision does not let you see normally in the dark: your passive Perception drops by 5 there.",
+   "d": "Remember the −5 for darkvision users without a light. It is the most-forgotten rule in the game.",
+   "r": [
+    "unseen-attackers",
+    "hide",
+    "darkness-spell"
+   ]
+  },
+  {
+   "id": "food-water",
+   "t": "Food and water",
+   "kind": "rule",
+   "src": "PHB ch.8",
+   "c": "adventuring",
+   "k": "food water starve thirst rations days without",
+   "s": "One pound of food and one gallon of water a day (two in heat). You can go without food for 3 + Constitution modifier days, then gain one exhaustion per day.",
+   "b": [
+    "Half water: Constitution save DC 15 or one exhaustion at day's end. Less than half: automatic. Already exhausted: two levels.",
+    "A normal day of eating resets the food count."
+   ],
+   "r": [
+    "exhaustion",
+    "marching-activities"
+   ]
+  },
+  {
+   "id": "suffocating",
+   "t": "Holding breath and suffocating",
+   "kind": "rule",
+   "src": "PHB ch.8",
+   "c": "adventuring",
+   "k": "breath hold suffocate drown choke minutes rounds",
+   "s": "Hold your breath for 1 + Constitution modifier minutes (minimum 30 seconds). After that you last Constitution modifier rounds (minimum 1), then drop to 0 and are dying.",
+   "b": [
+    "You cannot regain hit points or stabilize until you can breathe."
+   ],
+   "r": [
+    "underwater-combat"
+   ]
+  },
+  {
+   "id": "lifting-carrying",
+   "t": "Lifting, carrying and encumbrance",
+   "kind": "rule",
+   "src": "PHB ch.7",
+   "c": "adventuring",
+   "k": "carry weight capacity encumbrance push drag lift strength times 15",
+   "s": "Carry Strength × 15 pounds. Push, drag or lift Strength × 30 (speed drops to 5 feet above carrying capacity).",
+   "b": [
+    "Each size above Medium doubles it; Tiny halves it.",
+    "Variant encumbrance: over Strength × 5, speed −10; over Strength × 10, speed −20 and disadvantage on Strength, Dexterity and Constitution checks, attacks and saves."
+   ],
+   "r": [
+    "armor-rules"
+   ]
+  },
+  {
+   "id": "objects",
+   "t": "Breaking objects",
+   "kind": "rule",
+   "src": "DMG ch.8",
+   "c": "adventuring",
+   "k": "object door break ac hit points damage threshold chest lock smash",
+   "s": "Objects have AC by material (cloth 11, wood 15, stone 17, iron 19, adamantine 23) and hit points by size and toughness. They are immune to poison and psychic damage.",
+   "b": [
+    "Tiny (bottle) 2 to 5 hp, Small (chest) 3 to 10, Medium (barrel) 4 to 18, Large (cart) 5 to 27.",
+    "Big objects may have a damage threshold: hits below it do nothing.",
+    "Or use a Strength check to force it."
+   ],
+   "d": "If there is no time pressure, they just break it. Roll only when it matters how long or how loud.",
+   "r": [
+    "dc-table"
+   ]
+  },
+  {
+   "id": "traps",
+   "t": "Traps",
+   "kind": "rule",
+   "src": "DMG ch.5, XGE ch.2",
+   "c": "adventuring",
+   "k": "trap detect disarm dc damage save pit poison needle setback dangerous deadly",
+   "s": "Noticing uses passive Perception or a Search against the trap's DC; disarming is usually Dexterity with thieves' tools.",
+   "b": [
+    "Save DC and attack bonus by danger: setback 10 to 11 / +3 to +5, dangerous 12 to 15 / +6 to +8, deadly 16 to 20 / +9 to +12.",
+    "Damage by level (setback / dangerous / deadly): 1 to 4: 1d10 / 2d10 / 4d10. 5 to 10: 2d10 / 4d10 / 10d10. 11 to 16: 4d10 / 10d10 / 18d10. 17 to 20: 10d10 / 18d10 / 24d10."
+   ],
+   "d": "Describe what the characters see and let them say how they deal with it. A good description beats a roll.",
+   "r": [
+    "perception-vs-investigation",
+    "improvised-damage",
+    "tools"
+   ]
+  },
+  {
+   "id": "environment-hazards",
+   "t": "Heat, cold, altitude and other hazards",
+   "kind": "rule",
+   "src": "DMG ch.5",
+   "c": "adventuring",
+   "k": "extreme cold heat altitude ice water quicksand hazard weather wind",
+   "s": "Extreme cold (0°F or below) or heat (100°F or above): Constitution save each hour or gain exhaustion. Cold DC 10; heat DC 5, +1 each hour.",
+   "b": [
+    "Cold-resistant or cold-weather gear means automatic success in cold. Heavy armor or heavy clothes give disadvantage in heat.",
+    "Frigid water: one minute per point of Constitution, then DC 10 each minute or exhaustion.",
+    "High altitude (10,000 ft+): each hour counts as two for travel until acclimated.",
+    "Strong wind: disadvantage on ranged weapon attacks and hearing-based Perception. Heavy rain: lightly obscured, disadvantage on sight and hearing Perception."
+   ],
+   "r": [
+    "exhaustion",
+    "travel-pace"
+   ]
+  },
+  {
+   "id": "diseases-poisons",
+   "t": "Diseases and poisons",
+   "kind": "rule",
+   "src": "DMG ch.8",
+   "c": "adventuring",
+   "k": "disease poison contact ingested inhaled injury sewer plague cure",
+   "s": "Poisons are contact, ingested, inhaled or injury, each with a save DC and effect. Diseases have their own save schedule.",
+   "b": [
+    "Basic poison (vial): coat one weapon or 3 pieces of ammunition; Constitution save DC 10 or 1d4 poison damage; lasts 1 minute.",
+    "Lesser Restoration ends one disease or the poisoned condition. Protection from Poison and a paladin's Lay on Hands also work."
+   ],
+   "r": [
+    "poisoned-condition"
+   ]
+  },
+  {
+   "id": "armor-rules",
+   "t": "Armor and AC",
+   "kind": "rule",
+   "src": "PHB ch.5",
+   "c": "equipment",
+   "k": "armor ac light medium heavy dex cap strength requirement stealth disadvantage don doff proficiency",
+   "s": "Light: armor + full Dexterity modifier. Medium: armor + Dexterity (max +2). Heavy: flat AC, no Dexterity, and a Strength requirement or −10 speed.",
+   "b": [
+    "Without proficiency: disadvantage on every Strength or Dexterity check, save and attack, and no spellcasting.",
+    "Some armor gives disadvantage on Stealth.",
+    "Don / doff: light 1 min / 1 min, medium 5 / 1, heavy 10 / 5, shield 1 action each."
+   ],
+   "r": [
+    "ac-calculations",
+    "casting-in-armor",
+    "lifting-carrying"
+   ]
+  },
+  {
+   "id": "ac-calculations",
+   "t": "Which AC calculation applies?",
+   "kind": "faq",
+   "src": "PHB ch.1, Sage Advice",
+   "c": "equipment",
+   "k": "unarmored defense mage armor natural armor stack monk barbarian shield ac formula choose one",
+   "s": "You use one base AC formula at a time and choose the best. Bonuses (shield, Shield spell, ring) add on top of whichever you use.",
+   "b": [
+    "Formulas: worn armor; 10 + Dexterity; Unarmored Defense (barbarian 10 + Dex + Con, monk 10 + Dex + Wis); Mage Armor 13 + Dex; natural armor (lizardfolk, tortle); Draconic Resilience 13 + Dex.",
+    "Mage Armor does not add to Unarmored Defense. A multiclass barbarian/monk gets only the one from the first class taken.",
+    "A barbarian's Unarmored Defense allows a shield; a monk's does not.",
+    "Barkskin sets a floor of 16: nothing adds to it; it just replaces a lower total."
+   ],
+   "r": [
+    "armor-rules",
+    "stacking"
+   ]
+  },
+  {
+   "id": "weapon-properties",
+   "t": "Weapon properties",
+   "kind": "rule",
+   "src": "PHB ch.5",
+   "c": "equipment",
+   "k": "finesse light heavy reach thrown versatile two-handed loading ammunition special property",
+   "s": "Finesse: Strength or Dexterity. Light: for two-weapon fighting. Heavy: Small creatures have disadvantage. Reach: +5 feet. Versatile: bigger die in two hands. Two-handed: needs both hands to attack.",
+   "b": [
+    "Ammunition: needs a free hand to load a one-handed weapon; you recover half after a fight by searching for a minute.",
+    "Loading: one shot per action, bonus action or reaction, whatever your number of attacks (Crossbow Expert removes this).",
+    "Thrown: uses the same ability as a melee attack with it.",
+    "Two-handed only matters when attacking: you can hold it in one hand to cast.",
+    "Lance: disadvantage within 5 feet, two hands unless mounted. Net: one attack only, Large or smaller, DC 10 Strength or 5 slashing to escape."
+   ],
+   "r": [
+    "two-weapon-fighting",
+    "improvised-weapons",
+    "ranged-in-melee"
+   ]
+  },
+  {
+   "id": "improvised-weapons",
+   "t": "Improvised weapons and unarmed strikes",
+   "kind": "rule",
+   "src": "PHB ch.5, ch.9, Sage Advice",
+   "c": "equipment",
+   "k": "improvised chair bottle unarmed punch kick fist d4 proficiency melee weapon attack",
+   "s": "Improvised weapon: 1d4, no proficiency unless it resembles a real weapon. Unarmed strike: 1 + Strength modifier bludgeoning, and you are always proficient.",
+   "b": [
+    "An unarmed strike is a melee weapon attack but not a weapon. It works with features that say \"melee weapon attack\" and not with those that need \"a weapon\" (Divine Smite, Improved Divine Smite, Dueling, Sneak Attack).",
+    "Throwing a non-thrown melee weapon, or hitting with a bow: 1d4, range 20/60."
+   ],
+   "r": [
+    "smite-unarmed",
+    "weapon-properties"
+   ]
+  },
+  {
+   "id": "attunement",
+   "t": "Attunement",
+   "kind": "rule",
+   "src": "DMG ch.7",
+   "c": "equipment",
+   "k": "attune attunement three items short rest limit end",
+   "s": "At most three attuned items. Attuning takes a short rest spent with the item. It ends if you are more than 100 feet away for 24 hours, die, or choose to end it after another short rest.",
+   "b": [
+    "One item cannot be attuned to more than one creature, and you cannot attune to two copies of the same item.",
+    "Until attuned, the item gives only its non-magical benefits (unless its text says otherwise)."
+   ],
+   "r": [
+    "identify-spells",
+    "cursed-items",
+    "magic-item-activation"
+   ]
+  },
+  {
+   "id": "magic-item-activation",
+   "t": "Using magic items",
+   "kind": "rule",
+   "src": "DMG ch.7",
+   "c": "equipment",
+   "k": "magic item activate command word charges wand staff cast from item concentration slot",
+   "s": "Activating an item takes an action unless it says otherwise. A spell cast from an item uses no slot and no components, at the lowest level unless stated, and still needs concentration if the spell does.",
+   "b": [
+    "It uses your spellcasting ability if the item says so; otherwise the item's own DC, or +0 with only proficiency if you have no casting ability.",
+    "Charges come back as the item says (usually at dawn). Using the last charge often risks destroying it (wands: roll a d20, on a 1 it crumbles).",
+    "Wearing: one pair of boots, gloves, one cloak, one armor, one headgear. Rings and amulets within reason.",
+    "The bonus-action spell rule still applies to spells from items."
+   ],
+   "r": [
+    "attunement",
+    "spell-scrolls",
+    "bonus-action-spell"
+   ]
+  },
+  {
+   "id": "drinking-potions",
+   "t": "Potions",
+   "kind": "rule",
+   "src": "DMG ch.7",
+   "c": "equipment",
+   "k": "potion drink healing action bonus action feed administer",
+   "s": "Drinking a potion or giving one to another creature takes an action.",
+   "b": [
+    "Potion of Healing: 2d4 + 2. Greater 4d4 + 4, Superior 8d4 + 8, Supreme 10d4 + 20.",
+    "Mixing potions is optional chaos (DMG table)."
+   ],
+   "d": "\"Drink as a bonus action, feed as an action\" is one of the most common house rules. It is not the book rule.",
+   "r": [
+    "use-an-object",
+    "healing"
+   ]
+  },
+  {
+   "id": "cursed-items",
+   "t": "Cursed items",
+   "kind": "rule",
+   "src": "DMG ch.7",
+   "c": "equipment",
+   "k": "curse cursed item remove curse cant unattune identify",
+   "s": "Identify does not reveal a curse. Attunement to a cursed item usually cannot be ended until Remove Curse or similar magic breaks it.",
+   "b": []
+  },
+  {
+   "id": "buying-selling",
+   "t": "Money, selling loot and services",
+   "kind": "rule",
+   "src": "PHB ch.5",
+   "c": "equipment",
+   "k": "gold coin exchange sell half price loot gems lifestyle hireling cost",
+   "s": "1 pp = 10 gp, 1 gp = 10 sp, 1 sp = 10 cp (1 ep = 5 sp). Used weapons, armor and gear sell for half price; gems, jewelry and art for full value.",
+   "b": [
+    "Monster weapons and armor are rarely fit to sell.",
+    "50 coins weigh a pound.",
+    "Lifestyle per day: squalid 1 sp, poor 2 sp, modest 1 gp, comfortable 2 gp, wealthy 4 gp, aristocratic 10 gp or more.",
+    "Skilled hireling 2 gp a day, unskilled 2 sp."
+   ],
+   "r": [
+    "magic-item-prices"
+   ]
+  },
+  {
+   "id": "magic-item-prices",
+   "t": "Buying and selling magic items",
+   "kind": "rule",
+   "src": "DMG ch.7, XGE ch.2",
+   "c": "equipment",
+   "k": "magic item price rarity common uncommon rare buy sell shop cost",
+   "s": "By rarity (DMG): common 50 to 100 gp, uncommon 101 to 500, rare 501 to 5,000, very rare 5,001 to 50,000, legendary 50,001 or more. Consumables are about half.",
+   "b": [
+    "The books treat buying and selling them as downtime activities, not shop purchases (Xanathar's: Buying a Magic Item, Selling a Magic Item)."
+   ],
+   "d": "The DM Codex Shops tab prices items inside these ranges.",
+   "r": [
+    "buying-selling",
+    "attunement"
+   ]
+  },
+  {
+   "id": "leveling-up",
+   "t": "Gaining a level",
+   "kind": "rule",
+   "src": "PHB ch.1",
+   "c": "character",
+   "k": "level up xp experience milestone table hit points new features",
+   "s": "New level: more hit points (roll or average + Constitution modifier), one more Hit Die, and the class features for that level.",
+   "b": [
+    "XP for levels 2 to 5: 300, 900, 2,700, 6,500. Level 10: 64,000. Level 20: 355,000.",
+    "Many tables use milestones instead: the DM says when."
+   ],
+   "r": [
+    "hit-dice",
+    "proficiency-bonus",
+    "asi-feats"
+   ]
+  },
+  {
+   "id": "asi-feats",
+   "t": "Ability Score Improvements and feats",
+   "kind": "rule",
+   "src": "PHB ch.3, ch.6",
+   "c": "character",
+   "k": "asi ability score improvement feat level 4 8 12 16 19 choose",
+   "s": "At class levels 4, 8, 12, 16 and 19 (fighters also 6 and 14, rogues 10): +2 to one score or +1 to two, maximum 20. Or take a feat instead, if the DM allows feats.",
+   "b": [
+    "It follows class level, not character level: multiclassing delays it.",
+    "You can take each feat only once unless it says otherwise, and must meet its prerequisite."
+   ],
+   "r": [
+    "multiclass-basics",
+    "ability-scores"
+   ]
+  },
+  {
+   "id": "multiclass-basics",
+   "t": "Multiclassing",
+   "kind": "rule",
+   "src": "PHB ch.6",
+   "c": "character",
+   "k": "multiclass prerequisite 13 proficiencies gained extra attack channel divinity unarmored",
+   "s": "You need 13 in the key abilities of both your current class and the new one. You gain only some of the new class's proficiencies, and never its saving throws.",
+   "b": [
+    "Prerequisites: barbarian Str; bard Cha; cleric Wis; druid Wis; fighter Str or Dex; monk Dex and Wis; paladin Str and Cha; ranger Dex and Wis; rogue Dex; sorcerer Cha; warlock Cha; wizard Int; artificer Int.",
+    "Extra Attack from two classes does not add up. Unarmored Defense: only the first one you got.",
+    "Channel Divinity: you gain the options of both classes but not extra uses.",
+    "Hit Dice pool together; proficiency bonus uses total level."
+   ],
+   "r": [
+    "multiclass-slots",
+    "asi-feats",
+    "extra-attack"
+   ]
+  },
+  {
+   "id": "extra-attack",
+   "t": "Extra Attack",
+   "kind": "rule",
+   "src": "PHB ch.3, ch.6",
+   "c": "character",
+   "k": "extra attack two attacks stack multiclass haste action surge",
+   "s": "Attack twice (fighters up to four times) whenever you take the Attack action on your turn. It does not stack across classes.",
+   "b": [
+    "Only on your turn and only with the Attack action: not with readied attacks, opportunity attacks or Haste's extra action (one weapon attack only).",
+    "Action Surge gives a whole second action, so the full set of attacks again.",
+    "Warlock Thirsting Blade does not stack with it either."
+   ],
+   "r": [
+    "attack-action",
+    "ready-action",
+    "haste-action"
+   ]
+  },
+  {
+   "id": "backgrounds-alignment",
+   "t": "Backgrounds, alignment and languages",
+   "kind": "rule",
+   "src": "PHB ch.4",
+   "c": "character",
+   "k": "background alignment language customize proficiencies feature personality",
+   "s": "A background gives two skills, tools or languages, equipment and a feature. You may customize it: swap any skills, tools and languages for others.",
+   "b": [
+    "If a background gives a proficiency you already have, pick another of the same kind.",
+    "Alignment describes outlook; no rule in the 2014 books punishes changing it."
+   ]
+  },
+  {
+   "id": "downtime",
+   "t": "Downtime",
+   "kind": "rule",
+   "src": "PHB ch.8, DMG ch.6, XGE ch.2",
+   "c": "character",
+   "k": "downtime craft training research carousing work between adventures",
+   "s": "Between adventures: crafting (5 gp of progress per day, half the price in materials), practicing a profession, recuperating, researching, training (250 days and 1 gp a day for a language or tool).",
+   "b": [
+    "Xanathar's replaces these with weekly activities and complications (carousing, crime, pit fighting, scribing scrolls, buying and selling magic items) and cuts training to 10 workweeks minus Intelligence modifier."
+   ],
+   "d": "The DM Codex Downtime tab runs these."
+  },
+  {
+   "id": "improvised-damage",
+   "t": "Improvising damage",
+   "kind": "rule",
+   "src": "DMG ch.8",
+   "c": "dm",
+   "k": "improvise damage how much lava fall fire table by level",
+   "s": "1d10 burned by coals or a falling bookcase; 2d10 lightning strike or stumbling into a fire pit; 4d10 hit by rubble or acid vat; 10d10 crushed by walls or wading in lava; 18d10 submerged in lava or hit by a crashing flying fortress; 24d10 a vortex of elemental fire or a godlike creature's jaws.",
+   "b": [
+    "By level, setback / dangerous / deadly: 1 to 4: 1d10 / 2d10 / 4d10. 5 to 10: 2d10 / 4d10 / 10d10. 11 to 16: 4d10 / 10d10 / 18d10. 17 to 20: 10d10 / 18d10 / 24d10."
+   ],
+   "r": [
+    "traps",
+    "dc-table"
+   ]
+  },
+  {
+   "id": "encounter-building",
+   "t": "Building encounters",
+   "kind": "rule",
+   "src": "DMG ch.3",
+   "c": "dm",
+   "k": "encounter difficulty xp threshold budget easy medium hard deadly multiplier adventuring day",
+   "s": "Add each character's XP threshold for the difficulty you want, then compare with the monsters' total XP times a multiplier for their number.",
+   "b": [
+    "Multiplier: 1 monster ×1, 2 ×1.5, 3 to 6 ×2, 7 to 10 ×2.5, 11 to 14 ×3, 15+ ×4. Shift one step for parties under 3 or over 5.",
+    "Thresholds per character at level 1 / 5 / 10: easy 25 / 250 / 600, medium 50 / 500 / 1,200, hard 75 / 750 / 1,900, deadly 100 / 1,100 / 2,800.",
+    "An adventuring day is about 6 to 8 medium or hard encounters with two short rests.",
+    "The multiplier is for judging difficulty only: award the monsters' plain XP."
+   ],
+   "d": "Battle Setup in the DM Codex does this sum for you.",
+   "r": [
+    "challenge-rating",
+    "awarding-xp"
+   ]
+  },
+  {
+   "id": "challenge-rating",
+   "t": "Challenge rating",
+   "kind": "rule",
+   "src": "MM intro",
+   "c": "dm",
+   "k": "cr challenge rating meaning proficiency xp",
+   "s": "A party of four characters of a level equal to the CR should beat the monster without deaths. Proficiency bonus follows CR: +2 up to CR 4, +3 at 5, +4 at 9, +5 at 13, +6 at 17, +7 at 21, +8 at 25, +9 at 29.",
+   "b": [
+    "A monster whose CR is above the party's level can kill a character in one hit."
+   ],
+   "r": [
+    "encounter-building"
+   ]
+  },
+  {
+   "id": "awarding-xp",
+   "t": "Experience and milestones",
+   "kind": "rule",
+   "src": "DMG ch.8",
+   "c": "dm",
+   "k": "xp award split divide milestone noncombat session",
+   "s": "Add the monsters' XP and divide evenly among the characters who took part. Or level by milestone.",
+   "b": [
+    "Noncombat challenges can be worth XP as if they were an encounter of the same difficulty."
+   ],
+   "r": [
+    "leveling-up",
+    "encounter-building"
+   ]
+  },
+  {
+   "id": "legendary-actions",
+   "t": "Legendary and lair actions, legendary resistance",
+   "kind": "rule",
+   "src": "MM intro",
+   "c": "dm",
+   "k": "legendary action lair resistance initiative 20 end of turn regain",
+   "s": "Legendary actions: a set number per round, each used at the end of another creature's turn, regained at the start of the monster's turn. Lair actions: on initiative count 20, losing ties. Legendary Resistance: turn a failed save into a success, a few times a day.",
+   "b": [
+    "Legendary actions cannot be used while incapacitated or surprised.",
+    "The same lair action cannot be used two rounds running (most lairs)."
+   ],
+   "d": "Tell players when Legendary Resistance is used. Burning through them is part of the fight. The Combat tab tracks all three.",
+   "r": [
+    "recharge-abilities"
+   ]
+  },
+  {
+   "id": "recharge-abilities",
+   "t": "Recharge, multiattack and monster spellcasting",
+   "kind": "rule",
+   "src": "MM intro",
+   "c": "dm",
+   "k": "recharge 5-6 breath weapon multiattack innate spellcasting monster roll start of turn",
+   "s": "Recharge X–Y: roll a d6 at the start of each of the monster's turns; on that number or higher the ability returns. It also returns on a short or long rest.",
+   "b": [
+    "Multiattack is its own action: it cannot be used for an opportunity attack, and is not the Attack action.",
+    "Innate spellcasting needs no material components unless stated. A monster's spell list is its prepared list.",
+    "Grapple and shove replace an attack of the Attack action. Multiattack is a different action, so by a strict reading a monster gives up Multiattack to grapple; many DMs let it swap one attack."
+   ],
+   "r": [
+    "legendary-actions",
+    "opportunity-attack"
+   ]
+  },
+  {
+   "id": "social-interaction",
+   "t": "Social interaction",
+   "kind": "rule",
+   "src": "DMG ch.8",
+   "c": "dm",
+   "k": "persuade npc attitude friendly indifferent hostile charisma check dc social",
+   "s": "An NPC is friendly, indifferent or hostile. After the conversation, one Charisma check decides what they will do: DC 0, 10 or 20 gets more help, depending on attitude.",
+   "b": [
+    "Friendly: DC 10 accepts a minor risk, DC 20 a significant one. Indifferent: DC 10 no risk, DC 20 minor risk. Hostile: DC 10 does nothing to hinder, DC 20 helps if no risk.",
+    "Roleplay that touches the NPC's ideal, bond or flaw can shift the attitude one step first."
+   ],
+   "d": "Persuasion is not mind control. A king will not hand over the crown on a 30.",
+   "r": [
+    "charm-not-control",
+    "dc-table"
+   ]
+  },
+  {
+   "id": "chases",
+   "t": "Chases",
+   "kind": "rule",
+   "src": "DMG ch.8",
+   "c": "dm",
+   "k": "chase pursuit dash exhaustion escape complication",
+   "s": "Each participant can Dash 3 + Constitution modifier times freely; each further Dash needs a DC 10 Constitution check or gains a level of exhaustion (gone after the chase with a short rest).",
+   "b": [
+    "No opportunity attacks between chase participants.",
+    "The quarry escapes by breaking line of sight and winning Stealth against the pursuers' passive Perception at the end of a round.",
+    "Roll a d20 for a complication at the end of each turn."
+   ],
+   "r": [
+    "dash",
+    "exhaustion",
+    "hide"
+   ]
+  },
+  {
+   "id": "optional-combat",
+   "t": "Optional combat rules",
+   "kind": "rule",
+   "src": "DMG ch.9",
+   "c": "dm",
+   "k": "flanking optional cleave disarm mark overrun tumble climb onto hero points variant",
+   "s": "All optional, off unless the DM turns them on: flanking (advantage when two allies are on opposite sides), diagonals 5-10-5, cleaving through creatures, action options (Climb onto a Bigger Creature, Disarm, Mark, Overrun, Shove Aside, Tumble), hitting cover, injuries, massive damage, morale.",
+   "b": [
+    "Flanking makes advantage very easy to get and devalues many features: a common fix is +2 instead."
+   ],
+   "d": "Write the ones you use into House rules so the players can see them.",
+   "r": [
+    "cover",
+    "moving-through-creatures"
+   ]
+  },
+  {
+   "id": "mob-rules",
+   "t": "Handling mobs",
+   "kind": "rule",
+   "src": "DMG ch.8",
+   "c": "dm",
+   "k": "mob many monsters average attacks needed d20 group",
+   "s": "To skip rolling for a crowd: find the d20 roll needed to hit, and one attacker in a group hits per so many. Needed 1 to 5: all hit. 6 to 12: 1 in 2. 13 to 14: 1 in 3. 15 to 16: 1 in 4. 17 to 18: 1 in 5. 19: 1 in 10. 20: 1 in 20.",
+   "b": [
+    "Use average damage."
+   ]
+  },
+  {
+   "id": "madness-fear",
+   "t": "Fear, horror and madness",
+   "kind": "rule",
+   "src": "DMG ch.8",
+   "c": "dm",
+   "k": "madness sanity horror fear short long indefinite optional",
+   "s": "Optional. Fear: Wisdom save or frightened for 1 minute. Horror: Charisma save or roll short-term or long-term madness. Madness is short (1d10 minutes), long (1d10 × 10 hours) or indefinite.",
+   "b": [
+    "Calm Emotions suppresses it; Lesser Restoration cures short and long; Greater Restoration cures any."
+   ]
+  },
+  {
+   "id": "treasure",
+   "t": "Treasure and magic item pacing",
+   "kind": "rule",
+   "src": "DMG ch.7, XGE ch.2",
+   "c": "dm",
+   "k": "treasure hoard loot how much magic items per level tier",
+   "s": "Individual treasure and hoards come from tables by challenge tier (0 to 4, 5 to 10, 11 to 16, 17+).",
+   "b": [
+    "Xanathar's guide: a party finds about 100 magic items over 20 levels, most of them minor and consumable."
+   ],
+   "d": "The DM Codex rolls hoards and the Magic Item Tables A to I.",
+   "r": [
+    "magic-item-prices"
+   ]
+  },
+  {
+   "id": "dm-rulings",
+   "t": "Making a ruling",
+   "kind": "rule",
+   "src": "DMG intro",
+   "c": "dm",
+   "k": "ruling dm decides rule zero unclear argument fair consistent",
+   "s": "When the rules are unclear: make a quick fair call, keep the game moving, and look it up after the session.",
+   "b": [
+    "Say how you will rule it \"for tonight\". Change it later if the book says otherwise, and tell the table.",
+    "Be consistent: the same call for players and monsters.",
+    "Record lasting rulings in House rules so nobody has to remember them."
+   ],
+   "r": [
+    "specific-beats-general",
+    "dc-table"
+   ]
+  },
+  {
+   "id": "sneak-attack-rules",
+   "t": "Sneak Attack: when does it apply?",
+   "kind": "faq",
+   "src": "PHB ch.3",
+   "c": "faq",
+   "k": "sneak attack rogue once per turn advantage ally adjacent reaction opportunity finesse ranged",
+   "s": "Once per turn (not per round), with a finesse or ranged weapon, when you have advantage, or when an enemy of the target is within 5 feet of it and you do not have disadvantage.",
+   "b": [
+    "\"Once per turn\" means it can apply again on another creature's turn: an opportunity attack or a readied attack.",
+    "The ally does not need to be adjacent to you, only to the target, and must not be incapacitated.",
+    "It works with a finesse weapon even if you attack with Strength.",
+    "You do not need to be hidden."
+   ],
+   "p": "Readying your attack for just after your turn can give two Sneak Attacks in a round, at the price of your reaction.",
+   "r": [
+    "unseen-attackers",
+    "opportunity-attack",
+    "critical-hits"
+   ]
+  },
+  {
+   "id": "smite-after-crit",
+   "t": "Divine Smite: declared after the hit",
+   "kind": "faq",
+   "src": "PHB ch.3",
+   "c": "faq",
+   "k": "smite divine smite paladin after hit crit choose slot per turn",
+   "s": "You decide to smite after you know the attack hit, including after seeing a critical hit. The smite dice double on a crit.",
+   "b": [
+    "No limit on smites per turn except slots: one per hit.",
+    "It needs a melee weapon attack with a weapon (not an unarmed strike).",
+    "Pact Magic slots work. Maximum 5d8 from the slot, +1d8 against undead and fiends.",
+    "The \"smite\" spells (Searing Smite and so on) are bonus-action spells cast before the hit and need concentration."
+   ],
+   "r": [
+    "critical-hits",
+    "smite-unarmed",
+    "bonus-action-spell"
+   ]
+  },
+  {
+   "id": "healing-word-yoyo",
+   "t": "Healing a downed ally",
+   "kind": "faq",
+   "src": "PHB ch.9",
+   "c": "faq",
+   "k": "healing word downed revive pop up yo-yo zero unconscious stand",
+   "s": "Any healing wakes a creature at 0 hit points. It is prone and must spend half its movement to stand, but acts normally on its turn.",
+   "b": [
+    "Death save counts reset to zero.",
+    "There is no penalty in the books for going down repeatedly."
+   ],
+   "d": "Giving a level of exhaustion each time a character drops is a popular house rule to stop the yo-yo.",
+   "r": [
+    "death-saves",
+    "dropping-to-zero",
+    "bonus-action-spell"
+   ]
+  },
+  {
+   "id": "darkness-both-blind",
+   "t": "Fighting in darkness or fog",
+   "kind": "faq",
+   "src": "PHB ch.8, ch.9",
+   "c": "faq",
+   "k": "darkness fog cloud both blind cancel advantage disadvantage normal roll",
+   "s": "If neither side can see the other, attacks are straight rolls: unseen attacker (advantage) and unseen target (disadvantage) cancel.",
+   "b": [
+    "You still need to know which space to attack; creatures that are not hidden are located by sound.",
+    "Spells that need \"a target you can see\" cannot be used.",
+    "Opportunity attacks need you to see the creature, so none in the dark."
+   ],
+   "r": [
+    "unseen-attackers",
+    "vision-light",
+    "darkness-spell"
+   ]
+  },
+  {
+   "id": "invisible-not-hidden",
+   "t": "Invisible is not hidden",
+   "kind": "faq",
+   "src": "PHB ch.9, app.A",
+   "c": "faq",
+   "k": "invisible hidden location known attack disadvantage find greater invisibility",
+   "s": "Everyone still knows where an invisible creature is from sound and signs, unless it also takes the Hide action. Attacks against it have disadvantage but can be aimed at its space.",
+   "b": [
+    "It can try to hide anywhere, since it is always unseen.",
+    "Spells and features that need a target you can see do not work on it."
+   ],
+   "r": [
+    "invisible-condition",
+    "hide",
+    "unseen-attackers"
+   ]
+  },
+  {
+   "id": "grapple-not-restrained",
+   "t": "Grappled is not restrained",
+   "kind": "faq",
+   "src": "PHB app.A",
+   "c": "faq",
+   "k": "grapple restrained pin attack normally disadvantage held",
+   "s": "A grappled creature only has speed 0. It attacks, casts and makes saves normally, with no disadvantage.",
+   "b": [
+    "To restrain someone you need the Grappler feat (which restrains you too) or a rope, net or spell."
+   ],
+   "r": [
+    "grapple",
+    "grappled-condition",
+    "restrained-condition"
+   ]
+  },
+  {
+   "id": "ready-vs-delay",
+   "t": "You cannot delay your turn",
+   "kind": "faq",
+   "src": "PHB ch.9, Sage Advice",
+   "c": "faq",
+   "k": "delay hold turn wait initiative later ready",
+   "s": "The 2014 rules have no \"delay\". You can only Ready one action or a move, using your reaction.",
+   "b": [
+    "Your place in initiative never changes."
+   ],
+   "d": "Letting players delay to a lower initiative count is a house rule; it changes how duration effects work, so say exactly how.",
+   "r": [
+    "ready-action",
+    "initiative"
+   ]
+  },
+  {
+   "id": "opportunity-attack-reach",
+   "t": "Leaving reach, not entering it",
+   "kind": "faq",
+   "src": "PHB ch.9",
+   "c": "faq",
+   "k": "opportunity attack approach enter reach polearm master circle around",
+   "s": "Approaching a creature, or moving around it while staying in reach, never provokes. Only leaving its reach does.",
+   "b": [
+    "Polearm Master adds an attack when a creature enters your reach."
+   ],
+   "r": [
+    "opportunity-attack"
+   ]
+  },
+  {
+   "id": "cantrip-scaling",
+   "t": "Cantrips scale with character level",
+   "kind": "faq",
+   "src": "PHB ch.10",
+   "c": "faq",
+   "k": "cantrip damage scale level multiclass eldritch blast beams",
+   "s": "Cantrip damage goes up at total character level 5, 11 and 17, whatever your class mix.",
+   "b": [
+    "Eldritch Blast gains extra beams instead; each beam is its own attack roll and can pick a different target."
+   ],
+   "r": [
+    "spell-slots",
+    "multiclass-basics"
+   ]
+  },
+  {
+   "id": "help-in-combat-range",
+   "t": "Help: who needs to be where",
+   "kind": "faq",
+   "src": "PHB ch.9",
+   "c": "faq",
+   "k": "help action ranged ally 5 feet target familiar flyby",
+   "s": "The helper must be within 5 feet of the target. The ally being helped can attack from any distance.",
+   "b": [
+    "The advantage applies only to the ally's first attack roll before your next turn."
+   ],
+   "r": [
+    "help-action",
+    "familiar-help"
+   ]
+  },
+  {
+   "id": "familiar-help",
+   "t": "Familiars: what they can do",
+   "kind": "faq",
+   "src": "PHB ch.11",
+   "c": "faq",
+   "k": "familiar find familiar attack help touch spell deliver owl flyby senses",
+   "s": "A familiar acts on its own initiative, cannot attack, and can take other actions including Help. It can deliver your touch spells using its reaction.",
+   "b": [
+    "Seeing through its eyes takes your action and leaves you blind and deaf to your own surroundings.",
+    "An owl's Flyby lets it Help and leave without provoking.",
+    "It has to be within 100 feet to deliver a spell, and you cast the spell on your turn."
+   ],
+   "r": [
+    "help-action",
+    "reaction"
+   ]
+  },
+  {
+   "id": "two-handed-casting",
+   "t": "Hands: weapons, shields and casting",
+   "kind": "faq",
+   "src": "PHB ch.10, Sage Advice",
+   "c": "faq",
+   "k": "hands free somatic shield sword two handed weapon cast focus war caster",
+   "s": "A two-handed weapon needs two hands only for the attack. You can take a hand off it to cast, then attack normally next turn.",
+   "b": [
+    "Sword and shield: you need a free hand for somatic components unless the shield carries your holy symbol and the spell has a material component, or you have War Caster.",
+    "Sheathing a weapon to free a hand is your one free object interaction."
+   ],
+   "r": [
+    "components",
+    "war-caster-oa",
+    "object-interaction"
+   ]
+  },
+  {
+   "id": "charm-not-control",
+   "t": "Charm is not mind control",
+   "kind": "faq",
+   "src": "PHB app.A",
+   "c": "faq",
+   "k": "charm person friends suggestion dominate obey command control",
+   "s": "A charmed creature treats you as a friendly acquaintance. It will not risk its life or give away its treasure because you asked.",
+   "b": [
+    "Suggestion and Dominate say what they compel; follow their text.",
+    "After Charm Person ends the creature knows it was charmed."
+   ],
+   "r": [
+    "charmed-condition",
+    "social-interaction"
+   ]
+  },
+  {
+   "id": "surprise-not-round",
+   "t": "\"I attack first!\" does not give a free round",
+   "kind": "faq",
+   "src": "PHB ch.9",
+   "c": "faq",
+   "k": "jump attack first before initiative free attack surprise round sucker punch",
+   "s": "When a fight starts, everyone rolls initiative. The one who \"starts it\" does not get a free attack before the order.",
+   "b": [
+    "If the other side had no idea a fight was possible, the DM can rule them surprised."
+   ],
+   "d": "A fair alternative: give the instigator advantage on the initiative roll.",
+   "r": [
+    "surprise",
+    "initiative"
+   ]
+  },
+  {
+   "id": "shield-spell-timing",
+   "t": "Shield and other \"after the roll\" reactions",
+   "kind": "faq",
+   "src": "PHB ch.11",
+   "c": "faq",
+   "k": "shield spell reaction after hit know roll absorb elements silvery barbs cutting words",
+   "s": "Shield is cast when you are hit, so after you know the attack hit, and it can turn that hit into a miss. It lasts until the start of your next turn.",
+   "b": [
+    "Absorb Elements is cast when you take the damage and halves it.",
+    "Features that say \"before you know if it hits\" (Cutting Words reads \"after the roll but before the DM says\") follow their own text."
+   ],
+   "d": "Tell players the attack total, or at least \"that hits\", so they can decide.",
+   "r": [
+    "reaction",
+    "magic-missile-shield"
+   ]
+  },
+  {
+   "id": "concentration-two-spells",
+   "t": "Which spells need concentration",
+   "kind": "faq",
+   "src": "PHB ch.10",
+   "c": "faq",
+   "k": "concentration duration two buffs haste bless hex hunters mark at once",
+   "s": "Only spells whose duration says \"Concentration\". You can have any number of non-concentration spells running, but one concentration spell.",
+   "b": [
+    "Starting a second ends the first immediately, even if the second fails.",
+    "Hex and Hunter's Mark both need it; so do Bless, Haste, Spirit Guardians and most summons."
+   ],
+   "r": [
+    "concentration"
+   ]
+  },
+  {
+   "id": "healing-potion-action",
+   "t": "Is drinking a potion a bonus action?",
+   "kind": "faq",
+   "src": "DMG ch.7",
+   "c": "faq",
+   "k": "potion bonus action drink house rule",
+   "s": "By the book it is an action. Bonus-action drinking is a house rule (a very common one).",
+   "b": [],
+   "r": [
+    "drinking-potions"
+   ]
+  },
+  {
+   "id": "flanking-optional",
+   "t": "Does flanking give advantage?",
+   "kind": "faq",
+   "src": "DMG ch.9",
+   "c": "faq",
+   "k": "flanking advantage opposite sides optional",
+   "s": "Only if your DM uses the optional flanking rule. It is not part of the core rules.",
+   "b": [],
+   "r": [
+    "optional-combat"
+   ]
+  },
+  {
+   "id": "long-rest-hp",
+   "t": "What a long rest does and does not restore",
+   "kind": "faq",
+   "src": "PHB ch.8",
+   "c": "faq",
+   "k": "long rest full hp hit dice half exhaustion spell slots",
+   "s": "All hit points and spell slots, half your Hit Dice (rounded down, minimum 1), and one level of exhaustion.",
+   "b": [
+    "It does not remove conditions, curses or diseases by itself."
+   ],
+   "r": [
+    "resting-long",
+    "hit-dice"
+   ]
+  },
+  {
+   "id": "dual-wield-draw",
+   "t": "Drawing two weapons",
+   "kind": "faq",
+   "src": "PHB ch.9",
+   "c": "faq",
+   "k": "draw two weapons dual wielder free interaction",
+   "s": "One free object interaction a turn means one weapon drawn. The second needs your action, a second turn, or the Dual Wielder feat.",
+   "b": [
+    "Thrown weapons: each draw is an interaction, so one thrown dagger a turn unless you already hold more."
+   ],
+   "r": [
+    "object-interaction",
+    "two-weapon-fighting"
+   ]
+  },
+  {
+   "id": "unarmed-monk-smite",
+   "t": "Unarmed strikes with smite, sneak attack and styles",
+   "kind": "faq",
+   "src": "Sage Advice",
+   "c": "faq",
+   "k": "unarmed strike smite sneak attack dueling monk paladin fist weapon",
+   "s": "An unarmed strike is a melee weapon attack, but not a weapon. Divine Smite, Sneak Attack and the Dueling style need a weapon, so they do not apply.",
+   "b": [
+    "Stunning Strike works (it needs a melee weapon attack).",
+    "Booming Blade and Green-Flame Blade need a weapon worth at least 1 sp."
+   ],
+   "r": [
+    "improvised-weapons",
+    "smite-unarmed"
+   ]
+  },
+  {
+   "id": "twin-spell-eligible",
+   "t": "Twinned Spell: which spells qualify",
+   "kind": "faq",
+   "src": "PHB ch.3, Sage Advice",
+   "c": "faq",
+   "k": "twin twinned metamagic sorcerer target one creature eligible dragons breath haste",
+   "s": "Only a spell that targets one creature and is incapable of targeting more at the level you cast it, and not Self range.",
+   "b": [
+    "Sage Advice rules out spells that can target an object, let you pick more than one creature, can force saves from more than one creature over their duration (Dragon's Breath), or involve a roll that can affect more than one.",
+    "Eligible: Haste, Polymorph, Hold Person at 2nd level, Disintegrate (strictly no, it can target objects; many DMs allow it).",
+    "Not eligible: Fireball, Chaos Bolt, Ice Knife, Eldritch Blast at level 5+, Green-Flame Blade, any spell upcast to add targets."
+   ],
+   "d": "The \"can target an object\" exclusion rules out Fire Bolt too by the official list. Most tables ignore that part; pick one and write it down.",
+   "r": [
+    "bonus-action-spell"
+   ]
+  },
+  {
+   "id": "wild-shape-hp",
+   "t": "Wild Shape and Polymorph hit points",
+   "kind": "faq",
+   "src": "PHB ch.3, ch.11",
+   "c": "faq",
+   "k": "wild shape polymorph hit points zero revert carry over damage concentration beast",
+   "s": "You take on the new form's hit points. At 0 you revert to your own hit points as they were, and any leftover damage carries over.",
+   "b": [
+    "If the carried damage drops your own form to 0, you fall unconscious as normal.",
+    "A druid keeps concentrating on spells in Wild Shape, and can keep one going, but cannot cast new ones until 18th level.",
+    "Polymorph replaces mental scores too; Wild Shape keeps yours.",
+    "Instant-death and \"if this reduces you to 0\" effects apply to the form, then you revert."
+   ],
+   "r": [
+    "concentration",
+    "dropping-to-zero",
+    "polymorph-zero-effects"
+   ]
+  },
+  {
+   "id": "haste-action",
+   "t": "What Haste's extra action allows",
+   "kind": "faq",
+   "src": "PHB ch.11",
+   "c": "faq",
+   "k": "haste extra action attack one weapon dash disengage hide cast",
+   "s": "One of: Attack (one weapon attack only), Dash, Disengage, Hide or Use an Object. Not casting a spell, and no Extra Attack on it.",
+   "b": [
+    "When it ends you lose a whole turn: you cannot move or take actions until after your next turn."
+   ],
+   "r": [
+    "extra-attack",
+    "concentration"
+   ]
+  },
+  {
+   "id": "jump-distance-speed",
+   "t": "Jumping still costs movement",
+   "kind": "faq",
+   "src": "PHB ch.8, Sage Advice",
+   "c": "faq",
+   "k": "jump spell boots striding springing speed limit movement",
+   "s": "Every foot jumped uses a foot of your movement, so you cannot jump farther than the movement you have left, even with the Jump spell.",
+   "b": [
+    "Dash gives more movement to jump with."
+   ],
+   "r": [
+    "jumping",
+    "dash"
+   ]
+  },
+  {
+   "id": "lucky-disadvantage",
+   "t": "Lucky with disadvantage",
+   "kind": "edge",
+   "src": "Sage Advice",
+   "c": "edge",
+   "k": "lucky feat disadvantage three dice choose super advantage",
+   "s": "With disadvantage you roll two dice, spend a luck point for a third, and choose any of the three. Official ruling, and yes, it is better than plain advantage.",
+   "b": [],
+   "d": "A common house rule: Lucky replaces the die you would have used, so disadvantage still takes the lower of the remaining pair.",
+   "r": [
+    "advantage"
+   ]
+  },
+  {
+   "id": "see-invisibility-advantage",
+   "t": "You can see the invisible creature. Does it still get advantage?",
+   "kind": "edge",
+   "src": "PHB app.A, designer comment",
+   "c": "edge",
+   "k": "see invisibility truesight faerie fire invisible advantage still condition raw",
+   "s": "By the text, yes: the invisible condition grants advantage and imposes disadvantage whether or not you can see it. Faerie Fire is different because it says the creature gains no benefit from being invisible.",
+   "b": [
+    "This is a designer comment on the wording, not an official ruling. Most tables rule that if you can see it, the advantage and disadvantage go away."
+   ],
+   "d": "Pick the sensible reading (seeing it cancels the benefit) and record it under House rules.",
+   "r": [
+    "invisible-condition",
+    "unseen-attackers"
+   ]
+  },
+  {
+   "id": "magic-missile-concentration",
+   "t": "Magic Missile: damage rolls and concentration",
+   "kind": "edge",
+   "src": "designer comment",
+   "c": "edge",
+   "k": "magic missile darts one roll concentration checks each missile hex empowered evocation",
+   "s": "The darts strike at once. The designers have said to roll the damage once and use it for every dart, and that a concentrating target saves separately for each dart that hits it.",
+   "b": [
+    "Rolling per dart is how most tables play it.",
+    "With one roll, Empowered Evocation adds Intelligence to every dart."
+   ],
+   "d": "This is commentary, not a Sage Advice ruling. Either way is defensible: choose one.",
+   "r": [
+    "concentration",
+    "magic-missile-shield"
+   ]
+  },
+  {
+   "id": "magic-missile-shield",
+   "t": "Shield against Magic Missile",
+   "kind": "edge",
+   "src": "PHB ch.11",
+   "c": "edge",
+   "k": "shield magic missile immune negate",
+   "s": "Shield says you take no damage from Magic Missile. It is cast as a reaction when you are targeted, and blocks every dart aimed at you.",
+   "b": [],
+   "r": [
+    "shield-spell-timing"
+   ]
+  },
+  {
+   "id": "counterspell-own-turn",
+   "t": "Countering a Counterspell on your own turn",
+   "kind": "edge",
+   "src": "Sage Advice",
+   "c": "edge",
+   "k": "counterspell counter own turn bonus action spell blocked reaction",
+   "s": "Allowed: a reaction can be used on your own turn. But if you cast a bonus-action spell that turn you cannot, because the only other spell allowed is a 1-action cantrip.",
+   "b": [
+    "So: Fireball, enemy Counterspells, you Counterspell that: fine. Healing Word then Fire Bolt, enemy Counterspells: you cannot respond."
+   ],
+   "r": [
+    "counterspell",
+    "bonus-action-spell"
+   ]
+  },
+  {
+   "id": "subtle-counterspell",
+   "t": "Subtle Spell cannot be countered",
+   "kind": "edge",
+   "src": "Sage Advice",
+   "c": "edge",
+   "k": "subtle spell counterspell no components see casting material",
+   "s": "Counterspell needs you to see the casting. A Subtle spell with no material component has nothing to see.",
+   "b": [
+    "If it has a material component, the caster still handles it and can be seen."
+   ],
+   "r": [
+    "counterspell",
+    "perceiving-casting"
+   ]
+  },
+  {
+   "id": "shield-master-timing",
+   "t": "Shield Master: shove before or after attacking?",
+   "kind": "edge",
+   "src": "Sage Advice",
+   "c": "edge",
+   "k": "shield master shove bonus action before attack prone timing",
+   "s": "After. The bonus shove needs you to \"take the Attack action\", and the ruling since 2019 is that you must finish that action (all its attacks) first.",
+   "b": [
+    "Before 2018 the designers said the opposite, so many tables still allow the shove first."
+   ],
+   "d": "Same logic for any \"if you take the X action, you can…\" bonus action without its own timing.",
+   "r": [
+    "shove",
+    "bonus-action"
+   ]
+  },
+  {
+   "id": "war-caster-oa",
+   "t": "War Caster opportunity attacks",
+   "kind": "edge",
+   "src": "PHB ch.6, Sage Advice",
+   "c": "edge",
+   "k": "war caster opportunity attack spell reaction booming blade eldritch blast one target",
+   "s": "Instead of the melee attack you can cast a spell at the creature: casting time 1 action, targeting only that creature.",
+   "b": [
+    "Booming Blade works. Eldritch Blast works but every beam must go at that creature. Fireball does not (area, not a single target).",
+    "The creature is leaving your reach when you cast, so it is still within reach for touch and melee-range spells."
+   ],
+   "r": [
+    "opportunity-attack",
+    "booming-blade-forced"
+   ]
+  },
+  {
+   "id": "booming-blade-forced",
+   "t": "Booming Blade and forced movement",
+   "kind": "edge",
+   "src": "TCE, Sage Advice",
+   "c": "edge",
+   "k": "booming blade move willingly pushed forced shove dissonant whispers fear",
+   "s": "The extra damage triggers only if the target \"willingly moves\". Being shoved, pulled or thrown does not count.",
+   "b": [
+    "Dissonant Whispers makes the target move with its reaction, so that movement does provoke opportunity attacks (Sage Advice).",
+    "Whether magically compelled movement (Dissonant Whispers, Command, fleeing in fear) is \"willing\" has no official ruling: the DM decides."
+   ],
+   "r": [
+    "forced-movement",
+    "opportunity-attack"
+   ]
+  },
+  {
+   "id": "entering-area-effects",
+   "t": "Spirit Guardians, Moonbeam and \"enters the area\"",
+   "kind": "edge",
+   "src": "Sage Advice",
+   "c": "edge",
+   "k": "spirit guardians moonbeam wall of fire enters first time on a turn drag push area cast on top",
+   "s": "Creating the area on top of creatures does not count as them entering it. They are affected when they enter it or start their turn there.",
+   "b": [
+    "Moving the area onto a creature (walking with Spirit Guardians) is also not entering.",
+    "Being pushed or dragged into it does count, but only the first time on each turn.",
+    "So the same creature can be hurt on several different turns in one round if allies keep moving it in."
+   ],
+   "r": [
+    "forced-movement",
+    "areas-of-effect"
+   ]
+  },
+  {
+   "id": "smite-unarmed",
+   "t": "Smiting with a punch or an improvised weapon",
+   "kind": "edge",
+   "src": "Sage Advice",
+   "c": "edge",
+   "k": "smite unarmed improvised weapon fist paladin",
+   "s": "No for unarmed strikes: Divine Smite adds to \"the weapon's damage\", and a fist is not a weapon. An improvised weapon is a weapon, so it works.",
+   "b": [],
+   "r": [
+    "improvised-weapons",
+    "unarmed-monk-smite",
+    "smite-after-crit"
+   ]
+  },
+  {
+   "id": "heavy-armor-master-order",
+   "t": "Flat damage reduction and resistance",
+   "kind": "edge",
+   "src": "PHB ch.9",
+   "c": "edge",
+   "k": "heavy armor master reduce 3 resistance order rage half",
+   "s": "Reductions apply before resistance. A raging barbarian with Heavy Armor Master taking 15 slashing: (15 − 3) ÷ 2 = 6.",
+   "b": [],
+   "r": [
+    "resistance-order"
+   ]
+  },
+  {
+   "id": "polymorph-zero-effects",
+   "t": "Disintegrate, Power Word Kill and a shapechanged target",
+   "kind": "edge",
+   "src": "Sage Advice",
+   "c": "edge",
+   "k": "disintegrate wild shape polymorph zero dust power word kill form hit points",
+   "s": "Disintegrate on a wild-shaped druid: if it drops the beast form to 0, the druid reverts and takes the leftover damage; they turn to dust only if that drops the true form to 0.",
+   "b": [
+    "Power Word Kill checks the current form's hit points (100 or fewer), and kills outright.",
+    "Effects that reduce a hit point maximum carry back to the true form only if they say so."
+   ],
+   "r": [
+    "wild-shape-hp",
+    "dropping-to-zero"
+   ]
+  },
+  {
+   "id": "invalid-target",
+   "t": "Casting at a target the spell cannot affect",
+   "kind": "edge",
+   "src": "XGE ch.2",
+   "c": "edge",
+   "k": "invalid target wasted slot hold person on undead charm immune know",
+   "s": "Xanathar's: if you target something the spell cannot affect, nothing happens to it but the slot is still spent. If the spell normally allows a save, it appears the target simply succeeded.",
+   "b": [
+    "So casting Hold Person on a disguised fiend looks like a made save."
+   ],
+   "r": [
+    "targeting"
+   ]
+  },
+  {
+   "id": "feather-fall-timing",
+   "t": "Feather Fall and falling speed",
+   "kind": "edge",
+   "src": "PHB ch.11, XGE ch.2",
+   "c": "edge",
+   "k": "feather fall reaction fall instantly 500 feet turn",
+   "s": "Feather Fall is a reaction when you or a creature within 60 feet falls, so it can be cast before impact even on someone else's turn. With Xanathar's optional rule a fall covers 500 feet at once, so longer falls give time for other answers.",
+   "b": [],
+   "r": [
+    "falling",
+    "reaction"
+   ]
+  },
+  {
+   "id": "darkness-spell",
+   "t": "Darkness, Devil's Sight and darkvision",
+   "kind": "edge",
+   "src": "PHB ch.11",
+   "c": "edge",
+   "k": "darkness spell devils sight darkvision magical cant see through light dispel",
+   "s": "Darkvision cannot see through magical Darkness; Devil's Sight and truesight can. Nonmagical light does not illuminate it, and a light spell of 2nd level or lower is dispelled where they overlap.",
+   "b": [
+    "A warlock inside it with Devil's Sight attacks with advantage and is attacked with disadvantage, but so are their blinded allies.",
+    "If the object it was cast on is covered, the darkness is blocked."
+   ],
+   "r": [
+    "vision-light",
+    "darkness-both-blind",
+    "unseen-attackers"
+   ]
+  },
+  {
+   "id": "grapple-teleport",
+   "t": "Grapples, teleports and being moved",
+   "kind": "edge",
+   "src": "PHB ch.9, app.A",
+   "c": "edge",
+   "k": "grapple teleport misty step thunderwave break free dimension door carried",
+   "s": "A grapple ends when something moves the grappled creature out of the grappler's reach. Misty Step works (it has only a verbal component and does not need movement speed), and a push such as Thunderwave breaks it too.",
+   "b": [
+    "Dimension Door can bring one willing creature along; a grappler is not willing."
+   ],
+   "r": [
+    "grapple",
+    "forced-movement"
+   ]
+  },
+  {
+   "id": "ready-extra-attack",
+   "t": "Readied attacks and Extra Attack",
+   "kind": "edge",
+   "src": "PHB ch.3, Sage Advice",
+   "c": "edge",
+   "k": "ready attack extra attack one swing not your turn",
+   "s": "Extra Attack works only on your turn, so a readied Attack is a single attack. A readied cantrip keeps its full damage.",
+   "b": [],
+   "r": [
+    "ready-action",
+    "extra-attack"
+   ]
+  },
+  {
+   "id": "assassinate-initiative",
+   "t": "Assassinate when the target wins initiative",
+   "kind": "edge",
+   "src": "PHB ch.3, Sage Advice",
+   "c": "edge",
+   "k": "assassin assassinate surprised crit initiative lost target acted",
+   "s": "A surprised creature stops being surprised at the end of its first turn. If it rolled higher than the assassin, its (empty) turn has passed and the automatic critical hit is gone. Advantage against creatures that have not yet acted follows the same order.",
+   "b": [],
+   "r": [
+    "surprise",
+    "initiative"
+   ]
+  },
+  {
+   "id": "sentinel-disengage",
+   "t": "Sentinel against Disengage and Polearm Master",
+   "kind": "edge",
+   "src": "PHB ch.6",
+   "c": "edge",
+   "k": "sentinel disengage speed zero polearm master reach stop",
+   "s": "Sentinel lets you make opportunity attacks even against Disengage, and a hit sets the target's speed to 0 for the turn.",
+   "b": [
+    "With Polearm Master, a creature entering your 10-foot reach can be stopped there, out of its own reach.",
+    "Sentinel's third benefit needs the attacker to be within 5 feet of you."
+   ],
+   "r": [
+    "disengage",
+    "opportunity-attack"
+   ]
+  },
+  {
+   "id": "is-it-magical",
+   "t": "Is this ability magical?",
+   "kind": "edge",
+   "src": "Sage Advice",
+   "c": "edge",
+   "k": "magical antimagic dispel breath weapon dragon wild shape ki check list",
+   "s": "The official test: it is magical if it is a magic item, a spell or lets you cast one, a spell attack, fueled by spell slots, or its description says it is magical.",
+   "b": [
+    "By that test a dragon's breath is not magical, and Wild Shape is (its text says you magically assume the shape).",
+    "Only magical things are stopped by Antimagic Field or resisted by Magic Resistance."
+   ],
+   "r": [
+    "antimagic",
+    "dispel-magic"
+   ]
+  },
+  {
+   "id": "simultaneous-effects",
+   "t": "Things that happen at the same time",
+   "kind": "edge",
+   "src": "XGE ch.2",
+   "c": "edge",
+   "k": "simultaneous same time order start of turn end choose who decides",
+   "s": "Xanathar's: when several things happen at the same moment on a creature's turn, the creature whose turn it is (the player, or the DM for a monster) chooses the order.",
+   "b": [
+    "Example: Regeneration and ongoing damage at the start of a turn."
+   ],
+   "r": [
+    "ending-effects-timing"
+   ]
+  },
+  {
+   "id": "ten-rules",
+   "t": "Ten rules worth memorizing",
+   "kind": "faq",
+   "src": "PHB, XGE ch.2",
+   "c": "edge",
+   "k": "xanathar ten rules basics remember summary exceptions round down same name reaction bonus action spell concentration temp hp",
+   "s": "Exceptions beat general rules; round down; advantage and disadvantage do not stack; proficiency is added once; same-named effects do not stack; one bonus action; bonus-action spell means only a cantrip otherwise; one reaction; concentrate on one spell; temporary hit points do not stack.",
+   "b": [],
+   "r": [
+    "specific-beats-general",
+    "rounding",
+    "advantage",
+    "stacking",
+    "bonus-action-spell",
+    "concentration",
+    "temp-hp"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+# equipment | Equipment and magic items
+@ armor-rules | Armor and AC | rule | PHB ch.5
+k: armor ac light medium heavy dex cap strength requirement stealth disadvantage don doff proficiency
+s: Light: armor + full Dexterity modifier. Medium: armor + Dexterity (max +2). Heavy: flat AC, no Dexterity, and a Strength requirement or −10 speed.
+- Without proficiency: disadvantage on every Strength or Dexterity check, save and attack, and no spellcasting.
+- Some armor gives disadvantage on Stealth.
+- Don / doff: light 1 min / 1 min, medium 5 / 1, heavy 10 / 5, shield 1 action each.
+r: ac-calculations, casting-in-armor, lifting-carrying
+
+@ ac-calculations | Which AC calculation applies? | faq | PHB ch.1, Sage Advice
+k: unarmored defense mage armor natural armor stack monk barbarian shield ac formula choose one
+s: You use one base AC formula at a time and choose the best. Bonuses (shield, Shield spell, ring) add on top of whichever you use.
+- Formulas: worn armor; 10 + Dexterity; Unarmored Defense (barbarian 10 + Dex + Con, monk 10 + Dex + Wis); Mage Armor 13 + Dex; natural armor (lizardfolk, tortle); Draconic Resilience 13 + Dex.
+- Mage Armor does not add to Unarmored Defense. A multiclass barbarian/monk gets only the one from the first class taken.
+- A barbarian's Unarmored Defense allows a shield; a monk's does not.
+- Barkskin sets a floor of 16: nothing adds to it; it just replaces a lower total.
+r: armor-rules, stacking
+
+@ weapon-properties | Weapon properties | rule | PHB ch.5
+k: finesse light heavy reach thrown versatile two-handed loading ammunition special property
+s: Finesse: Strength or Dexterity. Light: for two-weapon fighting. Heavy: Small creatures have disadvantage. Reach: +5 feet. Versatile: bigger die in two hands. Two-handed: needs both hands to attack.
+- Ammunition: needs a free hand to load a one-handed weapon; you recover half after a fight by searching for a minute.
+- Loading: one shot per action, bonus action or reaction, whatever your number of attacks (Crossbow Expert removes this).
+- Thrown: uses the same ability as a melee attack with it.
+- Two-handed only matters when attacking: you can hold it in one hand to cast.
+- Lance: disadvantage within 5 feet, two hands unless mounted. Net: one attack only, Large or smaller, DC 10 Strength or 5 slashing to escape.
+r: two-weapon-fighting, improvised-weapons, ranged-in-melee
+
+@ improvised-weapons | Improvised weapons and unarmed strikes | rule | PHB ch.5, ch.9, Sage Advice
+k: improvised chair bottle unarmed punch kick fist d4 proficiency melee weapon attack
+s: Improvised weapon: 1d4, no proficiency unless it resembles a real weapon. Unarmed strike: 1 + Strength modifier bludgeoning, and you are always proficient.
+- An unarmed strike is a melee weapon attack but not a weapon. It works with features that say "melee weapon attack" and not with those that need "a weapon" (Divine Smite, Improved Divine Smite, Dueling, Sneak Attack).
+- Throwing a non-thrown melee weapon, or hitting with a bow: 1d4, range 20/60.
+r: smite-unarmed, weapon-properties
+
+@ attunement | Attunement | rule | DMG ch.7
+k: attune attunement three items short rest limit end
+s: At most three attuned items. Attuning takes a short rest spent with the item. It ends if you are more than 100 feet away for 24 hours, die, or choose to end it after another short rest.
+- One item cannot be attuned to more than one creature, and you cannot attune to two copies of the same item.
+- Until attuned, the item gives only its non-magical benefits (unless its text says otherwise).
+r: identify-spells, cursed-items, magic-item-activation
+
+@ magic-item-activation | Using magic items | rule | DMG ch.7
+k: magic item activate command word charges wand staff cast from item concentration slot
+s: Activating an item takes an action unless it says otherwise. A spell cast from an item uses no slot and no components, at the lowest level unless stated, and still needs concentration if the spell does.
+- It uses your spellcasting ability if the item says so; otherwise the item's own DC, or +0 with only proficiency if you have no casting ability.
+- Charges come back as the item says (usually at dawn). Using the last charge often risks destroying it (wands: roll a d20, on a 1 it crumbles).
+- Wearing: one pair of boots, gloves, one cloak, one armor, one headgear. Rings and amulets within reason.
+- The bonus-action spell rule still applies to spells from items.
+r: attunement, spell-scrolls, bonus-action-spell
+
+@ drinking-potions | Potions | rule | DMG ch.7
+k: potion drink healing action bonus action feed administer
+s: Drinking a potion or giving one to another creature takes an action.
+- Potion of Healing: 2d4 + 2. Greater 4d4 + 4, Superior 8d4 + 8, Supreme 10d4 + 20.
+- Mixing potions is optional chaos (DMG table).
+d: "Drink as a bonus action, feed as an action" is one of the most common house rules. It is not the book rule.
+r: use-an-object, healing
+
+@ cursed-items | Cursed items | rule | DMG ch.7
+k: curse cursed item remove curse cant unattune identify
+s: Identify does not reveal a curse. Attunement to a cursed item usually cannot be ended until Remove Curse or similar magic breaks it.
+
+@ buying-selling | Money, selling loot and services | rule | PHB ch.5
+k: gold coin exchange sell half price loot gems lifestyle hireling cost
+s: 1 pp = 10 gp, 1 gp = 10 sp, 1 sp = 10 cp (1 ep = 5 sp). Used weapons, armor and gear sell for half price; gems, jewelry and art for full value.
+- Monster weapons and armor are rarely fit to sell.
+- 50 coins weigh a pound.
+- Lifestyle per day: squalid 1 sp, poor 2 sp, modest 1 gp, comfortable 2 gp, wealthy 4 gp, aristocratic 10 gp or more.
+- Skilled hireling 2 gp a day, unskilled 2 sp.
+r: magic-item-prices
+
+@ magic-item-prices | Buying and selling magic items | rule | DMG ch.7, XGE ch.2
+k: magic item price rarity common uncommon rare buy sell shop cost
+s: By rarity (DMG): common 50 to 100 gp, uncommon 101 to 500, rare 501 to 5,000, very rare 5,001 to 50,000, legendary 50,001 or more. Consumables are about half.
+- The books treat buying and selling them as downtime activities, not shop purchases (Xanathar's: Buying a Magic Item, Selling a Magic Item).
+d: The DM Codex Shops tab prices items inside these ranges.
+r: buying-selling, attunement
+
+# character | Building and advancing a character
+@ leveling-up | Gaining a level | rule | PHB ch.1
+k: level up xp experience milestone table hit points new features
+s: New level: more hit points (roll or average + Constitution modifier), one more Hit Die, and the class features for that level.
+- XP for levels 2 to 5: 300, 900, 2,700, 6,500. Level 10: 64,000. Level 20: 355,000.
+- Many tables use milestones instead: the DM says when.
+r: hit-dice, proficiency-bonus, asi-feats
+
+@ asi-feats | Ability Score Improvements and feats | rule | PHB ch.3, ch.6
+k: asi ability score improvement feat level 4 8 12 16 19 choose
+s: At class levels 4, 8, 12, 16 and 19 (fighters also 6 and 14, rogues 10): +2 to one score or +1 to two, maximum 20. Or take a feat instead, if the DM allows feats.
+- It follows class level, not character level: multiclassing delays it.
+- You can take each feat only once unless it says otherwise, and must meet its prerequisite.
+r: multiclass-basics, ability-scores
+
+@ multiclass-basics | Multiclassing | rule | PHB ch.6
+k: multiclass prerequisite 13 proficiencies gained extra attack channel divinity unarmored
+s: You need 13 in the key abilities of both your current class and the new one. You gain only some of the new class's proficiencies, and never its saving throws.
+- Prerequisites: barbarian Str; bard Cha; cleric Wis; druid Wis; fighter Str or Dex; monk Dex and Wis; paladin Str and Cha; ranger Dex and Wis; rogue Dex; sorcerer Cha; warlock Cha; wizard Int; artificer Int.
+- Extra Attack from two classes does not add up. Unarmored Defense: only the first one you got.
+- Channel Divinity: you gain the options of both classes but not extra uses.
+- Hit Dice pool together; proficiency bonus uses total level.
+r: multiclass-slots, asi-feats, extra-attack
+
+@ extra-attack | Extra Attack | rule | PHB ch.3, ch.6
+k: extra attack two attacks stack multiclass haste action surge
+s: Attack twice (fighters up to four times) whenever you take the Attack action on your turn. It does not stack across classes.
+- Only on your turn and only with the Attack action: not with readied attacks, opportunity attacks or Haste's extra action (one weapon attack only).
+- Action Surge gives a whole second action, so the full set of attacks again.
+- Warlock Thirsting Blade does not stack with it either.
+r: attack-action, ready-action, haste-action
+
+@ backgrounds-alignment | Backgrounds, alignment and languages | rule | PHB ch.4
+k: background alignment language customize proficiencies feature personality
+s: A background gives two skills, tools or languages, equipment and a feature. You may customize it: swap any skills, tools and languages for others.
+- If a background gives a proficiency you already have, pick another of the same kind.
+- Alignment describes outlook; no rule in the 2014 books punishes changing it.
+
+@ downtime | Downtime | rule | PHB ch.8, DMG ch.6, XGE ch.2
+k: downtime craft training research carousing work between adventures
+s: Between adventures: crafting (5 gp of progress per day, half the price in materials), practicing a profession, recuperating, researching, training (250 days and 1 gp a day for a language or tool).
+- Xanathar's replaces these with weekly activities and complications (carousing, crime, pit fighting, scribing scrolls, buying and selling magic items) and cuts training to 10 workweeks minus Intelligence modifier.
+d: The DM Codex Downtime tab runs these.
+
+# dm | Running the game
+@ improvised-damage | Improvising damage | rule | DMG ch.8
+k: improvise damage how much lava fall fire table by level
+s: 1d10 burned by coals or a falling bookcase; 2d10 lightning strike or stumbling into a fire pit; 4d10 hit by rubble or acid vat; 10d10 crushed by walls or wading in lava; 18d10 submerged in lava or hit by a crashing flying fortress; 24d10 a vortex of elemental fire or a godlike creature's jaws.
+- By level, setback / dangerous / deadly: 1 to 4: 1d10 / 2d10 / 4d10. 5 to 10: 2d10 / 4d10 / 10d10. 11 to 16: 4d10 / 10d10 / 18d10. 17 to 20: 10d10 / 18d10 / 24d10.
+r: traps, dc-table
+
+@ encounter-building | Building encounters | rule | DMG ch.3
+k: encounter difficulty xp threshold budget easy medium hard deadly multiplier adventuring day
+s: Add each character's XP threshold for the difficulty you want, then compare with the monsters' total XP times a multiplier for their number.
+- Multiplier: 1 monster ×1, 2 ×1.5, 3 to 6 ×2, 7 to 10 ×2.5, 11 to 14 ×3, 15+ ×4. Shift one step for parties under 3 or over 5.
+- Thresholds per character at level 1 / 5 / 10: easy 25 / 250 / 600, medium 50 / 500 / 1,200, hard 75 / 750 / 1,900, deadly 100 / 1,100 / 2,800.
+- An adventuring day is about 6 to 8 medium or hard encounters with two short rests.
+- The multiplier is for judging difficulty only: award the monsters' plain XP.
+d: Battle Setup in the DM Codex does this sum for you.
+r: challenge-rating, awarding-xp
+
+@ challenge-rating | Challenge rating | rule | MM intro
+k: cr challenge rating meaning proficiency xp
+s: A party of four characters of a level equal to the CR should beat the monster without deaths. Proficiency bonus follows CR: +2 up to CR 4, +3 at 5, +4 at 9, +5 at 13, +6 at 17, +7 at 21, +8 at 25, +9 at 29.
+- A monster whose CR is above the party's level can kill a character in one hit.
+r: encounter-building
+
+@ awarding-xp | Experience and milestones | rule | DMG ch.8
+k: xp award split divide milestone noncombat session
+s: Add the monsters' XP and divide evenly among the characters who took part. Or level by milestone.
+- Noncombat challenges can be worth XP as if they were an encounter of the same difficulty.
+r: leveling-up, encounter-building
+
+@ legendary-actions | Legendary and lair actions, legendary resistance | rule | MM intro
+k: legendary action lair resistance initiative 20 end of turn regain
+s: Legendary actions: a set number per round, each used at the end of another creature's turn, regained at the start of the monster's turn. Lair actions: on initiative count 20, losing ties. Legendary Resistance: turn a failed save into a success, a few times a day.
+- Legendary actions cannot be used while incapacitated or surprised.
+- The same lair action cannot be used two rounds running (most lairs).
+d: Tell players when Legendary Resistance is used. Burning through them is part of the fight. The Combat tab tracks all three.
+r: recharge-abilities
+
+@ recharge-abilities | Recharge, multiattack and monster spellcasting | rule | MM intro
+k: recharge 5-6 breath weapon multiattack innate spellcasting monster roll start of turn
+s: Recharge X–Y: roll a d6 at the start of each of the monster's turns; on that number or higher the ability returns. It also returns on a short or long rest.
+- Multiattack is its own action: it cannot be used for an opportunity attack, and is not the Attack action.
+- Innate spellcasting needs no material components unless stated. A monster's spell list is its prepared list.
+- Grapple and shove replace an attack of the Attack action. Multiattack is a different action, so by a strict reading a monster gives up Multiattack to grapple; many DMs let it swap one attack.
+r: legendary-actions, opportunity-attack
+
+@ social-interaction | Social interaction | rule | DMG ch.8
+k: persuade npc attitude friendly indifferent hostile charisma check dc social
+s: An NPC is friendly, indifferent or hostile. After the conversation, one Charisma check decides what they will do: DC 0, 10 or 20 gets more help, depending on attitude.
+- Friendly: DC 10 accepts a minor risk, DC 20 a significant one. Indifferent: DC 10 no risk, DC 20 minor risk. Hostile: DC 10 does nothing to hinder, DC 20 helps if no risk.
+- Roleplay that touches the NPC's ideal, bond or flaw can shift the attitude one step first.
+d: Persuasion is not mind control. A king will not hand over the crown on a 30.
+r: charm-not-control, dc-table
+
+@ chases | Chases | rule | DMG ch.8
+k: chase pursuit dash exhaustion escape complication
+s: Each participant can Dash 3 + Constitution modifier times freely; each further Dash needs a DC 10 Constitution check or gains a level of exhaustion (gone after the chase with a short rest).
+- No opportunity attacks between chase participants.
+- The quarry escapes by breaking line of sight and winning Stealth against the pursuers' passive Perception at the end of a round.
+- Roll a d20 for a complication at the end of each turn.
+r: dash, exhaustion, hide
+
+@ optional-combat | Optional combat rules | rule | DMG ch.9
+k: flanking optional cleave disarm mark overrun tumble climb onto hero points variant
+s: All optional, off unless the DM turns them on: flanking (advantage when two allies are on opposite sides), diagonals 5-10-5, cleaving through creatures, action options (Climb onto a Bigger Creature, Disarm, Mark, Overrun, Shove Aside, Tumble), hitting cover, injuries, massive damage, morale.
+- Flanking makes advantage very easy to get and devalues many features: a common fix is +2 instead.
+d: Write the ones you use into House rules so the players can see them.
+r: cover, moving-through-creatures
+
+@ mob-rules | Handling mobs | rule | DMG ch.8
+k: mob many monsters average attacks needed d20 group
+s: To skip rolling for a crowd: find the d20 roll needed to hit, and one attacker in a group hits per so many. Needed 1 to 5: all hit. 6 to 12: 1 in 2. 13 to 14: 1 in 3. 15 to 16: 1 in 4. 17 to 18: 1 in 5. 19: 1 in 10. 20: 1 in 20.
+- Use average damage.
+
+@ madness-fear | Fear, horror and madness | rule | DMG ch.8
+k: madness sanity horror fear short long indefinite optional
+s: Optional. Fear: Wisdom save or frightened for 1 minute. Horror: Charisma save or roll short-term or long-term madness. Madness is short (1d10 minutes), long (1d10 × 10 hours) or indefinite.
+- Calm Emotions suppresses it; Lesser Restoration cures short and long; Greater Restoration cures any.
+
+@ treasure | Treasure and magic item pacing | rule | DMG ch.7, XGE ch.2
+k: treasure hoard loot how much magic items per level tier
+s: Individual treasure and hoards come from tables by challenge tier (0 to 4, 5 to 10, 11 to 16, 17+).
+- Xanathar's guide: a party finds about 100 magic items over 20 levels, most of them minor and consumable.
+d: The DM Codex rolls hoards and the Magic Item Tables A to I.
+r: magic-item-prices
+
+@ dm-rulings | Making a ruling | rule | DMG intro
+k: ruling dm decides rule zero unclear argument fair consistent
+s: When the rules are unclear: make a quick fair call, keep the game moving, and look it up after the session.
+- Say how you will rule it "for tonight". Change it later if the book says otherwise, and tell the table.
+- Be consistent: the same call for players and monsters.
+- Record lasting rulings in House rules so nobody has to remember them.
+r: specific-beats-general, dc-table

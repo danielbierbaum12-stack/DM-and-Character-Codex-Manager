@@ -1,0 +1,267 @@
+# movement | Movement and position
+@ movement-basics | Movement and speed | rule | PHB ch.9
+k: move speed feet squares split movement walk
+s: Move up to your speed each turn, in any pieces you like. On a grid a square is 5 feet.
+- You can break up movement before, between and after attacks and actions.
+- With several speeds (walk, fly, swim) you can switch; subtract what you have already moved from the new speed.
+- Diagonals cost 5 feet each by default. Optional (DMG): every second diagonal costs 10.
+r: difficult-terrain, dash, climb-swim-crawl
+
+@ difficult-terrain | Difficult terrain | rule | PHB ch.8, ch.9
+k: difficult terrain rubble mud snow half speed extra foot
+s: Every foot costs 1 extra foot. It does not stack with itself.
+- Another creature's space (friend or foe) is difficult terrain.
+- Difficult terrain plus crawling or climbing costs 3 feet per foot.
+
+@ climb-swim-crawl | Climbing, swimming and crawling | rule | PHB ch.8, ch.9
+k: climb swim crawl speed extra foot athletics
+s: Each foot costs 1 extra foot (2 extra in difficult terrain), unless you have a climbing or swimming speed.
+- A hard climb or rough water may need a Strength (Athletics) check.
+r: difficult-terrain, underwater-combat
+
+@ jumping | Jumping | rule | PHB ch.8
+k: jump long high leap running standing how far
+s: Long jump: feet equal to your Strength score with a 10-foot run-up, half without. High jump: 3 + Strength modifier feet with a run-up, half without.
+- Each foot jumped costs a foot of movement.
+- You can reach up half your height above the top of a high jump.
+- The DM can allow a Strength (Athletics) check to jump farther.
+r: athletics-vs-acrobatics, jump-distance-speed
+
+@ prone-standing | Dropping prone and standing up | rule | PHB ch.9
+k: prone stand up drop crawl half movement
+s: Dropping prone is free. Standing up costs half your speed. You cannot stand if your speed is 0.
+- While prone you can only crawl, unless you stand.
+r: prone-condition, grapple
+
+@ moving-through-creatures | Moving through other creatures | rule | PHB ch.9
+k: move through ally enemy space squeeze past occupy end turn
+s: You can pass through an ally's space (difficult terrain), and through an enemy's only if it is two or more sizes larger or smaller. You cannot willingly end your move in another creature's space.
+- Optional (DMG): Overrun and Tumble let you contest your way through.
+r: difficult-terrain, size-space
+
+@ size-space | Size and space | rule | PHB ch.9
+k: size tiny small medium large huge gargantuan space squares squeeze
+s: Tiny 2½ ft, Small and Medium 5 ft, Large 10 ft, Huge 15 ft, Gargantuan 20 ft or more.
+- Squeezing: a creature can fit through a space one size smaller. Each foot costs 1 extra, and it has disadvantage on attacks and Dexterity saves while attacks against it have advantage.
+r: moving-through-creatures, grapple
+
+@ flying | Flying | rule | PHB ch.9
+k: fly flying fall knocked prone hover speed zero
+s: A flying creature falls if it is knocked prone, its speed becomes 0, or it otherwise cannot move, unless it can hover or is held up by magic such as the Fly spell.
+r: falling, prone-condition
+
+@ forced-movement | Forced movement | rule | PHB ch.9
+k: push pull shove forced moved thunderwave repelling opportunity attack hazard
+s: Being pushed, pulled or carried is not your movement: it provokes no opportunity attacks and does not cost your speed.
+- It does not trigger effects that say "moves willingly" (Booming Blade).
+- It does trigger effects that care about "entering" an area (Spirit Guardians, Wall of Fire), but only once per turn for most of them.
+r: opportunity-attack, entering-area-effects, booming-blade-forced
+
+@ falling | Falling | rule | PHB ch.8, XGE ch.2
+k: fall falling damage d6 10 feet prone height max
+s: 1d6 bludgeoning per 10 feet, to a maximum of 20d6. You land prone unless you take no damage.
+- Xanathar's (optional): you fall 500 feet instantly, then 500 feet at the end of each of your turns.
+- Xanathar's (optional): a flying creature knocked prone falls, and subtracts its fly speed from the distance if it can still fly.
+- The core rules have no special rule for falling into water: the DM decides.
+r: flying, feather-fall-timing
+
+# attacks | Attacks, damage and dying
+@ attack-rolls | Making an attack | rule | PHB ch.9
+k: attack roll hit ac modifier melee ranged finesse
+s: d20 + ability modifier + proficiency (if proficient). Meet or beat the target's AC to hit.
+- Melee uses Strength; ranged uses Dexterity. Finesse weapons use either; thrown weapons use the same ability as in melee.
+- Spell attacks use your spellcasting ability.
+- If something counts as an attack at all: it makes an attack roll.
+r: natural-20, cover, unseen-attackers, ranged-in-melee
+
+@ unseen-attackers | Unseen attackers and targets | rule | PHB ch.9
+k: unseen invisible hidden blind darkness cant see advantage disadvantage guess location
+s: Attacking a target you cannot see: disadvantage. Attacking when the target cannot see you: advantage. Both at once cancel out.
+- If you guess the wrong square, you miss automatically; the DM just says "miss".
+- Attacking reveals your position, hit or miss.
+- Two creatures fighting in darkness with no darkvision attack each other normally (advantage and disadvantage cancel).
+r: hide, vision-light, invisible-condition, darkness-both-blind
+
+@ ranged-in-melee | Ranged attacks | rule | PHB ch.9
+k: ranged attack range long disadvantage melee 5 feet close bow thrown
+s: Disadvantage beyond normal range (up to long range), and disadvantage when a hostile creature that can see you and is not incapacitated is within 5 feet.
+- This covers ranged spell attacks too.
+- Crossbow Expert removes the within-5-feet penalty.
+- You cannot attack beyond long range.
+r: cover, weapon-properties
+
+@ cover | Cover | rule | PHB ch.9
+k: cover half three quarters total wall creature behind ac bonus dex save
+s: Half cover: +2 AC and Dexterity saves. Three-quarters: +5. Total cover: cannot be targeted directly.
+- Half: a low wall, furniture, another creature (friend or foe). Three-quarters: an arrow slit, a thick tree trunk.
+- Only the best cover counts.
+- Total cover does not stop an area that spreads around corners (Fireball does spread).
+- Optional (DMG): if an attack misses by the cover bonus, it hits the cover.
+p: Shooting past an ally gives the enemy +2 AC. Sharpshooter and Spell Sniper ignore half and three-quarters cover.
+r: line-of-effect, unseen-attackers
+
+@ critical-hits | Critical hits | rule | PHB ch.9
+k: crit critical hit double dice natural 20 smite sneak attack extra damage
+s: Roll all of the attack's damage dice twice, then add modifiers once.
+- Every die that is part of the attack's damage doubles: Sneak Attack, Divine Smite, Hunter's Mark, a flame tongue's fire.
+- Flat bonuses do not double.
+- Damage that comes from a separate saving throw does not double.
+p: Paladins can decide to smite after seeing the crit.
+d: Monsters crit too. "Maximum dice plus a roll" is a popular house rule, not the book rule.
+r: natural-20, smite-after-crit
+
+@ damage-rolls | Damage and damage types | rule | PHB ch.9
+k: damage roll modifier types slashing fire radiant necrotic psychic list
+s: Roll the damage dice and add the same ability modifier you attacked with (weapons). Spells say what to add, usually nothing.
+- Types: acid, bludgeoning, cold, fire, force, lightning, necrotic, piercing, poison, psychic, radiant, slashing, thunder.
+- A spell or effect that damages several targets at once rolls damage once for all of them.
+- Off-hand attacks add no modifier (unless negative).
+r: resistance-order, critical-hits, two-weapon-fighting
+
+@ resistance-order | Resistance, vulnerability and immunity | rule | PHB ch.9
+k: resistance vulnerability immunity half double order stack twice
+s: Resistance halves, vulnerability doubles, immunity is zero. Apply bonuses and reductions first, then resistance, then vulnerability.
+- Several resistances to the same damage count once.
+- Resistance and vulnerability to the same type: halve, then double.
+- Example: 25 fire, −5 from an aura, resistant: (25 − 5) ÷ 2 = 10.
+- A successful save for half comes before resistance; the order of two halvings does not matter except for rounding.
+r: rounding, damage-rolls, heavy-armor-master-order
+
+@ temp-hp | Temporary hit points | rule | PHB ch.9
+k: temp hp temporary hit points stack false life healing add
+s: A buffer lost first. They do not stack: keep the higher amount. Healing does not restore them.
+- They last until used up or you finish a long rest, unless the source says otherwise.
+- They are not hit points: you are not healed, and at 0 hit points they do not wake you or stop death saves.
+- If the source spell needs concentration or has a duration (Armor of Agathys), other effects end when its temp hit points are gone.
+- Damage that would break concentration still forces the save even if temp hit points absorb all of it.
+r: stacking, concentration, dropping-to-zero
+
+@ healing | Healing | rule | PHB ch.9
+k: heal healing hit points maximum regain revive potion
+s: You cannot go above your hit point maximum. Any healing at 0 hit points wakes you.
+- A dead creature cannot be healed until it is raised.
+r: dropping-to-zero, drinking-potions, resting-short
+
+@ dropping-to-zero | Dropping to 0 hit points | rule | PHB ch.9
+k: zero hp unconscious dying down knocked out massive damage instant death
+s: You fall unconscious and start making death saves. If the leftover damage equals or exceeds your hit point maximum, you die instantly.
+- Example: 6 hit points left, maximum 12, take 18: the 12 left over equals your maximum. Dead.
+- Monsters usually just die at 0; the DM may have important ones make death saves.
+r: death-saves, unconscious-condition, knocking-out, healing
+
+@ death-saves | Death saving throws | rule | PHB ch.9
+k: death save dying three successes failures stable nat 20 nat 1 damage at zero
+s: At the start of each of your turns at 0 hit points, roll a d20 with no modifiers: 10 or higher succeeds. Three successes: stable. Three failures: dead.
+- Natural 20: you regain 1 hit point. Natural 1: two failures.
+- Taking damage at 0: one failure. A critical hit: two. Any hit from within 5 feet on an unconscious creature is a critical hit.
+- Damage equal to your maximum while at 0 kills outright.
+- The counts reset when you regain any hit points or become stable.
+- A death save is a saving throw, so Bless and a paladin's aura help.
+p: A downed ally hit by a melee attack takes two failures. Get them up or get the enemy off them.
+r: dropping-to-zero, stabilizing, unconscious-condition, natural-20
+
+@ stabilizing | Stabilizing a creature | rule | PHB ch.9
+k: stabilize medicine healers kit spare the dying stable wake
+s: Action: Wisdom (Medicine) DC 10, or use a healer's kit (no roll). A stable creature is unconscious at 0 and no longer rolls death saves.
+- It regains 1 hit point after 1d4 hours.
+- If it takes damage again, it starts dying again.
+r: death-saves, healing
+
+@ knocking-out | Knocking a creature out | rule | PHB ch.9
+k: knock out nonlethal subdue unconscious capture alive melee
+s: When you reduce a creature to 0 with a melee attack, you can choose to knock it out: unconscious and stable.
+- Melee attacks only, including melee spell attacks. Not ranged attacks or area spells.
+- You decide when the damage is dealt.
+
+@ underwater-combat | Underwater combat | rule | PHB ch.9
+k: underwater swim water fight ranged fire resistance
+s: Without a swim speed, melee attacks have disadvantage unless using a dagger, javelin, shortsword, spear or trident. Ranged weapon attacks miss beyond normal range and have disadvantage within it, except crossbows, nets and thrown javelin-like weapons.
+- Fully immersed creatures have resistance to fire damage.
+r: climb-swim-crawl, suffocating
+
+# conditions | Conditions
+@ blinded-condition | Blinded | rule | PHB app.A
+k: blind blinded cant see
+s: Cannot see. Fails any check that needs sight. Its attacks have disadvantage; attacks against it have advantage.
+r: unseen-attackers
+
+@ charmed-condition | Charmed | rule | PHB app.A
+k: charm charmed friend cant attack social advantage
+s: Cannot attack the charmer or target them with harmful abilities or magic. The charmer has advantage on social checks with it.
+- It is not mind control: the creature is friendly, not a puppet, unless the spell says more.
+r: charm-not-control
+
+@ deafened-condition | Deafened | rule | PHB app.A
+k: deaf deafened hear
+s: Cannot hear. Fails any check that needs hearing.
+- A deafened caster can still cast spells with verbal components.
+
+@ frightened-condition | Frightened | rule | PHB app.A
+k: fear frightened afraid scared disadvantage move closer
+s: Disadvantage on checks and attacks while the source of fear is in sight. Cannot willingly move closer to it.
+
+@ grappled-condition | Grappled | rule | PHB app.A
+k: grappled held speed zero
+s: Speed 0, and no bonuses to speed. Nothing else: it can still attack and cast.
+- Ends if the grappler is incapacitated or the two are moved apart.
+r: grapple
+
+@ incapacitated-condition | Incapacitated | rule | PHB app.A
+k: incapacitated cant act actions reactions concentration
+s: Cannot take actions or reactions (so no bonus actions either). It can still move unless something else stops it.
+- Being incapacitated ends concentration.
+r: concentration
+
+@ invisible-condition | Invisible | rule | PHB app.A
+k: invisible invisibility unseen see invisibility truesight advantage hidden location
+s: Cannot be seen without magic or a special sense. Its attacks have advantage; attacks against it have disadvantage.
+- It is heavily obscured for hiding, but it still makes noise and leaves tracks: its location is known unless it also hides.
+- Anything it wears or carries is invisible too.
+r: hide, unseen-attackers, see-invisibility-advantage
+
+@ paralyzed-condition | Paralyzed | rule | PHB app.A
+k: paralyzed hold person frozen auto crit
+s: Incapacitated, cannot move or speak. Automatically fails Strength and Dexterity saves. Attacks have advantage, and any hit from within 5 feet is a critical hit.
+r: critical-hits
+
+@ petrified-condition | Petrified | rule | PHB app.A
+k: petrified stone statue medusa
+s: Turned to stone: incapacitated, unaware, weight ×10, does not age. Attacks have advantage; fails Strength and Dexterity saves; resistance to all damage; immune to poison and disease (existing ones are suspended).
+
+@ poisoned-condition | Poisoned | rule | PHB app.A
+k: poison poisoned disadvantage
+s: Disadvantage on attack rolls and ability checks. Not on saving throws.
+
+@ prone-condition | Prone | rule | PHB app.A
+k: prone knocked down lying crawl advantage ranged disadvantage
+s: Can only crawl. Its attacks have disadvantage. Attacks from within 5 feet have advantage; from farther away, disadvantage.
+- Standing up costs half your speed.
+p: Do not knock a target prone if your archers are about to shoot it.
+r: prone-standing, shove
+
+@ restrained-condition | Restrained | rule | PHB app.A
+k: restrained web entangle net held
+s: Speed 0. Its attacks have disadvantage; attacks against it have advantage. Disadvantage on Dexterity saves.
+
+@ stunned-condition | Stunned | rule | PHB app.A
+k: stun stunned stunning strike
+s: Incapacitated, cannot move, can barely speak. Fails Strength and Dexterity saves. Attacks against it have advantage.
+- Unlike paralyzed, hits are not automatic critical hits.
+
+@ unconscious-condition | Unconscious | rule | PHB app.A
+k: unconscious asleep knocked out sleep drop prone
+s: Incapacitated, cannot move or speak, unaware. Drops what it holds and falls prone. Fails Strength and Dexterity saves. Attacks have advantage, and any hit from within 5 feet is a critical hit.
+r: dropping-to-zero, death-saves
+
+@ exhaustion | Exhaustion | rule | PHB app.A
+k: exhaustion levels tired forced march starvation six death
+s: Six levels, each adding to the last: 1 disadvantage on ability checks; 2 speed halved; 3 disadvantage on attacks and saves; 4 hit point maximum halved; 5 speed 0; 6 death.
+- A long rest with food and water removes one level.
+- Sources: forced marches, starvation, extreme heat or cold, Frenzy, missing sleep (Xanathar's).
+r: resting-long, travel-pace, food-water
+
+@ condition-basics | How conditions work | rule | PHB app.A
+k: condition stack duration same twice end
+s: A condition lasts until it is countered or its duration ends. The same condition from several sources does not get worse; each source has its own duration.
+- "Incapacitated" is part of paralyzed, petrified, stunned and unconscious.
+r: stacking

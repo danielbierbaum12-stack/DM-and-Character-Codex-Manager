@@ -1,0 +1,347 @@
+# core | Core rules
+@ d20-test | The d20 roll: checks, attacks and saves | rule | PHB ch.7
+k: d20 roll check attack save total dc beat meet tie equal
+s: Roll a d20, add the modifier, compare to the number to beat. Equal counts as a success.
+- Ability check: d20 + ability modifier (+ proficiency bonus if proficient) against a DC.
+- Attack roll: d20 + ability modifier + proficiency bonus (if proficient with the weapon or spell) against AC.
+- Saving throw: d20 + ability modifier (+ proficiency if proficient in that save) against a DC.
+- Meeting the DC or AC succeeds. Ties in a contest leave things as they were.
+p: Your sheet adds everything for you: tap the modifier to roll it.
+d: Only ask for a roll when failing is possible and matters. Otherwise it just happens.
+r: advantage, proficiency-bonus, dc-table, contests
+
+@ advantage | Advantage and disadvantage | rule | PHB ch.7
+k: adv dis disadvantage two dice higher lower cancel stack double
+s: Roll two d20s and take the higher (advantage) or lower (disadvantage). They never stack, and one of each cancels to a normal roll.
+- Several sources of advantage still mean only two dice.
+- If you have at least one of each, you roll one die, no matter how many of each there are.
+- A reroll feature (Lucky, halfling Lucky) rerolls one die only; you still take the higher or lower as normal.
+p: Three reasons for advantage and one for disadvantage is still a plain roll.
+d: Advantage is the quick reward for a good idea. It is worth roughly +5 near the middle of the die, and +3 to +4 on average.
+r: lucky-disadvantage, passive-checks
+
+@ proficiency-bonus | Proficiency bonus | rule | PHB ch.1
+k: prof bonus pb level table expertise double half jack of all trades
+s: +2 at levels 1 to 4, +3 at 5 to 8, +4 at 9 to 12, +5 at 13 to 16, +6 at 17 to 20. It follows total character level.
+- Add it to attacks, checks and saves you are proficient in, and to your spell save DC and spell attack.
+- It is never added more than once to the same roll. It can be doubled (Expertise) or halved (Jack of All Trades), but only once each way.
+- Multiclass characters use total level, not class level.
+r: multiclass-basics, spell-dc
+
+@ rounding | Rounding | rule | PHB intro
+k: round down half fraction divide
+s: Always round down, unless a rule says otherwise.
+- Half of 7 damage is 3. Half of level 5 is 2.
+r: resistance-order
+
+@ specific-beats-general | Specific beats general | rule | PHB intro
+k: exception conflict rule override feature says
+s: When a specific rule (a feature, spell, item or monster trait) contradicts a general rule, the specific rule wins.
+- Example: you normally cannot cast two leveled spells in a turn with a bonus-action spell; a feature that says you can, wins.
+d: Most rules arguments end here. Read the feature's exact words; it does what it says and no more.
+
+@ stacking | Stacking effects | rule | PHB ch.10, DMG ch.8
+k: stack same spell twice bless twice combine bonuses overlap name
+s: Different effects add together. The same effect from the same named spell or feature does not: only the strongest applies.
+- Two Bless spells give one d4, not two. Bless plus Guidance both apply (different names).
+- Two different features that give the same kind of bonus both apply unless one says otherwise.
+- The same magic item bonus counts once per item, but two different items add.
+d: The DMG extends the same-name rule to all game features, not only spells.
+r: ac-calculations, temp-hp
+
+@ dc-table | DC: typical difficulty classes | rule | PHB ch.7, DMG ch.8
+k: dc difficulty easy medium hard table how hard set
+s: Very easy 5, Easy 10, Medium 15, Hard 20, Very hard 25, Nearly impossible 30.
+- Most checks at the table should be 10, 15 or 20.
+p: A DC 15 is a coin flip for someone with +4.
+d: Pick the number before the roll, and say the stakes. If you are unsure, use 15.
+r: d20-test, improvised-damage
+
+@ contests | Contests | rule | PHB ch.7
+k: contest opposed check versus tie grapple shove
+s: Both sides roll a check; the higher total wins. On a tie nothing changes.
+- Grappling and shoving are contests: Athletics against the target's Athletics or Acrobatics.
+- In a tie, a door stays shut and a grapple does not start (or does not end).
+r: grapple, shove, hide
+
+@ passive-checks | Passive checks | rule | PHB ch.7
+k: passive perception investigation insight 10 plus floor notice
+s: 10 + all modifiers that normally apply. Advantage adds 5, disadvantage subtracts 5.
+- Used when no one is actively rolling: noticing hidden creatures, repeated tasks, secret checks.
+- Passive Perception is what a hider's Stealth roll has to beat.
+p: Passive Perception is on your sheet. Observant adds +5.
+d: Use passive scores to avoid tipping players off by asking for a roll. Whether passive is a floor for active rolls is a table choice; the designers have said it effectively is while you are alert.
+r: hide, perception-vs-investigation
+
+@ group-checks | Group checks | rule | PHB ch.7
+k: group everyone rolls party stealth half succeed
+s: Everyone rolls; if at least half succeed, the whole group succeeds.
+- Use it when the group succeeds or fails together (sneaking past a camp, crossing a swamp).
+d: This stops the one heavy-armor character from sinking every stealth plan.
+
+@ working-together | Working together (helping on a check) | rule | PHB ch.7
+k: help assist aid another advantage check together
+s: A character who could attempt the task alone can help, giving the roller advantage.
+- You can only help if your help could make a difference, and for tools or skills that need proficiency, only if you are proficient.
+- In combat this takes the Help action.
+r: help-action, advantage
+
+@ inspiration | Inspiration | rule | PHB ch.4
+k: inspiration heroic reward advantage give away
+s: You either have it or you do not. Spend it to gain advantage on one attack, save or check.
+- You decide before the roll. You can give yours to another player.
+- You cannot have more than one.
+d: Hand it out often and visibly, for roleplay, clever plans or making the table laugh.
+
+# abilities | Abilities and skills
+@ ability-scores | Ability scores and modifiers | rule | PHB ch.7
+k: ability score modifier str dex con int wis cha table
+s: Modifier = (score − 10) ÷ 2, rounded down. 10 to 11 is +0, 12 to 13 is +1, 20 is +5.
+- Strength: athletics, melee, carrying. Dexterity: AC, initiative, ranged, finesse, stealth.
+- Constitution: hit points, concentration. Intelligence: recall and reasoning.
+- Wisdom: perception, insight, willpower. Charisma: social force.
+- A player character's score cannot go above 20 unless a feature says so; nothing goes above 30.
+
+@ skills-list | Skills and their abilities | rule | PHB ch.7
+k: skill list athletics acrobatics stealth arcana history perception which ability
+s: Each skill is tied to one ability, but the DM can pair a skill with a different ability when it fits.
+- Strength: Athletics. Dexterity: Acrobatics, Sleight of Hand, Stealth.
+- Intelligence: Arcana, History, Investigation, Nature, Religion.
+- Wisdom: Animal Handling, Insight, Medicine, Perception, Survival.
+- Charisma: Deception, Intimidation, Performance, Persuasion.
+- Variant: Strength (Intimidation) for a show of force, Constitution (Athletics) for a long swim.
+r: perception-vs-investigation, athletics-vs-acrobatics, tools
+
+@ perception-vs-investigation | Perception or Investigation? | faq | PHB ch.7
+k: perception investigation search find trap secret door difference
+s: Perception notices that something is there. Investigation works out what it means or how it works.
+- Perception: hear the footsteps, spot the tripwire, smell the gas.
+- Investigation: find the hidden catch by reasoning, work out what the mechanism does, spot the forged seal.
+d: If either could apply, let the player choose and describe how they look.
+r: passive-checks, traps
+
+@ athletics-vs-acrobatics | Athletics or Acrobatics? | faq | PHB ch.7
+k: athletics acrobatics climb jump balance tumble escape grapple
+s: Athletics is climbing, jumping, swimming and wrestling. Acrobatics is balance, tumbling and staying on your feet.
+- Acrobatics does not replace Athletics for jumping or climbing.
+- To escape a grapple you may use either.
+r: jumping, grapple
+
+@ tools | Tool proficiency | rule | PHB ch.5, XGE ch.2
+k: tools thieves kit proficiency ability which
+s: A tool check is an ability check using whichever ability fits, plus proficiency if you are proficient with the tool.
+- Thieves' tools on a lock is usually Dexterity. Recalling a poison's origin with a poisoner's kit could be Intelligence.
+- Xanathar's: if a skill and a tool both apply and you are proficient in both, you gain advantage.
+d: Without proficiency a character can still try most tools, just without the bonus. Locks and traps generally need the tools.
+
+@ saving-throws | Saving throws | rule | PHB ch.7
+k: save saving throw proficient which ability dex con wis half damage
+s: Rolled to resist something. Each class is proficient in two; success often means half damage or no effect.
+- Dexterity, Constitution and Wisdom saves are the common ones. Strength, Intelligence and Charisma are rarer.
+- You can choose to fail only if the effect lets you ("willing creature").
+- A natural 20 or 1 has no special meaning on a save (death saves are the exception).
+r: natural-20, death-saves, spell-dc
+
+@ natural-20 | Natural 20 and natural 1 | faq | PHB ch.7, ch.9
+k: nat 20 nat 1 critical auto success fail skill check crit fumble
+s: Only attack rolls: a 20 always hits and is a critical hit; a 1 always misses. Checks and saves have no automatic success or failure.
+- A natural 20 on a skill check is just a 20 plus your modifier. It can still fail a DC 30.
+- Death saving throws are the exception: 20 means you regain 1 hit point, 1 counts as two failures.
+- There are no fumble rules in the books.
+d: Auto-success on a 20 for skills is a very common house rule. If you use it, do not ask for rolls on impossible tasks.
+r: critical-hits, death-saves
+
+# combat-flow | Combat: how a fight runs
+@ combat-steps | The order of combat | rule | PHB ch.9
+k: start combat steps begin fight sequence round turn
+s: 1 Decide who is surprised. 2 Place everyone. 3 Roll initiative. 4 Take turns. 5 Repeat rounds until it ends.
+- A round is about 6 seconds. Everyone gets one turn per round.
+- Initiative order stays the same every round.
+r: surprise, initiative, your-turn
+
+@ initiative | Initiative | rule | PHB ch.9
+k: initiative order roll dexterity tie who goes first
+s: Everyone rolls a Dexterity check. Highest goes first.
+- Initiative is an ability check, so anything that helps Dexterity checks or ability checks helps it (Jack of All Trades, Guidance).
+- Ties: the DM decides between monsters, players decide among themselves, the DM decides between a player and a monster (or roll off).
+- The DM usually rolls once for a group of identical monsters.
+d: Variants in the DMG: initiative score (passive), side initiative, speed factor.
+
+@ surprise | Surprise | rule | PHB ch.9
+k: surprise round ambush surprised sneak attack first turn assassinate
+s: There is no "surprise round". A surprised creature cannot move or act on its first turn, and cannot take reactions until that turn ends.
+- The DM compares the Stealth of anyone hiding with the passive Perception of each creature on the other side.
+- Surprise is per creature: some of a group can be surprised while others are not.
+- Everyone still rolls initiative. A surprised creature that rolled high simply loses its turn, then can use reactions.
+- If no one is trying to be stealthy, no one is surprised.
+p: Assassinate needs the target to be surprised, which ends after its first turn passes.
+d: Being attacked by a visible enemy who simply swings first is not surprise: roll initiative.
+r: hide, initiative, passive-checks
+
+@ your-turn | What you can do on your turn | rule | PHB ch.9
+k: turn action bonus action move reaction free object interaction what can i do
+s: Move up to your speed, take one action, one bonus action if something gives you one, and one free object interaction.
+- You can split your movement around your action and between attacks.
+- One reaction per round, on anyone's turn; you get it back at the start of your turn.
+- You can talk briefly and make small gestures for free.
+- You can skip any part of it.
+p: Action, bonus action and reaction are separate pools. You cannot trade one for another.
+r: bonus-action, reaction, object-interaction, movement-basics
+
+@ bonus-action | Bonus actions | rule | PHB ch.9
+k: bonus action ba only one swap convert timing
+s: You only have a bonus action if a feature, spell or item gives you one, and only one per turn.
+- You choose when in your turn to take it, unless its timing is specified.
+- You cannot use your action to do a bonus-action thing, or the reverse.
+- Anything that stops you taking actions also stops bonus actions.
+r: bonus-action-spell, two-weapon-fighting, your-turn
+
+@ reaction | Reactions | rule | PHB ch.9
+k: reaction opportunity attack shield counterspell once per round regain own turn
+s: One per round, triggered by something specific. You regain it at the start of your turn.
+- You can react on your own turn (for example Counterspell against a Counterspell).
+- If a reaction interrupts another creature's turn, that creature continues afterward.
+- A surprised creature cannot react until its first turn ends.
+r: opportunity-attack, ready-action, counterspell
+
+@ object-interaction | Free object interaction | rule | PHB ch.9
+k: draw sheathe weapon door free interact object item hand pick up drop
+s: One simple interaction for free per turn: draw or sheathe one weapon, open a door, pick up an item. A second one costs your action (Use an Object).
+- Drawing a weapon as part of the attack counts as the free one.
+- Dropping something costs nothing.
+- Sheathing one weapon and drawing another is two interactions.
+- Donning or doffing a shield takes an action.
+p: Swapping weapons mid-fight: drop the old one (free) and draw the new one (free), then pick it up later.
+r: use-an-object, drinking-potions, two-weapon-fighting
+
+@ ending-effects-timing | "Until the start/end of your next turn" | rule | PHB ch.9
+k: duration until start end next turn round timing lasts
+s: Effects end exactly when they say. "1 round" means until the same point in initiative next round.
+- "Until the end of your next turn" covers the rest of this turn and all of your next.
+- "Until the start of your next turn" ends before you act again (Dodge, Shield).
+- A 1-minute effect is 10 rounds.
+
+# actions | Actions in combat
+@ attack-action | Attack | rule | PHB ch.9
+k: attack action extra attack swing shoot weapon multiple
+s: Make one melee or ranged attack. Extra Attack gives more attacks within this one action.
+- You can move between attacks.
+- One of the attacks can be replaced by a grapple or a shove.
+- "Attack action" is not the same as any attack: an opportunity attack or a spell attack is not the Attack action.
+r: extra-attack, grapple, shove, two-weapon-fighting
+
+@ cast-a-spell-action | Cast a Spell | rule | PHB ch.9, ch.10
+k: cast spell action casting time
+s: Cast a spell with a casting time of 1 action. Other casting times use what they say (bonus action, reaction, minutes).
+r: bonus-action-spell, casting-time, components
+
+@ dash | Dash | rule | PHB ch.9
+k: dash run double move extra movement speed
+s: Gain extra movement equal to your speed (after modifiers) for this turn.
+- With speed 30 you can move 60 this turn. A bonus-action Dash on top makes 90.
+- It adds movement; it does not double anything already spent.
+r: movement-basics, chases
+
+@ disengage | Disengage | rule | PHB ch.9
+k: disengage retreat opportunity attack withdraw move away safely
+s: Your movement does not provoke opportunity attacks for the rest of the turn.
+- It does not stop other reactions, and Sentinel ignores it.
+r: opportunity-attack, sentinel-disengage
+
+@ dodge | Dodge | rule | PHB ch.9
+k: dodge defend disadvantage attack dex save advantage
+s: Until your next turn, attacks against you have disadvantage if you can see the attacker, and you have advantage on Dexterity saves.
+- You lose it if you are incapacitated or your speed drops to 0.
+
+@ help-action | Help | rule | PHB ch.9
+k: help aid assist advantage ally attack distract familiar
+s: Give an ally advantage on their next ability check, or on their next attack against a creature within 5 feet of you.
+- For attacks: you must be within 5 feet of the target; the ally can be anywhere. The advantage is on the first attack roll before your next turn.
+- A familiar can take the Help action.
+r: working-together, familiar-help
+
+@ hide | Hide | rule | PHB ch.7, ch.9
+k: hide stealth sneak hidden unseen heavily obscured cover invisible find
+s: Take the Hide action and roll Stealth. You must be unseen first: you cannot hide from someone who can see you clearly.
+- Your roll is the DC for others to find you, against their passive Perception or an active Search.
+- You stop being hidden when you make noise, attack, or come out where you can be seen.
+- While hidden you are unseen and unheard: attacks against you have disadvantage and you have advantage on your attack. Attacking gives your position away, hit or miss.
+- Being invisible does not make you hidden. Others still know where you are unless you Hide.
+p: Rogues hide as a bonus action (Cunning Action). Lightfoot halflings can hide behind a larger creature; wood elves in light rain or foliage.
+d: You decide when circumstances allow hiding. In open ground with nothing to hide behind, the answer is no.
+r: unseen-attackers, invisible-condition, surprise, passive-checks, vision-light
+
+@ ready-action | Ready | rule | PHB ch.9
+k: ready hold action trigger wait prepare reaction readied spell
+s: Choose a trigger you can perceive and an action (or movement). When it happens you can use your reaction to do it.
+- You act right after the trigger finishes, or ignore it.
+- A readied spell is cast on your turn (slot spent), held with concentration, and released with your reaction. If concentration breaks or the trigger never comes, the slot is lost. Only 1-action spells can be readied.
+- A readied Attack is one attack: Extra Attack only works on your own turn.
+p: Readying drops any spell you were already concentrating on if you ready a spell.
+r: reaction, concentration, extra-attack
+
+@ search-action | Search | rule | PHB ch.9
+k: search look find perception investigation action
+s: Spend your action looking for something: a Perception or Investigation check, as the DM decides.
+r: perception-vs-investigation, hide
+
+@ use-an-object | Use an Object | rule | PHB ch.9
+k: use object action item second interaction potion
+s: Used when an object needs your action, or for a second object interaction in a turn.
+- Drinking a potion or feeding one to someone is an action.
+- Activating a magic item is its own action (not Use an Object), so Fast Hands does not speed it up.
+r: object-interaction, drinking-potions, magic-item-activation
+
+@ improvised-action | Doing something not on the list | rule | PHB ch.9
+k: improvise anything stunt creative swing chandelier other action
+s: You can try anything. The DM says whether it is possible and what roll, if any, decides it.
+d: Default: an ability check against DC 10, 15 or 20, or a contest. Say yes when you can; it costs the action.
+r: dc-table, improvised-damage
+
+@ grapple | Grapple | rule | PHB ch.9
+k: grapple grab wrestle hold restrain escape drag pin
+s: Replaces one attack of your Attack action. Athletics against the target's Athletics or Acrobatics (its choice). Success: the target's speed is 0.
+- You need a free hand, and the target can be at most one size larger than you.
+- The grappled creature is not restrained: it attacks and casts normally.
+- Escape: the target uses its action for Athletics or Acrobatics against your Athletics.
+- You can drag or carry it at half speed (full speed if it is two or more sizes smaller).
+- It ends if you are incapacitated or an effect moves the target out of your reach.
+p: Grapple, then shove prone: the target cannot stand because its speed is 0.
+r: shove, grappled-condition, contests, attack-action
+
+@ shove | Shove | rule | PHB ch.9
+k: shove push knock prone knockdown trip
+s: Replaces one attack of your Attack action. Athletics against the target's Athletics or Acrobatics. Success: knock it prone or push it 5 feet.
+- The target can be at most one size larger than you.
+r: grapple, prone-condition, shield-master-timing
+
+@ two-weapon-fighting | Two-weapon fighting | rule | PHB ch.9
+k: dual wield two weapon offhand off hand bonus action light
+s: When you take the Attack action with a light melee weapon in one hand, you can use a bonus action to attack with a different light melee weapon in the other. No ability modifier to that damage unless it is negative.
+- Both weapons must be light (Dual Wielder feat removes that).
+- The Two-Weapon Fighting style adds the modifier back.
+- It is always one bonus attack, no matter how many attacks Extra Attack gives.
+- If either weapon has the thrown property you can throw it instead.
+- Drawing: you can only draw one weapon for free per turn unless you have Dual Wielder.
+r: bonus-action, attack-action, object-interaction
+
+@ opportunity-attack | Opportunity attacks | rule | PHB ch.9
+k: opportunity attack aoo attack of opportunity leave reach provoke teleport forced
+s: When a creature you can see moves out of your reach, you can use your reaction for one melee attack against it.
+- It happens just before the creature leaves your reach.
+- Not provoked by: Disengage, teleporting, or being moved without using your own movement, action or reaction (pushed, pulled, falling, carried).
+- Moving around inside someone's reach does not provoke.
+- It is one attack, not the Attack action: no Extra Attack.
+p: Reach weapons threaten at 10 feet, so the attack comes when the target leaves 10 feet.
+d: Monsters without a melee attack cannot make one. Most monsters should take them when offered.
+r: disengage, reaction, forced-movement, war-caster-oa
+
+@ mounted-combat | Mounted combat | rule | PHB ch.9
+k: mount horse ride mounted controlled independent dismount lance
+s: Mounting or dismounting costs half your speed, once per turn. A controlled mount acts on your turn and can only Dash, Disengage or Dodge.
+- The mount must be willing, at least one size larger than you, and suitable.
+- Controlled mount: its initiative changes to yours; it moves as you direct.
+- Independent mount (intelligent creatures): keeps its own initiative and does what it wants.
+- If the mount is knocked prone you can use your reaction to land on your feet; otherwise you are dismounted and prone.
+- If the mount provokes an opportunity attack, the attacker can target you or the mount.
+r: opportunity-attack, forced-movement

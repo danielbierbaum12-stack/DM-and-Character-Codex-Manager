@@ -1,0 +1,291 @@
+# spellcasting | Spellcasting
+@ spell-slots | Spell slots and spell levels | rule | PHB ch.10
+k: slot level upcast higher level cast expend cantrip at will
+s: A leveled spell uses a slot of its level or higher. Cantrips use no slot.
+- Casting with a higher slot makes the spell that level; many spells get stronger ("At Higher Levels").
+- Slots come back on a long rest (warlock pact slots on a short rest).
+- Character level, not slot level, scales cantrip damage (5th, 11th, 17th).
+r: known-vs-prepared, multiclass-slots, pact-magic
+
+@ known-vs-prepared | Known and prepared spells | rule | PHB ch.3, ch.10
+k: prepare prepared known spells change swap long rest spellbook
+s: Clerics, druids, paladins, wizards and artificers prepare a list after a long rest. Bards, sorcerers, rangers and warlocks know a fixed list and swap one on level-up.
+- Prepared count: casting modifier + class level (half level, rounded down, for paladins and artificers), minimum 1.
+- Wizards prepare from their spellbook; clerics, druids and paladins from the whole class list.
+- Domain, oath and similar bonus spells are always prepared and do not count.
+- Casting does not un-prepare a spell.
+r: ritual-casting, spell-slots
+
+@ casting-time | Casting time | rule | PHB ch.10
+k: casting time action bonus reaction minute long
+s: Most spells take 1 action. Bonus-action and reaction spells say so. Longer spells need your action every turn and concentration until done.
+- If concentration breaks during a long casting, the spell fails but the slot is not spent.
+r: bonus-action-spell, ritual-casting, concentration
+
+@ bonus-action-spell | Bonus-action spells and a second spell | faq | PHB ch.10, Sage Advice
+k: bonus action spell two spells one turn cantrip healing word quickened action surge misty step
+s: If you cast any spell as a bonus action, the only other spell you can cast that turn is a cantrip with a casting time of 1 action.
+- Healing Word + Fire Bolt: yes. Healing Word + Cure Wounds: no. Misty Step + Fireball: no.
+- It covers the whole turn, so no reaction spell (Counterspell, Shield) on that same turn either.
+- Quickened Spell makes a spell a bonus-action spell, so the same limit applies.
+- Without a bonus-action spell there is no limit: Action Surge lets a fighter cast two leveled 1-action spells.
+- On other creatures' turns you can still use reaction spells.
+p: The order does not matter. If either spell this turn used your bonus action, the other one must be a 1-action cantrip, even if the bonus-action spell was itself a quickened cantrip.
+d: The simple test: "Did you cast a spell with your bonus action this turn? Then everything else is a 1-action cantrip."
+r: casting-time, counterspell, reaction
+
+@ components | Components: verbal, somatic, material | rule | PHB ch.10
+k: components v s m verbal somatic material focus pouch free hand cost consumed gag
+s: Verbal needs speech, somatic needs a free hand, material needs the item or a focus or component pouch. Costly or consumed materials must be the real thing.
+- The hand holding the focus or materials can also do the somatic part.
+- A focus or pouch replaces only materials with no listed cost that are not consumed.
+- If a spell is S without M, you need a truly free hand: a hand holding a focus does not count.
+- You cannot cast V spells while gagged or in Silence, or S spells with both hands bound.
+p: Sword and shield casters: a cleric or paladin can put a holy symbol on the shield. Otherwise War Caster solves it.
+d: Both apps hide materials with no cost by default; the house rule switch shows all or none.
+r: two-handed-casting, subtle-counterspell, perceiving-casting
+
+@ concentration | Concentration | rule | PHB ch.10
+k: concentration break save constitution damage dc 10 half one spell at a time
+s: One concentration spell at a time. When you take damage, make a Constitution save: DC 10 or half the damage, whichever is higher.
+- Each separate source of damage is its own save.
+- Ends if you cast another concentration spell, are incapacitated or die. You can end it any time, no action.
+- Normal activity (moving, attacking, casting non-concentration spells) does not break it.
+- The DM can call for a DC 10 save for things like a ship's deck in a storm.
+p: War Caster gives advantage; Resilient (Constitution) adds proficiency. Both sheets show concentration at the top.
+d: Track it for monsters too. One save per hit, not per turn.
+r: magic-missile-concentration, ready-action, temp-hp, incapacitated-condition
+
+@ ritual-casting | Rituals | rule | PHB ch.10
+k: ritual cast without slot 10 minutes tag prepared book
+s: A spell with the ritual tag can be cast without a slot by taking 10 minutes longer. It cannot be upcast that way.
+- You need a feature that allows rituals (bard, cleric, druid, wizard, artificer, Ritual Caster, Book of Ancient Secrets).
+- Clerics, druids, bards and artificers must have the spell prepared or known. Wizards only need it in the spellbook.
+r: known-vs-prepared, casting-time
+
+@ spell-dc | Spell save DC and spell attack | rule | PHB ch.10
+k: spell save dc attack bonus 8 plus proficiency modifier
+s: Save DC = 8 + proficiency bonus + spellcasting modifier. Spell attack = proficiency bonus + spellcasting modifier.
+- Multiclass casters use the ability of the class the spell came from.
+r: proficiency-bonus, multiclass-slots
+
+@ targeting | Targets, range and line of effect | rule | PHB ch.10
+k: target range clear path line of sight see behind glass wall cover touch self
+s: You need a clear path to the target: it cannot be behind total cover. Many spells also say "that you can see".
+- A window blocks a spell even though you can see through it.
+- If the target is invalid or behind total cover, the spell still uses the slot; the point of origin lands on the near side of the obstruction.
+- "Self" spells affect only you, or start from you (Self, 15-foot cone).
+- You can target yourself with spells that target "a creature".
+- If a spell does not say you must see the target, you can aim it at an unseen creature whose location you know.
+r: line-of-effect, cover, areas-of-effect, invalid-target
+
+@ line-of-effect | Line of effect and total cover | faq | PHB ch.10
+k: line of effect glass window wall of force total cover teleport misty step see through
+s: A spell needs an unblocked straight line from you to the target or point. Seeing it is not enough.
+- Glass, a Wall of Force, or a closed door all block it.
+- Misty Step has a range of Self and only needs you to see the space, so it does work through a window (designer comment, not an official ruling). Dimension Door needs no sight at all.
+- Sacred Flame ignores cover for its save bonus, but still cannot target through total cover.
+d: The test: is the spell aimed at a target or point out there (needs a clear path), or does it only affect the caster (does not)?
+r: targeting, cover
+
+@ areas-of-effect | Areas of effect | rule | PHB ch.10, XGE ch.2
+k: area cone cube sphere line cylinder radius origin fireball grid template around corners
+s: Cone, cube, cylinder, line and sphere each start from a point of origin. A spot is affected if an unblocked line runs to it from the origin.
+- Cone: as wide as its distance from you. Sphere: radius from a point. Cube: you choose which face the origin is on. Line: straight, its listed width. Cylinder: radius and height from a point on the ground or top.
+- The caster chooses whether a cone or line's origin point is included; a sphere includes its origin.
+- Fireball and similar "spreads around corners" spells ignore the straight-line rule.
+- On a grid (DMG): a square is affected if at least half of it is covered. Xanathar's offers template and token methods.
+d: Quick count when no grid: cone = size ÷ 10 targets, cube or square = size ÷ 5, sphere = radius ÷ 5, line = length ÷ 30 (round up).
+r: targeting, cover, entering-area-effects
+
+@ combining-spells | Overlapping spells | rule | PHB ch.10
+k: same spell twice overlap combine strongest bless two casters
+s: Different spells add together. Two castings of the same spell on one target do not: the most potent one applies while they overlap.
+r: stacking
+
+@ counterspell | Counterspell | rule | PHB ch.11, XGE ch.2
+k: counterspell counter identify what spell reaction see casting own turn subtle
+s: Reaction when you see a creature within 60 feet casting. It stops a spell of 3rd level or lower outright; higher needs a check: DC 10 + the spell's level, using your spellcasting ability.
+- Upcast it to the spell's level or higher to stop it automatically.
+- You must see the casting. A spell cast with Subtle Spell and no material component cannot be countered.
+- You do not know which spell it is. Xanathar's: identifying a spell as it is cast takes a reaction and an Intelligence (Arcana) check, DC 15 + level, so you cannot both identify and counter.
+- You can counter a Counterspell, including on your own turn, as long as you did not cast a bonus-action spell that turn.
+- It is an ability check: Jack of All Trades, Guidance and Glibness help.
+d: Say "the lich begins casting a spell" and wait. Do not name the spell first unless your table agreed to.
+r: reaction, bonus-action-spell, perceiving-casting, dispel-magic
+
+@ dispel-magic | Dispel Magic | rule | PHB ch.11, Sage Advice
+k: dispel magic end spell ongoing check dc level magical effect
+s: Ends spells on one creature, object or magical effect. Level 3 or lower end automatically; each higher one needs a check: DC 10 + its level.
+- It only ends spells. It does not undo damage already done, and does not suppress magic items or non-spell magical abilities (a dragon's breath, a vampire's charm).
+- Targeting a creature ends every spell on it that the roll beats, not only one.
+- To end an area spell (Wall of Fire), target the effect itself.
+r: counterspell, antimagic
+
+@ identify-spells | Identifying magic | rule | DMG ch.7, PHB ch.11
+k: identify detect magic item properties short rest attune curse
+s: Identify reveals a magic item's properties. Without it, handling the item over a short rest does the same. Neither reveals a curse.
+- Potions: a small taste tells you what it does.
+- Detect Magic shows that magic is present and its school, not what it does.
+r: attunement, cursed-items
+
+@ perceiving-casting | Is casting obvious? | faq | XGE ch.2
+k: notice casting hidden subtle obvious see spell being cast social stealth
+s: A spell is noticeable if it has any verbal, somatic or material component. With none (Subtle Spell, some psionics) it is imperceptible.
+- The spell's effect may still give it away.
+- Whether a target knows it was charmed or targeted depends on the spell's text; many say so (Charm Person, Friends).
+d: No rule lets a caster hide components with Stealth or Sleight of Hand. Allowing a check is a house rule; decide it up front.
+r: components, counterspell
+
+@ spell-scrolls | Spell scrolls | rule | DMG ch.7, Sage Advice
+k: scroll use read class list check dc copy wizard
+s: You can read a scroll only if the spell is on your class's list. If its level is higher than you can cast, make a casting ability check: DC 10 + spell level. Failure wastes the scroll.
+- It uses the scroll's DC and attack bonus, not yours: 13/+5 for cantrips to 2nd level, 15/+7 for 3rd and 4th, 17/+9 for 5th and 6th, 18/+10 for 7th and 8th, 19/+11 for 9th.
+- It takes the spell's normal casting time and needs no components.
+- A wizard can copy it into a spellbook with an Intelligence (Arcana) check, DC 10 + level; the scroll is destroyed either way.
+- A thief's Use Magic Device ignores the class requirement.
+r: magic-item-activation, spellbook-copying
+
+@ spellbook-copying | Wizard spellbooks | rule | PHB ch.3
+k: spellbook copy cost gold hours wizard scribe replace
+s: Copying a spell costs 2 hours and 50 gp per spell level. Replacing your own prepared spells into a new book: 1 hour and 10 gp per level.
+- You must be able to cast spells of that level, and it must be a wizard spell.
+- School specialists halve time and cost for their school.
+
+@ multiclass-slots | Multiclass spell slots | rule | PHB ch.6
+k: multiclass slots caster level half third warlock table combined
+s: Add full-caster levels, half of paladin and ranger levels (rounded down), a third of Eldritch Knight and Arcane Trickster levels (rounded down), and half of artificer levels (rounded up). Look the total up on the multiclass table.
+- Spells known and prepared are worked out per class, as if single-classed. You may have slots higher than any spell you know: use them to upcast.
+- Pact Magic is separate, but its slots and your other slots can cast either class's spells.
+r: pact-magic, multiclass-basics, spell-slots
+
+@ pact-magic | Warlock Pact Magic | rule | PHB ch.3
+k: warlock pact slots short rest always max level mystic arcanum
+s: Few slots, all of the same level (up to 5th), and they return on a short rest. Every warlock spell is cast at that level.
+- Mystic Arcanum (6th to 9th): one casting of each per long rest, no slot, cannot be upcast.
+- Invocation spells cast "using a warlock spell slot" still use one.
+r: multiclass-slots, resting-short
+
+@ casting-in-armor | Casting in armor | rule | PHB ch.10
+k: armor casting proficiency cant cast heavy
+s: You cannot cast spells while wearing armor you are not proficient with.
+- Proficiency from any source counts; arcane casters have no extra penalty.
+r: armor-rules
+
+@ antimagic | Antimagic Field and dead magic | rule | PHB ch.11
+k: antimagic field suppress magic items spells summoned
+s: Inside it, spells and magic items are suppressed, not ended: they resume outside, and time spent suppressed still counts against their duration.
+- Artifacts and deity-level magic are unaffected.
+- Summoned or magically created creatures wink out while inside.
+- A dragon's breath and other non-magical abilities work normally. If a stat block does not call a trait magical, it is not (Sage Advice test).
+r: dispel-magic, is-it-magical
+
+# resting | Resting
+@ resting-short | Short rest | rule | PHB ch.8
+k: short rest hour hit dice spend heal recover
+s: At least 1 hour of light activity. Spend Hit Dice to heal: roll each and add your Constitution modifier.
+- Short-rest features come back (warlock slots, Second Wind, Channel Divinity, ki).
+- You regain spent Hit Dice only on a long rest.
+- The books set no limit on short rests per day; time and danger do.
+d: Two short rests per adventuring day is the balance the classes assume.
+r: resting-long, hit-dice
+
+@ resting-long | Long rest | rule | PHB ch.8
+k: long rest 8 hours sleep interrupt watch once per day recover half hit dice
+s: At least 8 hours: 6 asleep and up to 2 of light activity (watch, reading). Regain all hit points and half your total Hit Dice (minimum 1).
+- Only one long rest per 24 hours, and you need at least 1 hit point to start.
+- Interrupted by "at least 1 hour of walking, fighting, casting spells, or similar" activity; then it must be started again. Tables read this two ways (any fight, or an hour of it): decide once.
+- Removes one level of exhaustion if you had food and water.
+- Elves: with Trance an elf finishes a long rest in 4 hours (Sage Advice, after the 2018 errata).
+d: Variants (DMG): Gritty Realism (short rest 8 hours, long rest 7 days) and Epic Heroism (5 minutes, 1 hour).
+r: resting-short, exhaustion, sleeping-in-armor
+
+@ hit-dice | Hit Dice | rule | PHB ch.1, ch.8
+k: hit dice hd d8 d10 level up hit points average roll
+s: One per level, sized by class (d6 wizard and sorcerer, d8 most, d10 fighter, paladin, ranger, d12 barbarian).
+- Level 1: maximum die + Constitution modifier. Later levels: roll or take the average rounded up (d8 → 5), plus Constitution modifier, minimum 1.
+- Raising Constitution raises hit points for every level already gained.
+r: resting-short, leveling-up
+
+@ sleeping-in-armor | Sleeping in armor, going without sleep | rule | XGE ch.2
+k: sleep armor medium heavy exhaustion no sleep stay awake
+s: Optional (Xanathar's): sleeping in medium or heavy armor regains only a quarter of Hit Dice and removes no exhaustion. After 24 hours awake, Constitution save DC 10 (+5 per extra day) or gain a level of exhaustion.
+r: resting-long, exhaustion
+
+# adventuring | Exploring and the environment
+@ travel-pace | Travel pace | rule | PHB ch.8
+k: travel pace fast normal slow miles per day hour forced march stealth
+s: Fast 4 miles an hour, 30 a day (−5 passive Perception). Normal 3 an hour, 24 a day. Slow 2 an hour, 18 a day (can move stealthily).
+- A travel day is 8 hours. Beyond that, each extra hour: Constitution save DC 10 + 1 per hour, or one level of exhaustion.
+- Difficult terrain halves distance. Mounts can gallop for an hour at double pace.
+r: exhaustion, marching-activities
+
+@ marching-activities | Activities while travelling | rule | PHB ch.8
+k: navigate map forage track watch marching order notice threats
+s: Characters who navigate, draw a map, track or forage do not add their passive Perception to noticing threats.
+- Navigate: Wisdom (Survival) against the terrain's DC to avoid getting lost (DMG).
+- Forage: Wisdom (Survival); success finds 1d6 + Wisdom modifier pounds of food and the same of water.
+r: travel-pace, food-water, passive-checks
+
+@ vision-light | Vision, light and darkvision | rule | PHB ch.8
+k: light bright dim darkness obscured lightly heavily torch darkvision blindsight truesight
+s: Lightly obscured (dim light, patchy fog): disadvantage on Perception checks that rely on sight. Heavily obscured (darkness, thick fog): effectively blinded there.
+- Darkvision: darkness counts as dim light (so still disadvantage on Perception) and dim as bright, in shades of gray, to its range.
+- Blindsight perceives without sight within range. Truesight sees in darkness, sees invisible things, illusions and true forms.
+- Torch: 20 ft bright + 20 dim for 1 hour. Lantern: 30 + 30. Light cantrip: 20 + 20. Candle: 5 + 5.
+p: Darkvision does not let you see normally in the dark: your passive Perception drops by 5 there.
+d: Remember the −5 for darkvision users without a light. It is the most-forgotten rule in the game.
+r: unseen-attackers, hide, darkness-spell
+
+@ food-water | Food and water | rule | PHB ch.8
+k: food water starve thirst rations days without
+s: One pound of food and one gallon of water a day (two in heat). You can go without food for 3 + Constitution modifier days, then gain one exhaustion per day.
+- Half water: Constitution save DC 15 or one exhaustion at day's end. Less than half: automatic. Already exhausted: two levels.
+- A normal day of eating resets the food count.
+r: exhaustion, marching-activities
+
+@ suffocating | Holding breath and suffocating | rule | PHB ch.8
+k: breath hold suffocate drown choke minutes rounds
+s: Hold your breath for 1 + Constitution modifier minutes (minimum 30 seconds). After that you last Constitution modifier rounds (minimum 1), then drop to 0 and are dying.
+- You cannot regain hit points or stabilize until you can breathe.
+r: underwater-combat
+
+@ lifting-carrying | Lifting, carrying and encumbrance | rule | PHB ch.7
+k: carry weight capacity encumbrance push drag lift strength times 15
+s: Carry Strength × 15 pounds. Push, drag or lift Strength × 30 (speed drops to 5 feet above carrying capacity).
+- Each size above Medium doubles it; Tiny halves it.
+- Variant encumbrance: over Strength × 5, speed −10; over Strength × 10, speed −20 and disadvantage on Strength, Dexterity and Constitution checks, attacks and saves.
+r: armor-rules
+
+@ objects | Breaking objects | rule | DMG ch.8
+k: object door break ac hit points damage threshold chest lock smash
+s: Objects have AC by material (cloth 11, wood 15, stone 17, iron 19, adamantine 23) and hit points by size and toughness. They are immune to poison and psychic damage.
+- Tiny (bottle) 2 to 5 hp, Small (chest) 3 to 10, Medium (barrel) 4 to 18, Large (cart) 5 to 27.
+- Big objects may have a damage threshold: hits below it do nothing.
+- Or use a Strength check to force it.
+d: If there is no time pressure, they just break it. Roll only when it matters how long or how loud.
+r: dc-table
+
+@ traps | Traps | rule | DMG ch.5, XGE ch.2
+k: trap detect disarm dc damage save pit poison needle setback dangerous deadly
+s: Noticing uses passive Perception or a Search against the trap's DC; disarming is usually Dexterity with thieves' tools.
+- Save DC and attack bonus by danger: setback 10 to 11 / +3 to +5, dangerous 12 to 15 / +6 to +8, deadly 16 to 20 / +9 to +12.
+- Damage by level (setback / dangerous / deadly): 1 to 4: 1d10 / 2d10 / 4d10. 5 to 10: 2d10 / 4d10 / 10d10. 11 to 16: 4d10 / 10d10 / 18d10. 17 to 20: 10d10 / 18d10 / 24d10.
+d: Describe what the characters see and let them say how they deal with it. A good description beats a roll.
+r: perception-vs-investigation, improvised-damage, tools
+
+@ environment-hazards | Heat, cold, altitude and other hazards | rule | DMG ch.5
+k: extreme cold heat altitude ice water quicksand hazard weather wind
+s: Extreme cold (0°F or below) or heat (100°F or above): Constitution save each hour or gain exhaustion. Cold DC 10; heat DC 5, +1 each hour.
+- Cold-resistant or cold-weather gear means automatic success in cold. Heavy armor or heavy clothes give disadvantage in heat.
+- Frigid water: one minute per point of Constitution, then DC 10 each minute or exhaustion.
+- High altitude (10,000 ft+): each hour counts as two for travel until acclimated.
+- Strong wind: disadvantage on ranged weapon attacks and hearing-based Perception. Heavy rain: lightly obscured, disadvantage on sight and hearing Perception.
+r: exhaustion, travel-pace
+
+@ diseases-poisons | Diseases and poisons | rule | DMG ch.8
+k: disease poison contact ingested inhaled injury sewer plague cure
+s: Poisons are contact, ingested, inhaled or injury, each with a save DC and effect. Diseases have their own save schedule.
+- Basic poison (vial): coat one weapon or 3 pieces of ammunition; Constitution save DC 10 or 1d4 poison damage; lasts 1 minute.
+- Lesser Restoration ends one disease or the poisoned condition. Protection from Poison and a paladin's Lay on Hands also work.
+r: poisoned-condition

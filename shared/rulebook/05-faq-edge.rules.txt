@@ -1,0 +1,320 @@
+# faq | Common questions
+@ sneak-attack-rules | Sneak Attack: when does it apply? | faq | PHB ch.3
+k: sneak attack rogue once per turn advantage ally adjacent reaction opportunity finesse ranged
+s: Once per turn (not per round), with a finesse or ranged weapon, when you have advantage, or when an enemy of the target is within 5 feet of it and you do not have disadvantage.
+- "Once per turn" means it can apply again on another creature's turn: an opportunity attack or a readied attack.
+- The ally does not need to be adjacent to you, only to the target, and must not be incapacitated.
+- It works with a finesse weapon even if you attack with Strength.
+- You do not need to be hidden.
+p: Readying your attack for just after your turn can give two Sneak Attacks in a round, at the price of your reaction.
+r: unseen-attackers, opportunity-attack, critical-hits
+
+@ smite-after-crit | Divine Smite: declared after the hit | faq | PHB ch.3
+k: smite divine smite paladin after hit crit choose slot per turn
+s: You decide to smite after you know the attack hit, including after seeing a critical hit. The smite dice double on a crit.
+- No limit on smites per turn except slots: one per hit.
+- It needs a melee weapon attack with a weapon (not an unarmed strike).
+- Pact Magic slots work. Maximum 5d8 from the slot, +1d8 against undead and fiends.
+- The "smite" spells (Searing Smite and so on) are bonus-action spells cast before the hit and need concentration.
+r: critical-hits, smite-unarmed, bonus-action-spell
+
+@ healing-word-yoyo | Healing a downed ally | faq | PHB ch.9
+k: healing word downed revive pop up yo-yo zero unconscious stand
+s: Any healing wakes a creature at 0 hit points. It is prone and must spend half its movement to stand, but acts normally on its turn.
+- Death save counts reset to zero.
+- There is no penalty in the books for going down repeatedly.
+d: Giving a level of exhaustion each time a character drops is a popular house rule to stop the yo-yo.
+r: death-saves, dropping-to-zero, bonus-action-spell
+
+@ darkness-both-blind | Fighting in darkness or fog | faq | PHB ch.8, ch.9
+k: darkness fog cloud both blind cancel advantage disadvantage normal roll
+s: If neither side can see the other, attacks are straight rolls: unseen attacker (advantage) and unseen target (disadvantage) cancel.
+- You still need to know which space to attack; creatures that are not hidden are located by sound.
+- Spells that need "a target you can see" cannot be used.
+- Opportunity attacks need you to see the creature, so none in the dark.
+r: unseen-attackers, vision-light, darkness-spell
+
+@ invisible-not-hidden | Invisible is not hidden | faq | PHB ch.9, app.A
+k: invisible hidden location known attack disadvantage find greater invisibility
+s: Everyone still knows where an invisible creature is from sound and signs, unless it also takes the Hide action. Attacks against it have disadvantage but can be aimed at its space.
+- It can try to hide anywhere, since it is always unseen.
+- Spells and features that need a target you can see do not work on it.
+r: invisible-condition, hide, unseen-attackers
+
+@ grapple-not-restrained | Grappled is not restrained | faq | PHB app.A
+k: grapple restrained pin attack normally disadvantage held
+s: A grappled creature only has speed 0. It attacks, casts and makes saves normally, with no disadvantage.
+- To restrain someone you need the Grappler feat (which restrains you too) or a rope, net or spell.
+r: grapple, grappled-condition, restrained-condition
+
+@ ready-vs-delay | You cannot delay your turn | faq | PHB ch.9, Sage Advice
+k: delay hold turn wait initiative later ready
+s: The 2014 rules have no "delay". You can only Ready one action or a move, using your reaction.
+- Your place in initiative never changes.
+d: Letting players delay to a lower initiative count is a house rule; it changes how duration effects work, so say exactly how.
+r: ready-action, initiative
+
+@ opportunity-attack-reach | Leaving reach, not entering it | faq | PHB ch.9
+k: opportunity attack approach enter reach polearm master circle around
+s: Approaching a creature, or moving around it while staying in reach, never provokes. Only leaving its reach does.
+- Polearm Master adds an attack when a creature enters your reach.
+r: opportunity-attack
+
+@ cantrip-scaling | Cantrips scale with character level | faq | PHB ch.10
+k: cantrip damage scale level multiclass eldritch blast beams
+s: Cantrip damage goes up at total character level 5, 11 and 17, whatever your class mix.
+- Eldritch Blast gains extra beams instead; each beam is its own attack roll and can pick a different target.
+r: spell-slots, multiclass-basics
+
+@ help-in-combat-range | Help: who needs to be where | faq | PHB ch.9
+k: help action ranged ally 5 feet target familiar flyby
+s: The helper must be within 5 feet of the target. The ally being helped can attack from any distance.
+- The advantage applies only to the ally's first attack roll before your next turn.
+r: help-action, familiar-help
+
+@ familiar-help | Familiars: what they can do | faq | PHB ch.11
+k: familiar find familiar attack help touch spell deliver owl flyby senses
+s: A familiar acts on its own initiative, cannot attack, and can take other actions including Help. It can deliver your touch spells using its reaction.
+- Seeing through its eyes takes your action and leaves you blind and deaf to your own surroundings.
+- An owl's Flyby lets it Help and leave without provoking.
+- It has to be within 100 feet to deliver a spell, and you cast the spell on your turn.
+r: help-action, reaction
+
+@ two-handed-casting | Hands: weapons, shields and casting | faq | PHB ch.10, Sage Advice
+k: hands free somatic shield sword two handed weapon cast focus war caster
+s: A two-handed weapon needs two hands only for the attack. You can take a hand off it to cast, then attack normally next turn.
+- Sword and shield: you need a free hand for somatic components unless the shield carries your holy symbol and the spell has a material component, or you have War Caster.
+- Sheathing a weapon to free a hand is your one free object interaction.
+r: components, war-caster-oa, object-interaction
+
+@ charm-not-control | Charm is not mind control | faq | PHB app.A
+k: charm person friends suggestion dominate obey command control
+s: A charmed creature treats you as a friendly acquaintance. It will not risk its life or give away its treasure because you asked.
+- Suggestion and Dominate say what they compel; follow their text.
+- After Charm Person ends the creature knows it was charmed.
+r: charmed-condition, social-interaction
+
+@ surprise-not-round | "I attack first!" does not give a free round | faq | PHB ch.9
+k: jump attack first before initiative free attack surprise round sucker punch
+s: When a fight starts, everyone rolls initiative. The one who "starts it" does not get a free attack before the order.
+- If the other side had no idea a fight was possible, the DM can rule them surprised.
+d: A fair alternative: give the instigator advantage on the initiative roll.
+r: surprise, initiative
+
+@ shield-spell-timing | Shield and other "after the roll" reactions | faq | PHB ch.11
+k: shield spell reaction after hit know roll absorb elements silvery barbs cutting words
+s: Shield is cast when you are hit, so after you know the attack hit, and it can turn that hit into a miss. It lasts until the start of your next turn.
+- Absorb Elements is cast when you take the damage and halves it.
+- Features that say "before you know if it hits" (Cutting Words reads "after the roll but before the DM says") follow their own text.
+d: Tell players the attack total, or at least "that hits", so they can decide.
+r: reaction, magic-missile-shield
+
+@ concentration-two-spells | Which spells need concentration | faq | PHB ch.10
+k: concentration duration two buffs haste bless hex hunters mark at once
+s: Only spells whose duration says "Concentration". You can have any number of non-concentration spells running, but one concentration spell.
+- Starting a second ends the first immediately, even if the second fails.
+- Hex and Hunter's Mark both need it; so do Bless, Haste, Spirit Guardians and most summons.
+r: concentration
+
+@ healing-potion-action | Is drinking a potion a bonus action? | faq | DMG ch.7
+k: potion bonus action drink house rule
+s: By the book it is an action. Bonus-action drinking is a house rule (a very common one).
+r: drinking-potions
+
+@ flanking-optional | Does flanking give advantage? | faq | DMG ch.9
+k: flanking advantage opposite sides optional
+s: Only if your DM uses the optional flanking rule. It is not part of the core rules.
+r: optional-combat
+
+@ long-rest-hp | What a long rest does and does not restore | faq | PHB ch.8
+k: long rest full hp hit dice half exhaustion spell slots
+s: All hit points and spell slots, half your Hit Dice (rounded down, minimum 1), and one level of exhaustion.
+- It does not remove conditions, curses or diseases by itself.
+r: resting-long, hit-dice
+
+@ dual-wield-draw | Drawing two weapons | faq | PHB ch.9
+k: draw two weapons dual wielder free interaction
+s: One free object interaction a turn means one weapon drawn. The second needs your action, a second turn, or the Dual Wielder feat.
+- Thrown weapons: each draw is an interaction, so one thrown dagger a turn unless you already hold more.
+r: object-interaction, two-weapon-fighting
+
+@ unarmed-monk-smite | Unarmed strikes with smite, sneak attack and styles | faq | Sage Advice
+k: unarmed strike smite sneak attack dueling monk paladin fist weapon
+s: An unarmed strike is a melee weapon attack, but not a weapon. Divine Smite, Sneak Attack and the Dueling style need a weapon, so they do not apply.
+- Stunning Strike works (it needs a melee weapon attack).
+- Booming Blade and Green-Flame Blade need a weapon worth at least 1 sp.
+r: improvised-weapons, smite-unarmed
+
+@ twin-spell-eligible | Twinned Spell: which spells qualify | faq | PHB ch.3, Sage Advice
+k: twin twinned metamagic sorcerer target one creature eligible dragons breath haste
+s: Only a spell that targets one creature and is incapable of targeting more at the level you cast it, and not Self range.
+- Sage Advice rules out spells that can target an object, let you pick more than one creature, can force saves from more than one creature over their duration (Dragon's Breath), or involve a roll that can affect more than one.
+- Eligible: Haste, Polymorph, Hold Person at 2nd level, Disintegrate (strictly no, it can target objects; many DMs allow it).
+- Not eligible: Fireball, Chaos Bolt, Ice Knife, Eldritch Blast at level 5+, Green-Flame Blade, any spell upcast to add targets.
+d: The "can target an object" exclusion rules out Fire Bolt too by the official list. Most tables ignore that part; pick one and write it down.
+r: bonus-action-spell
+
+@ wild-shape-hp | Wild Shape and Polymorph hit points | faq | PHB ch.3, ch.11
+k: wild shape polymorph hit points zero revert carry over damage concentration beast
+s: You take on the new form's hit points. At 0 you revert to your own hit points as they were, and any leftover damage carries over.
+- If the carried damage drops your own form to 0, you fall unconscious as normal.
+- A druid keeps concentrating on spells in Wild Shape, and can keep one going, but cannot cast new ones until 18th level.
+- Polymorph replaces mental scores too; Wild Shape keeps yours.
+- Instant-death and "if this reduces you to 0" effects apply to the form, then you revert.
+r: concentration, dropping-to-zero, polymorph-zero-effects
+
+@ haste-action | What Haste's extra action allows | faq | PHB ch.11
+k: haste extra action attack one weapon dash disengage hide cast
+s: One of: Attack (one weapon attack only), Dash, Disengage, Hide or Use an Object. Not casting a spell, and no Extra Attack on it.
+- When it ends you lose a whole turn: you cannot move or take actions until after your next turn.
+r: extra-attack, concentration
+
+@ jump-distance-speed | Jumping still costs movement | faq | PHB ch.8, Sage Advice
+k: jump spell boots striding springing speed limit movement
+s: Every foot jumped uses a foot of your movement, so you cannot jump farther than the movement you have left, even with the Jump spell.
+- Dash gives more movement to jump with.
+r: jumping, dash
+
+# edge | Edge cases and rule clashes
+@ lucky-disadvantage | Lucky with disadvantage | edge | Sage Advice
+k: lucky feat disadvantage three dice choose super advantage
+s: With disadvantage you roll two dice, spend a luck point for a third, and choose any of the three. Official ruling, and yes, it is better than plain advantage.
+d: A common house rule: Lucky replaces the die you would have used, so disadvantage still takes the lower of the remaining pair.
+r: advantage
+
+@ see-invisibility-advantage | You can see the invisible creature. Does it still get advantage? | edge | PHB app.A, designer comment
+k: see invisibility truesight faerie fire invisible advantage still condition raw
+s: By the text, yes: the invisible condition grants advantage and imposes disadvantage whether or not you can see it. Faerie Fire is different because it says the creature gains no benefit from being invisible.
+- This is a designer comment on the wording, not an official ruling. Most tables rule that if you can see it, the advantage and disadvantage go away.
+d: Pick the sensible reading (seeing it cancels the benefit) and record it under House rules.
+r: invisible-condition, unseen-attackers
+
+@ magic-missile-concentration | Magic Missile: damage rolls and concentration | edge | designer comment
+k: magic missile darts one roll concentration checks each missile hex empowered evocation
+s: The darts strike at once. The designers have said to roll the damage once and use it for every dart, and that a concentrating target saves separately for each dart that hits it.
+- Rolling per dart is how most tables play it.
+- With one roll, Empowered Evocation adds Intelligence to every dart.
+d: This is commentary, not a Sage Advice ruling. Either way is defensible: choose one.
+r: concentration, magic-missile-shield
+
+@ magic-missile-shield | Shield against Magic Missile | edge | PHB ch.11
+k: shield magic missile immune negate
+s: Shield says you take no damage from Magic Missile. It is cast as a reaction when you are targeted, and blocks every dart aimed at you.
+r: shield-spell-timing
+
+@ counterspell-own-turn | Countering a Counterspell on your own turn | edge | Sage Advice
+k: counterspell counter own turn bonus action spell blocked reaction
+s: Allowed: a reaction can be used on your own turn. But if you cast a bonus-action spell that turn you cannot, because the only other spell allowed is a 1-action cantrip.
+- So: Fireball, enemy Counterspells, you Counterspell that: fine. Healing Word then Fire Bolt, enemy Counterspells: you cannot respond.
+r: counterspell, bonus-action-spell
+
+@ subtle-counterspell | Subtle Spell cannot be countered | edge | Sage Advice
+k: subtle spell counterspell no components see casting material
+s: Counterspell needs you to see the casting. A Subtle spell with no material component has nothing to see.
+- If it has a material component, the caster still handles it and can be seen.
+r: counterspell, perceiving-casting
+
+@ shield-master-timing | Shield Master: shove before or after attacking? | edge | Sage Advice
+k: shield master shove bonus action before attack prone timing
+s: After. The bonus shove needs you to "take the Attack action", and the ruling since 2019 is that you must finish that action (all its attacks) first.
+- Before 2018 the designers said the opposite, so many tables still allow the shove first.
+d: Same logic for any "if you take the X action, you can…" bonus action without its own timing.
+r: shove, bonus-action
+
+@ war-caster-oa | War Caster opportunity attacks | edge | PHB ch.6, Sage Advice
+k: war caster opportunity attack spell reaction booming blade eldritch blast one target
+s: Instead of the melee attack you can cast a spell at the creature: casting time 1 action, targeting only that creature.
+- Booming Blade works. Eldritch Blast works but every beam must go at that creature. Fireball does not (area, not a single target).
+- The creature is leaving your reach when you cast, so it is still within reach for touch and melee-range spells.
+r: opportunity-attack, booming-blade-forced
+
+@ booming-blade-forced | Booming Blade and forced movement | edge | TCE, Sage Advice
+k: booming blade move willingly pushed forced shove dissonant whispers fear
+s: The extra damage triggers only if the target "willingly moves". Being shoved, pulled or thrown does not count.
+- Dissonant Whispers makes the target move with its reaction, so that movement does provoke opportunity attacks (Sage Advice).
+- Whether magically compelled movement (Dissonant Whispers, Command, fleeing in fear) is "willing" has no official ruling: the DM decides.
+r: forced-movement, opportunity-attack
+
+@ entering-area-effects | Spirit Guardians, Moonbeam and "enters the area" | edge | Sage Advice
+k: spirit guardians moonbeam wall of fire enters first time on a turn drag push area cast on top
+s: Creating the area on top of creatures does not count as them entering it. They are affected when they enter it or start their turn there.
+- Moving the area onto a creature (walking with Spirit Guardians) is also not entering.
+- Being pushed or dragged into it does count, but only the first time on each turn.
+- So the same creature can be hurt on several different turns in one round if allies keep moving it in.
+r: forced-movement, areas-of-effect
+
+@ smite-unarmed | Smiting with a punch or an improvised weapon | edge | Sage Advice
+k: smite unarmed improvised weapon fist paladin
+s: No for unarmed strikes: Divine Smite adds to "the weapon's damage", and a fist is not a weapon. An improvised weapon is a weapon, so it works.
+r: improvised-weapons, unarmed-monk-smite, smite-after-crit
+
+@ heavy-armor-master-order | Flat damage reduction and resistance | edge | PHB ch.9
+k: heavy armor master reduce 3 resistance order rage half
+s: Reductions apply before resistance. A raging barbarian with Heavy Armor Master taking 15 slashing: (15 − 3) ÷ 2 = 6.
+r: resistance-order
+
+@ polymorph-zero-effects | Disintegrate, Power Word Kill and a shapechanged target | edge | Sage Advice
+k: disintegrate wild shape polymorph zero dust power word kill form hit points
+s: Disintegrate on a wild-shaped druid: if it drops the beast form to 0, the druid reverts and takes the leftover damage; they turn to dust only if that drops the true form to 0.
+- Power Word Kill checks the current form's hit points (100 or fewer), and kills outright.
+- Effects that reduce a hit point maximum carry back to the true form only if they say so.
+r: wild-shape-hp, dropping-to-zero
+
+@ invalid-target | Casting at a target the spell cannot affect | edge | XGE ch.2
+k: invalid target wasted slot hold person on undead charm immune know
+s: Xanathar's: if you target something the spell cannot affect, nothing happens to it but the slot is still spent. If the spell normally allows a save, it appears the target simply succeeded.
+- So casting Hold Person on a disguised fiend looks like a made save.
+r: targeting
+
+@ feather-fall-timing | Feather Fall and falling speed | edge | PHB ch.11, XGE ch.2
+k: feather fall reaction fall instantly 500 feet turn
+s: Feather Fall is a reaction when you or a creature within 60 feet falls, so it can be cast before impact even on someone else's turn. With Xanathar's optional rule a fall covers 500 feet at once, so longer falls give time for other answers.
+r: falling, reaction
+
+@ darkness-spell | Darkness, Devil's Sight and darkvision | edge | PHB ch.11
+k: darkness spell devils sight darkvision magical cant see through light dispel
+s: Darkvision cannot see through magical Darkness; Devil's Sight and truesight can. Nonmagical light does not illuminate it, and a light spell of 2nd level or lower is dispelled where they overlap.
+- A warlock inside it with Devil's Sight attacks with advantage and is attacked with disadvantage, but so are their blinded allies.
+- If the object it was cast on is covered, the darkness is blocked.
+r: vision-light, darkness-both-blind, unseen-attackers
+
+@ grapple-teleport | Grapples, teleports and being moved | edge | PHB ch.9, app.A
+k: grapple teleport misty step thunderwave break free dimension door carried
+s: A grapple ends when something moves the grappled creature out of the grappler's reach. Misty Step works (it has only a verbal component and does not need movement speed), and a push such as Thunderwave breaks it too.
+- Dimension Door can bring one willing creature along; a grappler is not willing.
+r: grapple, forced-movement
+
+@ ready-extra-attack | Readied attacks and Extra Attack | edge | PHB ch.3, Sage Advice
+k: ready attack extra attack one swing not your turn
+s: Extra Attack works only on your turn, so a readied Attack is a single attack. A readied cantrip keeps its full damage.
+r: ready-action, extra-attack
+
+@ assassinate-initiative | Assassinate when the target wins initiative | edge | PHB ch.3, Sage Advice
+k: assassin assassinate surprised crit initiative lost target acted
+s: A surprised creature stops being surprised at the end of its first turn. If it rolled higher than the assassin, its (empty) turn has passed and the automatic critical hit is gone. Advantage against creatures that have not yet acted follows the same order.
+r: surprise, initiative
+
+@ sentinel-disengage | Sentinel against Disengage and Polearm Master | edge | PHB ch.6
+k: sentinel disengage speed zero polearm master reach stop
+s: Sentinel lets you make opportunity attacks even against Disengage, and a hit sets the target's speed to 0 for the turn.
+- With Polearm Master, a creature entering your 10-foot reach can be stopped there, out of its own reach.
+- Sentinel's third benefit needs the attacker to be within 5 feet of you.
+r: disengage, opportunity-attack
+
+@ is-it-magical | Is this ability magical? | edge | Sage Advice
+k: magical antimagic dispel breath weapon dragon wild shape ki check list
+s: The official test: it is magical if it is a magic item, a spell or lets you cast one, a spell attack, fueled by spell slots, or its description says it is magical.
+- By that test a dragon's breath is not magical, and Wild Shape is (its text says you magically assume the shape).
+- Only magical things are stopped by Antimagic Field or resisted by Magic Resistance.
+r: antimagic, dispel-magic
+
+@ simultaneous-effects | Things that happen at the same time | edge | XGE ch.2
+k: simultaneous same time order start of turn end choose who decides
+s: Xanathar's: when several things happen at the same moment on a creature's turn, the creature whose turn it is (the player, or the DM for a monster) chooses the order.
+- Example: Regeneration and ongoing damage at the start of a turn.
+r: ending-effects-timing
+
+@ ten-rules | Ten rules worth memorizing | faq | PHB, XGE ch.2
+k: xanathar ten rules basics remember summary exceptions round down same name reaction bonus action spell concentration temp hp
+s: Exceptions beat general rules; round down; advantage and disadvantage do not stack; proficiency is added once; same-named effects do not stack; one bonus action; bonus-action spell means only a cantrip otherwise; one reaction; concentrate on one spell; temporary hit points do not stack.
+r: specific-beats-general, rounding, advantage, stacking, bonus-action-spell, concentration, temp-hp
