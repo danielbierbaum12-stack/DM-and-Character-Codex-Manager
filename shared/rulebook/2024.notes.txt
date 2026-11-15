@@ -1,0 +1,37 @@
+# What the 2024 rules (SRD 5.2.1) change. One line per rule: id: text. Checked against the SRD 5.2.1 text.
+surprise: A surprised creature does not lose its turn. It has disadvantage on its initiative roll instead.
+surprise-not-round: Being surprised only gives disadvantage on initiative. An invisible creature has advantage on initiative.
+assassinate-initiative: Surprise is only disadvantage on initiative, so the 2014 timing problem does not come up.
+hide: DC 15 Dexterity (Stealth), while heavily obscured or behind three-quarters or total cover and out of every enemy's line of sight. Success gives you the Invisible condition while hidden; your total is the DC to find you. It ends when you make a sound louder than a whisper, an enemy finds you, you make an attack roll, or you cast a spell with a verbal component.
+invisible-condition: Also gives advantage on initiative. The advantage and disadvantage on attacks do not apply against a creature that can somehow see you.
+see-invisibility-advantage: Settled in the text: if a creature can somehow see you, you gain no attack benefit against that creature.
+invisible-not-hidden: Hiding now grants the Invisible condition, so "hidden" and "invisible" use the same rules.
+grapple: Grappling is an Unarmed Strike option. The target makes a Strength or Dexterity save (its choice) against DC 8 + your Strength modifier + proficiency bonus. It escapes with an action: Athletics or Acrobatics check against the same DC.
+shove: Shoving is an Unarmed Strike option. The target makes a Strength or Dexterity save against DC 8 + your Strength modifier + proficiency bonus, or is pushed 5 feet or knocked prone.
+grappled-condition: Also: disadvantage on attack rolls against anyone other than the grappler.
+grapple-not-restrained: A grappled creature now has disadvantage on attacks against targets other than the grappler.
+contests: Grapple and shove are no longer contests: they are saving throws against the attacker's DC.
+exhaustion: Each level gives −2 to every d20 Test and −5 feet of speed. Level 6 is still death. A long rest removes one level.
+knocking-out: The creature is left at 1 hit point, unconscious, and starts a short rest. It wakes when it regains hit points or someone gives first aid (action, DC 10 Medicine).
+resting-long: You regain all Hit Dice, not half. Interrupted by rolling initiative, casting a spell other than a cantrip, taking any damage, or 1 hour of walking or exertion; you can resume, adding 1 hour per interruption. You must wait 16 hours before starting another.
+long-rest-hp: A long rest restores all Hit Dice and any reduced ability scores or hit point maximum.
+bonus-action-spell: Replaced by a simpler rule: you can spend only one spell slot per turn. A cantrip plus a slot spell is fine either way round; spells cast without a slot (items, some features) do not count.
+counterspell-own-turn: The limit is one spell slot per turn, so you cannot cast a slot spell and then Counterspell with another slot on the same turn.
+inspiration: Called Heroic Inspiration: spend it to reroll any die right after rolling it, and you must use the new roll.
+help-action: To help with an ability check you must choose a skill or tool you are proficient in. Helping an attack is unchanged.
+working-together: The helper must be proficient in the skill or tool being used.
+stunned-condition: No longer stops movement by itself: incapacitated, fails Strength and Dexterity saves, attacks against it have advantage.
+incapacitated-condition: Also: cannot speak, concentration is broken, and disadvantage on initiative.
+food-water: Less than half the water needed: 1 exhaustion level at day's end. Less than half the food: DC 10 Constitution save or 1 exhaustion; nothing for 5 days: 1 level on the fifth day and each day after.
+suffocating: Out of breath or choking: 1 exhaustion level at the end of each of your turns, all removed when you can breathe again.
+drinking-potions: Drinking a potion or giving one to another creature is a bonus action.
+healing-potion-action: In the 2024 rules it is a bonus action by the book.
+use-an-object: Replaced by the Utilize action. Search (Wisdom checks), Study (Intelligence checks) and Influence are separate actions.
+search-action: Search covers Insight, Medicine, Perception and Survival. Study covers Arcana, History, Investigation, Nature and Religion.
+social-interaction: The Influence action: a willing creature just does it, an unwilling one refuses, and a hesitant one needs a check with a default DC of 15 or the creature's Intelligence score, whichever is higher. On a failure, wait 24 hours before trying the same way.
+ritual-casting: Any spell with the Ritual tag that you have prepared can be cast as a ritual; no special feature is needed. Wizards can still cast rituals straight from the spellbook.
+improvised-weapons: An Unarmed Strike can deal damage, grapple or shove (choose one each time).
+encounter-building: An XP budget per character by level (Low, Moderate, High), spent on monsters with no multiplier for their number. The DM Codex does both (Settings → House Rules).
+weapon-properties: Adds Weapon Mastery: each weapon has a mastery property (Cleave, Graze, Nick, Push, Sap, Slow, Topple, Vex) for characters whose class unlocks it.
+asi-feats: Ability Score Improvement is itself a feat, and backgrounds give an Origin feat at level 1.
+backgrounds-alignment: Your background, not your species, gives the ability score increases, plus an Origin feat.

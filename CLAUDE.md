@@ -39,6 +39,12 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
   Each app detects where it runs. The claude.ai artifacts cannot be linked (separate pages; a shared store there would end "anyone with the link"),
   so the DM Codex falls back to its player display and the sheet says it cannot receive notices there. Change the key or the fields in both apps together.
 
+- **Rulebook:** one rulebook for both apps, kept here in `shared/rulebook` (rules as text files, `2024.notes.txt`, the search and display core, the styles).
+  `python3 tools/build_rulebook.py --apply` checks it and writes it into both apps; then rebuild and test both. Never edit the copies in the apps.
+  Each app only supplies a small host: the DM Codex is the DM view, the Character Codex the player view (same entries, different order and lead note).
+  Sources: SRD 5.1 for 2014, SRD 5.2.1 for the 2024 notes; Sage Advice and designer comments are labelled. Never write a ruling you cannot source.
+  House rules are the table's own (DM Codex `state.houseRules`, sheet key `dndcc_houserules_v1`), shared DM to players by an `HBR1.` code.
+
 ## Good next steps
 1. Feats, classes, races and backgrounds exist only in the Character Codex today. If the DM Codex starts using them, add them to the master the same way.
 2. The DM bestiary (300+ SRD monsters) is the DM Codex's own; only creatures both apps carry are in `creatures.json`.

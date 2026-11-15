@@ -1,6 +1,7 @@
 # Rulebook (shared by both apps)
 
 - `*.rules.txt`: the rules, 2014 baseline, in short form. One file per group of sections.
+- `2024.notes.txt`: what the 2024 rules (SRD 5.2.1) change, one line per rule id. Shown on the entry as "2024 rules".
 - `rulebook-core.js`, `rulebook.css`: search and display. The same code runs in both apps; each app gives it a small `host` (see the top of the core file).
 - `rulebook.json`: built from the text files. Do not edit.
 

@@ -45,6 +45,15 @@ def parse():
     return cats, rules
 
 def check(cats, rules):
+    # what the 2024 rules change: one line per rule in 2024.notes.txt
+    byid = {r['id']: r for r in rules}
+    for n, line in enumerate(open(os.path.join(RB, '2024.notes.txt'), encoding='utf-8'), 1):
+        line = line.strip()
+        if not line or line.startswith('#'): continue
+        rid, _, text = line.partition(':')
+        assert rid.strip() in byid, f'2024.notes.txt:{n}: no rule "{rid.strip()}"'
+        assert text.strip(), f'2024.notes.txt:{n}: empty note'
+        byid[rid.strip()]['n24'] = text.strip()
     ids = [r['id'] for r in rules]
     dup = {i for i in ids if ids.count(i) > 1}
     assert not dup, f'duplicate ids: {dup}'

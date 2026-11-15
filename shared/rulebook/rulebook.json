@@ -205,7 +205,8 @@
     "grapple",
     "shove",
     "hide"
-   ]
+   ],
+   "n24": "Grapple and shove are no longer contests: they are saving throws against the attacker's DC."
   },
   {
    "id": "passive-checks",
@@ -254,7 +255,8 @@
    "r": [
     "help-action",
     "advantage"
-   ]
+   ],
+   "n24": "The helper must be proficient in the skill or tool being used."
   },
   {
    "id": "inspiration",
@@ -268,7 +270,8 @@
     "You decide before the roll. You can give yours to another player.",
     "You cannot have more than one."
    ],
-   "d": "Hand it out often and visibly, for roleplay, clever plans or making the table laugh."
+   "d": "Hand it out often and visibly, for roleplay, clever plans or making the table laugh.",
+   "n24": "Called Heroic Inspiration: spend it to reroll any die right after rolling it, and you must use the new roll."
   },
   {
    "id": "ability-scores",
@@ -446,7 +449,8 @@
     "hide",
     "initiative",
     "passive-checks"
-   ]
+   ],
+   "n24": "A surprised creature does not lose its turn. It has disadvantage on its initiative roll instead."
   },
   {
    "id": "your-turn",
@@ -638,7 +642,8 @@
    "r": [
     "working-together",
     "familiar-help"
-   ]
+   ],
+   "n24": "To help with an ability check you must choose a skill or tool you are proficient in. Helping an attack is unchanged."
   },
   {
    "id": "hide",
@@ -662,7 +667,8 @@
     "surprise",
     "passive-checks",
     "vision-light"
-   ]
+   ],
+   "n24": "DC 15 Dexterity (Stealth), while heavily obscured or behind three-quarters or total cover and out of every enemy's line of sight. Success gives you the Invisible condition while hidden; your total is the DC to find you. It ends when you make a sound louder than a whisper, an enemy finds you, you make an attack roll, or you cast a spell with a verbal component."
   },
   {
    "id": "ready-action",
@@ -696,7 +702,8 @@
    "r": [
     "perception-vs-investigation",
     "hide"
-   ]
+   ],
+   "n24": "Search covers Insight, Medicine, Perception and Survival. Study covers Arcana, History, Investigation, Nature and Religion."
   },
   {
    "id": "use-an-object",
@@ -714,7 +721,8 @@
     "object-interaction",
     "drinking-potions",
     "magic-item-activation"
-   ]
+   ],
+   "n24": "Replaced by the Utilize action. Search (Wisdom checks), Study (Intelligence checks) and Influence are separate actions."
   },
   {
    "id": "improvised-action",
@@ -752,7 +760,8 @@
     "grappled-condition",
     "contests",
     "attack-action"
-   ]
+   ],
+   "n24": "Grappling is an Unarmed Strike option. The target makes a Strength or Dexterity save (its choice) against DC 8 + your Strength modifier + proficiency bonus. It escapes with an action: Athletics or Acrobatics check against the same DC."
   },
   {
    "id": "shove",
@@ -769,7 +778,8 @@
     "grapple",
     "prone-condition",
     "shield-master-timing"
-   ]
+   ],
+   "n24": "Shoving is an Unarmed Strike option. The target makes a Strength or Dexterity save against DC 8 + your Strength modifier + proficiency bonus, or is pushed 5 feet or knocked prone."
   },
   {
    "id": "two-weapon-fighting",
@@ -1243,7 +1253,8 @@
    "b": [
     "Melee attacks only, including melee spell attacks. Not ranged attacks or area spells.",
     "You decide when the damage is dealt."
-   ]
+   ],
+   "n24": "The creature is left at 1 hit point, unconscious, and starts a short rest. It wakes when it regains hit points or someone gives first aid (action, DC 10 Medicine)."
   },
   {
    "id": "underwater-combat",
@@ -1324,7 +1335,8 @@
    ],
    "r": [
     "grapple"
-   ]
+   ],
+   "n24": "Also: disadvantage on attack rolls against anyone other than the grappler."
   },
   {
    "id": "incapacitated-condition",
@@ -1339,7 +1351,8 @@
    ],
    "r": [
     "concentration"
-   ]
+   ],
+   "n24": "Also: cannot speak, concentration is broken, and disadvantage on initiative."
   },
   {
    "id": "invisible-condition",
@@ -1357,7 +1370,8 @@
     "hide",
     "unseen-attackers",
     "see-invisibility-advantage"
-   ]
+   ],
+   "n24": "Also gives advantage on initiative. The advantage and disadvantage on attacks do not apply against a creature that can somehow see you."
   },
   {
    "id": "paralyzed-condition",
@@ -1429,7 +1443,8 @@
    "s": "Incapacitated, cannot move, can barely speak. Fails Strength and Dexterity saves. Attacks against it have advantage.",
    "b": [
     "Unlike paralyzed, hits are not automatic critical hits."
-   ]
+   ],
+   "n24": "No longer stops movement by itself: incapacitated, fails Strength and Dexterity saves, attacks against it have advantage."
   },
   {
    "id": "unconscious-condition",
@@ -1461,7 +1476,8 @@
     "resting-long",
     "travel-pace",
     "food-water"
-   ]
+   ],
+   "n24": "Each level gives −2 to every d20 Test and −5 feet of speed. Level 6 is still death. A long rest removes one level."
   },
   {
    "id": "condition-basics",
@@ -1554,7 +1570,8 @@
     "casting-time",
     "counterspell",
     "reaction"
-   ]
+   ],
+   "n24": "Replaced by a simpler rule: you can spend only one spell slot per turn. A cantrip plus a slot spell is fine either way round; spells cast without a slot (items, some features) do not count."
   },
   {
    "id": "components",
@@ -1616,7 +1633,8 @@
    "r": [
     "known-vs-prepared",
     "casting-time"
-   ]
+   ],
+   "n24": "Any spell with the Ritual tag that you have prepared can be cast as a ritual; no special feature is needed. Wizards can still cast rituals straight from the spellbook."
   },
   {
    "id": "spell-dc",
@@ -1923,7 +1941,8 @@
     "resting-short",
     "exhaustion",
     "sleeping-in-armor"
-   ]
+   ],
+   "n24": "You regain all Hit Dice, not half. Interrupted by rolling initiative, casting a spell other than a cantrip, taking any damage, or 1 hour of walking or exertion; you can resume, adding 1 hour per interruption. You must wait 16 hours before starting another."
   },
   {
    "id": "hit-dice",
@@ -2027,7 +2046,8 @@
    "r": [
     "exhaustion",
     "marching-activities"
-   ]
+   ],
+   "n24": "Less than half the water needed: 1 exhaustion level at day's end. Less than half the food: DC 10 Constitution save or 1 exhaustion; nothing for 5 days: 1 level on the fifth day and each day after."
   },
   {
    "id": "suffocating",
@@ -2042,7 +2062,8 @@
    ],
    "r": [
     "underwater-combat"
-   ]
+   ],
+   "n24": "Out of breath or choking: 1 exhaustion level at the end of each of your turns, all removed when you can breathe again."
   },
   {
    "id": "lifting-carrying",
@@ -2189,7 +2210,8 @@
     "two-weapon-fighting",
     "improvised-weapons",
     "ranged-in-melee"
-   ]
+   ],
+   "n24": "Adds Weapon Mastery: each weapon has a mastery property (Cleave, Graze, Nick, Push, Sap, Slow, Topple, Vex) for characters whose class unlocks it."
   },
   {
    "id": "improvised-weapons",
@@ -2206,7 +2228,8 @@
    "r": [
     "smite-unarmed",
     "weapon-properties"
-   ]
+   ],
+   "n24": "An Unarmed Strike can deal damage, grapple or shove (choose one each time)."
   },
   {
    "id": "attunement",
@@ -2262,7 +2285,8 @@
    "r": [
     "use-an-object",
     "healing"
-   ]
+   ],
+   "n24": "Drinking a potion or giving one to another creature is a bonus action."
   },
   {
    "id": "cursed-items",
@@ -2342,7 +2366,8 @@
    "r": [
     "multiclass-basics",
     "ability-scores"
-   ]
+   ],
+   "n24": "Ability Score Improvement is itself a feat, and backgrounds give an Origin feat at level 1."
   },
   {
    "id": "multiclass-basics",
@@ -2394,7 +2419,8 @@
    "b": [
     "If a background gives a proficiency you already have, pick another of the same kind.",
     "Alignment describes outlook; no rule in the 2014 books punishes changing it."
-   ]
+   ],
+   "n24": "Your background, not your species, gives the ability score increases, plus an Origin feat."
   },
   {
    "id": "downtime",
@@ -2443,7 +2469,8 @@
    "r": [
     "challenge-rating",
     "awarding-xp"
-   ]
+   ],
+   "n24": "An XP budget per character by level (Low, Moderate, High), spent on monsters with no multiplier for their number. The DM Codex does both (Settings → House Rules)."
   },
   {
    "id": "challenge-rating",
@@ -2527,7 +2554,8 @@
    "r": [
     "charm-not-control",
     "dc-table"
-   ]
+   ],
+   "n24": "The Influence action: a willing creature just does it, an unwilling one refuses, and a hesitant one needs a check with a default DC of 15 or the creature's Intelligence score, whichever is higher. On a failure, wait 24 hours before trying the same way."
   },
   {
    "id": "chases",
@@ -2718,7 +2746,8 @@
     "invisible-condition",
     "hide",
     "unseen-attackers"
-   ]
+   ],
+   "n24": "Hiding now grants the Invisible condition, so \"hidden\" and \"invisible\" use the same rules."
   },
   {
    "id": "grapple-not-restrained",
@@ -2735,7 +2764,8 @@
     "grapple",
     "grappled-condition",
     "restrained-condition"
-   ]
+   ],
+   "n24": "A grappled creature now has disadvantage on attacks against targets other than the grappler."
   },
   {
    "id": "ready-vs-delay",
@@ -2869,7 +2899,8 @@
    "r": [
     "surprise",
     "initiative"
-   ]
+   ],
+   "n24": "Being surprised only gives disadvantage on initiative. An invisible creature has advantage on initiative."
   },
   {
    "id": "shield-spell-timing",
@@ -2916,7 +2947,8 @@
    "b": [],
    "r": [
     "drinking-potions"
-   ]
+   ],
+   "n24": "In the 2024 rules it is a bonus action by the book."
   },
   {
    "id": "flanking-optional",
@@ -2945,7 +2977,8 @@
    "r": [
     "resting-long",
     "hit-dice"
-   ]
+   ],
+   "n24": "A long rest restores all Hit Dice and any reduced ability scores or hit point maximum."
   },
   {
    "id": "dual-wield-draw",
@@ -3079,7 +3112,8 @@
    "r": [
     "invisible-condition",
     "unseen-attackers"
-   ]
+   ],
+   "n24": "Settled in the text: if a creature can somehow see you, you gain no attack benefit against that creature."
   },
   {
    "id": "magic-missile-concentration",
@@ -3126,7 +3160,8 @@
    "r": [
     "counterspell",
     "bonus-action-spell"
-   ]
+   ],
+   "n24": "The limit is one spell slot per turn, so you cannot cast a slot spell and then Counterspell with another slot on the same turn."
   },
   {
    "id": "subtle-counterspell",
@@ -3347,7 +3382,8 @@
    "r": [
     "surprise",
     "initiative"
-   ]
+   ],
+   "n24": "Surprise is only disadvantage on initiative, so the 2014 timing problem does not come up."
   },
   {
    "id": "sentinel-disengage",

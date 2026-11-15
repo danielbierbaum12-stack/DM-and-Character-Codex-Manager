@@ -1,5 +1,5 @@
 /* ===== Rulebook: search and display, the same code in the DM Codex and the Character Codex =====
-   Data: RULEBOOK_DATA {cats:[{id,name}], rules:[{id,t,c,kind,src,k,s,b[],p,d,r[]}]}  (kind: rule | faq | edge)
+   Data: RULEBOOK_DATA {cats:[{id,name}], rules:[{id,t,c,kind,src,k,s,b[],p,d,n24,r[]}]}  (kind: rule | faq | edge)
    Each app calls rbInit(host) once and rbRender() to draw. host = {
      audience: 'player' | 'dm',          // same rules, different order and emphasis
      el(): the panel element,
@@ -30,7 +30,7 @@ function rbNear(a, b){   // one letter added, dropped or changed (for typos in l
 }
 function rbIndex(){
   if(RB.docs) return;
-  RB.docs = RULEBOOK_DATA.rules.map(r=>{ RB.byId[r.id] = r; return {r, t:rbTokens(r.t), k:rbTokens(r.k), s:rbTokens(r.s), b:rbTokens((r.b||[]).join(' ')+' '+(r.p||'')+' '+(r.d||'')), title:rbNorm(r.t)}; });
+  RB.docs = RULEBOOK_DATA.rules.map(r=>{ RB.byId[r.id] = r; return {r, t:rbTokens(r.t), k:rbTokens(r.k), s:rbTokens(r.s), b:rbTokens((r.b||[]).join(' ')+' '+(r.p||'')+' '+(r.d||'')+' '+(r.n24||'')), title:rbNorm(r.t)}; });
 }
 function rbWordScore(q, words){ let best = 0; for(const w of words){ if(w===q) return 1; if(best<0.7 && q.length>=3 && (w.startsWith(q) || (w.length>=4 && q.startsWith(w)))) best = 0.7; else if(best<0.4 && rbNear(q, w)) best = 0.4; } return best; }
 function rbScoreFields(qt, f){   // f: [[words, weight]…]
@@ -85,11 +85,12 @@ function rbEntryHtml(r, forceOpen){
   const mine = aud==='dm' ? r.d : r.p, other = aud==='dm' ? r.p : r.d;
   const adding = RB.edit && RB.edit.isNew && RB.edit.rule===r.id;
   return `<div class="rb-entry ${open?'open':''} ${house.length?'has-house':''}" data-rid="${rbEsc(r.id)}" id="rb-${rbEsc(r.id)}">
-    <button type="button" class="rb-head" data-rb="toggle" data-id="${rbEsc(r.id)}" aria-expanded="${open}"><span class="rb-caret">${open?'▾':'▸'}</span><span class="rb-title">${rbEsc(r.t)}</span>${rbKindTag(r)}${house.length ? '<span class="rb-tag rb-hb">House rule</span>' : ''}</button>
+    <button type="button" class="rb-head" data-rb="toggle" data-id="${rbEsc(r.id)}" aria-expanded="${open}"><span class="rb-caret">${open?'▾':'▸'}</span><span class="rb-title">${rbEsc(r.t)} ${rbKindTag(r)}${house.length ? ' <span class="rb-tag rb-hb">House rule</span>' : ''}</span></button>
     <div class="rb-short">${rbEsc(r.s)}</div>
     ${open ? `<div class="rb-body">
       ${(r.b||[]).length ? `<ul>${r.b.map(x=>`<li>${rbEsc(x)}</li>`).join('')}</ul>` : ''}
       ${mine ? `<div class="rb-note rb-mine"><b>${aud==='dm' ? 'Ruling it' : 'For you'}</b> ${rbEsc(mine)}</div>` : ''}
+      ${r.n24 ? `<div class="rb-note rb-24"><b>2024 rules</b> ${rbEsc(r.n24)}</div>` : ''}
       ${other ? `<div class="rb-note rb-other"><b>${aud==='dm' ? 'Players should know' : 'For the DM'}</b> ${rbEsc(other)}</div>` : ''}
       ${house.map(rbHouseHtml).join('')}
       ${adding ? rbEditHtml(RB.edit) : ''}
@@ -103,7 +104,7 @@ function rbHomeHtml(){
   return `<div class="rb-quick"><span class="rb-lbl">Looked up most</span>${quick.map(x=>{ const [id, nm] = x.split(':'); return nm ? `<button type="button" class="rb-rel" data-rb="cat" data-id="${id}">${nm}</button>` : (RB.byId[id] ? `<button type="button" class="rb-rel" data-rb="go" data-id="${id}">${rbEsc(RB.byId[id].t)}</button>` : ''); }).join('')}</div>
     <div class="rb-cats">${cats.map(c=>`<button type="button" class="rb-cat" data-rb="cat" data-id="${c.id}"><b>${rbEsc(c.name)}</b><span>${rbEsc(c.blurb)}</span><i>${c.n}</i></button>`).join('')}
       <button type="button" class="rb-cat rb-cat-house" data-rb="house"><b>House rules</b><span>Your table's own rules and notes, all in one place</span><i>${RB.house.length}</i></button></div>
-    <div class="rb-about">Rules are the 2014 books, in short form, with the source on each entry. "Designer comment" means advice, not an official ruling. The DM has the final say.</div>`;
+    <div class="rb-about">Rules are the 2014 books, in short form, with the source on each entry. Where the 2024 rules differ, the entry says how. "Designer comment" means advice, not an official ruling. The DM has the final say.</div>`;
 }
 function rbCatHtml(){
   const c = rbCats().find(x=>x.id===RB.cat); if(!c) return rbHomeHtml();
@@ -141,7 +142,7 @@ function rbRender(){
   const mode = RB.q.trim() ? 'search' : RB.mode;
   let shell = el.querySelector(':scope > .rb');
   if(!shell){
-    el.innerHTML = `<div class="rb"><div class="rb-top"><input type="search" class="rb-q" placeholder="${RB.host.audience==='dm' ? 'Search the rules, your house rules and your library' : 'Search the rules, house rules and your character\'s library'}" aria-label="Search the rulebook" autocomplete="off" spellcheck="false"><button type="button" class="ghost tiny rb-clear" data-rb="clear" hidden>Clear</button></div><div class="rb-main"></div></div>`;
+    el.innerHTML = `<div class="rb"><div class="rb-top"> <input type="text" inputmode="search" enterkeyhint="search" class="rb-q" placeholder="${RB.host.audience==='dm' ? 'Search the rules, your house rules and your library' : 'Search the rules, house rules and your character\'s library'}" aria-label="Search the rulebook" autocomplete="off" spellcheck="false"><button type="button" class="ghost tiny rb-clear" data-rb="clear" hidden>Clear</button></div><div class="rb-main"></div></div>`;
     shell = el.querySelector(':scope > .rb');
   }
   const inp = shell.querySelector('.rb-q'); if(inp.value!==RB.q && document.activeElement!==inp) inp.value = RB.q;
