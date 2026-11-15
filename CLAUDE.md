@@ -32,7 +32,12 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
 
 - **Play style:** both apps have Guided (default: the app tracks and leads) and Manual (nothing changes or advances unless pressed), named the same.
   Character Codex: `STATE.uiPrefs.playStyle`. DM Codex: `prefs.playStyle`, and Guided shows the session guide (`42_session.js`). Both: `playStyle()`, `guided()`, `setPlayStyle()`.
-  Every automatic step keeps a hand control. There is no live link between the two apps yet (a "your turn" notice needs shared hosting; the owner has not chosen).
+  Every automatic step keeps a hand control.
+
+- **Table link ("Your turn"):** the one live link between the apps. The DM Codex (`43_tablelink.js`) writes `dndcc_turn_<table code>` = `{v, t, name, next, round}` (or `{over:true}`)
+  to the Character Codex's server (`/__dndcc_kv__/`, local `server.py` or the Cloudflare site); sheets that joined with the code poll it (`tablePoll`).
+  Each app detects where it runs. The claude.ai artifacts cannot be linked (separate pages; a shared store there would end "anyone with the link"),
+  so the DM Codex falls back to its player display and the sheet says it cannot receive notices there. Change the key or the fields in both apps together.
 
 ## Good next steps
 1. Feats, classes, races and backgrounds exist only in the Character Codex today. If the DM Codex starts using them, add them to the master the same way.
