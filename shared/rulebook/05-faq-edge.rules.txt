@@ -47,7 +47,7 @@ s: A grappled creature only has speed 0. It attacks, casts and makes saves norma
 - To restrain someone you need the Grappler feat (which restrains you too) or a rope, net or spell.
 r: grapple, grappled-condition, restrained-condition
 
-@ ready-vs-delay | You cannot delay your turn | faq | PHB ch.9, Sage Advice
+@ ready-vs-delay | You cannot delay your turn | faq | PHB ch.9, Sage Advice 2017
 k: delay hold turn wait initiative later ready
 s: The 2014 rules have no "delay". You can only Ready one action or a move, using your reaction.
 - Your place in initiative never changes.
@@ -80,7 +80,7 @@ s: A familiar acts on its own initiative, cannot attack, and can take other acti
 - It has to be within 100 feet to deliver a spell, and you cast the spell on your turn.
 r: help-action, reaction
 
-@ two-handed-casting | Hands: weapons, shields and casting | faq | PHB ch.10, Sage Advice
+@ two-handed-casting | Hands: weapons, shields and casting | faq | PHB ch.10, Sage Advice 2017
 k: hands free somatic shield sword two handed weapon cast focus war caster
 s: A two-handed weapon needs two hands only for the attack. You can take a hand off it to cast, then attack normally next turn.
 - Sword and shield: you need a free hand for somatic components unless the shield carries your holy symbol and the spell has a material component, or you have War Caster.
@@ -138,14 +138,14 @@ s: One free object interaction a turn means one weapon drawn. The second needs y
 - Thrown weapons: each draw is an interaction, so one thrown dagger a turn unless you already hold more.
 r: object-interaction, two-weapon-fighting
 
-@ unarmed-monk-smite | Unarmed strikes with smite, sneak attack and styles | faq | Sage Advice
+@ unarmed-monk-smite | Unarmed strikes with smite, sneak attack and styles | faq | Sage Advice 2017, PHB errata
 k: unarmed strike smite sneak attack dueling monk paladin fist weapon
-s: An unarmed strike is a melee weapon attack, but not a weapon. Divine Smite, Sneak Attack and the Dueling style need a weapon, so they do not apply.
+s: An unarmed strike is a melee weapon attack, but not a weapon. Sneak Attack and Savage Attacker need a weapon, so they do not apply (official). The same reasoning rules out Divine Smite and the Dueling style.
 - Stunning Strike works (it needs a melee weapon attack).
 - Booming Blade and Green-Flame Blade need a weapon worth at least 1 sp.
 r: improvised-weapons, smite-unarmed
 
-@ twin-spell-eligible | Twinned Spell: which spells qualify | faq | PHB ch.3, Sage Advice
+@ twin-spell-eligible | Twinned Spell: which spells qualify | faq | PHB ch.3, later Sage Advice (not in the 2017 Compendium checked)
 k: twin twinned metamagic sorcerer target one creature eligible dragons breath haste
 s: Only a spell that targets one creature and is incapable of targeting more at the level you cast it, and not Self range.
 - Sage Advice rules out spells that can target an object, let you pick more than one creature, can force saves from more than one creature over their duration (Dragon's Breath), or involve a roll that can affect more than one.
@@ -169,14 +169,14 @@ s: One of: Attack (one weapon attack only), Dash, Disengage, Hide or Use an Obje
 - When it ends you lose a whole turn: you cannot move or take actions until after your next turn.
 r: extra-attack, concentration
 
-@ jump-distance-speed | Jumping still costs movement | faq | PHB ch.8, Sage Advice
+@ jump-distance-speed | Jumping still costs movement | faq | PHB ch.8, later Sage Advice (not in the 2017 Compendium checked)
 k: jump spell boots striding springing speed limit movement
 s: Every foot jumped uses a foot of your movement, so you cannot jump farther than the movement you have left, even with the Jump spell.
 - Dash gives more movement to jump with.
 r: jumping, dash
 
 # edge | Edge cases and rule clashes
-@ lucky-disadvantage | Lucky with disadvantage | edge | Sage Advice
+@ lucky-disadvantage | Lucky with disadvantage | edge | Sage Advice 2017
 k: lucky feat disadvantage three dice choose super advantage
 s: With disadvantage you roll two dice, spend a luck point for a third, and choose any of the three. Official ruling, and yes, it is better than plain advantage.
 d: A common house rule: Lucky replaces the die you would have used, so disadvantage still takes the lower of the remaining pair.
@@ -202,40 +202,41 @@ k: shield magic missile immune negate
 s: Shield says you take no damage from Magic Missile. It is cast as a reaction when you are targeted, and blocks every dart aimed at you.
 r: shield-spell-timing
 
-@ counterspell-own-turn | Countering a Counterspell on your own turn | edge | Sage Advice
+@ counterspell-own-turn | Countering a Counterspell on your own turn | edge | Sage Advice 2017
 k: counterspell counter own turn bonus action spell blocked reaction
 s: Allowed: a reaction can be used on your own turn. But if you cast a bonus-action spell that turn you cannot, because the only other spell allowed is a 1-action cantrip.
 - So: Fireball, enemy Counterspells, you Counterspell that: fine. Healing Word then Fire Bolt, enemy Counterspells: you cannot respond.
 r: counterspell, bonus-action-spell
 
-@ subtle-counterspell | Subtle Spell cannot be countered | edge | Sage Advice
+@ subtle-counterspell | Subtle Spell cannot be countered | edge | Sage Advice 2017
 k: subtle spell counterspell no components see casting material
 s: Counterspell needs you to see the casting. A Subtle spell with no material component has nothing to see.
 - If it has a material component, the caster still handles it and can be seen.
 r: counterspell, perceiving-casting
 
-@ shield-master-timing | Shield Master: shove before or after attacking? | edge | Sage Advice
+@ shield-master-timing | Shield Master: shove before or after attacking? | edge | later Sage Advice (not in the 2017 Compendium checked)
 k: shield master shove bonus action before attack prone timing
 s: After. The bonus shove needs you to "take the Attack action", and the ruling since 2019 is that you must finish that action (all its attacks) first.
 - Before 2018 the designers said the opposite, so many tables still allow the shove first.
 d: Same logic for any "if you take the X action, you can…" bonus action without its own timing.
 r: shove, bonus-action
 
-@ war-caster-oa | War Caster opportunity attacks | edge | PHB ch.6, Sage Advice
+@ war-caster-oa | War Caster opportunity attacks | edge | PHB ch.6, later Sage Advice (not in the 2017 Compendium checked)
 k: war caster opportunity attack spell reaction booming blade eldritch blast one target
 s: Instead of the melee attack you can cast a spell at the creature: casting time 1 action, targeting only that creature.
 - Booming Blade works. Eldritch Blast works but every beam must go at that creature. Fireball does not (area, not a single target).
 - The creature is leaving your reach when you cast, so it is still within reach for touch and melee-range spells.
 r: opportunity-attack, booming-blade-forced
 
-@ booming-blade-forced | Booming Blade and forced movement | edge | TCE, Sage Advice
+@ booming-blade-forced | Booming Blade and forced movement | edge | TCE, Sage Advice 2017
 k: booming blade move willingly pushed forced shove dissonant whispers fear
 s: The extra damage triggers only if the target "willingly moves". Being shoved, pulled or thrown does not count.
-- Dissonant Whispers makes the target move with its reaction, so that movement does provoke opportunity attacks (Sage Advice).
+- Booming Blade and Green-Flame Blade use the Cast a Spell action: no Extra Attack, and no opportunity attack unless a feature such as War Caster allows it (official).
+- Dissonant Whispers makes the target move with its reaction, so that movement provokes opportunity attacks (a later ruling, not in the version checked).
 - Whether magically compelled movement (Dissonant Whispers, Command, fleeing in fear) is "willing" has no official ruling: the DM decides.
 r: forced-movement, opportunity-attack
 
-@ entering-area-effects | Spirit Guardians, Moonbeam and "enters the area" | edge | Sage Advice
+@ entering-area-effects | Spirit Guardians, Moonbeam and "enters the area" | edge | Sage Advice 2017
 k: spirit guardians moonbeam wall of fire enters first time on a turn drag push area cast on top
 s: Creating the area on top of creatures does not count as them entering it. They are affected when they enter it or start their turn there.
 - Moving the area onto a creature (walking with Spirit Guardians) is also not entering.
@@ -243,7 +244,7 @@ s: Creating the area on top of creatures does not count as them entering it. The
 - So the same creature can be hurt on several different turns in one round if allies keep moving it in.
 r: forced-movement, areas-of-effect
 
-@ smite-unarmed | Smiting with a punch or an improvised weapon | edge | Sage Advice
+@ smite-unarmed | Smiting with a punch or an improvised weapon | edge | later Sage Advice (not in the 2017 Compendium checked)
 k: smite unarmed improvised weapon fist paladin
 s: No for unarmed strikes: Divine Smite adds to "the weapon's damage", and a fist is not a weapon. An improvised weapon is a weapon, so it works.
 r: improvised-weapons, unarmed-monk-smite, smite-after-crit
@@ -253,10 +254,11 @@ k: heavy armor master reduce 3 resistance order rage half
 s: Reductions apply before resistance. A raging barbarian with Heavy Armor Master taking 15 slashing: (15 − 3) ÷ 2 = 6.
 r: resistance-order
 
-@ polymorph-zero-effects | Disintegrate, Power Word Kill and a shapechanged target | edge | Sage Advice
+@ polymorph-zero-effects | Disintegrate, Power Word Kill and a shapechanged target | edge | Sage Advice 2017
 k: disintegrate wild shape polymorph zero dust power word kill form hit points
-s: Disintegrate on a wild-shaped druid: if it drops the beast form to 0, the druid reverts and takes the leftover damage; they turn to dust only if that drops the true form to 0.
+s: Disintegrate on a wild-shaped druid at 0 hit points: by the literal text the druid turns to dust. The stated intent is that the druid only counts as at 0 once the normal form is reduced to 0, so the beast form drops, leftover damage carries over, and dust follows only if that empties the true form.
 - Power Word Kill checks the current form's hit points (100 or fewer), and kills outright.
+d: The official answer gives both readings and calls the second the intent. Rule by intent unless your table prefers the harsh one.
 - Effects that reduce a hit point maximum carry back to the true form only if they say so.
 r: wild-shape-hp, dropping-to-zero
 
@@ -284,12 +286,12 @@ s: A grapple ends when something moves the grappled creature out of the grappler
 - Dimension Door can bring one willing creature along; a grappler is not willing.
 r: grapple, forced-movement
 
-@ ready-extra-attack | Readied attacks and Extra Attack | edge | PHB ch.3, Sage Advice
+@ ready-extra-attack | Readied attacks and Extra Attack | edge | PHB ch.3
 k: ready attack extra attack one swing not your turn
 s: Extra Attack works only on your turn, so a readied Attack is a single attack. A readied cantrip keeps its full damage.
 r: ready-action, extra-attack
 
-@ assassinate-initiative | Assassinate when the target wins initiative | edge | PHB ch.3, Sage Advice
+@ assassinate-initiative | Assassinate when the target wins initiative | edge | PHB ch.3, Sage Advice 2017
 k: assassin assassinate surprised crit initiative lost target acted
 s: A surprised creature stops being surprised at the end of its first turn. If it rolled higher than the assassin, its (empty) turn has passed and the automatic critical hit is gone. Advantage against creatures that have not yet acted follows the same order.
 r: surprise, initiative
@@ -301,7 +303,7 @@ s: Sentinel lets you make opportunity attacks even against Disengage, and a hit 
 - Sentinel's third benefit needs the attacker to be within 5 feet of you.
 r: disengage, opportunity-attack
 
-@ is-it-magical | Is this ability magical? | edge | Sage Advice
+@ is-it-magical | Is this ability magical? | edge | Sage Advice 2017
 k: magical antimagic dispel breath weapon dragon wild shape ki check list
 s: The official test: it is magical if it is a magic item, a spell or lets you cast one, a spell attack, fueled by spell slots, or its description says it is magical.
 - By that test a dragon's breath is not magical, and Wild Shape is (its text says you magically assume the shape).

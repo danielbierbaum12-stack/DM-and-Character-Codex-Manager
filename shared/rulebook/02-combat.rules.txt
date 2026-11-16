@@ -48,6 +48,7 @@ r: moving-through-creatures, grapple
 @ flying | Flying | rule | PHB ch.9
 k: fly flying fall knocked prone hover speed zero
 s: A flying creature falls if it is knocked prone, its speed becomes 0, or it otherwise cannot move, unless it can hover or is held up by magic such as the Fly spell.
+- A flyer without hover can still stay in one place in the air; it does not have to move each round.
 r: falling, prone-condition
 
 @ forced-movement | Forced movement | rule | PHB ch.9
@@ -133,7 +134,7 @@ s: A buffer lost first. They do not stack: keep the higher amount. Healing does 
 - They last until used up or you finish a long rest, unless the source says otherwise.
 - They are not hit points: you are not healed, and at 0 hit points they do not wake you or stop death saves.
 - If the source spell needs concentration or has a duration (Armor of Agathys), other effects end when its temp hit points are gone.
-- Damage that would break concentration still forces the save even if temp hit points absorb all of it.
+- Damage absorbed by temporary hit points still counts for concentration: 30 damage with 10 temporary hit points is still a DC 15 save (Sage Advice 2017).
 r: stacking, concentration, dropping-to-zero
 
 @ healing | Healing | rule | PHB ch.9

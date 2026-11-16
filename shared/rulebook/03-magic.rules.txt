@@ -22,12 +22,13 @@ s: Most spells take 1 action. Bonus-action and reaction spells say so. Longer sp
 - If concentration breaks during a long casting, the spell fails but the slot is not spent.
 r: bonus-action-spell, ritual-casting, concentration
 
-@ bonus-action-spell | Bonus-action spells and a second spell | faq | PHB ch.10, Sage Advice
+@ bonus-action-spell | Bonus-action spells and a second spell | faq | PHB ch.10, Sage Advice 2017
 k: bonus action spell two spells one turn cantrip healing word quickened action surge misty step
 s: If you cast any spell as a bonus action, the only other spell you can cast that turn is a cantrip with a casting time of 1 action.
 - Healing Word + Fire Bolt: yes. Healing Word + Cure Wounds: no. Misty Step + Fireball: no.
 - It covers the whole turn, so no reaction spell (Counterspell, Shield) on that same turn either.
 - Quickened Spell makes a spell a bonus-action spell, so the same limit applies.
+- The limit applies only on the turn you cast the bonus-action spell. Using a bonus action that an earlier spell gives you (moving Spiritual Weapon) does not trigger it.
 - Without a bonus-action spell there is no limit: Action Surge lets a fighter cast two leveled 1-action spells.
 - On other creatures' turns you can still use reaction spells.
 p: The order does not matter. If either spell this turn used your bonus action, the other one must be a 1-action cantrip, even if the bonus-action spell was itself a quickened cantrip.
@@ -51,6 +52,7 @@ s: One concentration spell at a time. When you take damage, make a Constitution 
 - Each separate source of damage is its own save.
 - Ends if you cast another concentration spell, are incapacitated or die. You can end it any time, no action.
 - Normal activity (moving, attacking, casting non-concentration spells) does not break it.
+- You do not need to see the target or stay in range to keep concentrating, unless the spell says so.
 - The DM can call for a DC 10 save for things like a ship's deck in a storm.
 p: War Caster gives advantage; Resilient (Constitution) adds proficiency. Both sheets show concentration at the top.
 d: Track it for monsters too. One save per hit, not per turn.
@@ -79,7 +81,7 @@ s: You need a clear path to the target: it cannot be behind total cover. Many sp
 - If a spell does not say you must see the target, you can aim it at an unseen creature whose location you know.
 r: line-of-effect, cover, areas-of-effect, invalid-target
 
-@ line-of-effect | Line of effect and total cover | faq | PHB ch.10
+@ line-of-effect | Line of effect and total cover | faq | PHB ch.10, designer comment
 k: line of effect glass window wall of force total cover teleport misty step see through
 s: A spell needs an unblocked straight line from you to the target or point. Seeing it is not enough.
 - Glass, a Wall of Force, or a closed door all block it.
@@ -114,7 +116,7 @@ s: Reaction when you see a creature within 60 feet casting. It stops a spell of 
 d: Say "the lich begins casting a spell" and wait. Do not name the spell first unless your table agreed to.
 r: reaction, bonus-action-spell, perceiving-casting, dispel-magic
 
-@ dispel-magic | Dispel Magic | rule | PHB ch.11, Sage Advice
+@ dispel-magic | Dispel Magic | rule | PHB ch.11, Sage Advice 2017
 k: dispel magic end spell ongoing check dc level magical effect
 s: Ends spells on one creature, object or magical effect. Level 3 or lower end automatically; each higher one needs a check: DC 10 + its level.
 - It only ends spells. It does not undo damage already done, and does not suppress magic items or non-spell magical abilities (a dragon's breath, a vampire's charm).

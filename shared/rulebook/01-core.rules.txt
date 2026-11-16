@@ -277,6 +277,7 @@ s: Choose a trigger you can perceive and an action (or movement). When it happen
 - You act right after the trigger finishes, or ignore it.
 - A readied spell is cast on your turn (slot spent), held with concentration, and released with your reaction. If concentration breaks or the trigger never comes, the slot is lost. Only 1-action spells can be readied.
 - A readied Attack is one attack: Extra Attack only works on your own turn.
+- Damaging a moving creature with a readied attack does not stop its movement unless something else does (Sentinel, dropping it to 0).
 p: Readying drops any spell you were already concentrating on if you ready a spell.
 r: reaction, concentration, extra-attack
 

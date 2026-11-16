@@ -7,13 +7,14 @@ s: Light: armor + full Dexterity modifier. Medium: armor + Dexterity (max +2). H
 - Don / doff: light 1 min / 1 min, medium 5 / 1, heavy 10 / 5, shield 1 action each.
 r: ac-calculations, casting-in-armor, lifting-carrying
 
-@ ac-calculations | Which AC calculation applies? | faq | PHB ch.1, Sage Advice
+@ ac-calculations | Which AC calculation applies? | faq | PHB ch.1, Sage Advice 2017
 k: unarmored defense mage armor natural armor stack monk barbarian shield ac formula choose one
 s: You use one base AC formula at a time and choose the best. Bonuses (shield, Shield spell, ring) add on top of whichever you use.
 - Formulas: worn armor; 10 + Dexterity; Unarmored Defense (barbarian 10 + Dex + Con, monk 10 + Dex + Wis); Mage Armor 13 + Dex; natural armor (lizardfolk, tortle); Draconic Resilience 13 + Dex.
 - Mage Armor does not add to Unarmored Defense. A multiclass barbarian/monk gets only the one from the first class taken.
 - A barbarian's Unarmored Defense allows a shield; a monk's does not.
 - Barkskin sets a floor of 16: nothing adds to it; it just replaces a lower total.
+- Mage Armor works with a shield. Natural armor is 10 + Dexterity + the natural armor bonus.
 r: armor-rules, stacking
 
 @ weapon-properties | Weapon properties | rule | PHB ch.5
