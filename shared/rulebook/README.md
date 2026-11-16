@@ -20,7 +20,7 @@ d: a note for the DM
 r: related ids, comma separated
 ```
 
-- Sage Advice entries marked "Sage Advice 2017" were checked against the Compendium v2.0 the owner supplied. "later Sage Advice (not in the 2017 Compendium checked)" means the ruling comes from a newer version nobody here has verified: check it before relying on it.
+- Sage Advice entries were checked against the Compendium versions the owner supplied: "Sage Advice 2017" (v2.0) and "Sage Advice 2020" (v2.4). Where the two differ, the entry follows the later one and says so.
 - Every entry names its source: PHB, DMG, MM, XGE, TCE, "Sage Advice" (official rulings) or "designer comment" (advice, not official). Never write a ruling you cannot source; say the DM decides.
 - `faq` is for rules people often get wrong; `edge` for rare clashes with a known answer.
 - Both apps show every entry. The player view leads with `p` and the DM view with `d`, and the sections are ordered for each reader (`RB_ORDER`).
