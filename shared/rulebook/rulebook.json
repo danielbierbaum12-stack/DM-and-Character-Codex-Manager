@@ -3452,6 +3452,292 @@
     "concentration",
     "temp-hp"
    ]
+  },
+  {
+   "id": "time-scales",
+   "t": "Time: rounds, minutes, hours, days",
+   "kind": "rule",
+   "src": "PHB ch.8",
+   "c": "core",
+   "k": "time round six seconds minute hour day how long scale dungeon travel",
+   "s": "A round is 6 seconds, so 10 rounds are a minute. Dungeon exploring runs in minutes, town and wilderness in hours, long journeys in days.",
+   "b": [
+    "About a minute to creep down a long hallway, another to check a door for traps, ten to search a room.",
+    "Effects that last \"1 minute\" are 10 rounds; \"1 hour\" outlasts almost any single fight."
+   ],
+   "d": "Track time loosely outside combat. It matters for spell durations, torches and wandering monsters.",
+   "r": [
+    "ending-effects-timing",
+    "travel-pace"
+   ]
+  },
+  {
+   "id": "ability-generation",
+   "t": "Rolling or buying ability scores",
+   "kind": "rule",
+   "src": "PHB ch.1",
+   "c": "abilities",
+   "k": "ability scores generate roll 4d6 drop lowest standard array point buy 27",
+   "s": "Roll 4d6 and drop the lowest, six times. Or use the standard array: 15, 14, 13, 12, 10, 8. Or point buy with 27 points (optional).",
+   "b": [
+    "Point buy: scores from 8 to 15 before racial bonuses. 8 costs 0, 9 = 1, 10 = 2, 11 = 3, 12 = 4, 13 = 5, 14 = 7, 15 = 9.",
+    "Racial increases come after."
+   ],
+   "r": [
+    "ability-scores",
+    "asi-feats"
+   ]
+  },
+  {
+   "id": "languages",
+   "t": "Languages",
+   "kind": "rule",
+   "src": "PHB ch.4",
+   "c": "character",
+   "k": "language common dwarvish elvish exotic draconic thieves cant druidic speak read",
+   "s": "Your race and background give your languages. Standard ones are free to choose; exotic ones need the DM's permission.",
+   "b": [
+    "Standard: Common, Dwarvish, Elvish, Giant, Gnomish, Goblin, Halfling, Orc.",
+    "Exotic: Abyssal, Celestial, Draconic, Deep Speech, Infernal, Primordial, Sylvan, Undercommon.",
+    "Primordial has four dialects (Auran, Aquan, Ignan, Terran); speakers of one understand the others.",
+    "Thieves' cant and Druidic are secret languages from class features."
+   ],
+   "r": [
+    "backgrounds-alignment",
+    "downtime"
+   ]
+  },
+  {
+   "id": "spell-schools",
+   "t": "Schools of magic",
+   "kind": "rule",
+   "src": "PHB ch.10",
+   "c": "spellcasting",
+   "k": "school abjuration conjuration divination enchantment evocation illusion necromancy transmutation",
+   "s": "Eight schools sort spells by kind. They have no rules of their own; features and items refer to them.",
+   "b": [
+    "Abjuration protects. Conjuration brings or moves things. Divination reveals. Enchantment sways minds.",
+    "Evocation makes energy. Illusion deceives the senses. Necromancy works with life and death. Transmutation changes things."
+   ],
+   "r": [
+    "identify-spells"
+   ]
+  },
+  {
+   "id": "spell-duration",
+   "t": "Spell durations",
+   "kind": "rule",
+   "src": "PHB ch.10",
+   "c": "spellcasting",
+   "k": "duration instantaneous until dispelled concentration end early dismiss",
+   "s": "Instantaneous spells happen and are done: they cannot be dispelled afterward. Others last their stated time, or until concentration ends.",
+   "b": [
+    "You can end your own concentration spell at any time, no action needed.",
+    "A non-concentration spell with a duration runs its full time unless it says you can dismiss it.",
+    "Dispel Magic cannot undo an instantaneous spell's result (the damage done, the creature raised)."
+   ],
+   "r": [
+    "concentration",
+    "dispel-magic",
+    "ending-effects-timing"
+   ]
+  },
+  {
+   "id": "interacting-with-objects",
+   "t": "Interacting with the world",
+   "kind": "rule",
+   "src": "PHB ch.8",
+   "c": "adventuring",
+   "k": "interact object lever door pull push break open stuck check environment",
+   "s": "Say what you do; the DM says what happens. A check is only needed when something is stuck, heavy, hidden or dangerous.",
+   "b": [
+    "Forcing a stuck door or a jammed lever is usually a Strength check.",
+    "Characters can also damage objects: see Breaking objects."
+   ],
+   "r": [
+    "objects",
+    "object-interaction",
+    "improvised-action"
+   ]
+  },
+  {
+   "id": "mounts-vehicles",
+   "t": "Mounts and vehicles",
+   "kind": "rule",
+   "src": "PHB ch.5",
+   "c": "adventuring",
+   "k": "horse mount vehicle carry pull wagon ship speed barding saddle rowing",
+   "s": "A mount can carry its normal capacity; pulling a cart, it moves five times that weight (including the cart). A good mount covers ground faster for a while but not much farther in a day.",
+   "b": [
+    "Barding is armor for a mount: it costs four times the same armor for a humanoid and weighs twice as much.",
+    "An exotic or military saddle helps you stay mounted; a military saddle gives advantage on checks to remain in it.",
+    "Waterborne vehicles keep their own pace and do not tire: a ship can travel 24 hours a day with a crew.",
+    "Rowed boats move 1½ miles an hour; a sailing ship about 2; a galley about 4."
+   ],
+   "r": [
+    "mounted-combat",
+    "travel-pace",
+    "lifting-carrying"
+   ]
+  },
+  {
+   "id": "wearing-items",
+   "t": "Wearing and wielding magic items",
+   "kind": "rule",
+   "src": "DMG ch.7",
+   "c": "equipment",
+   "k": "wear two rings cloaks boots pair gloves slots how many magic items same kind",
+   "s": "One pair of footwear, one pair of gloves, one pair of bracers, one suit of armor, one headwear and one cloak. Paired items work only when you wear both of the pair.",
+   "b": [
+    "The DM can allow exceptions that make sense (a circlet under a helmet).",
+    "Most worn items resize to fit. There is no set limit on rings or amulets beyond attunement and common sense."
+   ],
+   "r": [
+    "attunement",
+    "magic-item-activation"
+   ]
+  },
+  {
+   "id": "silvered-adamantine",
+   "t": "Silvered weapons and special materials",
+   "kind": "rule",
+   "src": "PHB ch.5",
+   "c": "equipment",
+   "k": "silver silvered weapon werewolf resistance nonmagical adamantine cost",
+   "s": "Silvering one weapon or ten pieces of ammunition costs 100 gp. It gets past resistance or immunity to nonmagical attacks for monsters that are weak to silver.",
+   "b": [
+    "A magic weapon gets past \"nonmagical attacks\" resistance for every monster."
+   ],
+   "r": [
+    "resistance-order",
+    "weapon-properties"
+   ]
+  },
+  {
+   "id": "healers-kit",
+   "t": "Healer's kit and first aid",
+   "kind": "rule",
+   "src": "PHB ch.5",
+   "c": "equipment",
+   "k": "healers kit stabilize uses medicine bandage first aid",
+   "s": "Ten uses. As an action, spend one to stabilize a creature at 0 hit points, with no check needed.",
+   "b": [
+    "Without a kit: Wisdom (Medicine) DC 10.",
+    "It does not restore hit points (the Healer feat changes that)."
+   ],
+   "r": [
+    "stabilizing",
+    "death-saves"
+   ]
+  },
+  {
+   "id": "sentient-items",
+   "t": "Sentient magic items",
+   "kind": "rule",
+   "src": "DMG ch.7",
+   "c": "equipment",
+   "k": "sentient intelligent item sword talks conflict control personality",
+   "s": "A sentient item has Intelligence, Wisdom and Charisma, senses, an alignment and a purpose. If its wielder acts against that, it can make demands or try to take control.",
+   "b": [
+    "Control: the wielder makes a Charisma save, DC 12 + the item's Charisma modifier. On a failure they are charmed by it for 1d12 hours and must try to follow its commands; taking damage allows a new save.",
+    "It can also refuse to work, suppress its properties or block attunement to other items."
+   ],
+   "d": "Play it as an NPC with its own goals, run by you.",
+   "r": [
+    "attunement",
+    "charmed-condition"
+   ]
+  },
+  {
+   "id": "monster-stat-blocks",
+   "t": "Reading a monster stat block",
+   "kind": "rule",
+   "src": "MM intro",
+   "c": "dm",
+   "k": "stat block hit dice size monster saving throws skills challenge proficiency read",
+   "s": "A monster's Hit Die depends on its size: Tiny d4, Small d6, Medium d8, Large d10, Huge d12, Gargantuan d20. Listed saves and skills already include its proficiency bonus.",
+   "b": [
+    "Hit points are the average; you can roll them instead.",
+    "If a save or skill is not listed, use the bare ability modifier.",
+    "Armor, weapons and spells in the block are part of the monster; changing them changes its numbers."
+   ],
+   "r": [
+    "challenge-rating",
+    "recharge-abilities",
+    "monster-senses"
+   ]
+  },
+  {
+   "id": "monster-senses",
+   "t": "Special senses and telepathy",
+   "kind": "rule",
+   "src": "MM intro",
+   "c": "dm",
+   "k": "blindsight darkvision tremorsense truesight telepathy senses range",
+   "s": "Blindsight perceives without sight in its radius. Tremorsense pinpoints vibrations through the same ground, not flying or incorporeal creatures. Truesight sees through darkness, invisibility, illusions and shape changes.",
+   "b": [
+    "Darkvision: sees in darkness as if dim light, in shades of gray, within range.",
+    "Truesight also sees into the Ethereal Plane within range, and automatically succeeds on saves against visual illusions.",
+    "Telepathy lets a creature speak mind to mind within range; the other need not share a language but must understand at least one.",
+    "A creature hidden from sight is not hidden from blindsight or tremorsense within range."
+   ],
+   "r": [
+    "vision-light",
+    "invisible-condition",
+    "hide"
+   ]
+  },
+  {
+   "id": "creature-types",
+   "t": "Creature types",
+   "kind": "rule",
+   "src": "MM intro",
+   "c": "dm",
+   "k": "type aberration beast celestial construct dragon elemental fey fiend giant humanoid monstrosity ooze plant undead",
+   "s": "Fourteen types: aberration, beast, celestial, construct, dragon, elemental, fey, fiend, giant, humanoid, monstrosity, ooze, plant, undead. A type has no rules of its own, but spells and features care about it.",
+   "b": [
+    "Hold Person and Charm Person only work on humanoids. Turn Undead only on undead.",
+    "Polymorph and Wild Shape need a beast.",
+    "Tags in brackets (goblinoid, shapechanger, devil) work the same way."
+   ],
+   "r": [
+    "invalid-target",
+    "wild-shape-hp"
+   ]
+  },
+  {
+   "id": "swarms",
+   "t": "Swarms",
+   "kind": "rule",
+   "src": "MM app.A",
+   "c": "dm",
+   "k": "swarm rats insects occupy space squeeze heal temporary hit points",
+   "s": "A swarm can occupy another creature's space and the reverse, and can squeeze through any opening big enough for one of its members. It cannot regain hit points or gain temporary hit points.",
+   "b": [
+    "Swarms resist bludgeoning, piercing and slashing damage, and are immune to most conditions that target one body (grappled, prone, restrained, stunned and others).",
+    "Its attack usually deals less damage at half hit points or fewer."
+   ],
+   "r": [
+    "size-space",
+    "moving-through-creatures"
+   ]
+  },
+  {
+   "id": "poison-types",
+   "t": "Kinds of poison",
+   "kind": "rule",
+   "src": "DMG ch.8",
+   "c": "dm",
+   "k": "poison contact ingested inhaled injury apply weapon dose",
+   "s": "Contact: touching it is enough. Ingested: a full dose must be swallowed. Inhaled: fills a 5-foot cube; holding your breath does not help. Injury: on a weapon or needle, it works on a hit and stays potent until delivered or washed off.",
+   "b": [
+    "Each poison has its own Constitution save DC and effect."
+   ],
+   "r": [
+    "diseases-poisons",
+    "poisoned-condition",
+    "traps"
+   ]
   }
  ]
 }

@@ -28,7 +28,9 @@ def parse():
             if not line.strip(): continue
             if line.startswith('# '):
                 cid, name = [x.strip() for x in line[2:].split('|')]
-                cat = cid; cats.append({'id': cid, 'name': name}); continue
+                cat = cid
+                if not any(c['id'] == cid for c in cats): cats.append({'id': cid, 'name': name})   # a later file may add to a section
+                continue
             if line.startswith('@ '):
                 parts = [x.strip() for x in line[2:].split('|')]
                 assert len(parts) == 4, f'{where}: need id | title | kind | source'
