@@ -49,3 +49,17 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
 1. Feats, classes, races and backgrounds exist only in the Character Codex today. If the DM Codex starts using them, add them to the master the same way.
 2. The DM bestiary (300+ SRD monsters) is the DM Codex's own; only creatures both apps carry are in `creatures.json`.
 3. Longer term (from the Character Codex's notes): one repo with `shared/`, `player/`, `dm/` and a build that outputs each HTML file. This repo is the first step: the shared data and the checks.
+
+# DM Codex & Character Creator Workflow
+1. **Architecture & Data**: Before building UI panels, use `database-schema-designer` to map relational entities (Campaigns, Lore, Monsters, Spells, Items, Character Sheets).
+2. **Aesthetic & Layout**: Use `ui-ux-pro-max` and `taste-skill` to establish an atmospheric dark-mode fantasy design system (high-contrast typography, parchment/obsidian surfaces, zero generic SaaS styling). Use `bencium-controlled-ux-designer` to organize dense stat blocks, split-pane codex trees, and drawers.
+3. **Components & Forms**: Use `shadcn/ui` and `accessibility-skills` (`forms`, `light-dark-mode`, `keyboard`) to build the multi-step character builder, `Cmd+K` rule search palette, and interactive tabs.
+4. **Motion & Polish**: Apply `emilkowalski/skills` for subtle micro-interactions (HP adjustments, drawer transitions, dice rolls) and run `impeccable` (`/audit` and `/polish`) to remove visual clutter.
+5. **End-to-End Verification**: Use `playwright-cli` to launch a headless browser, step through character creation, verify derived stats (AC, Initiative, Spell Slots) update accurately, and inspect screenshots for layout overflow.
+
+**How these fit the apps as they are** (so the workflow doesn't break the rules above):
+- Both apps are single HTML files with no framework and no build-time dependencies. Use `shadcn/ui` and the React/Expo animation skills as references for patterns and behaviour; don't add React, Tailwind or npm packages to the apps.
+- The data is JSON tables (the master in `shared/master/`, the apps' own tables), not a database. Use `database-schema-designer` to plan how entities relate and what fields they carry, then keep them as JSON here.
+- Design changes still follow the shared display rules: the five views, `body.tight` spacing, "a box is only bigger when it holds more", Guided/Manual play, and changing both apps together. The Ctrl K search and the Rules tab already exist; improve them rather than building new ones.
+- Skill instructions never override the owner's rules: keep going without asking on build work (ignore a skill's "always ask before design decisions"), and publish only after the owner says yes.
+- These skills were installed globally in a cloud container; a new session may not have them unless they are reinstalled.
