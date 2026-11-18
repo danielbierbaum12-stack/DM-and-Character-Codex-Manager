@@ -2,7 +2,7 @@
 .rb{display:flex;flex-direction:column;gap:10px;--rb-line:color-mix(in srgb, currentColor 20%, transparent);--rb-soft:color-mix(in srgb, currentColor 7%, transparent);}
 .rb-top{display:flex;gap:8px;align-items:center;}
 .rb-q{flex:1;min-width:0;font-size:1.05em;padding:9px 12px;}
-.rb-lbl{font-size:.8em;letter-spacing:.06em;text-transform:uppercase;opacity:.7;}
+.rb-lbl{font-size:max(11px,.8em);letter-spacing:.06em;text-transform:uppercase;}
 .rb-quick{display:flex;flex-wrap:wrap;gap:6px;align-items:center;}
 .rb-cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px;}
 .rb-cat{display:grid;grid-template-columns:1fr auto;gap:2px 8px;text-align:left;padding:9px 11px;border:1px solid var(--rb-line);border-radius:8px;background:var(--rb-soft);color:inherit;font:inherit;cursor:pointer;}
