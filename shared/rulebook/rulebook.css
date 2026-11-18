@@ -38,3 +38,5 @@
 .rb-empty{opacity:.75;padding:10px 0;}
 .rb-del{margin-left:auto;}
 @media(max-width:640px){ .rb-cats{grid-template-columns:1fr 1fr;} .rb-cat span{display:none;} .rb-short,.rb-body{margin-left:0;} }
+/* light themes: faded rulebook text would drop under 4.5:1 on parchment */
+.light-theme .rb-cat span,.light-theme .rb-cat i,.light-theme .rb-about,.light-theme .rb-hint,.light-theme .rb-other,.light-theme .rb-src,.light-theme .rb-libitem span:last-child{opacity:1;}
