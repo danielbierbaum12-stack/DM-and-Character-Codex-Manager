@@ -22,7 +22,7 @@ Codex, DM = DM Codex. ✅ has it · ◐ partly · ✗ missing · ? not confirmed
 ## Dice
 - ✅ Formula roller with keep / drop and rerolls (DM `02_utils`, notation like 4d6dl1, 2d20kh1); CC rolls its own
   modifiers.
-- ◐ Roll history: CC keeps the last 30 ✅; **DM roll history ✗** (the combat log covers combat only).
+- ✅ Roll history: CC keeps the last 30; the DM dice roller has a History list (and the combat log).
 - ✅ Crit rules (DM setting "Critical hits"; CC crits).
 - ✅ Clickable rolls everywhere (CC skills, saves, attacks, spells; DM stat blocks).
 
@@ -63,10 +63,10 @@ Codex, DM = DM Codex. ✅ has it · ◐ partly · ✗ missing · ? not confirmed
   ✅ factions in the connections web; **reputation per party member ✗**; **lore wiki backlinks ✗**
   (`[[Name]]` links planned); pantheon / cultures ◐ (notes).
 - ✅ Monster library (300+ SRD) and editor; ✅ encounter difficulty (2014 and 2024 math setting); ✅ lair actions;
-  ◐ legendary actions (shown, **no point pool**); **legendary resistance counter ✗**; **regional effects ✗**;
+  ✅ legendary actions with a pool that refills each turn; ✅ legendary resistance counter (added 2026-11-18); **regional effects ✗**;
   ✅ traps (map trap zones, DC); ✅ random encounter tables.
 - ✅ Combat tracker: initiative (auto for monsters), rounds, monster HP with groups, conditions and timed effects,
-  concentration, recharge rolls, combat log, quick attacks, death and defeat, loot. **Dexterity tie-break ✗.**
+  concentration, recharge rolls, combat log, quick attacks, death and defeat, loot, Dexterity tie-break (added 2026-11-18).
 - ✅ Rewards: DMG magic item tables, rewards to players (reward codes), shops with inventory, prices and haggling.
   **Hoard generator by CR ✗**, **item distribution log ✗**, XP / milestone awards ◐.
 - ◐ Generators: random encounters ✅, downtime complications and rumours ✅, weather ✅; **random names ✗,
@@ -88,7 +88,7 @@ Codex, DM = DM Codex. ✅ has it · ◐ partly · ✗ missing · ? not confirmed
 ## Biggest gaps, roughly in order of value at the table
 1. Live link both ways (players' rolls, initiative and HP reaching the DM; DM's damage and conditions reaching
    sheets) — builds on the existing table link.
-2. Legendary action / resistance counters and the Dexterity tie-break (in the battle plan).
+2. ~~Legendary counters and the Dexterity tie-break~~ (done 2026-11-18).
 3. Generators: names, taverns, custom DM roll tables, hoards by CR.
 4. Clues, faction reputation, lore backlinks (`[[Name]]`).
 5. Sheet extras: 4d6 method, multiclass prerequisites, containers, currency conversion, spell points, source filter.
