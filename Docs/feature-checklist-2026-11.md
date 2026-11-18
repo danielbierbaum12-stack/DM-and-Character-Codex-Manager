@@ -28,10 +28,9 @@ Codex, DM = DM Codex. ✅ has it · ◐ partly · ✗ missing · ? not confirmed
 
 ## Character creator
 - ◐ Creation flow: quick start plus tabs for each step; not one step-by-step wizard.
-- ◐ Ability score methods: standard array ✅, point buy ✅ (27-point budget), manual ✅; **4d6 drop lowest ✗** in
-  the sheet's quick start.
+- ✅ Ability score methods: standard array, point buy (27-point budget), 4d6 drop lowest (added 2026-11-18), manual.
 - ✅ Background / species ability rules by ruleset version.
-- ◐ Validation: "Choices still to make" flags missing picks ✅; **multiclass prerequisites ✗**.
+- ✅ Validation: "Choices still to make" flags missing picks; multiclass prerequisites as a reminder (PHB p. 163; added 2026-11-18).
 - ✅ Starting equipment packages or starting gold.
 - ◐ Level-up: level plan table (class per level, notes) ✅, HP, features, subclass, ASI / feat, spells ✅;
   **undo / rebuild a level ?** (not confirmed).
@@ -47,7 +46,7 @@ Codex, DM = DM Codex. ✅ has it · ◐ partly · ✗ missing · ? not confirmed
   sorcery points, channel divinity, bardic inspiration, superiority dice, lay on hands, wild shape…); item charges
   and recharge; short and long rest; Heroic Inspiration. **Spell points variant ✗.**
 - ✅ Equipped / carried, attunement (3, class exceptions), weight and encumbrance, currency, consumables.
-  **Containers with their own weight rules ✗; currency conversion ✗.**
+  **Containers with their own weight rules ✗**; currency exchange ✅ (added 2026-11-18).
 - ✅ Proficiencies and expertise, senses; ◐ speeds (walk ✅, fly / swim / climb / burrow as notes);
   ✅ wild shape / polymorph forms; ✅ familiars, companions, summons with stat blocks; ✅ XP; ✅ print sheet
   (browser print / PDF).
@@ -69,13 +68,14 @@ Codex, DM = DM Codex. ✅ has it · ◐ partly · ✗ missing · ? not confirmed
   concentration, recharge rolls, combat log, quick attacks, death and defeat, loot, Dexterity tie-break (added 2026-11-18).
 - ✅ Rewards: DMG magic item tables, rewards to players (reward codes), shops with inventory, prices and haggling.
   **Hoard generator by CR ✗**, **item distribution log ✗**, XP / milestone awards ◐.
-- ◐ Generators: random encounters ✅, downtime complications and rumours ✅, weather ✅; **random names ✗,
-  taverns ✗, custom DM roll tables ✗**.
+- ✅ Generators: random encounters, downtime complications and rumours, weather; random names and taverns, the DM's own
+  roll tables (added 2026-11-18).
 - ✅ Downtime: crafting, training, carousing, research with time and cost.
 - ✅ Party dashboard (AC, HP, passives, DCs) from imported sheets; ◐ party resources live (only via import).
 
 ## Connecting the two
-- ◐ Shared character data: the DM imports sheets (file / code); **not live**.
+- ✅ Shared character data: the DM imports sheets (file / code); live HP, AC, conditions and concentration from joined
+  sheets (added 2026-11-18).
 - ✅ Player view vs DM view (player display, handouts on the player display).
 - ◐ Handouts: shown on the DM's player display ✅; **pushed to players' own sheets ✗**.
 - ✗ Shared roll log, hidden DM rolls on it.
@@ -86,10 +86,10 @@ Codex, DM = DM Codex. ✅ has it · ◐ partly · ✗ missing · ? not confirmed
   (local server / Cloudflare); ✅ phone layout.
 
 ## Biggest gaps, roughly in order of value at the table
-1. Live link both ways (players' rolls, initiative and HP reaching the DM; DM's damage and conditions reaching
-   sheets) — builds on the existing table link.
+1. Live link both ways: ~~HP and conditions reaching the DM~~ (done 2026-11-18); still open: players' initiative rolls
+   reaching the DM, and the DM's damage and conditions offered on the sheet.
 2. ~~Legendary counters and the Dexterity tie-break~~ (done 2026-11-18).
-3. Generators: names, taverns, custom DM roll tables, hoards by CR.
+3. Generators: ~~names, taverns, custom DM roll tables~~ (done); hoards by CR.
 4. Clues, faction reputation, lore backlinks (`[[Name]]`).
-5. Sheet extras: 4d6 method, multiclass prerequisites, containers, currency conversion, spell points, source filter.
+5. Sheet extras: ~~4d6 method, multiclass prerequisites, currency conversion~~ (done); containers, spell points, source filter.
 6. Rule switches: flanking, gritty / epic rests.

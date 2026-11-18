@@ -41,10 +41,10 @@ and reading the code of the parts changed today.
    owner deploys).
 5. ~~**Ask Claude reach for today's features**~~ (done: DM `experience`, `legendary`; sheet `appearance`): actions for the experience chooser, legendary resistance and the theme
    (they work through the screen layer now; direct actions are faster and safer).
-6. **Feature gaps** from `feature-checklist-2026-11.md`: random names / taverns / custom roll tables / hoards by CR;
+6. **Feature gaps** from `feature-checklist-2026-11.md` (*2026-11-18: 4d6, coin exchange, multiclass reminder, names, taverns and the DM's own tables done*): random names / taverns / custom roll tables / hoards by CR;
    clues, faction reputation, `[[Name]]` wiki links; 4d6 method, multiclass prerequisites, containers, coin
    conversion, spell points, source-book filter; flanking and gritty / epic rest switches.
-7. **Test suite speed**: the DM run takes ~45 minutes for both builds; run tests in parallel (2–3 at a time, as the
+7. ~~**Test suite speed**~~ (done: 3 at a time with a solo retry; lite ~5 min). Was: the DM run takes ~45 minutes for both builds; run tests in parallel (2–3 at a time, as the
    sheet does) and replace count-based checks (action, tab and tool totals) with checks for named items.
 8. **Small polish**: toasts on phones sit over the bottom rows (move above them or shrink); the last "card inside a
    card" spots (Bestiary filter bar, sheet HP and initiative boxes); the sheet's `CLAUDE.md` "Last full QA" date
