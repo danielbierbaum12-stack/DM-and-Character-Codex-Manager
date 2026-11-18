@@ -4,6 +4,7 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
 
 ## Rules
 - Each app's own `CLAUDE.md` / `README.md` rules still apply when you change that app: its work branch, no pushing to `main`, publishing artifacts only after the owner says yes, never touching Cloudflare or the owner's local files.
+- **Where to publish:** the claude.ai artifacts are the normal place (owner, 2026-11-18: "Don't publish to cloudflare often, most of the time you can post here"). Cloudflare only now and then, when the owner asks for it.
 - Rules baseline is the 2014 books / SRD 5.1. Never invent content for material you can't check; leave it and say so.
 - Every ruling goes in `shared/corrections.json` with a `_why`. Don't hand-edit `shared/master/` (it's rebuilt) or `shared/changes-log.json` (it's appended by the build).
 - After `apply_master.py`, rebuild and test both apps before committing (README steps 4 to 6), and commit each app on its own branch.
