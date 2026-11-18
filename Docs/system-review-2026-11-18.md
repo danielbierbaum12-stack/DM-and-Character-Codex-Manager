@@ -31,7 +31,7 @@ and reading the code of the parts changed today.
 1. ~~**One command to copy the shared scripts**~~ (done: `tools/build_shared.py`). `shared/a11y`, `shared/motion`, `shared/theme` are
    copied into both apps by hand today, so they can drift. A `tools/build_shared.py --apply`, like `build_rulebook.py`,
    with `SHARED_*_START/END` markers in the sheet and the DM `51/52/54` files, would make one source.
-2. **Faster sheet tab switches** (high, medium). 170–250 ms per tab; the DM Codex manages 40–130 ms. Profile
+2. ~~**Faster sheet tab switches**~~ (done: the shared field-naming pass was re-checking the whole page; now 5–45 ms desktop, 7–73 ms phone). 170–250 ms per tab; the DM Codex manages 40–130 ms. Profile
    `renderInventory`, `renderCharacter`, `renderSpells`, `renderSpellbook` (cache the spell list HTML, render rows
    in idle time, as `stalePanels` already does for hidden tabs).
 3. **Live two-way table link** (highest at the table, larger). Today only "Your turn" goes DM → sheets. Players' HP,

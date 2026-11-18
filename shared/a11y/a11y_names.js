@@ -2,13 +2,17 @@
    Many fields show their name in a <label> or text right beside them without linking it. This links them, so screen
    readers say "Character name, edit text" instead of "edit text". Order: the label already beside the field (in the
    same .field / box), a checkbox's row name and column heading in a table, the text just before it, then the
-   placeholder. It never changes what is on the screen, and skips fields that already have a name. */
+   placeholder. It never changes what is on the screen, and skips fields that already have a name.
+   Speed: after the first pass only the parts of the page that were just added are looked at, and each field is looked
+   at once (a11ySeen), so a tab switch or a redraw doesn't re-check the whole page. */
+const a11ySeen = new WeakSet();
 function a11yNameFields(root){
   const els = (root||document).querySelectorAll('input:not([type=hidden]):not([type=button]):not([type=submit]), select, textarea');
   let n = 0;
   const txt = el=>(el ? el.textContent.replace(/\s+/g, ' ').trim() : '');
   const short = s=>s && s.length<=60 && !/^[\s+−\-–✕×▾▸⋯•]*$/.test(s);
   els.forEach(e=>{
+    if(a11ySeen.has(e)) return; a11ySeen.add(e);
     if((e.labels && e.labels.length) || e.hasAttribute('aria-label') || e.hasAttribute('aria-labelledby') || e.title) return;
     let name = '', lab = null;
     // 1. a <label> (or .field-hd label) beside the field, in the same box, not linked to anything else
@@ -34,9 +38,14 @@ function a11yNameFields(root){
   return n;
 }
 (function(){
-  let queued = false;
-  const run = ()=>{ queued = false; try{ a11yNameFields(document); }catch(e){} };
-  const start = ()=>{ run(); if(window.MutationObserver) new MutationObserver(()=>{ if(!queued){ queued = true; if(window.requestIdleCallback) requestIdleCallback(run, {timeout:300}); else setTimeout(run, 60); } }).observe(document.body, {childList:true, subtree:true}); };
+  let queued = false, roots = new Set();
+  const run = ()=>{ queued = false; const list = [...roots]; roots = new Set();
+    list.forEach(r=>{ if(r.isConnected && !list.some(o=>o!==r && o.isConnected && o.contains(r))) try{ a11yNameFields(r); }catch(e){} }); };
+  const start = ()=>{ try{ a11yNameFields(document); }catch(e){}
+    if(window.MutationObserver) new MutationObserver(recs=>{
+      recs.forEach(m=>m.addedNodes.forEach(n=>{ if(n.nodeType===1) roots.add(n.matches('input,select,textarea') ? (n.parentElement || n) : n); }));
+      if(roots.size && !queued){ queued = true; if(window.requestIdleCallback) requestIdleCallback(run, {timeout:300}); else setTimeout(run, 60); }
+    }).observe(document.body, {childList:true, subtree:true}); };
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', start); else start();
 })();
 
