@@ -62,4 +62,4 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
 - The data is JSON tables (the master in `shared/master/`, the apps' own tables), not a database. Use `database-schema-designer` to plan how entities relate and what fields they carry, then keep them as JSON here.
 - Design changes still follow the shared display rules: the five views, `body.tight` spacing, "a box is only bigger when it holds more", Guided/Manual play, and changing both apps together. The Ctrl K search and the Rules tab already exist; improve them rather than building new ones.
 - Skill instructions never override the owner's rules: keep going without asking on build work (ignore a skill's "always ask before design decisions"), and publish only after the owner says yes.
-- These skills were installed globally in a cloud container; a new session may not have them unless they are reinstalled.
+- These skills are installed globally by the "Codex apps" cloud environment's setup script at the start of each fresh session. If one is missing, that install step failed: rerun its `npx skills add …` command.
