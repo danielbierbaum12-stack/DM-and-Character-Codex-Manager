@@ -39,6 +39,10 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
   to the Character Codex's server (`/__dndcc_kv__/`, local `server.py` or the Cloudflare site); sheets that joined with the code poll it (`tablePoll`).
   Each app detects where it runs. The claude.ai artifacts cannot be linked (separate pages; a shared store there would end "anyone with the link"),
   so the DM Codex falls back to its player display and the sheet says it cannot receive notices there. Change the key or the fields in both apps together.
+  The other way (live party status): a joined sheet writes `dndcc_party_<code>_<name>` (HP, max, temp HP, AC, conditions, concentration,
+  death saves, exhaustion; `partyStatus` in `shared/schema`) when it changes (`tablePublish`); the DM Codex reads it for the heroes in its
+  fight (`tablePartyPoll`). Guided updates the hero's row (the DM's own change stands until the sheet changes again); Manual shows the
+  sheet's numbers with a Use button. The DM never writes these keys. Test: sheet `tests/party_link.js` (both apps, real server).
 
 - **Rulebook:** one rulebook for both apps, kept here in `shared/rulebook` (rules as text files, `2024.notes.txt`, the search and display core, the styles).
   `python3 tools/build_rulebook.py --apply` checks it and writes it into both apps; then rebuild and test both. Never edit the copies in the apps.

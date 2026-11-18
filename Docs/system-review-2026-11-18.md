@@ -34,12 +34,12 @@ and reading the code of the parts changed today.
 2. ~~**Faster sheet tab switches**~~ (done: the shared field-naming pass was re-checking the whole page; now 5–45 ms desktop, 7–73 ms phone). 170–250 ms per tab; the DM Codex manages 40–130 ms. Profile
    `renderInventory`, `renderCharacter`, `renderSpells`, `renderSpellbook` (cache the spell list HTML, render rows
    in idle time, as `stalePanels` already does for hidden tabs).
-3. **Live two-way table link** (highest at the table, larger). Today only "Your turn" goes DM → sheets. Players' HP,
+3. **Live two-way table link** (highest at the table, larger). *Done 2026-11-18: heroes' HP, AC, conditions and concentration now reach the DM (`dndcc_party_`). Still open: initiative rolls from sheets, and the DM's damage / conditions as offers on the sheet.* Today only "Your turn" goes DM → sheets. Players' HP,
    conditions and initiative rolls could reach the DM through the same store (`dndcc_party_<code>_<id>`; fields in
    `shared/schema`), and the DM's damage / conditions could reach sheets as offers the player accepts (Manual play).
-4. **Cloudflare functions** get the same origin check as `server.py` for the turn keys (code in the sheet repo; the
+4. ~~**Cloudflare functions**~~ (done) get the same origin check as `server.py` for the turn keys (code in the sheet repo; the
    owner deploys).
-5. **Ask Claude reach for today's features**: actions for the experience chooser, legendary resistance and the theme
+5. ~~**Ask Claude reach for today's features**~~ (done: DM `experience`, `legendary`; sheet `appearance`): actions for the experience chooser, legendary resistance and the theme
    (they work through the screen layer now; direct actions are faster and safer).
 6. **Feature gaps** from `feature-checklist-2026-11.md`: random names / taverns / custom roll tables / hoards by CR;
    clues, faction reputation, `[[Name]]` wiki links; 4d6 method, multiclass prerequisites, containers, coin
@@ -49,5 +49,4 @@ and reading the code of the parts changed today.
 8. **Small polish**: toasts on phones sit over the bottom rows (move above them or shrink); the last "card inside a
    card" spots (Bestiary filter bar, sheet HP and initiative boxes); the sheet's `CLAUDE.md` "Last full QA" date
    (2026-11-01) should be refreshed after the next click-through.
-9. **Owner decisions**: per-map grid scale and hex grids; whether the experience chooser should also offer the view
-   level (Ultra … All the fixings); publishing (DM v48, sheet v36) and the Cloudflare deploy.
+9. **Owner decisions**: per-map grid scale and hex grids; publishing (DM v48, sheet v36) and the Cloudflare deploy.

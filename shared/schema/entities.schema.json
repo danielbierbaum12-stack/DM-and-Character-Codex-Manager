@@ -427,6 +427,67 @@
           "type": "boolean"
         }
       }
+    },
+    "partyStatus": {
+      "type": "object",
+      "required": [
+        "v",
+        "t",
+        "name"
+      ],
+      "description": "a hero's live status, written by a sheet that joined a table to dndcc_party_<table code>_<name> (Character Codex tablePublish), read by the DM Codex (43_tablelink.js). Never written by the DM.",
+      "properties": {
+        "v": {
+          "const": 1
+        },
+        "t": {
+          "type": "integer",
+          "description": "when written (ms)"
+        },
+        "name": {
+          "type": "string"
+        },
+        "hp": {
+          "type": "integer"
+        },
+        "hpMax": {
+          "type": "integer"
+        },
+        "temp": {
+          "type": "integer"
+        },
+        "ac": {
+          "type": "integer"
+        },
+        "conds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "conc": {
+          "type": "string",
+          "description": "the spell concentrated on, or empty"
+        },
+        "death": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "s": {
+              "type": "integer"
+            },
+            "f": {
+              "type": "integer"
+            }
+          }
+        },
+        "exh": {
+          "type": "integer",
+          "description": "exhaustion level"
+        }
+      }
     }
   }
 }
