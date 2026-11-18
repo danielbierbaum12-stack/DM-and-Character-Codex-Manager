@@ -28,7 +28,7 @@ and reading the code of the parts changed today.
 
 ## Further improvements, in order of value
 
-1. **One command to copy the shared scripts** (high value, small). `shared/a11y`, `shared/motion`, `shared/theme` are
+1. ~~**One command to copy the shared scripts**~~ (done: `tools/build_shared.py`). `shared/a11y`, `shared/motion`, `shared/theme` are
    copied into both apps by hand today, so they can drift. A `tools/build_shared.py --apply`, like `build_rulebook.py`,
    with `SHARED_*_START/END` markers in the sheet and the DM `51/52/54` files, would make one source.
 2. **Faster sheet tab switches** (high, medium). 170–250 ms per tab; the DM Codex manages 40–130 ms. Profile

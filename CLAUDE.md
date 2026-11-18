@@ -46,7 +46,7 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
   Sources: SRD 5.1 for 2014, SRD 5.2.1 for the 2024 notes; Sage Advice and designer comments are labelled. Never write a ruling you cannot source.
   House rules are the table's own (DM Codex `state.houseRules`, sheet key `dndcc_houserules_v1`), shared DM to players by an `HBR1.` code.
 
-- **Shared scripts** (kept in `shared/`, copied into both apps; change them here, then copy): `a11y/a11y_names.js` (field names, page
+- **Shared scripts** (kept in `shared/`; `python3 tools/build_shared.py --apply` writes them into both apps between `SHARED_<NAME>_START/END` markers, `build_shared.py` alone checks for drift; never edit between the markers in the apps): `a11y/a11y_names.js` (field names, page
   structure, keyboard tab bar; DM `51_a11y.js`), `motion/folds.js` (sections open and close in place; DM `52_folds.js`),
   `theme/tints.js` (readable text tints for any theme, light/dark, "Match my device"; DM `54_theme.js`). In the Character
   Codex they are inline (search for their header comments). Design rules: `DESIGN.md`; product: `PRODUCT.md`.
