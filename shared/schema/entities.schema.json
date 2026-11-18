@@ -1,0 +1,432 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "codex-manager/entities.schema.json",
+  "title": "DM Codex and Character Codex entities",
+  "description": "The shapes both apps agree on (key fields and links only; each app may carry more). See Docs/data-map.md.",
+  "$defs": {
+    "ref": {
+      "type": "string",
+      "description": "A link to another entity, by its id (or by name for library entries: spells, items, creatures, conditions)."
+    },
+    "spell": {
+      "type": "object",
+      "required": [
+        "n",
+        "lvl",
+        "school"
+      ],
+      "properties": {
+        "n": {
+          "type": "string"
+        },
+        "dmName": {
+          "type": "string",
+          "description": "the SRD name the DM Codex knows it by"
+        },
+        "school": {
+          "type": "string"
+        },
+        "time": {
+          "type": "string"
+        },
+        "range": {
+          "type": "string"
+        },
+        "comp": {
+          "type": "string",
+          "description": "as written, e.g. V, S, M (a pinch of sand)"
+        },
+        "dur": {
+          "type": "string"
+        },
+        "ritual": {
+          "type": "boolean"
+        },
+        "conc": {
+          "type": "boolean"
+        },
+        "cls": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "desc": {
+          "type": "string"
+        },
+        "sub": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "subclass lists"
+        },
+        "lvl": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9
+        }
+      }
+    },
+    "item": {
+      "type": "object",
+      "required": [
+        "n"
+      ],
+      "description": "master items.json (field names as stored)",
+      "properties": {
+        "n": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "rarity": {
+          "type": "string"
+        },
+        "price": {
+          "type": [
+            "string",
+            "number"
+          ]
+        },
+        "slots": {
+          "type": [
+            "array",
+            "string"
+          ]
+        },
+        "dmgDice": {
+          "type": "string"
+        },
+        "dmgType": {
+          "type": "string"
+        },
+        "range": {
+          "type": "string"
+        },
+        "actionType": {
+          "type": "string"
+        },
+        "attackBonus": {
+          "type": "integer"
+        },
+        "damageBonus": {
+          "type": "integer"
+        },
+        "acBase": {
+          "type": "integer"
+        },
+        "armorClass": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "acBonus": {
+          "type": "integer"
+        },
+        "hpBonus": {
+          "type": "integer"
+        },
+        "abilityBonus": {
+          "type": [
+            "object",
+            "string"
+          ]
+        },
+        "abilitySet": {
+          "type": [
+            "object",
+            "string"
+          ]
+        },
+        "healDice": {
+          "type": "string"
+        },
+        "level": {
+          "type": "integer"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "creature": {
+      "type": "object",
+      "required": [
+        "n"
+      ],
+      "description": "master creatures.json (shared subset). The DM bestiary stores the same creatures with short names: sz, ty, ab, tr, la, ac_actions.",
+      "properties": {
+        "n": {
+          "type": "string"
+        },
+        "size": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "ac": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "hp": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "hpFormula": {
+          "type": "string"
+        },
+        "speed": {
+          "type": [
+            "string",
+            "object"
+          ]
+        },
+        "abil": {
+          "type": [
+            "array",
+            "object"
+          ]
+        },
+        "cr": {
+          "type": [
+            "number",
+            "string"
+          ]
+        },
+        "traits": {
+          "type": "array"
+        },
+        "actions": {
+          "type": "array"
+        },
+        "senses": {
+          "type": "string"
+        },
+        "languages": {
+          "type": "string"
+        },
+        "skills": {
+          "type": [
+            "string",
+            "object"
+          ]
+        },
+        "spells": {
+          "type": [
+            "array",
+            "object"
+          ]
+        },
+        "desc": {
+          "type": "string"
+        }
+      }
+    },
+    "trait": {
+      "type": "object",
+      "required": [
+        "n"
+      ],
+      "properties": {
+        "n": {
+          "type": "string"
+        },
+        "d": {
+          "type": "string"
+        },
+        "u": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "uses, e.g. 3/Day or Recharge 5-6"
+        }
+      }
+    },
+    "condition": {
+      "type": "object",
+      "required": [
+        "n"
+      ],
+      "properties": {
+        "n": {
+          "type": "string"
+        },
+        "short": {
+          "type": "string"
+        },
+        "full": {
+          "type": "string"
+        }
+      }
+    },
+    "houseRule": {
+      "type": "object",
+      "required": [
+        "id",
+        "text"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "rule": {
+          "$ref": "#/$defs/ref",
+          "description": "the rulebook entry it changes"
+        },
+        "text": {
+          "type": "string"
+        }
+      }
+    },
+    "partyMember": {
+      "type": "object",
+      "required": [
+        "id",
+        "name"
+      ],
+      "description": "the summary a sheet hands the DM",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "ac": {
+          "type": "integer"
+        },
+        "hp": {
+          "type": "integer"
+        },
+        "hpMax": {
+          "type": "integer"
+        },
+        "passive": {
+          "type": "object",
+          "properties": {
+            "perception": {
+              "type": "integer"
+            },
+            "insight": {
+              "type": "integer"
+            },
+            "investigation": {
+              "type": "integer"
+            }
+          }
+        },
+        "spellDc": {
+          "type": "integer"
+        },
+        "conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "combatant": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "kind"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "pc",
+            "ally",
+            "npc",
+            "neutral",
+            "object"
+          ]
+        },
+        "initiative": {
+          "type": "number"
+        },
+        "hp": {
+          "type": "integer"
+        },
+        "hpMax": {
+          "type": "integer"
+        },
+        "temp": {
+          "type": "integer"
+        },
+        "ac": {
+          "type": "integer"
+        },
+        "status": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "rounds": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "type": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "conc": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "template": {
+          "$ref": "#/$defs/ref"
+        }
+      }
+    },
+    "turnNotice": {
+      "type": "object",
+      "description": "dndcc_turn_<table code>, the one live link",
+      "properties": {
+        "v": {
+          "const": 1
+        },
+        "t": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "next": {
+          "type": "string"
+        },
+        "round": {
+          "type": "integer"
+        },
+        "over": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
