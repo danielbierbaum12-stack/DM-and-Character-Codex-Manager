@@ -47,3 +47,12 @@ the space well. Skills: `DM-Tool/.claude/skills/vtt-battle-map`, `DM-Tool/.claud
 - **Calmer open/close:** the "2014 Player's Handbook" source fold jumps off screen when it opens; folds should open
   gently and stay in place, and closing should animate away smoothly (in All the fixings; instant elsewhere).
 - **Notes tab "Show" button** doesn't show or hide its section: fix and test.
+
+## Progress (2026-11-18)
+- **Done:** step 1 (compact tracker on the Battle Map: whole order, HP / temp HP, AC, conditions with rounds left,
+  concentration, hero / ally / foe marks, Next turn, folds to the next three), step 2 (row ↔ token selection, the map
+  centres on the chosen token), and the Dexterity tie-break from step 4 (`initOrder`). Test: DM `tests/test71.js`.
+- **Done (queued items):** the experience chooser (`53_experience.js`, test70), calm folds in both apps
+  (`shared/motion/folds.js`, test69), note show / hide (test69).
+- **Next:** step 3 (Combat uses the full width when no map is used), the rest of step 4 (legendary action pool and
+  legendary resistance counter), then step 5 if the owner wants per-map grid scale or hex grids.
