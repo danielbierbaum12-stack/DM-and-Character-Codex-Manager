@@ -46,6 +46,13 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
   Sources: SRD 5.1 for 2014, SRD 5.2.1 for the 2024 notes; Sage Advice and designer comments are labelled. Never write a ruling you cannot source.
   House rules are the table's own (DM Codex `state.houseRules`, sheet key `dndcc_houserules_v1`), shared DM to players by an `HBR1.` code.
 
+- **Shared scripts** (kept in `shared/`, copied into both apps; change them here, then copy): `a11y/a11y_names.js` (field names, page
+  structure, keyboard tab bar; DM `51_a11y.js`), `motion/folds.js` (sections open and close in place; DM `52_folds.js`),
+  `theme/tints.js` (readable text tints for any theme, light/dark, "Match my device"; DM `54_theme.js`). In the Character
+  Codex they are inline (search for their header comments). Design rules: `DESIGN.md`; product: `PRODUCT.md`.
+- **Accessibility floor (both apps, tested):** every field named, 4.5:1 text on dark and on Sunlit Parchment, nothing under 11 px,
+  24 px hit areas, keyboard tab bar, reduced motion keeps changes but drops movement. Tests: DM `test68`, sheet `tests/a11y.js`.
+
 ## Good next steps
 1. Feats, classes, races and backgrounds exist only in the Character Codex today. If the DM Codex starts using them, add them to the master the same way.
 2. The DM bestiary (300+ SRD monsters) is the DM Codex's own; only creatures both apps carry are in `creatures.json`.
