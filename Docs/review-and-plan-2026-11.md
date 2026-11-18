@@ -24,6 +24,21 @@ Ask Claude reach, sound mixer, Kenku FM, map lighting), using the new skills. Me
 five views and play styles), not a generic template. The detector found no layout anti-patterns; its findings were small
 text (both tab bars), one glow text-shadow and one striped background (CC).
 
+## Impeccable's rendered scan (added after the owner allowed it)
+Run on both apps in a browser at 1280×800 and 390×844; the Character Codex with the sample character loaded.
+
+| Finding | DM Codex | Character Codex | Where | Plan step |
+|---|---|---|---|---|
+| Text under 11 px on controls | 4 desktop, 10 phone | 23 desktop, 16 phone | DM: tab bar 10 px, Bestiary filter labels 10.5 px. CC: header stat labels (AC, Init, Speed) 9.5 px, bottom tabs 9.5 px | 3 |
+| Body text at 11 px | ~80 | 10 | DM: the creature rows' size/type line. CC: hints and notes | 3 (DM rows are dense on purpose: check, don't just enlarge) |
+| Low contrast | 1 | 3 | DM: the "Monster name…" placeholder 2.4:1. CC: the HP number in green 3.2:1 (header and Combat), the gold starting-kit chips 4.0:1 | 1 |
+| Coloured glow | 0 | 2 | CC: gold glow on the active tab, green glow on the HP number | 4 (the glow is part of the look in "All the fixings"; keep it there, drop it from plain views) |
+| Card inside a card | 1 (+11) | 3 (+10) | DM: Bestiary filter bar. CC: Hit points, weapon kit, initiative box | 3 (flatten the inner box where it adds nothing) |
+| Bouncy easing | 12 | 0 | DM: the press "spring" on buttons and tabs in Extra / All the fixings (`body.feel-fx`, dm.css:904) | 5 (it's the Extra feedback tier: keep, but tone the overshoot down and never on tabs) |
+| Long lines | 1 | 0 | DM: welcome text ~89 characters per line | 3 |
+
+These confirm the measured findings above (P1 items 2 and 4, P2 item 5). No layout or structure anti-patterns were found in either app.
+
 ## What works (keep it)
 - No page errors and no sideways overflow on any tab, desktop or phone.
 - Every control reached by Tab shows a visible focus ring (first 25 stops checked in each app).
