@@ -111,3 +111,18 @@ These confirm the measured findings above (P1 items 2 and 4, P2 item 5). No layo
 Every step changes both apps together where the rule is shared, keeps the owner's rules (views, `body.tight`, a box is only
 bigger when it holds more, Guided/Manual, no frameworks), adds tests, and runs both full suites before committing.
 Publishing waits for the owner's yes each time.
+
+## Progress
+- **Step 0 (done, 2026-11-18):** `PRODUCT.md` (owner's answers: in person and online equally; own group first, public later;
+  colour blindness and new or young players) and `DESIGN.md` ("The Lamplit Codex"; tokens, The Pigment Rule, The
+  Never-Colour-Alone Rule, the 11 px floor).
+- **Steps 1 and 2 (done, 2026-11-18):**
+  - Text tints `--emerald-text`, `--azure-text`, `--blood-text` (4.8:1+) in both apps; 53 places now use them.
+  - Placeholders #94897a (5:1); starting-kit chips no longer dim text on gold; "done" step markers readable.
+  - Contrast failures: 39 → 0 (Character Codex), 19 → 0 (DM Codex).
+  - `shared/a11y/a11y_names.js`, copied into both apps (DM `51_a11y.js`; inline in the sheet), names every field
+    from its visible label (unlabelled fields 337 → 0 and 44 → 0), sets the page language, a level-1 heading and the
+    main area, and makes the main tab bar a keyboard tab list (it could not be reached by keyboard before).
+  - Reduced motion in both apps: changes show (short fades and colour changes), nothing travels; the DM player display
+    holds weather and light flicker still. Replaces the sheet's blanket kill.
+  - Tests: DM `tests/test68.js`, sheet `tests/a11y.js`.
