@@ -4,6 +4,7 @@
   shared/a11y/a11y_names.js  -> DM Source/51_a11y.js, and inline in Character_Codex.html
   shared/motion/folds.js     -> DM Source/52_folds.js, and inline
   shared/theme/tints.js      -> DM Source/54_theme.js, and inline
+  shared/a11y/tap_tips.js    -> DM Source/56_tips.js, and inline
 
 Each copy sits between two marker lines:
   /* SHARED_<NAME>_START: written by the Codex Manager (tools/build_shared.py); change shared/<path> there */
@@ -21,6 +22,7 @@ PARTS = [  # name, shared file, DM file
     ('A11Y',  'a11y/a11y_names.js', '51_a11y.js'),
     ('FOLDS', 'motion/folds.js',    '52_folds.js'),
     ('THEME', 'theme/tints.js',     '54_theme.js'),
+    ('TIPS',  'a11y/tap_tips.js',   '56_tips.js'),
 ]
 
 def markers(name, rel):

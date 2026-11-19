@@ -52,7 +52,7 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
 
 - **Shared scripts** (kept in `shared/`; `python3 tools/build_shared.py --apply` writes them into both apps between `SHARED_<NAME>_START/END` markers, `build_shared.py` alone checks for drift; never edit between the markers in the apps): `a11y/a11y_names.js` (field names, page
   structure, keyboard tab bar; DM `51_a11y.js`), `motion/folds.js` (sections open and close in place; DM `52_folds.js`),
-  `theme/tints.js` (readable text tints for any theme, light/dark, "Match my device"; DM `54_theme.js`). In the Character
+  `theme/tints.js` (readable text tints for any theme, light/dark, "Match my device"; DM `54_theme.js`), `a11y/tap_tips.js` (tap a mark such as C or R to see what it means; DM `56_tips.js`; each app lists its own marks in `tapTipsStart(...)`). In the Character
   Codex they are inline (search for their header comments). Design rules: `DESIGN.md`; product: `PRODUCT.md`.
 - **Accessibility floor (both apps, tested):** every field named, 4.5:1 text on dark and on Sunlit Parchment, nothing under 11 px,
   24 px hit areas, keyboard tab bar, reduced motion keeps changes but drops movement. Tests: DM `test68`, sheet `tests/a11y.js`.
