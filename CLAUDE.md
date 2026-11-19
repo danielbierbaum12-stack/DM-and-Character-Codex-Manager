@@ -54,6 +54,10 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
   structure, keyboard tab bar; DM `51_a11y.js`), `motion/folds.js` (sections open and close in place; DM `52_folds.js`),
   `theme/tints.js` (readable text tints for any theme, light/dark, "Match my device"; DM `54_theme.js`), `a11y/tap_tips.js` (tap a mark such as C or R to see what it means; DM `56_tips.js`; each app lists its own marks in `tapTipsStart(...)`). In the Character
   Codex they are inline (search for their header comments). Design rules: `DESIGN.md`; product: `PRODUCT.md`.
+- **Phones: nothing zooms (both apps, tested).** On phones and tablets (`max-width:820px` or a touch screen) every field is 16 px
+  (iPhones zoom the page on smaller text), double-tap zoom is off (`touch-action: manipulation`; pinch-zoom stays), and nothing
+  grows or shrinks as it appears or is pressed: the same animations fade and slide instead, no blur. The rules sit last in each
+  app's CSS (DM `phone.css`; sheet: the block before the first `</style>`). New animations: no `scale()` on phones. Tests: DM `test77`, sheet `tests/phone_no_zoom.js`.
 - **Accessibility floor (both apps, tested):** every field named, 4.5:1 text on dark and on Sunlit Parchment, nothing under 11 px,
   24 px hit areas, keyboard tab bar, reduced motion keeps changes but drops movement. Tests: DM `test68`, sheet `tests/a11y.js`.
 
