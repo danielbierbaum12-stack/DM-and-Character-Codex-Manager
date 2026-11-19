@@ -1,0 +1,60 @@
+# Common house rules: the table picks any of these with one tap (Rulebook → House rules → "Use at our table").
+# They become ordinary house rules the table can then edit, and the DM shares them with the HBR1. code as usual.
+#
+#   @ preset-id | Title | source | rule-id it sits next to (or empty)
+#   the text, one or more lines
+#
+# Two kinds, and the source says which:
+#   - the DMG's optional rules (2014 DMG ch.8 and ch.9): official variants, written from the book;
+#   - table customs: common at tables but in no book. Their source starts with "Table custom" and says so in the app.
+# Never put a custom here as if it were a book rule.
+
+@ flanking | Flanking | DMG ch.9, optional rule | flanking-optional
+When you and at least one ally are next to the same enemy on opposite sides of it (opposite squares or opposite corners), you each have advantage on melee attack rolls against it.
+You can't flank an enemy you can't see, or while you are incapacitated.
+
+@ diagonals | Diagonals cost more | DMG ch.8, variant | movement-basics
+On a grid, the first diagonal square you move costs 5 feet, the second 10 feet, the third 5 feet, and so on. Count range the same way. Distances come out closer to real ones.
+
+@ gritty-realism | Gritty realism: slow rests | DMG ch.9, optional rule | resting-long
+A short rest takes 8 hours and a long rest takes 7 days. Fights and travel wear the party down; good for grim or slow-paced campaigns.
+
+@ epic-heroism | Epic heroism: fast rests | DMG ch.9, optional rule | resting-short
+A short rest takes 5 minutes and a long rest takes 1 hour. The party recovers quickly and can face more fights in a day.
+
+@ slow-healing | Slow natural healing | DMG ch.9, optional rule | long-rest-hp
+You don't regain hit points at the end of a long rest. Instead, you can spend Hit Dice to heal at the end of a long rest, just as after a short rest.
+
+@ healers-kit-dependency | Healer's kit dependency | DMG ch.9, optional rule | hit-dice
+You can't spend Hit Dice after a short rest until someone spends one use of a healer's kit to bandage and treat your wounds.
+
+@ massive-damage | Massive damage | DMG ch.9, optional rule | damage-rolls
+When a creature takes damage from a single source equal to or more than half its hit point maximum, it must succeed on a DC 15 Constitution saving throw or suffer a random effect from the DMG's System Shock table.
+
+@ cleaving | Cleaving through creatures | DMG ch.9, optional rule | damage-rolls
+When your melee attack drops an undamaged creature to 0 hit points, the leftover damage can carry over: pick another creature within your reach, and if the same attack roll would hit it, it takes the leftover damage. If that drops another undamaged creature, keep going.
+
+@ proficiency-dice | Proficiency dice | DMG ch.9, optional rule | proficiency-bonus
+Instead of adding your proficiency bonus, roll a die: +2 is 1d4, +3 is 1d6, +4 is 1d8, +5 is 1d10, +6 is 1d12. When a feature doubles your proficiency bonus, roll the die twice.
+
+@ hero-points | Hero points | DMG ch.9, optional rule | inspiration
+You start with 5 hero points at 1st level. Each time you gain a level, unspent points are lost and you get 5 plus half your level.
+After you roll a d20 for an attack, ability check or saving throw (before you know the result), you can spend one to roll a d6 and add it. When you fail a death saving throw, you can spend one to make it a success.
+
+@ potion-bonus-action | Drinking a potion is a bonus action | Table custom (not in the 2014 books; the 2024 rules make it a bonus action) | drinking-potions
+Drinking a potion yourself takes a bonus action. Giving a potion to another creature still takes an action.
+
+@ crit-max-dice | Critical hits: the extra dice count as maximum | Table custom (not in the books) | critical-hits
+On a critical hit, roll your damage dice as usual and add the highest possible total of those dice once more, instead of rolling them twice.
+
+@ hp-never-below-average | Level-up hit points: never below the fixed value | Table custom (not in the books) | leveling-up
+When you gain a level, roll your Hit Die for hit points; if the roll is lower than the fixed value (half the die plus 1), take the fixed value instead.
+
+@ secret-death-saves | Death saving throws in secret | Table custom (not in the books) | death-saves
+The DM rolls death saving throws for dying characters out of sight, so nobody at the table knows how close the end is.
+
+@ nat1-inspiration | Inspiration on a natural 1 | Table custom (not in the books) | inspiration
+When you roll a 1 on the d20 for an attack, ability check or saving throw, you gain Inspiration.
+
+@ costly-components-only | Only costly material components | Table custom (not in the books; both apps can hide the others in Settings) | components
+Spellcasters don't track material components unless the spell gives them a gold cost or uses them up. Verbal and somatic components still count.

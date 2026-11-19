@@ -24,4 +24,4 @@ r: related ids, comma separated
 - Every entry names its source: PHB, DMG, MM, XGE, TCE, "Sage Advice" (official rulings) or "designer comment" (advice, not official). Never write a ruling you cannot source; say the DM decides.
 - `faq` is for rules people often get wrong; `edge` for rare clashes with a known answer.
 - Both apps show every entry. The player view leads with `p` and the DM view with `d`, and the sections are ordered for each reader (`RB_ORDER`).
-- House rules are not in these files: each table writes its own in the app (next to a rule, or under House rules).
+- House rules are the table's own, written in the app. `house-presets.txt` is a list of common ones the table can pick with one tap ("Use at our table"): the DMG's optional rules (source `DMG ch.x`) and well-known table customs (source starting "Table custom", which the app labels as in no book). The build checks each one's source and the rule it sits next to.

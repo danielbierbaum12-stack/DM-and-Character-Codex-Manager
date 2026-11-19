@@ -67,6 +67,28 @@ def check(cats, rules):
             if x not in known: bad.append(f'{r["id"]} -> {x}')
     assert not bad, 'related ids that do not exist: ' + ', '.join(bad)
 
+def parse_presets(known):
+    """house-presets.txt: common house rules a table can pick (DMG optional rules, and table customs labelled as such)"""
+    out, cur = [], None
+    path = os.path.join(RB, 'house-presets.txt')
+    if not os.path.exists(path): return out
+    for n, line in enumerate(open(path, encoding='utf-8'), 1):
+        line = line.rstrip('\n'); where = f'house-presets.txt:{n}'
+        if not line.strip() or line.startswith('#'): continue
+        if line.startswith('@ '):
+            parts = [x.strip() for x in line[2:].split('|')]
+            assert len(parts) == 4, f'{where}: need id | title | source | rule-id'
+            pid, title, src, rule = parts
+            assert re.match(r'^[a-z0-9-]+$', pid), f'{where}: bad id {pid}'
+            assert not rule or rule in known, f'{where}: no rule "{rule}"'
+            assert src.startswith('DMG') or src.startswith('Table custom'), f'{where}: the source must be the DMG or start with "Table custom"'
+            cur = {'id': pid, 't': title, 'src': src, 'rule': rule, 'text': ''}; out.append(cur); continue
+        assert cur, f'{where}: text before any preset'
+        cur['text'] = (cur['text'] + '\n' + line.strip()).strip()
+    ids = [x['id'] for x in out]; assert len(ids) == len(set(ids)), 'duplicate preset ids'
+    for x in out: assert x['text'], f'preset {x["id"]} has no text'
+    return out
+
 def inject(text, name, body):
     a, b = f'/*{name}_START*/', f'/*{name}_END*/'
     assert text.count(a) == 1 and text.count(b) == 1, f'markers for {name} not found exactly once'
@@ -75,7 +97,7 @@ def inject(text, name, body):
 
 def main():
     cats, rules = parse(); check(cats, rules)
-    data = {'v': 1, 'cats': cats, 'rules': rules}
+    data = {'v': 1, 'cats': cats, 'rules': rules, 'presets': parse_presets({r['id'] for r in rules})}
     js = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
     open(os.path.join(RB, 'rulebook.json'), 'w', encoding='utf-8').write(json.dumps(data, ensure_ascii=False, indent=1) + '\n')
     kinds = {k: sum(1 for r in rules if r['kind'] == k) for k in ('rule', 'faq', 'edge')}

@@ -3747,5 +3747,119 @@
     "traps"
    ]
   }
+ ],
+ "presets": [
+  {
+   "id": "flanking",
+   "t": "Flanking",
+   "src": "DMG ch.9, optional rule",
+   "rule": "flanking-optional",
+   "text": "When you and at least one ally are next to the same enemy on opposite sides of it (opposite squares or opposite corners), you each have advantage on melee attack rolls against it.\nYou can't flank an enemy you can't see, or while you are incapacitated."
+  },
+  {
+   "id": "diagonals",
+   "t": "Diagonals cost more",
+   "src": "DMG ch.8, variant",
+   "rule": "movement-basics",
+   "text": "On a grid, the first diagonal square you move costs 5 feet, the second 10 feet, the third 5 feet, and so on. Count range the same way. Distances come out closer to real ones."
+  },
+  {
+   "id": "gritty-realism",
+   "t": "Gritty realism: slow rests",
+   "src": "DMG ch.9, optional rule",
+   "rule": "resting-long",
+   "text": "A short rest takes 8 hours and a long rest takes 7 days. Fights and travel wear the party down; good for grim or slow-paced campaigns."
+  },
+  {
+   "id": "epic-heroism",
+   "t": "Epic heroism: fast rests",
+   "src": "DMG ch.9, optional rule",
+   "rule": "resting-short",
+   "text": "A short rest takes 5 minutes and a long rest takes 1 hour. The party recovers quickly and can face more fights in a day."
+  },
+  {
+   "id": "slow-healing",
+   "t": "Slow natural healing",
+   "src": "DMG ch.9, optional rule",
+   "rule": "long-rest-hp",
+   "text": "You don't regain hit points at the end of a long rest. Instead, you can spend Hit Dice to heal at the end of a long rest, just as after a short rest."
+  },
+  {
+   "id": "healers-kit-dependency",
+   "t": "Healer's kit dependency",
+   "src": "DMG ch.9, optional rule",
+   "rule": "hit-dice",
+   "text": "You can't spend Hit Dice after a short rest until someone spends one use of a healer's kit to bandage and treat your wounds."
+  },
+  {
+   "id": "massive-damage",
+   "t": "Massive damage",
+   "src": "DMG ch.9, optional rule",
+   "rule": "damage-rolls",
+   "text": "When a creature takes damage from a single source equal to or more than half its hit point maximum, it must succeed on a DC 15 Constitution saving throw or suffer a random effect from the DMG's System Shock table."
+  },
+  {
+   "id": "cleaving",
+   "t": "Cleaving through creatures",
+   "src": "DMG ch.9, optional rule",
+   "rule": "damage-rolls",
+   "text": "When your melee attack drops an undamaged creature to 0 hit points, the leftover damage can carry over: pick another creature within your reach, and if the same attack roll would hit it, it takes the leftover damage. If that drops another undamaged creature, keep going."
+  },
+  {
+   "id": "proficiency-dice",
+   "t": "Proficiency dice",
+   "src": "DMG ch.9, optional rule",
+   "rule": "proficiency-bonus",
+   "text": "Instead of adding your proficiency bonus, roll a die: +2 is 1d4, +3 is 1d6, +4 is 1d8, +5 is 1d10, +6 is 1d12. When a feature doubles your proficiency bonus, roll the die twice."
+  },
+  {
+   "id": "hero-points",
+   "t": "Hero points",
+   "src": "DMG ch.9, optional rule",
+   "rule": "inspiration",
+   "text": "You start with 5 hero points at 1st level. Each time you gain a level, unspent points are lost and you get 5 plus half your level.\nAfter you roll a d20 for an attack, ability check or saving throw (before you know the result), you can spend one to roll a d6 and add it. When you fail a death saving throw, you can spend one to make it a success."
+  },
+  {
+   "id": "potion-bonus-action",
+   "t": "Drinking a potion is a bonus action",
+   "src": "Table custom (not in the 2014 books; the 2024 rules make it a bonus action)",
+   "rule": "drinking-potions",
+   "text": "Drinking a potion yourself takes a bonus action. Giving a potion to another creature still takes an action."
+  },
+  {
+   "id": "crit-max-dice",
+   "t": "Critical hits: the extra dice count as maximum",
+   "src": "Table custom (not in the books)",
+   "rule": "critical-hits",
+   "text": "On a critical hit, roll your damage dice as usual and add the highest possible total of those dice once more, instead of rolling them twice."
+  },
+  {
+   "id": "hp-never-below-average",
+   "t": "Level-up hit points: never below the fixed value",
+   "src": "Table custom (not in the books)",
+   "rule": "leveling-up",
+   "text": "When you gain a level, roll your Hit Die for hit points; if the roll is lower than the fixed value (half the die plus 1), take the fixed value instead."
+  },
+  {
+   "id": "secret-death-saves",
+   "t": "Death saving throws in secret",
+   "src": "Table custom (not in the books)",
+   "rule": "death-saves",
+   "text": "The DM rolls death saving throws for dying characters out of sight, so nobody at the table knows how close the end is."
+  },
+  {
+   "id": "nat1-inspiration",
+   "t": "Inspiration on a natural 1",
+   "src": "Table custom (not in the books)",
+   "rule": "inspiration",
+   "text": "When you roll a 1 on the d20 for an attack, ability check or saving throw, you gain Inspiration."
+  },
+  {
+   "id": "costly-components-only",
+   "t": "Only costly material components",
+   "src": "Table custom (not in the books; both apps can hide the others in Settings)",
+   "rule": "components",
+   "text": "Spellcasters don't track material components unless the spell gives them a gold cost or uses them up. Verbal and somatic components still count."
+  }
  ]
 }

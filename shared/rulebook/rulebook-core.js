@@ -1,5 +1,5 @@
 /* ===== Rulebook: search and display, the same code in the DM Codex and the Character Codex =====
-   Data: RULEBOOK_DATA {cats:[{id,name}], rules:[{id,t,c,kind,src,k,s,b[],p,d,n24,r[]}]}  (kind: rule | faq | edge)
+   Data: RULEBOOK_DATA {cats:[{id,name}], rules:[{id,t,c,kind,src,k,s,b[],p,d,n24,r[]}], presets:[{id,t,src,rule,text}]}  (kind: rule | faq | edge; presets: house-presets.txt)
    Each app calls rbInit(host) once and rbRender() to draw. host = {
      audience: 'player' | 'dm',          // same rules, different order and emphasis
      el(): the panel element,
@@ -103,7 +103,7 @@ function rbHomeHtml(){
   const quick = aud==='dm' ? ['dc-table','improvised-damage','conditions:Conditions','surprise','concentration','cover','death-saves','encounter-building'] : ['your-turn','bonus-action-spell','concentration','conditions:Conditions','death-saves','hide','opportunity-attack','resting-short'];
   return `<div class="rb-quick"><span class="rb-lbl">Looked up most</span>${quick.map(x=>{ const [id, nm] = x.split(':'); return nm ? `<button type="button" class="rb-rel" data-rb="cat" data-id="${id}">${nm}</button>` : (RB.byId[id] ? `<button type="button" class="rb-rel" data-rb="go" data-id="${id}">${rbEsc(RB.byId[id].t)}</button>` : ''); }).join('')}</div>
     <div class="rb-cats">${cats.map(c=>`<button type="button" class="rb-cat" data-rb="cat" data-id="${c.id}"><b>${rbEsc(c.name)}</b><span>${rbEsc(c.blurb)}</span><i>${c.n}</i></button>`).join('')}
-      <button type="button" class="rb-cat rb-cat-house" data-rb="house"><b>House rules</b><span>Your table's own rules and notes, all in one place</span><i>${RB.house.length}</i></button></div>
+      <button type="button" class="rb-cat rb-cat-house" data-rb="house"><b>House rules</b><span>Your table's own rules and notes, and ${(RULEBOOK_DATA.presets||[]).length} common ones to pick from</span><i>${RB.house.length}</i></button></div>
     <div class="rb-about">Rules are the 2014 books, in short form, with the source on each entry. Where the 2024 rules differ, the entry says how. "Designer comment" means advice, not an official ruling. The DM has the final say.</div>`;
 }
 function rbCatHtml(){
@@ -122,6 +122,20 @@ function rbSearchHtml(){
       ${!RB.more && all>rules.length ? `<button type="button" class="ghost tiny" data-rb="more">Show ${all-rules.length} more</button>` : ''}</div>` : ''}
     ${lib.length ? `<div class="rb-group"><div class="rb-lbl">In your library</div><div class="rb-lib">${lib.map((it, i)=>`<button type="button" class="rb-libitem" data-rb="lib" data-i="${i}"><span class="rb-tag">${rbEsc(it.type)}</span><b>${rbEsc(it.name)}</b>${it.sub ? `<span>${rbEsc(it.sub)}</span>` : ''}</button>`).join('')}</div></div>` : ''}`;
 }
+/* common house rules (house-presets.txt): the DMG's optional rules and well-known table customs, each one tap away */
+function rbPresetUsed(p){ return RB.house.find(h=>h.preset===p.id) || null; }
+function rbPresetsHtml(){
+  const P = RULEBOOK_DATA.presets || []; if(!P.length) return '';
+  const book = P.filter(p=>/^DMG/.test(p.src)), custom = P.filter(p=>!/^DMG/.test(p.src));
+  const row = p=>{ const used = rbPresetUsed(p);
+    return `<div class="rb-preset ${used?'on':''}"><div class="rb-house-hd"><span class="rb-tag ${/^DMG/.test(p.src)?'rb-opt':'rb-cust'}">${rbEsc(p.src)}</span><b>${rbEsc(p.t)}</b>
+      ${used ? `<span class="rb-lbl">✓ At your table</span><button type="button" class="ghost tiny" data-rb="hpresetoff" data-id="${rbEsc(p.id)}">Remove</button>` : `<button type="button" class="tiny" data-rb="hpreset" data-id="${rbEsc(p.id)}">Use at our table</button>`}</div>
+      <div class="rb-house-tx">${rbEsc(p.text).replace(/\n/g, '<br>')}</div></div>`; };
+  return `<details class="rb-group rb-presets" ${RB.house.length ? '' : 'open'}><summary class="rb-lbl">Common house rules to pick from (${P.length})</summary>
+    <div class="rb-hint">The DMG's optional rules, and customs many tables use (marked "Table custom": they are in no book). Picking one adds it to your house rules, where you can change the wording.</div>
+    ${book.length ? `<div class="rb-lbl">From the Dungeon Master's Guide</div>${book.map(row).join('')}` : ''}
+    ${custom.length ? `<div class="rb-lbl">Table customs</div>${custom.map(row).join('')}` : ''}</details>`;
+}
 function rbHouseModeHtml(){
   const sw = (RB.host.switches && RB.host.switches()) || [], general = RB.house.filter(h=>!h.rule || !RB.byId[h.rule]), tied = RB.house.filter(h=>h.rule && RB.byId[h.rule]);
   const adding = RB.edit && RB.edit.isNew && !RB.edit.rule;
@@ -133,7 +147,8 @@ function rbHouseModeHtml(){
     ${adding ? rbEditHtml(RB.edit) : ''}
     ${general.length ? `<div class="rb-group"><div class="rb-lbl">General</div>${general.map(rbHouseHtml).join('')}</div>` : ''}
     ${tied.length ? `<div class="rb-group"><div class="rb-lbl">Next to a book rule</div>${tied.map(rbHouseHtml).join('')}</div>` : ''}
-    ${!RB.house.length && !adding ? '<div class="rb-empty">No house rules written yet.</div>' : ''}
+    ${!RB.house.length && !adding ? '<div class="rb-empty">No house rules written yet. Pick from the common ones below, or write your own.</div>' : ''}
+    ${rbPresetsHtml()}
     ${sw.length ? `<div class="rb-group"><div class="rb-lbl">Switches in this app</div><div class="rb-sw">${sw.map(x=>`<div><span>${rbEsc(x.label)}</span><b>${rbEsc(x.value)}</b></div>`).join('')}</div>${RB.host.openSwitches ? '<button type="button" class="ghost tiny" data-rb="switches">Change these in Settings</button>' : ''}</div>` : ''}`;
 }
 function rbRender(){
@@ -157,7 +172,7 @@ function rbInput(e){ if(!e.target.classList.contains('rb-q')) return; RB.q = e.t
 function rbSetQuery(q){ RB.q = q||''; RB.more = false; const el = RB.host && RB.host.el(); const inp = el && el.querySelector('.rb-q'); if(inp) inp.value = RB.q; rbRender(); }
 /* open one rule in its section (related links, the apps' own search) */
 function rbOpen(id){ rbIndex(); const r = RB.byId[id]; if(!r) return false; RB.q = ''; RB.mode = 'cat'; RB.cat = r.c; RB.open[id] = true; RB.focusId = id; const el = RB.host && RB.host.el(); const inp = el && el.querySelector('.rb-q'); if(inp) inp.value = ''; rbRender(); return true; }
-function rbSaveHouse(){ try{ RB.host.saveHouse(RB.house.map(h=>({id:h.id, rule:h.rule||'', title:h.title||'', text:h.text||'', from:h.from||'me', t:h.t||0}))); }catch(e){} }
+function rbSaveHouse(){ try{ RB.host.saveHouse(RB.house.map(h=>Object.assign({id:h.id, rule:h.rule||'', title:h.title||'', text:h.text||'', from:h.from||'me', t:h.t||0}, h.preset ? {preset:h.preset} : {}))); }catch(e){} }
 function rbUid(){ return 'h'+Date.now().toString(36)+Math.random().toString(36).slice(2, 6); }
 function rbShareCode(){ return 'HBR1.'+btoa(unescape(encodeURIComponent(JSON.stringify(RB.house.map(h=>({r:h.rule||'', n:h.title||'', x:h.text||''})))))); }
 function rbImportCode(code){
@@ -190,6 +205,9 @@ function rbClick(e){
     else { h.title = title; h.text = text; h.t = Date.now(); }
     RB.edit = null; rbSaveHouse(); say('House rule saved.');
   }
+  else if(a==='hpreset'){ const p = (RULEBOOK_DATA.presets || []).find(x=>x.id===id); if(!p || rbPresetUsed(p)) return;
+    RB.house.push({id:rbUid(), rule:p.rule||'', title:p.t, text:p.text+'\n('+p.src+')', from:'me', t:Date.now(), preset:p.id}); rbSaveHouse(); say(`"${p.t}" is now a house rule at your table.`); }
+  else if(a==='hpresetoff'){ RB.house = RB.house.filter(h=>h.preset!==id); rbSaveHouse(); say('Removed from your house rules.'); }
   else if(a==='hdel'){ RB.house = RB.house.filter(x=>x.id!==id); RB.edit = null; rbSaveHouse(); say('House rule deleted.'); }
   else if(a==='hshare'){ if(!RB.house.length){ say('Write a house rule first.'); return; } const code = rbShareCode(); if(RB.host.copy) RB.host.copy(code, 'House rules copied. Players paste the code in their Rulebook → House rules.'); return; }
   else if(a==='himport'){ RB.importing = true; RB.edit = null; RB.focusEdit = true; }
