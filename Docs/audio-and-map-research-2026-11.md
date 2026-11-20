@@ -2,7 +2,12 @@
 
 What could make the DM Codex's battle map and audio significantly better, checked against what the app already does.
 Ranked by value at the table. Licences were read from the publishers' own pages where the search reached them;
-where it did not, that is said. Nothing here has been built yet.
+where it did not, that is said.
+
+**Built (2026-11-20, DM Codex):** items 1 to 5 of the recommended order: Universal VTT import and export
+(`23j_battle_uvtt.js`), living scenes with a Calm / Tense / Fight mood (`16c_living.js`), the room's sound
+(`16d_room.js`), the dungeon and cave generator (`23k_battle_gen.js`) and exact sight and light along walls
+(`23l_battle_sight.js`). Item 6 (an ElevenLabs or Freesound key) waits on the owner.
 
 ## Where the app stands today
 - **Battle map:** own layered canvas (floors, terrain, grid, objects, areas, walls, tokens, lighting, fog, weather,
