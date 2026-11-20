@@ -72,6 +72,11 @@ echo "App-building workflow"
 fetch anthropics/skills skills/webapp-testing           webapp-testing
 fetch obra/superpowers  skills/test-driven-development  test-driven-development
 
+echo "Audio and battle map (owner, 2026-11-19: skills for the audio and map tools)"
+fetch PlayableIntelligence/game-creator          skills/game-audio                    game-audio       # Web Audio patterns: master gain, unlock, scheduling
+fetch liammday/game-making-skills                skills/canvas-2d                     canvas-2d        # sharp, fast canvas drawing; layers and offscreen caches
+fetch gamedev-skills/awesome-gamedev-agent-skills skills/disciplines/procedural-gen   procedural-gen   # seeded dungeon layouts, caves, connectivity checks
+
 echo
 echo "Done. Read each SKILL.md (and any scripts) in $DEST before using them."
 echo "Restart Claude Code so it picks up the new skills."

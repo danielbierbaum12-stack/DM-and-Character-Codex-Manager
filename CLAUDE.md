@@ -92,6 +92,17 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
 - *Audio:* the music source toggle exists (Audio tab: None / Spotify / Plex / Kenku FM, `state.audio.provider`). `web-audio-mixer` lives in `DM-Tool/.claude/skills/` and describes today's code and the target. Spotify's audio can't enter Web Audio (DRM); its level is set through the SDK.
 - *Storyboard & Shop Builder:* in the DM Codex these are the chapter/scene views (`13_chapters.js`, `25_scene.js`) and the Marketplace (`36_market.js`). Impeccable has no `/normalize` command; use `/impeccable polish` (and `layout`, `typeset`) against `DESIGN.md`, and plan the shared entities in step 6 of `Docs/review-and-plan-2026-11.md`.
 
+# Audio and map skills (owner, 2026-11-19)
+Installed by `tools/install-dnd-skills.sh` (read before use; all three are text only):
+- `game-audio` (PlayableIntelligence/game-creator): Web Audio patterns: one master gain, unlock on the first tap, look-ahead
+  scheduling, one-shot effects. Use its patterns in `16_soundboard.js` / `sound_synth.js`; ignore its file layout, Phaser
+  and its optional Strudel install (no npm packages in the apps).
+- `canvas-2d` (liammday/game-making-skills): sharp canvas on high-density screens, offscreen caches for layers that rarely
+  change, when an extra layer pays. Applies to the battle map (`23*_battle*.js`) and the region map.
+- `procedural-gen` (gamedev-skills/awesome-gamedev-agent-skills): seeded dungeon and cave layouts and checks that every room
+  is reachable; written in Python, port the ideas to the battle map's JavaScript.
+Rain is removed from both apps (owner, 2026-11-19: "It's awful"): no rain sound, no rain weather. Don't add it back.
+
 # Battle map and combat rules (owner, 2026-11-18)
 - **Battle Maps & VTT Mechanics**: Combine `konva` with `.claude/skills/vtt-battle-map` for grid snapping, ruler measurements, AoE templates, fog-of-war, and dual DM/Player viewport sync.
 - **Combat & Initiative Tracker**: Use `dm@neural-initiative` and `.claude/skills/dnd-combat-tracker` to power initiative order, HP/Temp HP bars, condition timers, concentration checks, and bidirectional map-token highlighting.
