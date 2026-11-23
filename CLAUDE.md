@@ -54,6 +54,15 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
   structure, keyboard tab bar; DM `51_a11y.js`), `motion/folds.js` (sections open and close in place; DM `52_folds.js`),
   `theme/tints.js` (readable text tints for any theme, light/dark, "Match my device"; DM `54_theme.js`), `a11y/tap_tips.js` (tap a mark such as C or R to see what it means; DM `56_tips.js`; each app lists its own marks in `tapTipsStart(...)`). In the Character
   Codex they are inline (search for their header comments). Design rules: `DESIGN.md`; product: `PRODUCT.md`.
+- **Codex themes (both apps, from the Theme Demo work, 2026-11-23):** 17 illustrated themes after the colour themes
+  (Castle Keep, Darkwood, Wildwood, Mushroom Grotto, Molten Keep, Infernal Pact, Rogues' Den, Arcane Study, Haunted Manor,
+  Frozen Reach, Sanctum, Sailor Moon, Feywild Hedge, Astral Observatory, The Gilded Tankard, Quiet Dojo, Terminal). Each sets
+  the colour tokens and its fonts, puts its scene behind the app (`themes/<id>.webp`, beside the app in every build) and
+  frames the panels in its material (`html[data-look=<id>]`). DM Codex: `57_codex_themes.js/.css`; Character Codex: inline
+  (search "Codex themes"). Keep the two packs the same (ids, colours, fonts, pictures). The five light themes' accents were
+  darkened to meet 4.5:1; check every theme with each app's contrast test after a colour change (DM `test68`/`test88`,
+  sheet `tests/codex_themes.js`). Phones drop the panel blur. The DM Codex also has the mixer and battle-map workbench
+  from the same work (`58_mixer_map.js/.css`). The Theme Demo itself lives in `danielbierbaum12-stack/Experimental-dnd-fun`.
 - **Phones: nothing zooms (both apps, tested).** On phones and tablets (`max-width:820px` or a touch screen) every field is 16 px
   (iPhones zoom the page on smaller text), double-tap zoom is off (`touch-action: manipulation`; pinch-zoom stays), and nothing
   grows or shrinks as it appears or is pressed: the same animations fade and slide instead, no blur. The rules sit last in each
