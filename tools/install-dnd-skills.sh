@@ -77,6 +77,14 @@ fetch PlayableIntelligence/game-creator          skills/game-audio              
 fetch liammday/game-making-skills                skills/canvas-2d                     canvas-2d        # sharp, fast canvas drawing; layers and offscreen caches
 fetch gamedev-skills/awesome-gamedev-agent-skills skills/disciplines/procedural-gen   procedural-gen   # seeded dungeon layouts, caves, connectivity checks
 
+echo "Theme art (owner, 2026-11-23: the skills used to paint the Codex themes; the rest are in this repo's .claude/skills)"
+# huashu-art-motion: painterly brush and ink techniques (pinned to the commit the Theme Demo used; about 74 MB)
+if [ ! -d "$DEST/huashu-art-motion" ]; then
+  H="$TMP/huashu"; git clone --quiet --filter=blob:none https://github.com/alchaincyf/huashu-art-motion.git "$H" \
+    && git -C "$H" checkout --quiet a97c45018d46e950d56d61981138e08f4e092909 \
+    && rm -rf "$H/.git" && cp -r "$H" "$DEST/huashu-art-motion" && echo "  ok    huashu-art-motion" || echo "  FAIL  huashu-art-motion"
+else echo "  ok    huashu-art-motion (already there)"; fi
+
 echo
 echo "Done. Read each SKILL.md (and any scripts) in $DEST before using them."
 echo "Restart Claude Code so it picks up the new skills."

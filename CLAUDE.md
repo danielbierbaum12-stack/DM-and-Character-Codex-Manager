@@ -110,6 +110,13 @@ Installed by `tools/install-dnd-skills.sh` (read before use; all three are text 
   change, when an extra layer pays. Applies to the battle map (`23*_battle*.js`) and the region map.
 - `procedural-gen` (gamedev-skills/awesome-gamedev-agent-skills): seeded dungeon and cave layouts and checks that every room
   is reachable; written in Python, port the ideas to the battle map's JavaScript.
+Theme art (owner, 2026-11-23, from the Theme Demo session in `danielbierbaum12-stack/Experimental-dnd-fun`): its skills are
+copied into this repo's `.claude/skills/` (codex-theme-builder (read it first for any theme work: the method, the standards
+and the owner's taste), algorithmic-art, canvas-design, frontend-design, skeuomorphic-ui, epic-design, css-3d-specialist,
+theme-factory, pixijs, pixijs-3d, threejs-*), so every session with this repo has them. huashu-art-motion (painterly
+brushes, 74 MB) is installed by `tools/install-dnd-skills.sh`, pinned to the commit the Theme Demo used. The painting
+pipeline (`art-pipeline/`: render3.js, glaze.py, matte.py, hlib/) and the Theme Demo live in that repo; attach it to paint
+new scenes. p5.js 2.4.0 and p5.brush 3.0.0 come from npm when needed.
 Rain is removed from both apps (owner, 2026-11-19: "It's awful"): no rain sound, no rain weather. Don't add it back.
 
 # Battle map and combat rules (owner, 2026-11-18)
