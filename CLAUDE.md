@@ -62,7 +62,10 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
   Frozen Reach, Sanctum, Sailor Moon, Feywild Hedge, Astral Observatory, The Gilded Tankard, Quiet Dojo, Terminal). Each sets
   the colour tokens and its fonts, puts its scene behind the app (`themes/<id>.webp`, beside the app in every build) and
   frames the panels in its material (`html[data-look=<id>]`). DM Codex: `57_codex_themes.js/.css`; Character Codex: inline
-  (search "Codex themes"). Keep the two packs the same (ids, colours, fonts, pictures). The five light themes' accents were
+  (search "Codex themes"). Keep the two packs the same (ids, colours, fonts, pictures). Each theme also has the Theme Demo's other three palettes
+  as hidden variants (`codex-<id>-p1..p3`, `variantOf`, `pal`; `PALS` in both packs, made from the demo's palettes with every
+  text colour at 4.5:1): the Colours dropdown lists a scene's own four palettes, Plain lists the colour themes; the frames
+  follow `data-pal`. The five light themes' accents were
   darkened to meet 4.5:1; check every theme with each app's contrast test after a colour change (DM `test68`/`test88`,
   sheet `tests/codex_themes.js`). Phones drop the panel blur. The DM Codex also has the mixer and battle-map workbench
   from the same work (`58_mixer_map.js/.css`). The Theme Demo itself lives in `danielbierbaum12-stack/Experimental-dnd-fun`.
