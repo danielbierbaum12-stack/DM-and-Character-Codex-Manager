@@ -52,7 +52,10 @@ This repo keeps the game data of the Character Codex (player sheet) and the DM C
 
 - **Shared scripts** (kept in `shared/`; `python3 tools/build_shared.py --apply` writes them into both apps between `SHARED_<NAME>_START/END` markers, `build_shared.py` alone checks for drift; never edit between the markers in the apps): `a11y/a11y_names.js` (field names, page
   structure, keyboard tab bar; DM `51_a11y.js`), `motion/folds.js` (sections open and close in place; DM `52_folds.js`),
-  `theme/tints.js` (readable text tints for any theme, light/dark, "Match my device"; DM `54_theme.js`), `a11y/tap_tips.js` (tap a mark such as C or R to see what it means; DM `56_tips.js`; each app lists its own marks in `tapTipsStart(...)`). In the Character
+  `theme/tints.js` (readable text tints for any theme, light/dark, "Match my device"; DM `54_theme.js`), `theme/frames.js` (the Codex themes'
+  frames: every box framed in the theme's material with the Theme Demo's corner ornaments, a small detail on the first box of a tab and
+  every fourth after it, the app's own fill inside so text stays readable; DM `59_theme_frames.js`, which frames tab panels too via
+  `window.CXF_TARGETS`; tests DM `test90`, sheet `tests/theme_frames.js`), `a11y/tap_tips.js` (tap a mark such as C or R to see what it means; DM `56_tips.js`; each app lists its own marks in `tapTipsStart(...)`). In the Character
   Codex they are inline (search for their header comments). Design rules: `DESIGN.md`; product: `PRODUCT.md`.
 - **Codex themes (both apps, from the Theme Demo work, 2026-11-23):** 17 illustrated themes after the colour themes
   (Castle Keep, Darkwood, Wildwood, Mushroom Grotto, Molten Keep, Infernal Pact, Rogues' Den, Arcane Study, Haunted Manor,
